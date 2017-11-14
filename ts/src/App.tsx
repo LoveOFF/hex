@@ -5,33 +5,36 @@ import { hex } from './hex/main';
 
 const logo = require('./logo.svg');
 
-class App extends Component {
+interface State {
+  data: string;
+}
 
-  async binToHex() {
-    // TODO: Promisify XMLHttpRequest
-    // https://stackoverflow.com/questions/30008114/how-do-i-promisify-native-xhr
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', 'fake_item_file.bin', true);
-    xhr.responseType = 'blob';
-    xhr.onload = async function() {
-      var blob = xhr.response;
-      let arrayBuffer = await hex.readAsArrayBuffer(blob);
-      var uint8Array = new Uint8Array(arrayBuffer);
+interface Props {
+}
 
-      let hexResult = '';
-      uint8Array.forEach(param => {
-        hexResult += param.toString(16);
-      });
-      console.log('hex result: ', hexResult);
-     // .toString(16); // int -> hex
-     // parseInt(hexString, 16); // hex -> int
+class App extends Component<Props, State> {
+
+  constructor(props: Props) {
+    super(props);
+
+    this.state = {
+      data: ''
     };
-    xhr.send();
+  }
+
+  async componentDidMount() {
+    let output = await hex.loadDefaultSaveAsHex();
+
+    this.setState({ data: output});
   }
 
   render() {
-    this.binToHex();
-    let output = hex.add(1, 2);
+    let data = '';
+
+    if (this.state && this.state.data) {
+      data = this.state.data;
+    }
+
     return (
       <div className="App">
         <div className="App-header">
@@ -42,7 +45,7 @@ class App extends Component {
           To get started, edit <code>src/App.tsx</code> and save to reload.
         </p>
         <p className="output">
-        {output}
+        {data}
         </p>
       </div>
     );
