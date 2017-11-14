@@ -1,0 +1,2289 @@
+03310001	Battle Items [0]	Potion	0	x				FF XV Save Editing Discord
+74500001	Battle Items [0]	Power Ex	1	x				
+75500001	Battle Items [0]	Spirit Ex	2	x				
+C9500001	Battle Items [0]	Ether	3	x				
+CB500001	Battle Items [0]	Elixir	4	x				
+CC500001	Battle Items [0]	Megalixir	5	x				
+34610001	Battle Items [0]	Remedy	6	x				
+146A0001	Battle Items [0]	Hi-Potion	7	x				
+BEFE0001	Battle Items [0]	Antidote	8	x				
+B8120101	Battle Items [0]	Phoenix Down	9	x				
+91FF0101	Battle Items [0]	Superior Restorative	10	x				
+93FF0101	Battle Items [0]	Mega Phoenix	11	x				
+94FF0101	Battle Items [0]	Muscle Stimulant	12	x				
+9BB40201	Battle Items [0]	Moogle Plushie	13	x				
+5C820301	Battle Items [0]	Mega-potion	14	x				
+92820301	Battle Items [0]	Gold Needle	15	x				
+93820301	Battle Items [0]	Smelling Salts	16	x				
+94820301	Battle Items [0]	Maiden's Kiss	17	x				
+95820301	Battle Items [0]	Mettle Vx	18	x				
+96820301	Battle Items [0]	Verve WX	19	x				
+97820301	Battle Items [0]	Reflex enhancer	20	x				
+98820301	Battle Items [0]	Magitek booster	21	x				
+0EA50301	Battle Items [0]		22		x			
+A7FF0301	Battle Items [0]	Flesh Forlifier	23	x				
+3A580401	Battle Items [0]	Hi-Elixir	24	x				
+4BFD0401	Battle Items [0]		25		x			
+67090501	Battle Items [0]	Moogle Ornament	26	x				
+68090501	Battle Items [0]	Moogle Ornament	27	x				
+D10A0501	Battle Items [0]	Moogle Ornament	28	x				
+D20A0501	Battle Items [0]	Moogle Ornament	29	x				
+53570501	Battle Items [0]	Handgun Ammo	30	x			x	May have an description in other langues
+54570501	Battle Items [0]	SMG Ammo	31	x				
+55570501	Battle Items [0]	Handgun Ammo	32	x				Info claims it's a Moogle
+56570501	Battle Items [0]	SMG Ammo	33	x				Info claims it's a Moogle
+21590501	Battle Items [0]	Lumen Flare	34	x				
+405A0501	Battle Items [0]	Phoenix Down	35	x				
+DE6F0501	Battle Items [0]	Moogle Plushie	36	x				
+40710501	Battle Items [0]	Recoilless Shell	37	x				
+41710501	Battle Items [0]	Moggle Plushie	38	x				
+80B60501	Battle Items [0]		39		x			
+81B60501	Battle Items [0]		40		x			
+82B60501	Battle Items [0]		41		x			
+83B60501	Battle Items [0]		42		x			
+84B60501	Battle Items [0]		43		x			
+85B60501	Battle Items [0]		44		x			
+86B60501	Battle Items [0]		45		x			
+87B60501	Battle Items [0]		46		x			
+88B60501	Battle Items [0]		47		x			
+89B60501	Battle Items [0]		48		x			
+60D20501	Battle Items [0]	Elixir	49	x				
+61D20501	Battle Items [0]	Megalixir	50	x				
+62D20501	Battle Items [0]	Hi-Elixir	51	x				
+63D20501	Battle Items [0]	Phoenix Down	52	x				
+A5D70501	Battle Items [0]	Potion	53	x				
+A6D70501	Battle Items [0]	Hi-Potion	54	x				
+A7D70501	Battle Items [0]	Mega-Potion	55	x				
+A8D70501	Battle Items [0]	Superior Restorative	56	x				
+A9D70501	Battle Items [0]	Ether	57	x				
+AAD70501	Battle Items [0]	Mega Phoenix	58	x				
+ABD70501	Battle Items [0]	Antidote	59	x				
+ACD70501	Battle Items [0]	Gold Needle	60	x				
+ADD70501	Battle Items [0]	Smelling Salts	61	x				
+AED70501	Battle Items [0]	Maiden's Kiss	62	x				
+B5D70501	Battle Items [0]	Flesh Fortifier	63	x				
+66E30001	Key Items [1]	Gil	0					Dummy item
+622F0101	Key Items [1]	EXP	1					Dummy item
+12EA0101	Key Items [1]		2		x			
+A47F0201	Key Items [1]	World Map	3	x				
+A57F0201	Key Items [1]	Crown City Smartphone	4	x				
+A67F0201	Key Items [1]	LOKTON LX-30	5	x				
+A77F0201	Key Items [1]	Lovers' Notebook	6	x				
+A87F0201	Key Items [1]	Regalia Key	7	x				
+AA7F0201	Key Items [1]	Red Tusk	8	x				
+AB7F0201	Key Items [1]	Intricate Coin	9	x				
+AC7F0201	Key Items [1]	756-V-17th Morning Edition	10	x				
+AD7F0201	Key Items [1]	Tombkeeps Key	11	x				
+AF7F0201	Key Items [1]	Mark of Archaean	12	x				
+B07F0201	Key Items [1]	Mark of Fulgurian	13	x				
+B17F0201	Key Items [1]	Mythril Ore	14	x				
+B27F0201	Key Items [1]	Mythril Component	15	x				
+B57F0201	Key Items [1]	Map of Altissia	16	x				
+B67F0201	Key Items [1]	Mark of the Hydraean	17	x				
+B77F0201	Key Items [1]	Mark of the Glacian	18	x				
+B87F0201	Key Items [1]	Mark of the Draconian	19	x				
+B97F0201	Key Items [1]	Infernions Shard	20	x				
+BB7F0201	Key Items [1]	Ring of the Lucii	21	x				
+48810201	Key Items [1]	Enticing Truffle	22	x				
+40950201	Key Items [1]	Broken Dog Tag	23	x				
+41950201	Key Items [1]	Bent Dog Tag	24	x				
+42950201	Key Items [1]	Rusted Dog Tag	25	x				
+43950201	Key Items [1]	Scorched Dog Tag	26	x				
+44950201	Key Items [1]	Twisted Dog Tag	27	x				
+45950201	Key Items [1]	Scratched Dog Tag	28	x				
+46950201	Key Items [1]	Crushed Dog Tag	29	x				
+47950201	Key Items [1]	Polished Dog Tag	30	x				
+48950201	Key Items [1]	Sullied Dog Tag	31	x				
+59950201	Key Items [1]	Cactuar Statuette	32	x				
+5A950201	Key Items [1]	Cactuar Medal	33	x				
+5B950201	Key Items [1]	Cactuar Sculpture	34	x				
+5C950201	Key Items [1]	Cactuar Effigy	35	x				
+64950201	Key Items [1]	Yellow Frog	36	x				
+66950201	Key Items [1]	Red Frog	37	x				
+6F950201	Key Items [1]	Mystery Map	38	x				
+70950201	Key Items [1]	Mystery Map	39	x				
+71950201	Key Items [1]	Mystery Map	40	x				
+72950201	Key Items [1]	Mystery Map	41	x				
+73950201	Key Items [1]	Mystery Map	42	x				
+74950201	Key Items [1]	Mystery Map	43	x				
+75950201	Key Items [1]	Mystery Map	44	x				
+76950201	Key Items [1]	Mystery Map	45	x				
+77950201	Key Items [1]	Mystery Map	46	x				
+78950201	Key Items [1]	Mystery Map	47	x				
+79950201	Key Items [1]	Mystery Map	48	x				
+7A950201	Key Items [1]	Mystery Map	49	x				
+7B950201	Key Items [1]	Mystery Map	50	x				
+7C950201	Key Items [1]	Mystery Map	51	x				
+7D950201	Key Items [1]	Sylvesters Map	52	x				
+7E950201	Key Items [1]	Sylvesters Map Piece A	53	x				
+7F950201	Key Items [1]	Sylvesters Map Piece B	54	x				
+80950201	Key Items [1]	Sylvesters Map Piece C	55	x				
+81950201	Key Items [1]	Sylvesters Map Piece D	56	x				
+82950201	Key Items [1]	Sylvesters Map Piece E	57	x				
+83950201	Key Items [1]	Sylvesters Map Piece F	58	x				
+84950201	Key Items [1]	Sylvesters Map Piece G	59	x				
+85950201	Key Items [1]	Sylvesters Map Piece H	60	x				
+86950201	Key Items [1]	Sylvesters Map Piece I	61	x				
+87950201	Key Items [1]	Sylvesters Map Piece J	62	x				
+88950201	Key Items [1]	Sylvesters Map Piece K	63	x				
+89950201	Key Items [1]	Sylvesters Map Piece L	64	x				
+8A950201	Key Items [1]	Sylvesters Map Piece M	65	x				
+8B950201	Key Items [1]	Sylvesters Map Piece N	66	x				
+9E950201	Key Items [1]	Amethyst Stone	67	x				
+A0950201	Key Items [1]	Sapphire Stone	68	x				
+A1950201	Key Items [1]	Ruby Stone	69	x				
+A2950201	Key Items [1]	Emerald Stone	70	x				
+09A30201	Key Items [1]	Hunting License	71	x				
+C4CD0201	Key Items [1]	Sealbreakers Key	72	x				
+76110301	Key Items [1]	Glimmering Zu Egg	73	x				
+81110301	Key Items [1]	Cactura's Cat Food	74	x				
+82110301	Key Items [1]	Monica's Cat Food	75	x				
+28590301	Key Items [1]	Volcanic Bouquet	76	x				
+DF700301	Key Items [1]	Moogle Plushie	77	x				
+E0700301	Key Items [1]	Ignis Cane	78	x				
+E1700301	Key Items [1]	Generator Key	79	x				
+E2700301	Key Items [1]	Security Card	80	x				
+E3700301	Key Items [1]	Generator Keycard	81	x				
+8A780301	Key Items [1]	Cindy's Parcel	82	x				
+8B780301	Key Items [1]	Sealed Envelope	83	x				
+8C780301	Key Items [1]	Oracle Ascension Coin	84	x				
+8D780301	Key Items [1]	Messengers Amulet	85	x				
+8E780301	Key Items [1]	Scribbled Note	86	x				
+A3780301	Key Items [1]	Food Shipment	87	x				
+A4780301	Key Items [1]	Prissock's Package	88	x				
+A5780301	Key Items [1]	Prissock's Package	89	x				
+317B0301	Key Items [1]	Luxury Cat Food	90	x				
+827F0301	Key Items [1]	LOKTON LX-X1R	91	x				
+837F0301	Key Items [1]	Sealbreakers Key	92	x				
+2FB60301	Key Items [1]	AP	93					Dummy Item
+DDBB0301	Key Items [1]	Rainbow Frog	94	x				
+3CD90301	Key Items [1]	Lodging Coupon	95	x				
+3DD90301	Key Items [1]	Gas Coupon	96	x				
+AEE40301	Key Items [1]	Magic Flask	97	x				
+ADFF0301	Key Items [1]	Garnet Stone	98	x				
+38100401	Key Items [1]	Warped Wings	99	x				
+39100401	Key Items [1]	Unstable Stabilizer	100	x				
+3A100401	Key Items [1]	Strange Engine	101	x				
+CF460401	Key Items [1]	Behemoth Round	102	x				
+D0460401	Key Items [1]	Kariabos Carapace	103	x				
+5C4F0401	Key Items [1]	Cids Old Hammer	104	x				
+E3610401	Key Items [1]	Prince Fatigues	105	x				
+E4610401	Key Items [1]	Crownsguard Fatigues	106	x				
+E5610401	Key Items [1]	Kingly Raiment	107	x				
+E6610401	Key Items [1]	Kingsglaive Garb	108	x				
+E7610401	Key Items [1]	Casual Outfit	109	x				
+E8610401	Key Items [1]	Thermal Suit	110	x				
+E9610401	Key Items [1]	Royal Raiment	111	x				
+5B760401	Key Items [1]	Jet-Black Beak	112	x				
+5C760401	Key Items [1]	Malboro Tentacle	113	x				
+5D760401	Key Items [1]	Chef's Knife	114	x				
+5E760401	Key Items [1]	Resplendent Hollowhorn	115	x				
+5F760401	Key Items [1]	Squirming Bone	116	x				
+A4770401	Key Items [1]	Panel B Keycard	117	x				
+A5770401	Key Items [1]	Panel C Keycard	118	x				
+BA790401	Key Items [1]	Myrlwood Firefly	119	x				
+BB790401	Key Items [1]	Myrlwood Firefly	120	x				
+BC790401	Key Items [1]	Myrlwood Firefly	121	x				
+497E0401	Key Items [1]	Hellodor Stone	122	x				
+4A7E0401	Key Items [1]	Hellodor Stone	123	x				
+4B7E0401	Key Items [1]	Hellodor Stone	124	x				
+82DA0401	Key Items [1]	Trendy Outfit	125	x				
+85E60401	Key Items [1]	Lovers Notebook	126	x				
+86E60401	Key Items [1]	Lovers Notebook	127	x				
+68F40401	Key Items [1]	Iron Shelf Recipes Vol 2	128	x				
+69F40401	Key Items [1]	Iron Shelf Recipes Vol 7	129	x				
+6AF40401	Key Items [1]	Iron Shelf Recipes Vol 5	130	x				
+6BF40401	Key Items [1]	Iron Shelf Recipes Vol 4	131	x				
+6CF40401	Key Items [1]	Iron Shelf Recipes Vol 3	132	x				
+6DF40401	Key Items [1]	Iron Shelf Recipes Vol 1	133	x				
+6EF40401	Key Items [1]	Iron Shelf Recipes Vol 6	134	x				
+4CFD0401	Key Items [1]	Beast Whistle	135	x				
+E0010501	Key Items [1]	Portable MP3 Player	136	x				
+640B0501	Key Items [1]	Choco-Mog Medallion	137	x				
+710B0501	Key Items [1]	Lodging Voucher	138	x				
+15150501	Key Items [1]	Free Carnival Passport	139	x				
+16150501	Key Items [1]	Runaway Chocochick	140	x				
+17150501	Key Items [1]	Dream Egg	141	x				
+18150501	Key Items [1]	Seaside Scamper Trophy	142	x				
+19150501	Key Items [1]	Water Trotter Trophy	143	x				
+07160501	Key Items [1]	Choco-Mog Tee	144	x				
+08160501	Key Items [1]		145
+BA160501	Key Items [1]	Carnival Passport	146	x				
+BB160501	Key Items [1]	Festive Ensemble	147	x				
+BE160501	Key Items [1]		148
+BF160501	Key Items [1]		149
+C0160501	Key Items [1]		150
+C1160501	Key Items [1]		151
+C2160501	Key Items [1]		152
+C3160501	Key Items [1]		153
+C4160501	Key Items [1]		154
+C5160501	Key Items [1]		155
+C6160501	Key Items [1]		156
+C7160501	Key Items [1]		157
+3B1B0501	Key Items [1]	VIP Pass	158	x				
+F1250501	Key Items [1]	Magitek Exosuit	159	x				
+8C430501	Key Items [1]	Rugged Attire	160	x				
+8D430501	Key Items [1]	Tundra Attire	161		x			
+DC590501	Key Items [1]	Master Assassin's Robes	162	x				
+585A0501	Key Items [1]		163		x			
+595A0501	Key Items [1]		164		x			
+5A5A0501	Key Items [1]		165		x			
+5B5A0501	Key Items [1]		166		x			
+ED610501	Key Items [1]	Assassin Flag	167	x				Assassin's event
+3E660501	Key Items [1]	QP - Dummy Item	168			x	x	
+FA800501	Key Items [1]		169		x			
+85890501	Key Items [1]	Assassin Medallion	170	x				Assassin's event
+86890501	Key Items [1]	Magitek Wrench	171	x				Assassin's event
+87890501	Key Items [1]	Viva la Vista - Festival Edition	172	x				Assassin's event
+88890501	Key Items [1]	Assassin Frame	173	x				Assassin's event
+89890501	Key Items [1]	Lestallum Speedway Trophy	174	x				Assassin's event
+8A890501	Key Items [1]	Meteor Circuit Trophy	175	x				Assassin's event
+8B890501	Key Items [1]	Air Assassination Medal	176	x				Assassin's event
+8C890501	Key Items [1]	Haystack Assassination Medal	177	x				Assassin's event
+8D890501	Key Items [1]	Doorway Assassination Medal	178	x				Assassin's event
+8E890501	Key Items [1]	Garbage Assassination Medal	179	x				Assassin's event
+8F890501	Key Items [1]		180		x			
+548E0501	Key Items [1]	Medjay Assassin's Robes	181	x				
+8B950501	Key Items [1]		182		x			
+FA980501	Key Items [1]	Noodle Helmet	183		x			
+3A990501	Key Items [1]		184		x			
+74A90501	Key Items [1]	CPU	185	x				
+58AE0501	Key Items [1]	Tattered Newspaper	186	x				
+59AE0501	Key Items [1]	Crumpled Letter	187	x				
+5AAE0501	Key Items [1]	Prototype Numbering Instructions	188	x				
+5BAE0501	Key Items [1]	Termination Report	189	x				
+5CAE0501	Key Items [1]	Proposal for Operation: Countersign	190	x				
+5DAE0501	Key Items [1]	Diamond Weapon Report	191	x				
+5EAE0501	Key Items [1]	Record of Unit SAS-0822	192	x				
+5FAE0501	Key Items [1]	Researcher's Writings 1	193	x				
+60AE0501	Key Items [1]	Researcher's Writings 2	194	x				
+61AE0501	Key Items [1]	Researcher's Writings 3	195	x				
+62AE0501	Key Items [1]	Researcher's Writings 4	196	x				
+63AE0501	Key Items [1]	Researcher's Writings 5	197	x				
+64AE0501	Key Items [1]	Researcher's Writings 6	198	x				
+65AE0501	Key Items [1]	Researcher's Writings 7	199	x				
+66AE0501	Key Items [1]	Researcher's Writings 8	200	x				
+67AE0501	Key Items [1]	Researcher's Writings 9	201	x				
+68AE0501	Key Items [1]	Researcher's Writings 10	202	x				
+69AE0501	Key Items [1]	Researcher's Writings 11	203	x				
+BBB10501	Key Items [1]	Meteorshard	204			x		
+4CB20501	Key Items [1]	Research Log: 722-VII-8th	205	x				
+4DB20501	Key Items [1]	Research Log: 722-X-21st	206	x				
+4EB20501	Key Items [1]	Research Log: 722-XII-5th	207	x				
+4FB20501	Key Items [1]	Research Log: 723-III-11th	208	x				
+50B20501	Key Items [1]	Research Log: 724-X-24th	209	x				
+51B20501	Key Items [1]	Research Log: 736-V-3rd	210	x				
+52B20501	Key Items [1]	Research Log: 745-XI-21st	211	x				
+53B20501	Key Items [1]	Research Log: 756-IV-8th	212	x				
+54B20501	Key Items [1]	Research Log: 756-VII-9th	213	x				
+B0B40501	Key Items [1]	False Orders	214	x				Assassin's event
+16C70501	Key Items [1]	Power Plant Keycard	215	x				Assassin's event
+CAD20501	Key Items [1]	Tundra Attire (Mask/Googles On)	216	x				
+CBD20501	Key Items [1]	Tundra Attire (Goggles On)	217	x				
+CCD20501	Key Items [1]	Tundra Attire (Mask On)	218	x				
+B4D30501	Key Items [1]	Lion Heart	219	x				
+E1100601	Key Items [1]		220
+E2100601	Key Items [1]		221
+EE100601	Key Items [1]	Dream Egg Shard	222	x				Assassin's event
+5C150601	Key Items [1]		223
+5D150601	Key Items [1]		224
+D81A0601	Key Items [1]		225
+D91A0601	Key Items [1]		226
+DA1A0601	Key Items [1]		227
+DB1A0601	Key Items [1]		228
+DC1A0601	Key Items [1]		229
+DD1A0601	Key Items [1]		230
+DE1A0601	Key Items [1]		231
+DF1A0601	Key Items [1]		232
+E01A0601	Key Items [1]		233
+E11A0601	Key Items [1]		234
+E21A0601	Key Items [1]		235
+E31A0601	Key Items [1]		236
+E41A0601	Key Items [1]		237
+E51A0601	Key Items [1]		238
+E61A0601	Key Items [1]		239
+E71A0601	Key Items [1]		240
+E81A0601	Key Items [1]		241
+E91A0601	Key Items [1]		242
+EA1A0601	Key Items [1]		243
+EB1A0601	Key Items [1]		244
+EC1A0601	Key Items [1]		245
+ED1A0601	Key Items [1]		246
+EE1A0601	Key Items [1]		247
+EF1A0601	Key Items [1]		248
+7D1B0601	Key Items [1]		249
+7E1B0601	Key Items [1]		250
+9B230601	Key Items [1]		251
+9C230601	Key Items [1]		252
+D8FF0101	Ingredients [2]	Gighee Ham	0	x				
+DAFF0101	Ingredients [2]	Garula Sirloin	1	x				
+DBFF0101	Ingredients [2]	Aegir Root	2	x				
+DCFF0101	Ingredients [2]	Alstroom	3	x				
+DEFF0101	Ingredients [2]	Trevally Fillet	4	x				
+DFFF0101	Ingredients [2]	Trout Fillet	5	x				
+E0FF0101	Ingredients [2]	Nebula Salmon Fillet	6	x				
+E1FF0101	Ingredients [2]	Birdbeast Egg	7	x				
+E3FF0101	Ingredients [2]	Leiden Pepper	8	x				
+5F2B0301	Ingredients [2]	Tide Grouper Fillet	9	x				
+602B0301	Ingredients [2]	Sea Bass Fillet	10	x				
+622B0301	Ingredients [2]	Platinum Myritrout Fillet	11	x				
+632B0301	Ingredients [2]	Barramudi fillet	12	x				
+642B0301	Ingredients [2]	Vesper Gar Fillet	13	x				
+652B0301	Ingredients [2]	Allural Sea Bass Fillet	14	x				
+662B0301	Ingredients [2]	Zipper Barramundi Fillet	15	x				
+672B0301	Ingredients [2]	Lucian Carp Fillet	16	x				
+682B0301	Ingredients [2]	Devil Gar Fillet	17	x				
+692B0301	Ingredients [2]	King Trout Fillet	18	x				
+F1310301	Ingredients [2]	Anak Meat	19	x				
+F3310301	Ingredients [2]	Dualhorn Strak	20	x				
+F4310301	Ingredients [2]	Behomoth Tenderloin	21	x				
+F5310301	Ingredients [2]	Chickatrice Leg	22	x				
+F6310301	Ingredients [2]	Fine Gighee Ham	23	x				
+F7310301	Ingredients [2]	Lucian Tomato	24	x				
+F8310301	Ingredients [2]	Wild Onion	25	x				
+F9310301	Ingredients [2]	Killer Tomato	26	x				
+FA310301	Ingredients [2]	Leiden Potato	27	x				
+FB310301	Ingredients [2]	Eos Green Peas	28	x				
+FC310301	Ingredients [2]	Funguar	29	x				
+FD310301	Ingredients [2]	Vesproom	30	x				
+FE310301	Ingredients [2]	Malmashroom	31	x				
+FF310301	Ingredients [2]	Cleigne Mollusk	32	x				
+00320301	Ingredients [2]	Caem Pinkshrimp	33	x				
+01320301	Ingredients [2]	Cleigne Darkshell	34	x				
+02320301	Ingredients [2]	Cygillan Crab	35	x				
+05320301	Ingredients [2]	Ulwaat berries	36	x				
+06320301	Ingredients [2]	Sheep Milk	37	x				
+07320301	Ingredients [2]	Schier Turmeric	38	x				
+08320301	Ingredients [2]	Hulldagh Nutmeg	39	x				
+09320301	Ingredients [2]	Leiden Sweet Potato	40	x				
+0A320301	Ingredients [2]	Smoking Wood	41	x				
+0B320301	Ingredients [2]	Tenebraen Oak	42	x				
+0C320301	Ingredients [2]	Sahagin Liver	43	x				
+0D320301	Ingredients [2]	Kujata Marrow	44	x				
+0E320301	Ingredients [2]	Cleigne Wheat	45	x				
+0F320301	Ingredients [2]	Fine Cleigne Wheat	46	x				
+10320301	Ingredients [2]	Saxham Rice	47	x				
+11320301	Ingredients [2]	Cup Noodles	48	x				
+12320301	Ingredients [2]	Cup Noodles (EXP)	49	x				
+C1820301	Ingredients [2]	Catoblepas Brisket	50	x				
+199E0301	Ingredients [2]	Jabberwock Sirloin	51	x				
+1A9E0301	Ingredients [2]	Leukorn Steak	52	x				
+1C9E0301	Ingredients [2]	Griffon Breast	53	x				
+1D9E0301	Ingredients [2]	Zu Tender	54	x				
+1E9E0301	Ingredients [2]	Midgardsormr Shank	55	x				
+1F9E0301	Ingredients [2]	Kettier Ginger	56	x				
+209E0301	Ingredients [2]	Allural Shallot	57	x				
+219E0301	Ingredients [2]	Arapaima Roe	58	x				
+BFF80301	Ingredients [2]	Daggerquill Breast	59	x				
+6FF40401	Ingredients [2]	Luncheon Meat	60	x				
+70F40401	Ingredients [2]	Gigantoad Steak	61	x				
+71F40401	Ingredients [2]	Basilisk Breast	62	x				
+72F40401	Ingredients [2]	Garulessa Steak	63	x				
+73F40401	Ingredients [2]	Bulette Shank	64	x				
+74F40401	Ingredients [2]	Adamantoise Meat	65	x				
+75F40401	Ingredients [2]	Karlabos Claw	66	x				
+76F40401	Ingredients [2]	Shieldshears Claw	67	x				
+77F40401	Ingredients [2]	Coraldevil Fin	68	x				
+78F40401	Ingredients [2]	Chocobean	69	x				
+79F40401	Ingredients [2]	Beetroot	70	x				
+7AF40401	Ingredients [2]	Mighty Barramundi Fillet	71	x				
+7BF40401	Ingredients [2]	Dank Barramundi Fillet	72	x				
+7CF40401	Ingredients [2]	Wennath Samon Fillet	73	x				
+7DF40401	Ingredients [2]	Duscaen Orange	74	x				
+7EF40401	Ingredients [2]	Sweet Pepper	75	x				
+7FF40401	Ingredients [2]	Garlic	76	x				
+D0850501	Ingredients [2]	Raw Meat	77			x		
+D1850501	Ingredients [2]	Thick Shank	78			x		
+D2850501	Ingredients [2]	Primo Prime Rib	79			x		
+D3850501	Ingredients [2]	Excellent Tenderloin	80			x		
+D4850501	Ingredients [2]	Exquisite Marbled Meat	81			x		
+D5850501	Ingredients [2]	Can-o'Fish	82			x		
+D6850501	Ingredients [2]	Freshly Canned Fish	83			x		
+D7850501	Ingredients [2]	Can of the Day	84			x		
+D8850501	Ingredients [2]	Succulent Shellfish Tin	85			x		
+D9850501	Ingredients [2]	Cygillan Seafood Tin	86			x		
+DA850501	Ingredients [2]	Aegir Root	87			x		
+DB850501	Ingredients [2]	Wild Onion	88			x		
+DC850501	Ingredients [2]	Alstroom	89			x		
+DD850501	Ingredients [2]	Killer Tomato	90			x		
+DE850501	Ingredients [2]	Allural Shallot	91			x		
+DF850501	Ingredients [2]	Leiden Potato	92			x		
+E0850501	Ingredients [2]	Cleigne Wheat	93			x		
+E1850501	Ingredients [2]	Fine Cleigne Wheat	94			x		
+E2850501	Ingredients [2]	Premium Cleigne Wheat	95			x		
+E3850501	Ingredients [2]	Saxham Rice	96			x		
+E4850501	Ingredients [2]	Fine Saxham Rice	97			x		
+E5850501	Ingredients [2]	Premium Saxham Rice	98			x		
+E6850501	Ingredients [2]	Zu Egg	99			x		
+E7850501	Ingredients [2]	Leiden Pepper	100			x		
+E8850501	Ingredients [2]	Schier Turmeric	101			x		
+E9850501	Ingredients [2]	Kettier Ginger	102			x		
+EA850501	Ingredients [2]	Sweet Pepper	103			x		
+EB850501	Ingredients [2]	Garlic	104			x		
+EC850501	Ingredients [2]	Hulldagh Nutmeg	105			x		
+ED850501	Ingredients [2]	Cygillan Sea Salt	106			x		
+EE850501	Ingredients [2]	Citrus Rind	107			x		
+EF850501	Ingredients [2]		108		x			
+F0850501	Ingredients [2]		109		x			
+F1850501	Ingredients [2]		110		x			
+F2850501	Ingredients [2]		111		x			
+F3850501	Ingredients [2]		112		x			
+F4850501	Ingredients [2]		113		x			
+F5850501	Ingredients [2]		114		x			
+F6850501	Ingredients [2]		115		x			
+F7850501	Ingredients [2]		116		x			
+F8850501	Ingredients [2]		117		x			
+EBC10501	Ingredients [2]	Fresh Tripe	118			x		
+ECC10501	Ingredients [2]	Fresh Liver	119			x		
+EDC10501	Ingredients [2]	Fresh Heart	120			x		
+EEC10501	Ingredients [2]	Bizarre Bone	121			x		
+EFC10501	Ingredients [2]	Rare Marrow	122			x		
+F0C10501	Ingredients [2]	Big Beast Bone	123			x		
+F1C10501	Ingredients [2]	Tasty Crustacean	124			x		
+F2C10501	Ingredients [2]	Hearly Hopper	125			x		
+F3C10501	Ingredients [2]	Thick Frog Leg	126			x		
+F4C10501	Ingredients [2]	Malboro Tentacle	127			x		
+DCC80501	Ingredients [2]		128
+FFCC0501	Ingredients [2]		129
+00CD0501	Ingredients [2]		130
+84E50501	Ingredients [2]		131
+85E50501	Ingredients [2]		132
+86E50501	Ingredients [2]		133
+87E50501	Ingredients [2]		134
+74170601	Ingredients [2]		135
+75170601	Ingredients [2]		136
+421B0601	Ingredients [2]		137
+8E8C0301	Treasures [3]	Metal Scrap	0	x				
+8F8C0301	Treasures [3]	Rusted Bit	1	x				
+908C0301	Treasures [3]	Iron Shavings	2	x				
+918C0301	Treasures [3]	Shattered Timepiece	3	x				
+928C0301	Treasures [3]	Chrome Bit	4	x				
+938C0301	Treasures [3]	Fossil Shell	5	x				
+948C0301	Treasures [3]	Fossil Wood	6	x				
+958C0301	Treasures [3]	Ammonite Fossil	7	x				
+968C0301	Treasures [3]	Ancient Dragon Tooth	8	x				
+978C0301	Treasures [3]	Dragon Scales	9	x				
+988C0301	Treasures [3]	Mythril Shaft	10	x				
+998C0301	Treasures [3]	Sharp Bone	11	x				
+9A8C0301	Treasures [3]	Strong Bone	12	x				
+9B8C0301	Treasures [3]	Electrolytic Condenser	13	x				
+9C8C0301	Treasures [3]	Laser Sensor	14	x				
+9D8C0301	Treasures [3]	Dynamo	15	x				
+9E8C0301	Treasures [3]	Magitek Core	16	x				
+9F8C0301	Treasures [3]	Star Shell	17	x				
+A08C0301	Treasures [3]	Tiny Feather	18	x				
+A18C0301	Treasures [3]	Giant Feather	19	x				
+A28C0301	Treasures [3]	Beetle Shell	20	x				
+A38C0301	Treasures [3]	Building Stone	21	x				
+A48C0301	Treasures [3]	Quality Building Stone	22	x				
+A58C0301	Treasures [3]	Splendid Building Stone	23	x				
+A68C0301	Treasures [3]	Old Book	24	x				
+A78C0301	Treasures [3]	Broken Harmonica	25	x				
+A88C0301	Treasures [3]	Platinum Ingot	26	x				
+A98C0301	Treasures [3]	Rare Coin	27	x				
+AA8C0301	Treasures [3]	Mythril Ingot	28	x				
+AB8C0301	Treasures [3]	Glass Gemstone	29	x				
+AC8C0301	Treasures [3]	Earth Gemstone	30	x				
+AD8C0301	Treasures [3]	Sky Gemstone	31	x				
+AE8C0301	Treasures [3]	Beautiful Bottle	32	x				
+AF8C0301	Treasures [3]	Debased Coin	33	x				
+B08C0301	Treasures [3]	Debased Silverpiece	34	x				
+B18C0301	Treasures [3]	Debased Banknote	35	x				
+B28C0301	Treasures [3]	Gralean Medal of Distinction	36	x				
+B38C0301	Treasures [3]	Imperial Medal of Honor	37	x				
+B48C0301	Treasures [3]	Magnetron	38	x				
+B58C0301	Treasures [3]	Hydraulic Cylinder	39	x				
+B68C0301	Treasures [3]	Wind-up Lord Vexxos	40	x				
+B78C0301	Treasures [3]	Hunter's Medal	41	x				
+B88C0301	Treasures [3]	Garula Tusk	42	x				
+B98C0301	Treasures [3]	Garula Fur	43	x				
+BA8C0301	Treasures [3]	Great Garula Tusk	44	x				
+BB8C0301	Treasures [3]	Hairy Horn	45	x				
+BC8C0301	Treasures [3]	Hardened Hoof	46	x				
+BD8C0301	Treasures [3]	Giant Hairy Horn	47	x				
+BE8C0301	Treasures [3]	Thick Hide	48	x				
+BF8C0301	Treasures [3]	Worn Incisor	49	x				
+C08C0301	Treasures [3]	Coeurl Whiskers	50	x				
+C18C0301	Treasures [3]	Sabertusk Claw	51	x				
+C28C0301	Treasures [3]	Curved Fang	52	x				
+C38C0301	Treasures [3]	Voretooth Bristles	53	x				
+C48C0301	Treasures [3]	Havocfang Hide	54	x				
+C58C0301	Treasures [3]	Scaled Skin	55	x				
+C68C0301	Treasures [3]	Barbed Poison Needle	56	x				
+C78C0301	Treasures [3]	Crimson Tongue	57	x				
+C88C0301	Treasures [3]	Hard Whiskers	58	x				
+C98C0301	Treasures [3]	Mesmenir Horn	59	x				
+CA8C0301	Treasures [3]	Supple Tail	60	x				
+CB8C0301	Treasures [3]	Crooked Helixhorn	61	x				
+CC8C0301	Treasures [3]	Anak Fetlock	62	x				
+CD8C0301	Treasures [3]	Anak Antlers	63	x				
+CE8C0301	Treasures [3]	Giant Curlhorn	64	x				
+CF8C0301	Treasures [3]	Sahagin Scale	65	x				
+D08C0301	Treasures [3]	Sharp Head Fin	66	x				
+D18C0301	Treasures [3]	Slimy Oil	67	x				
+D28C0301	Treasures [3]	Rough Scales	68	x				
+D38C0301	Treasures [3]	Catoblepas Fang	69	x				
+D48C0301	Treasures [3]	Curved Hollowhorn	70	x				
+D68C0301	Treasures [3]	Cockatrice Tail Feathers	71	x				
+D78C0301	Treasures [3]	Cockatrice Crest	72	x				
+D88C0301	Treasures [3]	Basilisk Plumage	73	x				
+D98C0301	Treasures [3]	Insect Stinger	74	x				
+DA8C0301	Treasures [3]	Barbed Scythe	75	x				
+DB8C0301	Treasures [3]	Behemoth Horn	76	x				
+DC8C0301	Treasures [3]	Griffon Feather	77	x				
+DD8C0301	Treasures [3]	Griffon Claw	78	x				
+DE8C0301	Treasures [3]	Bulette Carapace	79	x				
+DF8C0301	Treasures [3]	Shield Spike	80	x				
+E08C0301	Treasures [3]	Malboro Eye	81	x				
+E18C0301	Treasures [3]	Malboro Vine	82	x				
+E28C0301	Treasures [3]	Monster Claw	83	x				
+E38C0301	Treasures [3]	Monster Jaw	84	x				
+E48C0301	Treasures [3]	Greatsnake Scale	85	x				
+E58C0301	Treasures [3]	Greatsnake Crest	86	x				
+E68C0301	Treasures [3]	Centipede Legs	87	x				
+E78C0301	Treasures [3]	Centipede Jaw	88	x				
+EA8C0301	Treasures [3]	Prawn Antennae	89	x				
+EB8C0301	Treasures [3]	Scorpion Stinger	90	x				
+EC8C0301	Treasures [3]	Treant Branch	91	x				
+ED8C0301	Treasures [3]	Treant Trunk	92	x				
+EE8C0301	Treasures [3]	Mandrake Flower	93	x				
+EF8C0301	Treasures [3]	Wyvern Wing	94	x				
+F08C0301	Treasures [3]	Sharp Tail Feathers	95	x				
+F18C0301	Treasures [3]	Thunderoc Feather	96	x				
+F38C0301	Treasures [3]	Zu Beak	97	x				
+F88C0301	Treasures [3]	Repair Kit	98	x				
+1CF70301	Treasures [3]	Dragon Horn	99	x				
+1DF70301	Treasures [3]	Scarlet Splinterbone	100	x				
+1EF70301	Treasures [3]	Great Anak Antlers	101	x				
+1FF70301	Treasures [3]	Arba Spur	102	x				
+20F70301	Treasures [3]	Centipede Feet	103	x				
+21F70301	Treasures [3]	Centipede Teeth	104	x				
+22F70301	Treasures [3]	Rough Shell	105	x				
+23F70301	Treasures [3]	Fine Slimy Oil	106	x				
+24F70301	Treasures [3]	Sharp Bristles	107	x				
+25F70301	Treasures [3]	Enormous Stinger	108	x				
+26F70301	Treasures [3]	Deadly Stinger	109	x				
+27F70301	Treasures [3]	Strong Whiskers	110	x				
+28F70301	Treasures [3]	Giant Hoof	111	x				
+29F70301	Treasures [3]	Fearsome Hoof	112	x				
+2AF70301	Treasures [3]	Colorful Griffon Claw	113	x				
+2BF70301	Treasures [3]	Translucent Skin	114	x				
+2CF70301	Treasures [3]	Fine Tail Feathers	115	x				
+2DF70301	Treasures [3]	Magnificent Tail Feathers	116	x				
+2EF70301	Treasures [3]	Fine Crest	117	x				
+2FF70301	Treasures [3]	Magnificent Crest	118	x				
+30F70301	Treasures [3]	Beautiful Hide	119	x				
+31F70301	Treasures [3]	Big Scorpion Stinger	120	x				
+32F70301	Treasures [3]	Scorpion Barb	121	x				
+33F70301	Treasures [3]	Hard Scale	122	x				
+34F70301	Treasures [3]	Cactuar Needle	123	x				
+35F70301	Treasures [3]	Heavy Scale	124	x				
+36F70301	Treasures [3]	Spiked Armor	125	x				
+37F70301	Treasures [3]	Hardened Hide	126	x				
+38F70301	Treasures [3]	Jumbo Needle	127	x				
+39F70301	Treasures [3]	Sharp Scythe	128	x				
+3AF70301	Treasures [3]	Beautiful Plumage	129	x				
+3BF70301	Treasures [3]	Gorgeous Plumage	130	x				
+3CF70301	Treasures [3]	Tough Shell	131	x				
+3DF70301	Treasures [3]	Giant Crab Pincers	132	x				
+3EF70301	Treasures [3]	Strong Pincers	133	x				
+3FF70301	Treasures [3]	Small Beak	134	x				
+40F70301	Treasures [3]	Downy Feathers	135	x				
+41F70301	Treasures [3]	Dragon Claw	136	x				
+43F70301	Treasures [3]	Drooping Whiskers	137	x				
+44F70301	Treasures [3]	Divine Whiskers	138	x				
+45F70301	Treasures [3]	Crab Carapace	139	x				
+47F70301	Treasures [3]	Sturdy Helixhorn	140	x				
+49F70301	Treasures [3]	Rotten Splinterbone	141	x				
+4AF70301	Treasures [3]	Large Hollowhorn	142	x				
+F6760401	Treasures [3]	Adamantite	143	x				
+38B20401	Treasures [3]	Glimmering Amber	144	x				
+52D30401	Treasures [3]	Bluegill Scale	145	x				
+53D30401	Treasures [3]	Bluegill Fin	146	x				
+54D30401	Treasures [3]	Catfish Barbel	147	x				
+55D30401	Treasures [3]	Catfish Heart	148	x				
+56D30401	Treasures [3]	Jade Gar MirrorScale	149	x				
+57D30401	Treasures [3]	Snakehead Teeth	150	x				
+58D30401	Treasures [3]	Snakehead Scales	151	x				
+59D30401	Treasures [3]	Alstor Bass Bones	152	x				
+5AD30401	Treasures [3]	Phoenix Bass Bladder	153	x				
+5BD30401	Treasures [3]	Arapaima Scales	154	x				
+5CD30401	Treasures [3]	Barrelfish Scales	155	x				
+95D40401	Treasures [3]	Murk Grouper Eye	156	x				
+47FC0401	Treasures [3]	Salmon Fin	157	x				
+48FC0401	Treasures [3]	Trout Scales	158	x				
+49FC0401	Treasures [3]	Morion Trout Scales	159	x				
+4AFC0401	Treasures [3]	Catfish Mucus	160	x				
+4BFC0401	Treasures [3]	Poisonous Catfish Fin	161	x				
+4CFC0401	Treasures [3]	Gar Fin	162	x				
+4DFC0401	Treasures [3]	Barramundi Innards	163	x				
+4EFC0401	Treasures [3]	Spiny Barramundi Fin	164	x				
+4FFC0401	Treasures [3]	Snakehead Scales	165	x				
+50FC0401	Treasures [3]	Bass Teeth	166	x				
+51FC0401	Treasures [3]	Bass Eye	167	x				
+52FC0401	Treasures [3]	Grouper Bones	168	x				
+53FC0401	Treasures [3]	Grouper Skin	169	x				
+54FC0401	Treasures [3]	Grouper Fin	170	x				
+55FC0401	Treasures [3]	Large Arapaima Scales	171	x				
+56FC0401	Treasures [3]	Trevally Scales	172	x				
+57FC0401	Treasures [3]	Trevally Fin	173	x				
+58FC0401	Treasures [3]	Barrelfish Mucus	174	x				
+59FC0401	Treasures [3]	Lucian Carp Reverscales	175	x				
+5AFC0401	Treasures [3]	Lucian Carp Rowscales	176	x				
+5BFC0401	Treasures [3]	Dace Scales	177	x				
+90890501	Treasures [3]	Pendant of Truth	178	x				Assassin's event
+91890501	Treasures [3]	Broken Magitek Core	179	x				Assassin's event
+00C10501	Treasures [3]	Diamond Ingot	180			x	x	
+01C10501	Treasures [3]	Flare Gemstone	181			x	x	
+02C10501	Treasures [3]	Sharp Needlebone	182			x	x	
+03C10501	Treasures [3]	Large Breastbone	183			x	x	
+04C10501	Treasures [3]	Insect Wings	184			x	x	
+05C10501	Treasures [3]	Beetle Shell	185			x	x	
+06C10501	Treasures [3]	Thick Hide	186			x	x	
+07C10501	Treasures [3]	Gorgeous Pelt	187			x	x	
+08C10501	Treasures [3]	Gator Liver	188			x	x	
+09C10501	Treasures [3]	Sturdy Jawbone	189			x	x	
+0AC10501	Treasures [3]	Gigantoad Tongue	190			x	x	
+0BC10501	Treasures [3]	Behemoth Incisor	191			x	x	
+0CC10501	Treasures [3]	Majestic Mane	192			x	x	
+0DC10501	Treasures [3]	Wicked Claws	193			x	x	
+0EC10501	Treasures [3]	Splendid Plume	194			x	x	
+0FC10501	Treasures [3]	Skyserpent Talon	195			x	x	
+10C10501	Treasures [3]	Blue Skyserpent Scale	196			x	x	
+11C10501	Treasures [3]	Malboro Hair	197			x	x	
+12C10501	Treasures [3]	Malboro Mucilage	198			x	x	
+13C10501	Treasures [3]	Monster Sharpscale	199			x	x	
+14C10501	Treasures [3]	Sinister Sharpscale	200			x	x	
+15C10501	Treasures [3]	Large Dreadvern Scale	201			x	x	
+16C10501	Treasures [3]	Jade Dreadvern Scale	202			x	x	
+17C10501	Treasures [3]	Serpent Fang	203			x	x	
+18C10501	Treasures [3]	Venomous Serpent Fang	204			x	x	
+19C10501	Treasures [3]	Silver Mane	205			x	x	
+1AC10501	Treasures [3]	Jomungand Spiralthorns	206			x	x	
+1BC10501	Treasures [3]	Giant Crab Pincers	207			x	x	
+1CC10501	Treasures [3]	Mandrake Root	208			x	x	
+1DC10501	Treasures [3]	Treant Sap	209			x	x	
+1EC10501	Treasures [3]	Cactuar Blossom	210			x	x	
+1FC10501	Treasures [3]	Cactuar Seed	211			x	x	
+20C10501	Treasures [3]	Jet-black Wing	212			x	x	
+21C10501	Treasures [3]	Apple	213			x	x	
+22C10501	Treasures [3]	Sabertusk Fang	214			x	x	
+23C10501	Treasures [3]	Catoblepas Molar	215			x	x	
+24C10501	Treasures [3]	Behemoth Tears	216			x	x	
+25C10501	Treasures [3]	Behemoth Horn	217			x	x	
+26C10501	Treasures [3]	Monster Jaw	218			x	x	
+27C10501	Treasures [3]	Dreadvern Helixhorn	219			x	x	
+28C10501	Treasures [3]	Cactuar Nectar	220			x	x	
+29C10501	Treasures [3]	Jet-black Beak	221			x	x	
+2AC10501	Treasures [3]	Accursed Coin	222			x	x	
+2BC10501	Treasures [3]	Dark Matter	223			x	x	
+2CC10501	Treasures [3]	Daemonic Scab	224			x	x	
+2DC10501	Treasures [3]	Squirming Bone	225			x	x	
+2EC10501	Treasures [3]	Daemonic Rib	226			x	x	
+2FC10501	Treasures [3]	Goblin Cap	227			x	x	
+30C10501	Treasures [3]	Hobgoblin Bracelet	228			x	x	
+31C10501	Treasures [3]	Garchimacera Claw	229			x	x	
+32C10501	Treasures [3]	Crescent Impmoon	230			x	x	
+33C10501	Treasures [3]	Skeleton Fragment	231			x	x	
+34C10501	Treasures [3]	Naga Scle	232			x	x	
+35C10501	Treasures [3]	Naga Necklace	233			x	x	
+36C10501	Treasures [3]	Antique Coin	234			x	x	
+37C10501	Treasures [3]	Nectrotic Neglige	235			x	x	
+38C10501	Treasures [3]	Reaper Funnybone	236			x	x	
+39C10501	Treasures [3]	Arachne Sickleclaw	237			x	x	
+3AC10501	Treasures [3]	Spider SIlk	238			x	x	
+3BC10501	Treasures [3]	Iron Giant Armor	239			x	x	
+3CC10501	Treasures [3]	Red Giant Armor	240			x	x	
+3DC10501	Treasures [3]	Ghastly Left Arm	241			x	x	
+3EC10501	Treasures [3]	Watchman's Building Stone	242			x	x	
+3FC10501	Treasures [3]	Broken Brick	243			x	x	
+40C10501	Treasures [3]	Armor of Discord	244			x	x	
+41C10501	Treasures [3]	Nightshade Cloak	245			x	x	
+42C10501	Treasures [3]	Daemonic Cranium	246			x	x	
+43C10501	Treasures [3]	Occult Charm	247			x	x	
+44C10501	Treasures [3]	Ancient Cloth	248			x	x	
+45C10501	Treasures [3]	Octolegs	249			x	x	
+46C10501	Treasures [3]	Tattered Rag	250			x	x	
+47C10501	Treasures [3]	Bomb Fragment	251			x	x	
+48C10501	Treasures [3]	Grenade Fragment	252			x	x	
+49C10501	Treasures [3]	Ice Bomb Fragment	253			x	x	
+4AC10501	Treasures [3]	Cryonade Fragment	254			x	x	
+4BC10501	Treasures [3]	Thunder Bomb Fragment	255			x	x	
+EF6D0201	Car Parts [4]	Whitestone Shard	0	x				
+F06D0201	Car Parts [4]	Blackstone Shard	1	x				
+F16D0201	Car Parts [4]	Redstone Shard	2	x				
+F26D0201	Car Parts [4]	Bluestone Shard	3	x				
+F36D0201	Car Parts [4]	Greenstone Shard	4	x				
+F46D0201	Car Parts [4]	Yellowstone Shard	5	x				
+F56D0201	Car Parts [4]	Silver Dust	6	x				
+F66D0201	Car Parts [4]	Gold Dust	7	x				
+F76D0201	Car Parts [4]	Prismatic Dust	8	x				
+F86D0201	Car Parts [4]	Whitestone Ore	9	x				
+F96D0201	Car Parts [4]	Blackstone ore	10	x				
+FA6D0201	Car Parts [4]	Restone Ore	11	x				
+FB6D0201	Car Parts [4]	Bluestone Ore	12	x				
+FC6D0201	Car Parts [4]	Greenstone Ore	13	x				
+FD6D0201	Car Parts [4]	Yellowstone Ore	14	x				
+FE6D0201	Car Parts [4]	Silver Shard	15	x				
+FF6D0201	Car Parts [4]	Gold Shard	16	x				
+006E0201	Car Parts [4]	Prismatic Shard	17	x				
+016E0201	Car Parts [4]	Whitestone Crystal	18	x				
+026E0201	Car Parts [4]	Blackstone Crystal	19	x				
+036E0201	Car Parts [4]	Redstone Crystal	20	x				
+046E0201	Car Parts [4]	Bluestone Crystal	21	x				
+056E0201	Car Parts [4]	Greenstone Crystal	22	x				
+066E0201	Car Parts [4]	Yellowstone Crystal	23	x				
+076E0201	Car Parts [4]	Silver Ore	24	x				
+086E0201	Car Parts [4]	Gold Ore	25	x				
+096E0201	Car Parts [4]	Prismatic Ore	26	x				
+E7C00201	Car Parts [4]	Super Charger	27	x				
+E8C00201	Car Parts [4]	Turbocharger	28	x				
+E9C00201	Car Parts [4]	Aero Wax	29	x				
+EAC00201	Car Parts [4]	Airflow Comensator	30	x				
+3A7A0301	Car Parts [4]	Migitek Generator	31	x				
+3B7A0301	Car Parts [4]	Auciliary Tank	32	x				
+3C7A0301	Car Parts [4]	Fiberglass Coating	33	x				
+3D7A0301	Car Parts [4]	Reinforced Fiberglass Coating	34	x				
+3E7A0301	Car Parts [4]	Superhydrophobic Coating	35	x				
+3F7A0301	Car Parts [4]	Enhanced Headlights	36	x				
+407A0301	Car Parts [4]		37
+417A0301	Car Parts [4]		38
+427A0301	Car Parts [4]		39
+437A0301	Car Parts [4]		40
+29830301	Car Parts [4]	Hammerhead	41	x				
+2A830301	Car Parts [4]	2-Tone	42	x				
+2B830301	Car Parts [4]	Fan Service	43	x				
+2C830301	Car Parts [4]	Pop Art	44	x				
+2D830301	Car Parts [4]	Beaux Arts	45	x				
+2E830301	Car Parts [4]	Abstractification	46	x				
+2F830301	Car Parts [4]	Crownsguard	47	x				
+30830301	Car Parts [4]	Armory on Wheels	48	x				
+31830301	Car Parts [4]	The Beast	49	x				
+32830301	Car Parts [4]	Guardians	50	x				
+33830301	Car Parts [4]	Big Bang	51	x				
+34830301	Car Parts [4]	Eos	52	x				
+35830301	Car Parts [4]		53		x			
+36830301	Car Parts [4]	King's Knight Sticker Set	54	x				
+37830301	Car Parts [4]	Carbuncle Sticker Set	55	x				
+38830301	Car Parts [4]	Cindymobile	56	x				
+39830301	Car Parts [4]	Gold Chocobo	57	x				
+3A830301	Car Parts [4]	Platinum Leviathan	58	x				
+3B830301	Car Parts [4]	16-Bit Buddies	59	x				
+3C830301	Car Parts [4]	Racing Stripes 1	60	x				
+3D830301	Car Parts [4]	Racing Stripes 2	61	x				
+3E830301	Car Parts [4]	Racing Stripes 3	62	x				
+3F830301	Car Parts [4]	Racing Stripes 4	63	x				
+40830301	Car Parts [4]	Racing Stripes 5	64	x				
+41830301	Car Parts [4]	Royal Stripes 1	65	x				
+42830301	Car Parts [4]	Royal Stripes 2	66	x				
+43830301	Car Parts [4]	Carbon Weave	67	x				
+44830301	Car Parts [4]	Check Pattern	68	x				
+45830301	Car Parts [4]	Flames 1	69	x				
+46830301	Car Parts [4]	Flames 2	70	x				
+47830301	Car Parts [4]	Flames 3	71	x				
+48830301	Car Parts [4]	Regalia Crest	72	x				
+49830301	Car Parts [4]	Lucians King's Crest	73	x				
+4A830301	Car Parts [4]	Noctis Sticker	74	x				
+4B830301	Car Parts [4]	Gladio Sticker	75	x				
+4C830301	Car Parts [4]	Ptompto Sticker	76	x				
+4D830301	Car Parts [4]	Ignis Sticker	77	x				
+4E830301	Car Parts [4]	Luna Sticker	78	x				
+4F830301	Car Parts [4]	Chocobo Sticker	79	x				
+50830301	Car Parts [4]	Moogle Stiker	80	x				
+51830301	Car Parts [4]	Cactuar Sticker	81	x				
+52830301	Car Parts [4]	Caution: Wild Beast Sticker	82	x				
+53830301	Car Parts [4]	Bullet Hole Sticker	83	x				
+54830301	Car Parts [4]	Hammerhead Sticker	84	x				
+55830301	Car Parts [4]	Cavaller Sticker	85	x				
+56830301	Car Parts [4]	Coernix Oil Sticker	86	x				
+57830301	Car Parts [4]	Ebony Sticker	87	x				
+58830301	Car Parts [4]	Umbra Sticker	88	x				
+59830301	Car Parts [4]	A Little Friend Sticker	89	x				
+8EE70301	Car Parts [4]	Memories of FF1	90	x				
+8FE70301	Car Parts [4]	Memories of FF2	91	x				
+90E70301	Car Parts [4]	Memories of FF3	92	x				
+91E70301	Car Parts [4]	Memories of FF4	93	x				
+92E70301	Car Parts [4]	Memories of FF5	94	x				
+93E70301	Car Parts [4]	Memories of FF6	95	x				
+94E70301	Car Parts [4]	Memories of FF7	96	x				
+95E70301	Car Parts [4]	Memories of FF8	97	x				
+96E70301	Car Parts [4]	Memories of FF9 Disc 1	98	x				
+97E70301	Car Parts [4]	Memories of FF9 Disc 2	99	x				
+98E70301	Car Parts [4]	Memories of FF10	100	x				
+99E70301	Car Parts [4]	Memories of FF11 Disc 1	101	x				
+9AE70301	Car Parts [4]	Memories of FF11  Disc 2	102	x				
+9BE70301	Car Parts [4]	Memories of FF11  Disc 3	103	x				
+9CE70301	Car Parts [4]	Memories of FF11  Disc 4	104	x				
+9DE70301	Car Parts [4]	Memories of FF11  Disc 5	105	x				
+9EE70301	Car Parts [4]	Memories of FF12	106	x				
+9FE70301	Car Parts [4]	Memories of FF13	107	x				
+A0E70301	Car Parts [4]	Memories of FF14   Disc 1	108	x				
+A1E70301	Car Parts [4]	Memories of FF14   Disc 2	109	x				
+A2E70301	Car Parts [4]	Memories of DISSIDIA 012 FF	110	x				
+A3E70301	Car Parts [4]	Memories of FF Type-0	111	x				
+A4E70301	Car Parts [4]	Memories The Dissidia 012	112	x				
+A5E70301	Car Parts [4]	Lucian Cruisin' Collection	113	x				
+A6E70301	Car Parts [4]	Afrojack	114	x				
+A7E70301	Car Parts [4]	Memories of KINGSGLAIVE	115	x				
+A8E70301	Car Parts [4]	Memories of JUSTICE MONSTERS FIVE	116	x				
+A9E70301	Car Parts [4]	Memories of BROTHERHOOD	117	x				
+61F90301	Car Parts [4]	Basic Color Samples	118	x				
+62F90301	Car Parts [4]	Advanced Color Samples	119	x				
+63F90301	Car Parts [4]	Expert Color Samples	120	x				
+64F90301	Car Parts [4]	Mythic Color Sampes	121	x				
+78130401	Car Parts [4]	Memories of NieR: Gestalt & Replicant	122	x				
+79130401	Car Parts [4]	Memories of Nier: Automata	123	x				
+7A130401	Car Parts [4]	Memories of EPISODE GLADIOLUS	124	x				
+7B130401	Car Parts [4]	Memories of TERRA BATTLE	125	x				
+7C130401	Car Parts [4]	Memories of EPISODE PROMPTO	126	x				
+B2120501	Car Parts [4]	Choco-Mog	127	x				
+AB650501	Car Parts [4]	Terra Battle	128	x				
+92890501	Car Parts [4]	Assassin Insignia	129	x				Assassin's event
+93890501	Car Parts [4]	Assassin Mascot	130	x				Assassin's event
+16B60501	Car Parts [4]		131		x			
+17B60501	Car Parts [4]		132		x			
+18B60501	Car Parts [4]		133		x			
+19B60501	Car Parts [4]		134		x			
+1AB60501	Car Parts [4]		135		x			
+1BB60501	Car Parts [4]		136		x			
+1CB60501	Car Parts [4]		137		x			
+1DB60501	Car Parts [4]		138		x			
+1EB60501	Car Parts [4]		139		x			
+1FB60501	Car Parts [4]		140		x			
+20B60501	Car Parts [4]		141		x			
+21B60501	Car Parts [4]		142		x			
+22B60501	Car Parts [4]		143		x			
+23B60501	Car Parts [4]		144		x			
+24B60501	Car Parts [4]		145		x			
+25B60501	Car Parts [4]		146		x			
+26B60501	Car Parts [4]		147		x			
+27B60501	Car Parts [4]		148		x			
+28B60501	Car Parts [4]		149		x			
+29B60501	Car Parts [4]		150		x			
+2AB60501	Car Parts [4]		151		x			
+2BB60501	Car Parts [4]		152		x			
+2CB60501	Car Parts [4]		153		x			
+2DB60501	Car Parts [4]		154		x			
+2EB60501	Car Parts [4]		155		x			
+2FB60501	Car Parts [4]		156		x			
+30B60501	Car Parts [4]		157		x			
+31B60501	Car Parts [4]		158		x			
+32B60501	Car Parts [4]		159		x			
+33B60501	Car Parts [4]		160		x			
+34B60501	Car Parts [4]		161		x			
+35B60501	Car Parts [4]		162		x			
+36B60501	Car Parts [4]		163		x			
+37B60501	Car Parts [4]		164		x			
+38B60501	Car Parts [4]		165		x			
+39B60501	Car Parts [4]		166		x			
+3AB60501	Car Parts [4]		167		x			
+3BB60501	Car Parts [4]		168		x			
+3CB60501	Car Parts [4]		169		x			
+3DB60501	Car Parts [4]		170		x			
+3EB60501	Car Parts [4]		171		x			
+3FB60501	Car Parts [4]		172		x			
+40B60501	Car Parts [4]		173		x			
+41B60501	Car Parts [4]		174		x			
+25B80501	Car Parts [4]		175		x			
+26B80501	Car Parts [4]		176		x			
+27B80501	Car Parts [4]		177		x			
+28B80501	Car Parts [4]		178		x			
+29B80501	Car Parts [4]		179		x			
+2AB80501	Car Parts [4]		180		x			
+2BB80501	Car Parts [4]		181		x			
+37BA0501	Car Parts [4]		182		x			
+38BA0501	Car Parts [4]		183		x			
+3ABA0501	Car Parts [4]		184		x			
+3CBA0501	Car Parts [4]		185		x			
+3DBA0501	Car Parts [4]		186		x			
+3EBA0501	Car Parts [4]		187		x			
+40BA0501	Car Parts [4]		188		x			
+42BA0501	Car Parts [4]		189		x			
+43BA0501	Car Parts [4]		190		x			
+44BA0501	Car Parts [4]		191		x			
+46BA0501	Car Parts [4]		192		x			
+48BA0501	Car Parts [4]		193		x			
+4ABA0501	Car Parts [4]		194		x			
+4FBA0501	Car Parts [4]		195		x			
+54BA0501	Car Parts [4]		196		x			
+56BA0501	Car Parts [4]		197		x			
+57BA0501	Car Parts [4]		198		x			
+59BA0501	Car Parts [4]		199		x			
+5ABA0501	Car Parts [4]		200		x			
+5BBA0501	Car Parts [4]		201		x			
+5CBA0501	Car Parts [4]		202		x			
+5DBA0501	Car Parts [4]		203		x			
+5EBA0501	Car Parts [4]		204		x			
+5FBA0501	Car Parts [4]		205		x			
+60BA0501	Car Parts [4]		206		x			
+61BA0501	Car Parts [4]		207		x			
+62BA0501	Car Parts [4]		208		x			
+63BA0501	Car Parts [4]		209		x			
+64BA0501	Car Parts [4]		210		x			
+65BA0501	Car Parts [4]		211		x			
+66BA0501	Car Parts [4]		212		x			
+67BA0501	Car Parts [4]		213		x			
+68BA0501	Car Parts [4]		214		x			
+69BA0501	Car Parts [4]		215		x			
+6ABA0501	Car Parts [4]		216		x			
+6BBA0501	Car Parts [4]		217		x			
+6CBA0501	Car Parts [4]		218		x			
+6DBA0501	Car Parts [4]		219		x			
+6EBA0501	Car Parts [4]		220		x			
+6FBA0501	Car Parts [4]		221		x			
+70BA0501	Car Parts [4]		222		x			
+71BA0501	Car Parts [4]		223		x			
+0C2B0301	Leisure Items [5]	Mind Breaker	0	x				
+102B0301	Leisure Items [5]	Hell Blaster	1	x				
+122B0301	Leisure Items [5]	Air Stagger	2	x				
+152B0301	Leisure Items [5]	Death Spin	3	x				
+162B0301	Leisure Items [5]	Butterfly Edge	4	x				
+172B0301	Leisure Items [5]	Tranquility	5	x				
+182B0301	Leisure Items [5]	Poppeck Chocobo	6	x				
+192B0301	Leisure Items [5]	Poppeck White Chocobo	7	x				
+1A2B0301	Leisure Items [5]	Poppeck Red Chocobo	8	x				
+1D2B0301	Leisure Items [5]	Stinker Malboro	9	x				
+1E2B0301	Leisure Items [5]	Stinker Malbodoom	10	x				
+1F2B0301	Leisure Items [5]	Stinker Great Malboro	11	x				
+202B0301	Leisure Items [5]	Burrower Mad Pink Sandworm	12	x				
+212B0301	Leisure Items [5]	Burrower Green Sandworm	13	x				
+222B0301	Leisure Items [5]	Burrower Abyss Worm	14	x				
+232B0301	Leisure Items [5]	Sweet Jamming Custard	15	x				
+242B0301	Leisure Items [5]	Sweet Jamming Flan	16	x				
+252B0301	Leisure Items [5]	Sweet Jamming Mousse	17	x				
+282B0301	Leisure Items [5]	Deadly Water Sahagin	18	x				
+292B0301	Leisure Items [5]	Deadly Water Coraldevil	19	x				
+2A2B0301	Leisure Items [5]	Deadly Water Seadevil	20	x				
+2B2B0301	Leisure Items [5]	Tidal Might Leviathan	21	x				
+2C2B0301	Leisure Items [5]	Needle 1000 Cactuar	22	x				
+2D2B0301	Leisure Items [5]	Needle 1000 Metal Cactuar	23	x				
+2E2B0301	Leisure Items [5]	Needle 1000 Gold Cactuar	24	x				
+312B0301	Leisure Items [5]	Giant Needle 10000 Gigantuar	25	x				
+322B0301	Leisure Items [5]	Giant Needle 10000 Metal Gigantuar	26	x				
+332B0301	Leisure Items [5]	Giant Needle 10000 Gold Gigantuar	27	x				
+352B0301	Leisure Items [5]	Bomber Bomb	28	x				
+362B0301	Leisure Items [5]	Bomber Ice Bomb	29	x				
+372B0301	Leisure Items [5]	Bomber  Thunder Bomb	30	x				
+3A2B0301	Leisure Items [5]	Jumbo Tusk Garula	31	x				
+3B2B0301	Leisure Items [5]	Jumbo Tusk Green Garula	32	x				
+3C2B0301	Leisure Items [5]	Jumbo Tusk Garulessa	33	x				
+3D2B0301	Leisure Items [5]	Invincible Iron Giant	34	x				
+3F2B0301	Leisure Items [5]	Ranker Tonberry	35	x				
+402B0301	Leisure Items [5]	Whiskers: Pearly Moogle	36	x				
+412B0301	Leisure Items [5]	Whiskers: Crystal	37	x				
+422B0301	Leisure Items [5]	Whiskers: Chocolate	38	x				
+452B0301	Leisure Items [5]	Hot Breather: Red Dragon	39	x				
+462B0301	Leisure Items [5]	Hot Breather: Green Dragon	40	x				
+472B0301	Leisure Items [5]	Hot Breather: Blue Dragon	41	x				
+482B0301	Leisure Items [5]	Knife T Tonberry	42	x				
+492B0301	Leisure Items [5]	Big Blaze Bahamut	43	x				
+4A2B0301	Leisure Items [5]	Fatal Roulette: Ahriman	44	x				
+4B2B0301	Leisure Items [5]	Fatal Roulette: Floating Eye	45	x				
+4C2B0301	Leisure Items [5]	Fatal Roulette: Bloody Eye	46	x				
+4F2B0301	Leisure Items [5]	Stormer Focalor	47	x				
+502B0301	Leisure Items [5]	Stormer Purple Belly Focalor	48	x				
+512B0301	Leisure Items [5]	Stormer Chert Focalor	49	x				
+522B0301	Leisure Items [5]	Big Master Typhon	50	x				
+532B0301	Leisure Items [5]	Gemlight Caster Carbuncle	51	x				
+552B0301	Leisure Items [5]	Spider Silk	52	x				
+562B0301	Leisure Items [5]	Super Bateen	53	x				
+572B0301	Leisure Items [5]	Dragons Beard	54	x				
+25BC0301	Leisure Items [5]	Horn of Resolve	55	x				
+26BC0301	Leisure Items [5]	Horn of Tenacity	56	x				
+27BC0301	Leisure Items [5]	Horn of Fortitude	57	x				
+28BC0301	Leisure Items [5]	Horn of Cleansing	58	x				
+29BC0301	Leisure Items [5]	Horn of Madness	59	x				
+FAF10301	Leisure Items [5]	Xelphatol Apple Seeds	60	x				
+FBF10301	Leisure Items [5]	Xelphatol Pear	61	x				
+FCF10301	Leisure Items [5]	Doman Plum Pits	62	x				
+FDF10301	Leisure Items [5]	Doman Pear	63	x				
+FEF10301	Leisure Items [5]	Mamook Pear Seeds	64	x				
+FFF10301	Leisure Items [5]	Mamook Pear	65	x				
+00F20301	Leisure Items [5]	Valfruit Seeds	66	x				
+01F20301	Leisure Items [5]	Val Pear	67	x				
+02F20301	Leisure Items [5]	O Ghomoro Berry Seeds	68	x				
+03F20301	Leisure Items [5]	O Ghomoro Pear	69	x				
+04F20301	Leisure Items [5]	Cieldalaes Pinapple Seeds	70	x				
+05F20301	Leisure Items [5]	Cieldalaes Pear	71	x				
+06F20301	Leisure Items [5]	Han Lemon Seeds	72	x				
+07F20301	Leisure Items [5]	Han Pear	73	x				
+14F20301	Leisure Items [5]	Replica Medal	74	x				
+15F20301	Leisure Items [5]	Short Course Medal	75	x				
+16F20301	Leisure Items [5]	Long Course Medal	76	x				
+17F20301	Leisure Items [5]	Rounsey Medal	77	x				
+18F20301	Leisure Items [5]	Destrier Medal	78	x				
+19F20301	Leisure Items [5]	Courser Medal	79	x				
+1AF20301	Leisure Items [5]	Jennet Medal	80	x				
+1BF20301	Leisure Items [5]	Fat Chocobo Medal	81	x				
+1CF20301	Leisure Items [5]	Jockey Master Medal	82	x				
+262E0401	Leisure Items [5]	Menkar	83	x				
+272E0401	Leisure Items [5]	Acubens	84	x				
+282E0401	Leisure Items [5]	Galatea	85	x				
+292E0401	Leisure Items [5]	Nereid	86	x				
+2A2E0401	Leisure Items [5]	Llymlaen	87	x				
+2B2E0401	Leisure Items [5]	Fomalhaut	88	x				
+F8400401	Leisure Items [5]	Gysahi Greens	89	x				
+F9400401	Leisure Items [5]	Mimett Greens	90	x				
+FA400401	Leisure Items [5]	Curiel Greens	91	x				
+FB400401	Leisure Items [5]	Reagan Greens	92	x				
+FC400401	Leisure Items [5]	Sylkis Greens	93	x				
+117A0401	Leisure Items [5]	Caem Carrot	94	x				
+017F0401	Leisure Items [5]	Chocobo Whistle	95	x				
+D7F10401	Leisure Items [5]	Fresh Green Beans	96	x				
+D8F10401	Leisure Items [5]	Bulbous Onion	97	x				
+D9F10401	Leisure Items [5]	Aromatic Root	98	x				
+09160501	Leisure Items [5]	Howling Gust	99	x				
+0A160501	Leisure Items [5]	Poppeck: Tinselred Chocobo	100	x				
+0B160501	Leisure Items [5]	Mog Rank: Rubygold Moogle	101	x				
+0C160501	Leisure Items [5]	Albireo	102	x				
+3D230501	Leisure Items [5]	Avior	103	x				
+07260501	Leisure Items [5]	Dragon Drain	104	x				
+42B60501	Leisure Items [5]	Undershirt	105			x	x	
+43B60501	Leisure Items [5]	Kingsglaive Garb	106			x	x	
+44B60501	Leisure Items [5]	Casual Tee	107			x	x	
+45B60501	Leisure Items [5]		108		x			
+46B60501	Leisure Items [5]		109		x			
+47B60501	Leisure Items [5]		110		x			
+48B60501	Leisure Items [5]		111		x			
+49B60501	Leisure Items [5]		112		x			
+4AB60501	Leisure Items [5]		113		x			
+4BB60501	Leisure Items [5]		114		x			
+4CB60501	Leisure Items [5]	Hunter Fatigues	115			x	x	
+4DB60501	Leisure Items [5]	Coernix Uniform	116			x	x	
+4EB60501	Leisure Items [5]	Galahdian Attire	117			x	x	
+4FB60501	Leisure Items [5]	Imperial Fatigues	118			x	x	
+50B60501	Leisure Items [5]	Chosen Glaive's Garb	119			x	x	
+51B60501	Leisure Items [5]		120		x			
+52B60501	Leisure Items [5]	Kingsglaive Fatigues	121			x	x	
+53B60501	Leisure Items [5]	Long Underwear	122			x	x	
+54B60501	Leisure Items [5]	Kingsglaive Garb	123			x	x	
+55B60501	Leisure Items [5]	Denim Jeans	124			x	x	
+56B60501	Leisure Items [5]	Hunter Fatigues	125			x	x	
+57B60501	Leisure Items [5]	Chino Pants	126			x	x	
+58B60501	Leisure Items [5]	Galahdian Garb	127			x	x	
+59B60501	Leisure Items [5]	Imperial Fatigues	128			x	x	
+5AB60501	Leisure Items [5]	Chosen Glaive's Garb	129			x	x	
+5BB60501	Leisure Items [5]		130		x			
+5CB60501	Leisure Items [5]	Sandals	131			x	x	
+5DB60501	Leisure Items [5]	Kingsglaive Shoes	132			x	x	
+5EB60501	Leisure Items [5]	Casual Shoes	133			x	x	
+5FB60501	Leisure Items [5]	Hunter Boots	134			x	x	
+60B60501	Leisure Items [5]	Fresh Sneakers	135			x	x	
+61B60501	Leisure Items [5]	Galahdian Footwear	136			x	x	
+62B60501	Leisure Items [5]	Imperial Boots	137			x	x	
+63B60501	Leisure Items [5]	Chosen Glaive's Shoes	138			x	x	
+64B60501	Leisure Items [5]	Kingsglaive Gloves	139			x	x	
+65B60501	Leisure Items [5]	Fishing Gloves	140			x	x	
+66B60501	Leisure Items [5]	Hunter Gloves	141			x	x	
+68B60501	Leisure Items [5]	Galahdian Handwear	142			x	x	
+69B60501	Leisure Items [5]	Imperial GLoves	143			x	x	
+6AB60501	Leisure Items [5]	Chosen Glaive's Gloves	144			x	x	
+6BB60501	Leisure Items [5]		145		x			
+6CB60501	Leisure Items [5]	Kenny Crow Suit	146			x	x	
+6DB60501	Leisure Items [5]	Chocobo Suit	147			x	x	
+6EB60501	Leisure Items [5]	Moogle Suit	148			x	x	
+6FB60501	Leisure Items [5]	Black Glasses	149			x	x	
+70B60501	Leisure Items [5]		150		x			
+71B60501	Leisure Items [5]		151		x			
+72B60501	Leisure Items [5]		152		x			
+73B60501	Leisure Items [5]		153		x			
+74B60501	Leisure Items [5]		154		x			
+75B60501	Leisure Items [5]		155		x			
+76B60501	Leisure Items [5]		156		x			
+77B60501	Leisure Items [5]		157		x			
+78B60501	Leisure Items [5]		158		x			
+8EC60501	Leisure Items [5]		159
+90AB0301	Reinforcement Items [7]		0					
+E66C0101	Magic Bottle [8]		0					
+8F820201	Magic Bottle [8]		1					
+91820201	Magic Bottle [8]		2					
+1A840201	Magic Bottle [8]		3					
+1B840201	Magic Bottle [8]		4					
+1C840201	Magic Bottle [8]		5					
+1D840201	Magic Bottle [8]		6					
+1E840201	Magic Bottle [8]		7					
+1F840201	Magic Bottle [8]		8					
+20840201	Magic Bottle [8]		9					
+2B840201	Magic Bottle [8]		10					
+2C840201	Magic Bottle [8]		11					
+2D840201	Magic Bottle [8]		12					
+2E840201	Magic Bottle [8]		13					
+7FB40201	Magic Bottle [8]		14					
+80B40201	Magic Bottle [8]		15					
+81B40201	Magic Bottle [8]		16					
+82B40201	Magic Bottle [8]		17					
+83B40201	Magic Bottle [8]		18					
+84B40201	Magic Bottle [8]		19					
+85B40201	Magic Bottle [8]		20					
+09110301	Magic Bottle [8]		21					
+0A110301	Magic Bottle [8]		22					
+0B110301	Magic Bottle [8]		23					
+A77F0301	Magic Bottle [8]	QuintCast 3	24					
+A87F0301	Magic Bottle [8]		25					
+A97F0301	Magic Bottle [8]		26					
+AA7F0301	Magic Bottle [8]		27					
+AB7F0301	Magic Bottle [8]		28					
+AC7F0301	Magic Bottle [8]		29					
+AD7F0301	Magic Bottle [8]		30					
+AE7F0301	Magic Bottle [8]		31					
+AF7F0301	Magic Bottle [8]		32					
+B07F0301	Magic Bottle [8]		33					
+B17F0301	Magic Bottle [8]		34					
+B27F0301	Magic Bottle [8]		35					
+B37F0301	Magic Bottle [8]		36					
+B47F0301	Magic Bottle [8]		37					
+B57F0301	Magic Bottle [8]		38					
+B97F0301	Magic Bottle [8]		39					
+BA7F0301	Magic Bottle [8]		40					
+BB7F0301	Magic Bottle [8]		41					
+BC7F0301	Magic Bottle [8]		42					
+BD7F0301	Magic Bottle [8]		43					
+BE7F0301	Magic Bottle [8]		44					
+BF7F0301	Magic Bottle [8]		45					
+C07F0301	Magic Bottle [8]		46					
+C17F0301	Magic Bottle [8]		47					
+C27F0301	Magic Bottle [8]		48					
+C37F0301	Magic Bottle [8]		49					
+C47F0301	Magic Bottle [8]		50					
+C57F0301	Magic Bottle [8]		51					
+C67F0301	Magic Bottle [8]		52					
+C77F0301	Magic Bottle [8]		53					
+C87F0301	Magic Bottle [8]		54					
+C97F0301	Magic Bottle [8]		55					
+CA7F0301	Magic Bottle [8]		56					
+CB7F0301	Magic Bottle [8]		57					
+CC7F0301	Magic Bottle [8]		58					
+CD7F0301	Magic Bottle [8]		59					
+CE7F0301	Magic Bottle [8]		60					
+CF7F0301	Magic Bottle [8]		61					
+D07F0301	Magic Bottle [8]		62					
+D17F0301	Magic Bottle [8]		63					
+D27F0301	Magic Bottle [8]		64					
+D37F0301	Magic Bottle [8]		65					
+D47F0301	Magic Bottle [8]		66					
+D57F0301	Magic Bottle [8]		67					
+D67F0301	Magic Bottle [8]		68					
+D77F0301	Magic Bottle [8]		69					
+D87F0301	Magic Bottle [8]		70					
+D97F0301	Magic Bottle [8]		71					
+DA7F0301	Magic Bottle [8]		72					
+DC7F0301	Magic Bottle [8]		73					
+DD7F0301	Magic Bottle [8]		74					
+DE7F0301	Magic Bottle [8]		75					
+E07F0301	Magic Bottle [8]		76					
+E17F0301	Magic Bottle [8]		77					
+E37F0301	Magic Bottle [8]		78					
+E47F0301	Magic Bottle [8]		79					
+E67F0301	Magic Bottle [8]		80					
+E77F0301	Magic Bottle [8]		81					
+E97F0301	Magic Bottle [8]		82					
+EA7F0301	Magic Bottle [8]		83					
+EC7F0301	Magic Bottle [8]		84					
+ED7F0301	Magic Bottle [8]		85					
+EF7F0301	Magic Bottle [8]		86					
+F07F0301	Magic Bottle [8]		87					
+F27F0301	Magic Bottle [8]		88					
+F37F0301	Magic Bottle [8]		89					
+F57F0301	Magic Bottle [8]		90					
+F67F0301	Magic Bottle [8]		91					
+F77F0301	Magic Bottle [8]		92					
+F87F0301	Magic Bottle [8]		93					
+F97F0301	Magic Bottle [8]		94					
+FA7F0301	Magic Bottle [8]		95					
+FB7F0301	Magic Bottle [8]		96					
+FC7F0301	Magic Bottle [8]		97					
+FD7F0301	Magic Bottle [8]		98					
+FE7F0301	Magic Bottle [8]		99					
+FF7F0301	Magic Bottle [8]		100					
+00800301	Magic Bottle [8]		101					
+01800301	Magic Bottle [8]		102					
+02800301	Magic Bottle [8]		103					
+03800301	Magic Bottle [8]		104					
+04800301	Magic Bottle [8]		105					
+05800301	Magic Bottle [8]		106					
+06800301	Magic Bottle [8]		107					
+07800301	Magic Bottle [8]		108					
+08800301	Magic Bottle [8]		109					
+09800301	Magic Bottle [8]		110					
+0A800301	Magic Bottle [8]		111					
+0B800301	Magic Bottle [8]		112					
+0C800301	Magic Bottle [8]		113					
+0D800301	Magic Bottle [8]		114					
+0E800301	Magic Bottle [8]		115					
+0F800301	Magic Bottle [8]		116					
+10800301	Magic Bottle [8]		117					
+11800301	Magic Bottle [8]		118					
+12800301	Magic Bottle [8]		119					
+13800301	Magic Bottle [8]		120					
+14800301	Magic Bottle [8]		121					
+15800301	Magic Bottle [8]		122					
+16800301	Magic Bottle [8]		123					
+17800301	Magic Bottle [8]		124					
+18800301	Magic Bottle [8]		125					
+19800301	Magic Bottle [8]		126					
+1A800301	Magic Bottle [8]		127					
+1B800301	Magic Bottle [8]		128					
+1C800301	Magic Bottle [8]		129					
+1D800301	Magic Bottle [8]		130					
+1E800301	Magic Bottle [8]		131					
+1F800301	Magic Bottle [8]		132					
+20800301	Magic Bottle [8]		133					
+21800301	Magic Bottle [8]		134					
+22800301	Magic Bottle [8]		135					
+23800301	Magic Bottle [8]		136					
+24800301	Magic Bottle [8]		137					
+25800301	Magic Bottle [8]		138					
+26800301	Magic Bottle [8]		139					
+27800301	Magic Bottle [8]		140					
+28800301	Magic Bottle [8]		141					
+29800301	Magic Bottle [8]		142					
+2A800301	Magic Bottle [8]		143					
+2B800301	Magic Bottle [8]		144					
+2C800301	Magic Bottle [8]		145					
+2D800301	Magic Bottle [8]		146					
+2E800301	Magic Bottle [8]		147					
+2F800301	Magic Bottle [8]		148					
+30800301	Magic Bottle [8]		149					
+31800301	Magic Bottle [8]		150					
+32800301	Magic Bottle [8]		151					
+33800301	Magic Bottle [8]		152					
+34800301	Magic Bottle [8]		153					
+35800301	Magic Bottle [8]		154					
+36800301	Magic Bottle [8]		155					
+37800301	Magic Bottle [8]		156					
+38800301	Magic Bottle [8]		157					
+39800301	Magic Bottle [8]		158					
+3A800301	Magic Bottle [8]		159					
+3B800301	Magic Bottle [8]		160					
+3C800301	Magic Bottle [8]		161					
+3D800301	Magic Bottle [8]		162					
+3E800301	Magic Bottle [8]		163					
+3F800301	Magic Bottle [8]		164					
+40800301	Magic Bottle [8]		165					
+41800301	Magic Bottle [8]		166					
+42800301	Magic Bottle [8]		167					
+43800301	Magic Bottle [8]		168					
+44800301	Magic Bottle [8]		169					
+45800301	Magic Bottle [8]		170					
+46800301	Magic Bottle [8]		171					
+47800301	Magic Bottle [8]		172					
+48800301	Magic Bottle [8]		173					
+49800301	Magic Bottle [8]		174					
+4A800301	Magic Bottle [8]		175					
+4B800301	Magic Bottle [8]	Venomcast: Firaga	176					
+4C800301	Magic Bottle [8]		177					
+4D800301	Magic Bottle [8]		178					
+51800301	Magic Bottle [8]		179					
+52800301	Magic Bottle [8]		180					
+53800301	Magic Bottle [8]		181					
+54800301	Magic Bottle [8]		182					
+55800301	Magic Bottle [8]		183					
+56800301	Magic Bottle [8]		184					
+57800301	Magic Bottle [8]		185					
+58800301	Magic Bottle [8]		186					
+59800301	Magic Bottle [8]		187					
+5A800301	Magic Bottle [8]		188					
+5B800301	Magic Bottle [8]		189					
+5C800301	Magic Bottle [8]		190					
+5D800301	Magic Bottle [8]		191					
+5E800301	Magic Bottle [8]		192					
+5F800301	Magic Bottle [8]		193					
+60800301	Magic Bottle [8]		194					
+61800301	Magic Bottle [8]		195					
+62800301	Magic Bottle [8]		196					
+63800301	Magic Bottle [8]	Stepcast: Firaga	197					
+64800301	Magic Bottle [8]		198					
+65800301	Magic Bottle [8]		199					
+66800301	Magic Bottle [8]	Killcast: Firaga	200					
+67800301	Magic Bottle [8]		201					
+68800301	Magic Bottle [8]		202					
+69800301	Magic Bottle [8]		203					
+6A800301	Magic Bottle [8]		204					
+6B800301	Magic Bottle [8]		205					
+6C800301	Magic Bottle [8]		206					
+6D800301	Magic Bottle [8]		207					
+6E800301	Magic Bottle [8]		208					
+6F800301	Magic Bottle [8]		209					
+70800301	Magic Bottle [8]		210					
+71800301	Magic Bottle [8]		211					
+72800301	Magic Bottle [8]		212					
+73800301	Magic Bottle [8]	Flare	213					
+74800301	Magic Bottle [8]	Venomcast: Blizzaga	214					
+75800301	Magic Bottle [8]		215					
+76800301	Magic Bottle [8]		216					
+7A800301	Magic Bottle [8]		217					
+7B800301	Magic Bottle [8]		218					
+7C800301	Magic Bottle [8]		219					
+7D800301	Magic Bottle [8]		220					
+7E800301	Magic Bottle [8]		221					
+7F800301	Magic Bottle [8]		222					
+80800301	Magic Bottle [8]		223					
+81800301	Magic Bottle [8]		224					
+82800301	Magic Bottle [8]		225					
+83800301	Magic Bottle [8]		226					
+84800301	Magic Bottle [8]		227					
+85800301	Magic Bottle [8]		228					
+86800301	Magic Bottle [8]		229					
+87800301	Magic Bottle [8]		230					
+88800301	Magic Bottle [8]		231					
+89800301	Magic Bottle [8]		232					
+8A800301	Magic Bottle [8]		233					
+8B800301	Magic Bottle [8]		234					
+8C800301	Magic Bottle [8]	Stopcast: Blizzaga	235					
+8D800301	Magic Bottle [8]		236					
+8E800301	Magic Bottle [8]		237					
+8F800301	Magic Bottle [8]	Killcast: Blizzaga	238					
+90800301	Magic Bottle [8]		239					
+91800301	Magic Bottle [8]		240					
+92800301	Magic Bottle [8]		241					
+93800301	Magic Bottle [8]		242					
+94800301	Magic Bottle [8]		243					
+95800301	Magic Bottle [8]		244					
+96800301	Magic Bottle [8]		245					
+97800301	Magic Bottle [8]		246					
+98800301	Magic Bottle [8]		247					
+99800301	Magic Bottle [8]		248					
+9A800301	Magic Bottle [8]		249					
+9B800301	Magic Bottle [8]		250					
+9C800301	Magic Bottle [8]	Freeze	251					
+9D800301	Magic Bottle [8]	Venomcast: Thunder	252					
+9E800301	Magic Bottle [8]		253					
+9F800301	Magic Bottle [8]		254					
+A3800301	Magic Bottle [8]		255					
+A4800301	Magic Bottle [8]		256					
+A5800301	Magic Bottle [8]		257					
+A6800301	Magic Bottle [8]		258					
+A7800301	Magic Bottle [8]		259					
+A8800301	Magic Bottle [8]		260					
+A9800301	Magic Bottle [8]		261					
+AA800301	Magic Bottle [8]		262					
+AB800301	Magic Bottle [8]		263					
+AC800301	Magic Bottle [8]		264					
+AD800301	Magic Bottle [8]		265					
+AE800301	Magic Bottle [8]		266					
+AF800301	Magic Bottle [8]		267					
+B0800301	Magic Bottle [8]		268					
+B1800301	Magic Bottle [8]		269					
+B2800301	Magic Bottle [8]		270					
+B3800301	Magic Bottle [8]		271					
+B4800301	Magic Bottle [8]		272					
+B5800301	Magic Bottle [8]	Stepcast: Thundaga	273					
+B6800301	Magic Bottle [8]		274					
+B7800301	Magic Bottle [8]		275					
+B8800301	Magic Bottle [8]	Killcast: Thundaga	276					
+B9800301	Magic Bottle [8]		277					
+BA800301	Magic Bottle [8]		278					
+BB800301	Magic Bottle [8]		279					
+BC800301	Magic Bottle [8]		280					
+BD800301	Magic Bottle [8]		281					
+BE800301	Magic Bottle [8]		282					
+BF800301	Magic Bottle [8]		283					
+C0800301	Magic Bottle [8]		284					
+C1800301	Magic Bottle [8]		285					
+C2800301	Magic Bottle [8]		286					
+C3800301	Magic Bottle [8]		287					
+C4800301	Magic Bottle [8]		288					
+C5800301	Magic Bottle [8]	Electon	289					
+16820301	Magic Bottle [8]		290					
+17820301	Magic Bottle [8]		291					
+18820301	Magic Bottle [8]		292					
+19820301	Magic Bottle [8]		293					
+1A820301	Magic Bottle [8]		294					
+1B820301	Magic Bottle [8]		295					
+1C820301	Magic Bottle [8]		296					
+1D820301	Magic Bottle [8]		297					
+1F820301	Magic Bottle [8]		298					
+5DA50501	Magic Bottle [8]		299					
+C1850101	Ring [9]		0					
+5DDB0301	Ring [9]		1					
+14AA0101	Weapons [10]		0		x			
+15AA0101	Weapons [10]		1		x			
+16AA0101	Weapons [10]		2		x			
+17AA0101	Weapons [10]		3		x			
+18AA0101	Weapons [10]		4		x			
+19AA0101	Weapons [10]		5		x			
+1AAA0101	Weapons [10]		6		x			
+1BAA0101	Weapons [10]		7		x			
+1CAA0101	Weapons [10]		8		x			
+1DAA0101	Weapons [10]		9		x			
+1EAA0101	Weapons [10]		10		x			
+1FAA0101	Weapons [10]		11		x			
+20AA0101	Weapons [10]		12		x			
+21AA0101	Weapons [10]		13		x			
+22AA0101	Weapons [10]		14		x			
+23AA0101	Weapons [10]		15		x			
+24AA0101	Weapons [10]		16		x			
+25AA0101	Weapons [10]	(Noctis)	17					50/50 chance to break the equipment menu when equipping
+26AA0101	Weapons [10]	??? (Engine Blade)	18					50/50 chance to break the equipment menu when equipping
+4AAA0101	Weapons [10]	Kotetsu  (Cor's katana)	19					
+D4FB0101	Weapons [10]	Gravity Well	20	x				
+D5FB0101	Weapons [10]	Bioblaster	21	x				
+154B0201	Weapons [10]	Unnamed huge sword	22					50/50 chance to break the equipment menu when equipping
+F75F0201	Weapons [10]	Stoss Spear - Aranea's weapon	23					
+E6640201	Weapons [10]	Squeaky Hammer	24	x				
+966F0201	Weapons [10]		25		x			
+DBCE0201	Weapons [10]	Toy Sword	26	x				
+61080301	Weapons [10]		27		x			
+62080301	Weapons [10]		28		x			
+F50B0301	Weapons [10]	Squeaky Hammer (Sword)	29	x			x	
+0D0C0301	Weapons [10]		30		x			
+17110301	Weapons [10]	Supersized Squeaky Hammer	31	x				
+8F240301	Weapons [10]	Kikuichimonji	32					Sometimes locks
+77560301	Weapons [10]		33		x			
+78560301	Weapons [10]		34		x			
+79560301	Weapons [10]		35		x			
+7A560301	Weapons [10]		36		x			
+7B560301	Weapons [10]		37		x			
+7C560301	Weapons [10]		38		x			
+7D560301	Weapons [10]		39		x			
+7E560301	Weapons [10]		40		x			
+7F560301	Weapons [10]		41		x			
+80560301	Weapons [10]		42		x			
+81560301	Weapons [10]		43		x			
+82560301	Weapons [10]		44		x			
+83560301	Weapons [10]	Unnamed sword polearm (?)	45					50/50 chance to break the equipment menu when equipping
+A75D0301	Weapons [10]	Noiseblaster	46	x				
+A85D0301	Weapons [10]	Drillbreaker	47	x				
+A95D0301	Weapons [10]	Auto Crossbow	48	x				
+AA5D0301	Weapons [10]	Circular Saw	49	x				
+F4650301	Weapons [10]	Broad Sword (Sword)	50	x				
+F5650301	Weapons [10]	Flame Tongue	51	x				
+F6650301	Weapons [10]	Airstep Sword	52	x				
+F7650301	Weapons [10]	Rune Saber	53	x				
+F8650301	Weapons [10]	Ice Brand	54	x				
+FA650301	Weapons [10]	Blood Sword	55	x				
+FB650301	Weapons [10]	Durandal	56	x				
+FC650301	Weapons [10]	Enhancer	57	x				
+FD650301	Weapons [10]	Engine Blade	58	x				
+FE650301	Weapons [10]	Soul Saber	59	x				
+FF650301	Weapons [10]	Balmung (Swords)	60	x				
+00660301	Weapons [10]	Blazefire Saber	61	x				
+01660301	Weapons [10]	Two-handed Sword (Greatswords)	62	x				
+02660301	Weapons [10]	War Sword (Greatswords)	63	x				
+03660301	Weapons [10]	Blade of Brennaere	64	x				
+04660301	Weapons [10]	Claymore	65	x				
+05660301	Weapons [10]	Thunderbolt	66	x				
+06660301	Weapons [10]	Hardedge	67	x				
+07660301	Weapons [10]	Force Stealer	68	x				
+08660301	Weapons [10]	Duel Code	69	x				
+09660301	Weapons [10]	Dominator	70	x				
+0A660301	Weapons [10]	Iron Duke	71	x				
+0C660301	Weapons [10]	Apocalypse (Greatswords)	72	x				
+0D660301	Weapons [10]	Masamune	73	x				
+0E660301	Weapons [10]	Javelin	74	x				
+0F660301	Weapons [10]	Drain Lance	75	x				
+10660301	Weapons [10]	Radiant Lance	76	x				
+11660301	Weapons [10]	Mythril Lance	77	x				
+12660301	Weapons [10]	Precision Lance	78	x				
+13660301	Weapons [10]	Wyvern Lance	79	x				
+14660301	Weapons [10]	Storm Lance	80	x				
+15660301	Weapons [10]	Ice Spear	81	x				
+16660301	Weapons [10]	Rapier Lance	82	x				
+17660301	Weapons [10]	Dragoon Lance	83	x				
+19660301	Weapons [10]	Flayer (Polearms)	84	x				
+1A660301	Weapons [10]	Gae Bolg	85	x				
+1B660301	Weapons [10]	Daggers	86	x				
+1C660301	Weapons [10]	Avengers	87	x				
+1D660301	Weapons [10]	Cutlasses	88	x				
+1E660301	Weapons [10]	Plunderers	89	x				
+1F660301	Weapons [10]	Mythril Knives	90	x				
+20660301	Weapons [10]	Assassin's Daggers	91	x				
+21660301	Weapons [10]	Vigilantes	92	x				
+22660301	Weapons [10]	Delta Daggers	93	x				
+23660301	Weapons [10]	Orichalcum	94	x				
+24660301	Weapons [10]	Organyx	95	x				
+26660301	Weapons [10]	Zwill Crossblades (Daggers)	96	x				
+27660301	Weapons [10]	Mage Mashers (Daggers)	97	x				
+28660301	Weapons [10]	Handgun (?)	98	x				
+29660301	Weapons [10]	Calamity (?)	99	x				
+2A660301	Weapons [10]	Cocytus	100	x				
+2B660301	Weapons [10]	Mythril Pistol	101	x				
+2C660301	Weapons [10]	Valiant	102	x				
+2E660301	Weapons [10]	Rebellion	103	x				
+2F660301	Weapons [10]	Flame Gun	104	x				
+30660301	Weapons [10]	Enforcer	105	x				
+31660301	Weapons [10]	Hyper Magnum	106	x				
+32660301	Weapons [10]	Executioner	107	x				
+33660301	Weapons [10]	Death Penalty (Firearms)	108	x				
+34660301	Weapons [10]	Cerberus	109	x				
+35660301	Weapons [10]	Kite Shield	110	x				
+36660301	Weapons [10]	Flame Shield	111	x				
+37660301	Weapons [10]	Ice Shield	112	x				
+38660301	Weapons [10]	Power Shield	113	x				
+39660301	Weapons [10]	Thunder Shield	114	x				
+3A660301	Weapons [10]	Hero's Shield	115	x				
+3C660301	Weapons [10]	Absorb Shield	116	x				
+3D660301	Weapons [10]	Black Prince	117	x				
+3E660301	Weapons [10]	Wizard Shield	118	x				
+3F660301	Weapons [10]	Ziedrich	119	x				
+40660301	Weapons [10]	Aegis Shield	120	x				
+E57A0301	Weapons [10]	Hyperion	121	x				
+FF7A0301	Weapons [10]	Main Gauches	122	x				
+0C7B0301	Weapons [10]	Quicksilver	123	x				
+429E0301	Weapons [10]	Engine Blade II	124	x				
+439E0301	Weapons [10]	Engine Blade III	125	x				
+449E0301	Weapons [10]	Force Stealer II	126	x				
+459E0301	Weapons [10]	Drain Lance II	127	x				
+469E0301	Weapons [10]	Plunderers II	128	x				
+479E0301	Weapons [10]	Valiant II	129	x				
+489E0301	Weapons [10]	Absorb Shield II	130	x				
+499E0301	Weapons [10]	Gravity Well Plus (Machinery)	131	x				
+4A9E0301	Weapons [10]	Bioblaster Plus	132	x				
+4B9E0301	Weapons [10]	Noiseblaster Plus (Machinery)	133	x				
+4C9E0301	Weapons [10]	Drill Breaker Plus (Machinery)	134	x				
+4D9E0301	Weapons [10]	Auto Crossbow Plus	135	x				
+4E9E0301	Weapons [10]	Circular Saw Plus	136	x				
+840F0401	Weapons [10]	Unnamed pointy polearm	137					50/50 chance to break the equipment menu when equipping
+850F0401	Weapons [10]	Unnamed huge greatsword (?)	138					50/50 chance to break the equipment menu when equipping
+860F0401	Weapons [10]	Unnamed huge pointy greatsword (?)	139					50/50 chance to break the equipment menu when equipping
+870F0401	Weapons [10]		140		x			
+880F0401	Weapons [10]	Unnamed huge sword	141					50/50 chance to break the equipment menu when equipping
+890F0401	Weapons [10]		142		x			
+57100401	Weapons [10]	Claymore	143	x				
+58100401	Weapons [10]		144		x			
+49580401	Weapons [10]	Ulric's Kukris	145	x				
+EBA70401	Weapons [10]	Handgun	146					Has only 1 ATK
+14B40401	Weapons [10]	Drain Lance III	147	x				
+C2B40401	Weapons [10]	Ultima Blade	148	x				
+D3CF0401	Weapons [10]	Ragnarok (?)	149	x				
+D4CF0401	Weapons [10]	Afrosword (?)	150	x				
+D5CF0401	Weapons [10]	Unnamed zero attack sword	151					50/50 chance to break the equipment menu when equipping
+D6CF0401	Weapons [10]	Unnamed zero attack sword	152					50/50 chance to break the equipment menu when equipping
+D7CF0401	Weapons [10]	Genji Blade	153	x				
+D8CF0401	Weapons [10]	Lion Heart (magic)	154	x				
+D9CF0401	Weapons [10]	Unnamed zero attack sword	155					50/50 chance to break the equipment menu when equipping
+DACF0401	Weapons [10]	Lion Heart (no magic)	156	x				
+DBCF0401	Weapons [10]	Unnamed zero attack sword	157					50/50 chance to break the equipment menu when equipping
+DCCF0401	Weapons [10]	Unnamed zero attack sword	158					50/50 chance to break the equipment menu when equipping
+DDCF0401	Weapons [10]	Unnamed zero attack sword	159					50/50 chance to break the equipment menu when equipping
+DECF0401	Weapons [10]	Unnamed zero attack sword	160					50/50 chance to break the equipment menu when equipping
+DFCF0401	Weapons [10]	Zwill Crossblades	161					Breaks the  equipment menu
+E0CF0401	Weapons [10]	Unnamed zero attack sword	162					50/50 chance to break the equipment menu when equipping
+E1CF0401	Weapons [10]	Unnamed zero attack sword	163					50/50 chance to break the equipment menu when equipping
+E2CF0401	Weapons [10]	Unnamed zero attack sword	164					50/50 chance to break the equipment menu when equipping
+E3CF0401	Weapons [10]	Unnamed zero attack sword	165					50/50 chance to break the equipment menu when equipping
+E4CF0401	Weapons [10]	Unnamed zero attack sword	166					50/50 chance to break the equipment menu when equipping
+E5CF0401	Weapons [10]	Unnamed zero attack sword	167					50/50 chance to break the equipment menu when equipping
+E6CF0401	Weapons [10]	Unnamed zero attack sword	168					50/50 chance to break the equipment menu when equipping
+E7CF0401	Weapons [10]	Unnamed zero attack sword	169					50/50 chance to break the equipment menu when equipping
+E8CF0401	Weapons [10]	Unnamed zero attack sword	170					50/50 chance to break the equipment menu when equipping
+E9CF0401	Weapons [10]	Unnamed zero attack sword	171					50/50 chance to break the equipment menu when equipping
+EACF0401	Weapons [10]	Unnamed zero attack sword	172					50/50 chance to break the equipment menu when equipping
+EBCF0401	Weapons [10]	Unnamed zero attack sword	173					50/50 chance to break the equipment menu when equipping
+ECCF0401	Weapons [10]	Unnamed zero attack sword	174					50/50 chance to break the equipment menu when equipping
+EDCF0401	Weapons [10]	Unnamed zero attack sword	175					50/50 chance to break the equipment menu when equipping
+EECF0401	Weapons [10]	Unnamed zero attack sword	176					50/50 chance to break the equipment menu when equipping
+EFCF0401	Weapons [10]	Unnamed zero attack sword	177					50/50 chance to break the equipment menu when equipping
+F0CF0401	Weapons [10]		178		x			
+F1CF0401	Weapons [10]		179		x			
+F2CF0401	Weapons [10]		180		x			
+52EB0401	Weapons [10]	Huge katana daggers	181					50/50 chance to break the equipment menu when equipping
+53EB0401	Weapons [10]	Huge katana greatsword	182					50/50 chance to break the equipment menu when equipping
+C50F0501	Weapons [10]	Machinegun	183					50/50 chance to break the equipment menu when equipping
+A0180501	Weapons [10]	Column	184					
+2C280501	Weapons [10]	Twin Squeaky Hammers	185	x				
+88440501	Weapons [10]		186
+B7440501	Weapons [10]	Unnamed zero attack sword	187					50/50 chance to break the equipment menu when equipping
+B8440501	Weapons [10]		188		x			
+0A5F0501	Weapons [10]	Audax Blade	189	x				Episode Prompto
+0B5F0501	Weapons [10]	Handgun	190	x				Episode Prompto
+0C5F0501	Weapons [10]		191		x			
+0D5F0501	Weapons [10]	Lumen Flare (prompto dlc only)	192		x			Episode Prompto.
+0E5F0501	Weapons [10]		193		x			
+B55F0501	Weapons [10]		194		x			
+6E660501	Weapons [10]	Flagrum SMG (prompto dlc only)	195		x			Episode Prompto. Inf ammo only on snowmobile
+B26D0501	Weapons [10]		196		x			
+B36D0501	Weapons [10]		197		x			
+83710501	Weapons [10]		198		x			
+3B9F0501	Weapons [10]	Sagitta Rifle	199	x				Episode Prompto
+AA9F0501	Weapons [10]	Enhancer	200	x				
+05B50501	Weapons [10]		201
+06B50501	Weapons [10]		202
+07B50501	Weapons [10]		203
+08B50501	Weapons [10]		204
+ACB90501	Weapons [10]		205
+ADB90501	Weapons [10]		206
+AEB90501	Weapons [10]		207
+AFB90501	Weapons [10]		208
+B0B90501	Weapons [10]		209
+B1B90501	Weapons [10]		210
+B2B90501	Weapons [10]		211
+B3B90501	Weapons [10]		212
+B4B90501	Weapons [10]		213
+B5B90501	Weapons [10]		214
+B6B90501	Weapons [10]		215
+B7B90501	Weapons [10]		216
+B8B90501	Weapons [10]		217
+B9B90501	Weapons [10]		218
+BAB90501	Weapons [10]		219
+BBB90501	Weapons [10]		220
+BCB90501	Weapons [10]		221
+BDB90501	Weapons [10]		222
+BEB90501	Weapons [10]		223
+BFB90501	Weapons [10]		224
+C0B90501	Weapons [10]		225
+C1B90501	Weapons [10]		226
+C2B90501	Weapons [10]		227
+C3B90501	Weapons [10]		228
+C4B90501	Weapons [10]		229
+C5B90501	Weapons [10]		230
+C6B90501	Weapons [10]		231
+C7B90501	Weapons [10]		232
+C8B90501	Weapons [10]		233
+C9B90501	Weapons [10]		234
+CAB90501	Weapons [10]		235
+CBB90501	Weapons [10]		236
+CCB90501	Weapons [10]		237
+CDB90501	Weapons [10]		238
+CEB90501	Weapons [10]		239
+CFB90501	Weapons [10]		240
+D0B90501	Weapons [10]		241
+D1B90501	Weapons [10]		242
+D2B90501	Weapons [10]		243
+D3B90501	Weapons [10]		244
+D4B90501	Weapons [10]		245
+D5B90501	Weapons [10]		246
+D6B90501	Weapons [10]		247
+D7B90501	Weapons [10]		248
+D8B90501	Weapons [10]		249
+D9B90501	Weapons [10]		250
+DAB90501	Weapons [10]		251
+DBB90501	Weapons [10]		252
+DCB90501	Weapons [10]		253
+DDB90501	Weapons [10]		254
+DEB90501	Weapons [10]		255
+DFB90501	Weapons [10]		256
+E0B90501	Weapons [10]		257
+E1B90501	Weapons [10]		258
+E2B90501	Weapons [10]		259
+E3B90501	Weapons [10]		260
+E4B90501	Weapons [10]		261
+E5B90501	Weapons [10]		262
+E6B90501	Weapons [10]		263
+E7B90501	Weapons [10]		264
+E8B90501	Weapons [10]		265
+E9B90501	Weapons [10]		266
+EAB90501	Weapons [10]		267
+EBB90501	Weapons [10]		268
+ECB90501	Weapons [10]		269
+EDB90501	Weapons [10]		270
+EEB90501	Weapons [10]		271
+EFB90501	Weapons [10]		272
+F0B90501	Weapons [10]		273
+F1B90501	Weapons [10]		274
+F2B90501	Weapons [10]		275
+F3B90501	Weapons [10]		276
+F4B90501	Weapons [10]		277
+F5B90501	Weapons [10]		278
+F6B90501	Weapons [10]		279
+F7B90501	Weapons [10]		280
+F8B90501	Weapons [10]		281
+F9B90501	Weapons [10]		282
+FAB90501	Weapons [10]		283
+FBB90501	Weapons [10]		284
+FCB90501	Weapons [10]		285
+FDB90501	Weapons [10]		286
+FEB90501	Weapons [10]		287
+FFB90501	Weapons [10]		288
+00BA0501	Weapons [10]		289
+01BA0501	Weapons [10]		290
+02BA0501	Weapons [10]		291
+03BA0501	Weapons [10]		292
+04BA0501	Weapons [10]		293
+05BA0501	Weapons [10]		294
+06BA0501	Weapons [10]		295
+07BA0501	Weapons [10]		296
+08BA0501	Weapons [10]		297
+09BA0501	Weapons [10]		298
+0ABA0501	Weapons [10]		299
+0BBA0501	Weapons [10]		300
+0CBA0501	Weapons [10]		301
+0DBA0501	Weapons [10]		302
+0EBA0501	Weapons [10]		303
+0FBA0501	Weapons [10]		304
+10BA0501	Weapons [10]		305
+11BA0501	Weapons [10]		306
+12BA0501	Weapons [10]		307
+13BA0501	Weapons [10]		308
+14BA0501	Weapons [10]		309
+15BA0501	Weapons [10]		310
+16BA0501	Weapons [10]		311
+17BA0501	Weapons [10]		312
+18BA0501	Weapons [10]		313
+19BA0501	Weapons [10]		314
+1ABA0501	Weapons [10]		315
+1BBA0501	Weapons [10]		316
+1CBA0501	Weapons [10]		317
+1DBA0501	Weapons [10]		318
+1EBA0501	Weapons [10]		319
+1FBA0501	Weapons [10]		320
+20BA0501	Weapons [10]		321
+21BA0501	Weapons [10]		322
+22BA0501	Weapons [10]		323
+23BA0501	Weapons [10]		324
+24BA0501	Weapons [10]		325
+25BA0501	Weapons [10]		326
+26BA0501	Weapons [10]		327
+27BA0501	Weapons [10]		328
+28BA0501	Weapons [10]		329
+29BA0501	Weapons [10]		330
+2ABA0501	Weapons [10]		331
+2BBA0501	Weapons [10]		332
+2CBA0501	Weapons [10]		333
+2DBA0501	Weapons [10]		334
+2EBA0501	Weapons [10]		335
+2FBA0501	Weapons [10]		336
+30BA0501	Weapons [10]		337
+31BA0501	Weapons [10]		338
+32BA0501	Weapons [10]		339
+33BA0501	Weapons [10]		340
+34BA0501	Weapons [10]		341
+35BA0501	Weapons [10]		342
+36BA0501	Weapons [10]		343
+39BA0501	Weapons [10]		344
+3BBA0501	Weapons [10]		345
+3FBA0501	Weapons [10]		346
+41BA0501	Weapons [10]		347
+45BA0501	Weapons [10]		348
+47BA0501	Weapons [10]		349
+49BA0501	Weapons [10]		350
+4BBA0501	Weapons [10]		351
+4CBA0501	Weapons [10]		352
+4DBA0501	Weapons [10]		353
+4EBA0501	Weapons [10]		354
+50BA0501	Weapons [10]		355
+51BA0501	Weapons [10]		356
+52BA0501	Weapons [10]		357
+53BA0501	Weapons [10]		358
+55BA0501	Weapons [10]		359
+58BA0501	Weapons [10]		360
+ACBB0501	Weapons [10]		361
+ADBB0501	Weapons [10]		362
+AEBB0501	Weapons [10]		363
+AFBB0501	Weapons [10]		364
+B0BB0501	Weapons [10]		365
+B1BB0501	Weapons [10]		366
+B2BB0501	Weapons [10]		367
+B3BB0501	Weapons [10]		368
+B4BB0501	Weapons [10]		369
+B5BB0501	Weapons [10]		370
+B6BB0501	Weapons [10]		371
+B7BB0501	Weapons [10]		372
+B8BB0501	Weapons [10]		373
+B9BB0501	Weapons [10]		374
+BABB0501	Weapons [10]		375
+BBBB0501	Weapons [10]		376
+BCBB0501	Weapons [10]		377
+BDBB0501	Weapons [10]		378
+BEBB0501	Weapons [10]		379
+BFBB0501	Weapons [10]		380
+C0BB0501	Weapons [10]		381
+C1BB0501	Weapons [10]		382
+C2BB0501	Weapons [10]		383
+C3BB0501	Weapons [10]		384
+C4BB0501	Weapons [10]		385
+C5BB0501	Weapons [10]		386
+C6BB0501	Weapons [10]		387
+C7BB0501	Weapons [10]		388
+C8BB0501	Weapons [10]		389
+C9BB0501	Weapons [10]		390
+CABB0501	Weapons [10]		391
+CBBB0501	Weapons [10]		392
+CCBB0501	Weapons [10]		393
+CDBB0501	Weapons [10]		394
+CEBB0501	Weapons [10]		395
+CFBB0501	Weapons [10]		396
+D0BB0501	Weapons [10]		397
+D1BB0501	Weapons [10]		398
+D2BB0501	Weapons [10]		399
+D3BB0501	Weapons [10]		400
+2DC00501	Weapons [10]		401
+61C00501	Weapons [10]		402
+62C00501	Weapons [10]		403
+63C00501	Weapons [10]		404
+64C00501	Weapons [10]		405
+65C00501	Weapons [10]		406
+66C00501	Weapons [10]		407
+67C00501	Weapons [10]		408
+68C00501	Weapons [10]		409
+69C00501	Weapons [10]		410
+6AC00501	Weapons [10]		411
+A7D80501	Weapons [10]		412
+DDE10501	Weapons [10]		413
+D4E30501	Weapons [10]		414
+D5E30501	Weapons [10]		415
+D6E30501	Weapons [10]		416
+F8EB0501	Weapons [10]		417
+F9EB0501	Weapons [10]		418
+A8ED0501	Weapons [10]		419
+A9ED0501	Weapons [10]		420
+AAED0501	Weapons [10]		421
+ABED0501	Weapons [10]		422
+ACED0501	Weapons [10]		423
+ADED0501	Weapons [10]		424
+AEED0501	Weapons [10]		425
+93F80501	Weapons [10]		426
+28FC0501	Weapons [10]		427
+29FC0501	Weapons [10]		428
+2AFC0501	Weapons [10]		429
+2BFC0501	Weapons [10]		430
+2CFC0501	Weapons [10]		431
+FFFC0501	Weapons [10]		432
+00FD0501	Weapons [10]		433
+01FD0501	Weapons [10]		434
+02FD0501	Weapons [10]		435
+03FD0501	Weapons [10]		436
+04FD0501	Weapons [10]		437
+05FD0501	Weapons [10]		438
+06FD0501	Weapons [10]		439
+07FD0501	Weapons [10]		440
+08FD0501	Weapons [10]		441
+09FD0501	Weapons [10]		442
+0AFD0501	Weapons [10]		443
+0BFD0501	Weapons [10]		444
+0CFD0501	Weapons [10]		445
+0DFD0501	Weapons [10]		446
+0EFD0501	Weapons [10]		447
+0FFD0501	Weapons [10]		448
+10FD0501	Weapons [10]		449
+11FD0501	Weapons [10]		450
+12FD0501	Weapons [10]		451
+14FD0501	Weapons [10]		452
+15FD0501	Weapons [10]		453
+16FD0501	Weapons [10]		454
+17FD0501	Weapons [10]		455
+1E000601	Weapons [10]		456
+1F000601	Weapons [10]		457
+1F140601	Weapons [10]		458
+31180601	Weapons [10]		459
+32180601	Weapons [10]		460
+33180601	Weapons [10]		461
+511B0601	Weapons [10]		462
+4CF60101	Phantom Swords [11]		0					
+4DF60101	Phantom Swords [11]		1					
+4EF60101	Phantom Swords [11]		2					
+4FF60101	Phantom Swords [11]		3					
+50F60101	Phantom Swords [11]		4					
+51F60101	Phantom Swords [11]		5					
+52F60101	Phantom Swords [11]		6					
+53F60101	Phantom Swords [11]		7					
+54F60101	Phantom Swords [11]		8					
+55F60101	Phantom Swords [11]		9					
+56F60101	Phantom Swords [11]		10					
+57F60101	Phantom Swords [11]		11					
+58F60101	Phantom Swords [11]		12					
+52180601	Phantom Swords [11]		13
+53180601	Phantom Swords [11]		14
+54180601	Phantom Swords [11]		15
+09780301	Accessories [12]	Bronze Bangle	0	x				
+0A780301	Accessories [12]	Iron Bangle	1	x				
+0B780301	Accessories [12]	Carbon Bangle	2	x				
+0C780301	Accessories [12]	Titanium Bangle	3	x				
+0D780301	Accessories [12]	Silver Bangle	4	x				
+0E780301	Accessories [12]	Gold Bangle	5	x				
+0F780301	Accessories [12]	Platinum Bangle	6	x				
+10780301	Accessories [12]	Centurion Bangle	7	x				
+11780301	Accessories [12]	Legatus Bangle	8	x				
+12780301	Accessories [12]	Gigas Bangle	9	x				
+13780301	Accessories [12]	Onion Bangle	10	x				
+14780301	Accessories [12]	Adamantite Bangle	11	x				
+15780301	Accessories [12]	White choker	12	x				
+16780301	Accessories [12]	Green Choker	13	x				
+17780301	Accessories [12]	Blue Choker	14	x				
+18780301	Accessories [12]	Red Choker	15	x				
+19780301	Accessories [12]	Black Choker	16	x				
+1A780301	Accessories [12]	Garnet Bracelet	17	x				
+1B780301	Accessories [12]	Amethyst Bracelet	18	x				
+1C780301	Accessories [12]	Heliodor Bracelet	19	x				
+1D780301	Accessories [12]	Sapphire Bracelet	20	x				
+1E780301	Accessories [12]	Ruby Bracelet	21	x				
+1F780301	Accessories [12]	Emerald Bracelet	22	x				
+20780301	Accessories [12]	Diamond Bracelet	23	x				
+21780301	Accessories [12]	Blue Diamond Bracelet	24	x				
+22780301	Accessories [12]	Dark Matter Bracelet	25	x				
+23780301	Accessories [12]	Soldiers Anklet	26	x				
+24780301	Accessories [12]	Warriors Anklet	27	x				
+25780301	Accessories [12]	Fencers Anklet	28	x				
+26780301	Accessories [12]	Knight's Anklet	29	x				
+27780301	Accessories [12]	Crusader's Anklet	30	x				
+28780301	Accessories [12]	Champions Anklet	31	x				
+29780301	Accessories [12]	Emperors Anklet	32	x				
+2A780301	Accessories [12]	Anklet of the Gods	33	x				
+2B780301	Accessories [12]	Amulet	34	x				
+2C780301	Accessories [12]	Angel Earring	35	x				
+2D780301	Accessories [12]	Talisman	36	x				
+2E780301	Accessories [12]	Rune Earrings	37	x				
+2F780301	Accessories [12]	Circlet	38	x				
+30780301	Accessories [12]	Oracle Erring	39	x				
+31780301	Accessories [12]	Mystic Circlet	40	x				
+32780301	Accessories [12]	Hypno Crown	41	x				
+33780301	Accessories [12]	Potpourri	42	x				
+34780301	Accessories [12]	White Sage	43	x				
+35780301	Accessories [12]	Power Stone	44	x				
+36780301	Accessories [12]	Oracle Card	45	x				
+37780301	Accessories [12]	Pendulum	46	x				
+38780301	Accessories [12]	Lavender Oil	47	x				
+39780301	Accessories [12]	Purified Salt	48	x				
+3A780301	Accessories [12]	Tarot Card	49	x				
+3B780301	Accessories [12]	Assist Suit	50	x				
+3C780301	Accessories [12]	Magitek Suit	51	x				
+3D780301	Accessories [12]	Magitek Suit v2	52	x				
+3E780301	Accessories [12]	Star Pendant	53	x				
+3F780301	Accessories [12]	Rainbow Pendant	54	x				
+40780301	Accessories [12]	Moon Pendant	55	x				
+41780301	Accessories [12]	Earth Pendant	56	x				
+42780301	Accessories [12]	Golden Hourglass	57	x				
+43780301	Accessories [12]	Safety Bit	58	x				
+48780301	Accessories [12]	Ribbon	59	x				
+49780301	Accessories [12]	Bulletproof Vest	60	x				
+4A780301	Accessories [12]	Bulletproof Suit	61	x				
+4B780301	Accessories [12]	Chobham Armor	62	x				
+4C780301	Accessories [12]	Fireproof Inners	63	x				
+4D780301	Accessories [12]	Fire Crest	64	x				
+50780301	Accessories [12]	Warm Inners	65	x				
+51780301	Accessories [12]	Ice Crest	66	x				
+54780301	Accessories [12]	Insulated Inners	67	x				
+55780301	Accessories [12]	Lightning Crest	68	x				
+58780301	Accessories [12]	Anti-Darkness Inners	69	x				
+59780301	Accessories [12]	Dark Crest	70	x				
+5C780301	Accessories [12]	Celestriad	71	x				
+5D780301	Accessories [12]	Mightry Guard	72	x				
+5E780301	Accessories [12]	Stone Wall	73	x				
+5F780301	Accessories [12]	Genji Gloves	74	x				
+60780301	Accessories [12]	Tempered Shield	75	x				
+61780301	Accessories [12]	Magitek Shild	76	x				
+62780301	Accessories [12]	Towel	77	x				
+63780301	Accessories [12]	Handkerchief	78	x				
+64780301	Accessories [12]	White Sneakers	79	x				
+65780301	Accessories [12]	Field Medicine	80	x				
+66780301	Accessories [12]	Thieves' Way	81	x				
+67780301	Accessories [12]	Thieves' Way II	82	x				
+6E780301	Accessories [12]	Friendship Band	83	x				
+72780301	Accessories [12]	Auto-Changer	84	x				
+73780301	Accessories [12]	Soul of Thamasa	85	x				
+74780301	Accessories [12]	Robe of Lord	86	x				
+75780301	Accessories [12]	Applied Sorcery	87	x				
+77780301	Accessories [12]	Black Hood	88	x				
+79780301	Accessories [12]	Megaphone	89	x				
+7B780301	Accessories [12]	Black Belt	90	x				
+7E780301	Accessories [12]	The Good Chamberlain	91	x				
+7F780301	Accessories [12]	The Grand Chamberlain	92	x				
+80780301	Accessories [12]	Target Scope	93	x				
+82780301	Accessories [12]	Camera Strap	94	x				
+84780301	Accessories [12]	Moogle Charm	95	x				
+0FE20301	Accessories [12]	Bandage	96	x				
+10E20301	Accessories [12]	Styling Gel	97	x				
+B3CF0401	Accessories [12]	Ring of Resistance	98	x				
+B4CF0401	Accessories [12]	Nixperience Band	99	x				
+B5CF0401	Accessories [12]	AP Adapter	100	x				
+B6CF0401	Accessories [12]	Tech Turbo Charger	101	x				
+B7CF0401	Accessories [12]	Armiger Accelerator	102	x				
+B8CF0401	Accessories [12]	Warrior's Fanfare	103	x				
+B9CF0401	Accessories [12]	Blitzer's Fanfare	104	x				
+BACF0401	Accessories [12]	Tactician's Fanfare	105	x				
+BBCF0401	Accessories [12]	Key of Prosperity	106	x				
+BCCF0401	Accessories [12]	Radiant Gemstone	107	x				
+BDCF0401	Accessories [12]	Stamina Badge	108	x				
+BECF0401	Accessories [12]		109		x			
+BFCF0401	Accessories [12]		110		x			
+C0CF0401	Accessories [12]		111		x			
+C1CF0401	Accessories [12]		112		x			
+C2CF0401	Accessories [12]		113		x			
+C3CF0401	Accessories [12]		114		x			
+C4CF0401	Accessories [12]		115		x			
+C5CF0401	Accessories [12]		116		x			
+C6CF0401	Accessories [12]		117		x			
+C7CF0401	Accessories [12]		118		x			
+C8CF0401	Accessories [12]		119		x			
+C9CF0401	Accessories [12]		120		x			
+CACF0401	Accessories [12]		121		x			
+CBCF0401	Accessories [12]		122		x			
+CCCF0401	Accessories [12]		123		x			
+CDCF0401	Accessories [12]		124		x			
+CECF0401	Accessories [12]		125		x			
+CFCF0401	Accessories [12]		126		x			
+D0CF0401	Accessories [12]		127		x			
+D1CF0401	Accessories [12]		128		x			
+D2CF0401	Accessories [12]		129		x			
+80B50501	Accessories [12]		130
+81B50501	Accessories [12]		131
+82B50501	Accessories [12]		132
+83B50501	Accessories [12]		133
+84B50501	Accessories [12]		134
+85B50501	Accessories [12]		135
+86B50501	Accessories [12]		136
+87B50501	Accessories [12]		137
+88B50501	Accessories [12]		138
+89B50501	Accessories [12]		139
+8AB50501	Accessories [12]		140
+8BB50501	Accessories [12]		141
+1AE30501	Accessories [12]		142
+1BE30501	Accessories [12]		143
+1CE30501	Accessories [12]		144
+1DE30501	Accessories [12]		145
+1EE30501	Accessories [12]		146
+1FE30501	Accessories [12]		147
+20E30501	Accessories [12]		148
+21E30501	Accessories [12]		149
+22E30501	Accessories [12]		150
+23E30501	Accessories [12]		151
+24E30501	Accessories [12]		152
+25E30501	Accessories [12]		153
+26E30501	Accessories [12]		154
+28ED0501	Accessories [12]		155
+16170601	Accessories [12]		156
+993C0201	Cloth [13]		0					
+8E620201	Cloth [13]		1					
+8F620201	Cloth [13]		2					
+90620201	Cloth [13]		3					
+91620201	Cloth [13]		4					
+92620201	Cloth [13]		5					
+93620201	Cloth [13]		6					
+94620201	Cloth [13]		7					
+95620201	Cloth [13]		8					
+96620201	Cloth [13]		9					
+97620201	Cloth [13]		10					
+98620201	Cloth [13]		11					
+99620201	Cloth [13]		12					
+9A620201	Cloth [13]		13					
+9B620201	Cloth [13]		14					
+84EF0301	Cloth [13]		15					
+85EF0301	Cloth [13]		16					
+86EF0301	Cloth [13]		17					
+87EF0301	Cloth [13]		18					
+88EF0301	Cloth [13]		19					
+89EF0301	Cloth [13]		20					
+8AEF0301	Cloth [13]		21					
+8BEF0301	Cloth [13]		22					
+8CEF0301	Cloth [13]		23					
+8DEF0301	Cloth [13]		24					
+8EEF0301	Cloth [13]		25					
+8FEF0301	Cloth [13]		26					
+26600401	Cloth [13]		27					
+27600401	Cloth [13]		28					
+D8650401	Cloth [13]		29					
+D9650401	Cloth [13]		30					
+79DA0401	Cloth [13]		31					
+7ADA0401	Cloth [13]		32					
+000A0501	Cloth [13]		33					
+010A0501	Cloth [13]		34					
+020A0501	Cloth [13]		35					
+030A0501	Cloth [13]		36					
+040A0501	Cloth [13]		37					
+050A0501	Cloth [13]		38					
+060A0501	Cloth [13]		39					
+070A0501	Cloth [13]		40					
+66110501	Cloth [13]		41					
+67110501	Cloth [13]		42					
+E72A0501	Cloth [13]		43					
+96410501	Cloth [13]		44					
+3C510501	Cloth [13]		45					
+28570501	Cloth [13]		46					
+39900501	Cloth [13]		47					
+F9980501	Cloth [13]		48					
+029A0501	Cloth [13]		49					
+039A0501	Cloth [13]		50					
+049A0501	Cloth [13]		51					
+059A0501	Cloth [13]		52					
+069A0501	Cloth [13]		53					
+089A0501	Cloth [13]		54					
+0A9A0501	Cloth [13]		55					
+77AD0501	Cloth [13]		56					
+78AD0501	Cloth [13]		57					
+79AD0501	Cloth [13]		58					
+08B80501	Cloth [13]		59					
+087E0201	Job Commands [14]		0					
+48A30201	Job Commands [14]		1					
+49A30201	Job Commands [14]		2					
+4AA30201	Job Commands [14]		3					
+4BA30201	Job Commands [14]		4					
+4CA30201	Job Commands [14]		5					
+4DA30201	Job Commands [14]		6					
+4EA30201	Job Commands [14]		7					
+4FA30201	Job Commands [14]		8					
+50A30201	Job Commands [14]		9					
+51A30201	Job Commands [14]		10					
+53A30201	Job Commands [14]		11					
+54A30201	Job Commands [14]		12					
+55A30201	Job Commands [14]		13					
+56A30201	Job Commands [14]		14					
+57A30201	Job Commands [14]		15					
+58A30201	Job Commands [14]		16					
+59A30201	Job Commands [14]		17					
+5AA30201	Job Commands [14]		18					
+A4B50201	Job Commands [14]		19					
+8DCD0201	Job Commands [14]		20					
+F7EB0201	Job Commands [14]		21					
+77FC0401	Job Commands [14]		22					
+78FC0401	Job Commands [14]		23					
+79FC0401	Job Commands [14]		24					
+7AFC0401	Job Commands [14]		25					
+7BFC0401	Job Commands [14]		26					
+7CFC0401	Job Commands [14]		27					
+7DFC0401	Job Commands [14]		28					
+7EFC0401	Job Commands [14]		29					
+7FFC0401	Job Commands [14]		30					
+80FC0401	Job Commands [14]		31					
+81FC0401	Job Commands [14]		32					
+82FC0401	Job Commands [14]		33					
+83FC0401	Job Commands [14]		34					
+84FC0401	Job Commands [14]		35					
+85FC0401	Job Commands [14]		36					
+86FC0401	Job Commands [14]		37					
+87FC0401	Job Commands [14]		38					
+31090501	Job Commands [14]		39					
+9C660501	Job Commands [14]		40					
+13AE0501	Job Commands [14]		41					
+14AE0501	Job Commands [14]		42					
+15AE0501	Job Commands [14]		43					
+B6AF0501	Job Commands [14]		44					
+4BE90001	Recipe [15]		0					
+76480201	Recipe [15]		1					
+77480201	Recipe [15]		2					
+78480201	Recipe [15]		3					
+79480201	Recipe [15]		4					
+7B480201	Recipe [15]		5					
+7C480201	Recipe [15]		6					
+7D480201	Recipe [15]		7					
+7E480201	Recipe [15]		8					
+7F480201	Recipe [15]		9					
+80480201	Recipe [15]		10					
+81480201	Recipe [15]		11					
+82480201	Recipe [15]		12					
+83480201	Recipe [15]		13					
+84480201	Recipe [15]		14					
+85480201	Recipe [15]		15					
+86480201	Recipe [15]		16					
+87480201	Recipe [15]		17					
+88480201	Recipe [15]		18					
+89480201	Recipe [15]		19					
+8A480201	Recipe [15]		20					
+8B480201	Recipe [15]		21					
+8C480201	Recipe [15]		22					
+8D480201	Recipe [15]		23					
+8E480201	Recipe [15]		24					
+8F480201	Recipe [15]		25					
+90480201	Recipe [15]		26					
+91480201	Recipe [15]		27					
+92480201	Recipe [15]		28					
+93480201	Recipe [15]		29					
+94480201	Recipe [15]		30					
+95480201	Recipe [15]		31					
+96480201	Recipe [15]		32					
+97480201	Recipe [15]		33					
+98480201	Recipe [15]		34					
+99480201	Recipe [15]		35					
+9A480201	Recipe [15]		36					
+9B480201	Recipe [15]		37					
+9C480201	Recipe [15]		38					
+9D480201	Recipe [15]		39					
+9E480201	Recipe [15]		40					
+9F480201	Recipe [15]		41					
+A0480201	Recipe [15]		42					
+ED6B0201	Recipe [15]		43					
+1E8F0201	Recipe [15]		44					
+1F8F0201	Recipe [15]		45					
+208F0201	Recipe [15]		46					
+218F0201	Recipe [15]		47					
+228F0201	Recipe [15]		48					
+238F0201	Recipe [15]		49					
+248F0201	Recipe [15]		50					
+258F0201	Recipe [15]		51					
+268F0201	Recipe [15]		52					
+278F0201	Recipe [15]		53					
+288F0201	Recipe [15]		54					
+298F0201	Recipe [15]		55					
+2A8F0201	Recipe [15]		56					
+2B8F0201	Recipe [15]		57					
+2C8F0201	Recipe [15]		58					
+2D8F0201	Recipe [15]		59					
+2E8F0201	Recipe [15]		60					
+2F8F0201	Recipe [15]		61					
+308F0201	Recipe [15]		62					
+318F0201	Recipe [15]		63					
+328F0201	Recipe [15]		64					
+338F0201	Recipe [15]		65					
+348F0201	Recipe [15]		66					
+358F0201	Recipe [15]		67					
+368F0201	Recipe [15]		68					
+378F0201	Recipe [15]		69					
+388F0201	Recipe [15]		70					
+398F0201	Recipe [15]		71					
+3A8F0201	Recipe [15]		72					
+3B8F0201	Recipe [15]		73					
+3D8F0201	Recipe [15]		74					
+458F0201	Recipe [15]		75					
+468F0201	Recipe [15]		76					
+478F0201	Recipe [15]		77					
+D3210301	Recipe [15]		78					
+B8290301	Recipe [15]		79					
+D8520301	Recipe [15]		80					
+D9520301	Recipe [15]		81					
+DA520301	Recipe [15]		82					
+D5EC0301	Recipe [15]		83					
+8B620401	Recipe [15]		84					
+1B710401	Recipe [15]		85					
+0DF40401	Recipe [15]		86					
+0EF40401	Recipe [15]		87					
+0FF40401	Recipe [15]		88					
+10F40401	Recipe [15]		89					
+11F40401	Recipe [15]		90					
+12F40401	Recipe [15]		91					
+13F40401	Recipe [15]		92					
+14F40401	Recipe [15]		93					
+15F40401	Recipe [15]		94					
+16F40401	Recipe [15]		95					
+17F40401	Recipe [15]		96					
+18F40401	Recipe [15]		97					
+19F40401	Recipe [15]		98					
+1AF40401	Recipe [15]		99					
+1BF40401	Recipe [15]		100					
+1CF40401	Recipe [15]		101					
+1DF40401	Recipe [15]		102					
+1EF40401	Recipe [15]		103					
+1FF40401	Recipe [15]		104					
+20F40401	Recipe [15]		105					
+21F40401	Recipe [15]		106					
+22F40401	Recipe [15]		107					
+23F40401	Recipe [15]		108					
+24F40401	Recipe [15]		109					
+25F40401	Recipe [15]		110					
+26F40401	Recipe [15]		111					
+27F40401	Recipe [15]		112					
+28F40401	Recipe [15]		113					
+29F40401	Recipe [15]		114					
+2AF40401	Recipe [15]		115					
+2BF40401	Recipe [15]		116					
+2CF40401	Recipe [15]		117					
+2DF40401	Recipe [15]		118					
+2EF40401	Recipe [15]		119					
+2FF40401	Recipe [15]		120					
+30F40401	Recipe [15]		121					
+31F40401	Recipe [15]		122					
+32F40401	Recipe [15]		123					
+33F40401	Recipe [15]		124					
+34F40401	Recipe [15]		125					
+35F40401	Recipe [15]		126					
+36F40401	Recipe [15]		127					
+37F40401	Recipe [15]		128					
+38F40401	Recipe [15]		129					
+39F40401	Recipe [15]		130					
+3AF40401	Recipe [15]		131					
+3BF40401	Recipe [15]		132					
+3CF40401	Recipe [15]		133					
+3DF40401	Recipe [15]		134					
+3EF40401	Recipe [15]		135					
+3FF40401	Recipe [15]		136					
+40F40401	Recipe [15]		137					
+41F40401	Recipe [15]		138					
+42F40401	Recipe [15]		139					
+43F40401	Recipe [15]		140					
+44F40401	Recipe [15]		141					
+45F40401	Recipe [15]		142					
+D2090501	Recipe [15]		143					
+D3090501	Recipe [15]		144					
+B8110501	Recipe [15]		145					
+B9110501	Recipe [15]		146					
+A9720501	Recipe [15]		147					
+26830501	Recipe [15]		148
+43900501	Recipe [15]		149

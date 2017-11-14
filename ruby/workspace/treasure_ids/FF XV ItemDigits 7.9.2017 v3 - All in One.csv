@@ -1,0 +1,1924 @@
+03310001,=,,=,Potion,Battle Items
+74500001,=,,=,Power Ex,Battle Items
+75500001,=,,=,Spirit Ex,Battle Items
+C9500001,=,,=,Ether,Battle Items
+CB500001,=,,=,Elixir,Battle Items
+CC500001,=,,=,Megalixir,Battle Items
+34610001,=,,=,Remedy,Battle Items
+146A0001,=,,=,Hi-Potion,Battle Items
+BEFE0001,=,,=,Antidote,Battle Items
+B8120101,=,,=,Phoenix Down,Battle Items
+91FF0101,=,,=,Superior Restorative,Battle Items
+93FF0101,=,,=,Mega Phoenix,Battle Items
+94FF0101,=,,=,Muscle Stimulant,Battle Items
+9BB40201,=,,=,Moogle Plushie,Battle Items
+5C820301,=,,=,Mega-potion,Battle Items
+92820301,=,,=,Gold Needle,Battle Items
+93820301,=,,=,Smelling Salts,Battle Items
+94820301,=,,=,Maiden's Kiss,Battle Items
+95820301,=,,=,Mettle Vx,Battle Items
+96820301,=,,=,Verve WX,Battle Items
+97820301,=,,=,Reflex enhancer,Battle Items
+98820301,=,,=,Magitek booster,Battle Items
+0EA50301,=,,=,Red moogle Omament ????,Battle Items
+A7FF0301,=,,=,Flesh Forlifier,Battle Items
+3A580401,=,,=,Hi-Either,Battle Items
+4BFD0401,=,,=,Red moogle Omament ????,Battle Items
+67090501,=,,=,Red Moogle Omament (Pink Wings),Battle Items
+68090501,=,,=,Red Moogle Omament (Purple Wings),Battle Items
+D10A0501,=,,=,Red Moogle Omament (blue Head),Battle Items
+D20A0501,=,,=,Red Moogle Omament (Yellow Head),Battle Items
+53570501,=,,=,Handgun Ammo,Battle Items
+54570501,=,,=,SMG Ammo,Battle Items
+55570501,=,,=,Handgun Ammo ( Info Says Moogle),Battle Items
+56570501,=,,=,SMG Ammo ( Info Says Moogle ),Battle Items
+21590501,=,,=,Lumen Flare,Battle Items
+405A0501,=,,=,Phoenix Down,Battle Items
+DE6F0501,=,,=,Moogle Plushie,Battle Items
+40710501,=,,=,Recoilless Shell,Battle Items
+41710501,=,,=,Moggle Plushie,Battle Items
+80B60501,=,,=,,Battle Items
+81B60501,=,,=,,Battle Items
+82B60501,=,,=,,Battle Items
+83B60501,=,,=,,Battle Items
+84B60501,=,,=,,Battle Items
+85B60501,=,,=,,Battle Items
+86B60501,=,,=,,Battle Items
+87B60501,=,,=,,Battle Items
+88B60501,=,,=,,Battle Items
+89B60501,=,,=,,Battle Items
+60D20501,=,,=,,Battle Items
+61D20501,=,,=,,Battle Items
+62D20501,=,,=,,Battle Items
+63D20501,=,,=,,Battle Items
+A5D70501,=,,=,,Battle Items
+A6D70501,=,,=,,Battle Items
+A7D70501,=,,=,,Battle Items
+A8D70501,=,,=,,Battle Items
+A9D70501,=,,=,,Battle Items
+AAD70501,=,,=,,Battle Items
+ABD70501,=,,=,,Battle Items
+ACD70501,=,,=,,Battle Items
+ADD70501,=,,=,,Battle Items
+AED70501,=,,=,,Battle Items
+B5D70501,=,,=,,Battle Items
+66E30001,=,,=,Gil - Dummy Item ,Event Items 
+622F0101,=,,=,EXP - Dummy Item ,Event Items 
+12EA0101,=,,=,,Event Items 
+A47F0201,=,,=,World Map,Event Items 
+A57F0201,=,,=,Crown City Smartphone,Event Items 
+A67F0201,=,,=,LOKTON LX-30,Event Items 
+A77F0201,=,,=,Lovers' Notebook,Event Items 
+A87F0201,=,,=,Regalia Key,Event Items 
+AA7F0201,=,,=,Red Tusk,Event Items 
+AB7F0201,=,,=,Intricate Coin,Event Items 
+AC7F0201,=,,=,756-V-17th Morning Edition,Event Items 
+AD7F0201,=,,=,Tombkeeps Key,Event Items 
+AF7F0201,=,,=,Mark of Archaean,Event Items 
+B07F0201,=,,=,Mark of Fulgurian,Event Items 
+B17F0201,=,,=,Mythril Ore,Event Items 
+B27F0201,=,,=,Mythril Component,Event Items 
+B57F0201,=,,=,Map of Altissia,Event Items 
+B67F0201,=,,=,Mark of the Hydraean,Event Items 
+B77F0201,=,,=,Mark of the Glacian,Event Items 
+B87F0201,=,,=,Mark of the Draconian,Event Items 
+B97F0201,=,,=,Infernions Shard,Event Items 
+BB7F0201,=,,=,Ring of the Lucii,Event Items 
+48810201,=,,=,Enticing Truffle,Event Items 
+40950201,=,,=,Broken Dog Tag,Event Items 
+41950201,=,,=,Bent Dog Tag,Event Items 
+42950201,=,,=,Rusted Dog Tag,Event Items 
+43950201,=,,=,Scorched Dog Tag,Event Items 
+44950201,=,,=,Twisted Dog Tag,Event Items 
+45950201,=,,=,Scratched Dog Tag,Event Items 
+46950201,=,,=,Crushed Dog Tag,Event Items 
+47950201,=,,=,Polished Dog Tag,Event Items 
+48950201,=,,=,Sullied Dog Tag,Event Items 
+59950201,=,,=,Cactuar Statuette,Event Items 
+5A950201,=,,=,Cactuar Medal,Event Items 
+5B950201,=,,=,Cactuar Sculpture,Event Items 
+5C950201,=,,=,Cactuar Effigy ,Event Items 
+64950201,=,,=,Yellow Frog,Event Items 
+66950201,=,,=,Red Frog,Event Items 
+6F950201,=,,=,Mystrey Map,Event Items 
+70950201,=,,=,Mystrey Map,Event Items 
+71950201,=,,=,Mystrey Map,Event Items 
+72950201,=,,=,Mystrey Map,Event Items 
+73950201,=,,=,Mystrey Map,Event Items 
+74950201,=,,=,Mystrey Map,Event Items 
+75950201,=,,=,Mystrey Map,Event Items 
+76950201,=,,=,Mystrey Map,Event Items 
+77950201,=,,=,Mystrey Map,Event Items 
+78950201,=,,=,Mystrey Map,Event Items 
+79950201,=,,=,Mystrey Map,Event Items 
+7A950201,=,,=,Mystrey Map,Event Items 
+7B950201,=,,=,Mystrey Map,Event Items 
+7C950201,=,,=,Mystrey Map,Event Items 
+7D950201,=,,=,Sylvesters Map,Event Items 
+7E950201,=,,=,Sylvesters Map Piece A,Event Items 
+7F950201,=,,=,Sylvesters Map Piece B,Event Items 
+80950201,=,,=,Sylvesters Map Piece C,Event Items 
+81950201,=,,=,Sylvesters Map Piece D,Event Items 
+82950201,=,,=,Sylvesters Map Piece E,Event Items 
+83950201,=,,=,Sylvesters Map Piece F,Event Items 
+84950201,=,,=,Sylvesters Map Piece G,Event Items 
+85950201,=,,=,Sylvesters Map Piece H,Event Items 
+86950201,=,,=,Sylvesters Map Piece I,Event Items 
+87950201,=,,=,Sylvesters Map Piece J,Event Items 
+88950201,=,,=,Sylvesters Map Piece K,Event Items 
+89950201,=,,=,Sylvesters Map Piece L,Event Items 
+8A950201,=,,=,Sylvesters Map Piece M,Event Items 
+8B950201,=,,=,Sylvesters Map Piece N,Event Items 
+9E950201,=,,=,Amethyst Stone,Event Items 
+A0950201,=,,=,Sapphire Stone,Event Items 
+A1950201,=,,=,Ruby Stone,Event Items 
+A2950201,=,,=,Emerald Stone,Event Items 
+09A30201,=,,=,Hunting License,Event Items 
+C4CD0201,=,,=,Sealbreakers Key,Event Items 
+76110301,=,,=,Glimmering Zu Egg,Event Items 
+81110301,=,,=,Cactura's Cat Food,Event Items 
+82110301,=,,=,Monica's Cat Food,Event Items 
+28590301,=,,=,Volcanic Bouquet,Event Items 
+DF700301,=,,=,Moogle Plushie,Event Items 
+E0700301,=,,=,Ignis Cane,Event Items 
+E1700301,=,,=,Generator Key,Event Items 
+E2700301,=,,=,Security Card,Event Items 
+E3700301,=,,=,Generator Keycard,Event Items 
+8A780301,=,,=,Cindy's Parcel,Event Items 
+8B780301,=,,=,Sealed Envelope,Event Items 
+8C780301,=,,=,Oracle Ascension Coin,Event Items 
+8D780301,=,,=,Messengers Amulet,Event Items 
+8E780301,=,,=,Scribbled Note,Event Items 
+A3780301,=,,=,Food Shipment,Event Items 
+A4780301,=,,=,Prissock's Package,Event Items 
+A5780301,=,,=,Prissock's Package,Event Items 
+317B0301,=,,=,Luxury Cat Food,Event Items 
+827F0301,=,,=,LOKTON LX-X1R,Event Items 
+837F0301,=,,=,Sealbreakers Key,Event Items 
+2FB60301,=,,=,AP - Dummy Item ,Event Items 
+DDBB0301,=,,=,Rainbow Frog,Event Items 
+3CD90301,=,,=,Lodging Coupon,Event Items 
+3DD90301,=,,=,Gass Coupon,Event Items 
+AEE40301,=,,=,Magic Flask,Event Items 
+ADFF0301,=,,=,Garnet Stone,Event Items 
+38100401,=,,=,Warped Wings,Event Items 
+39100401,=,,=,Unstable Stabilizer,Event Items 
+3A100401,=,,=,Strange Engine,Event Items 
+CF460401,=,,=,Behemoth Round,Event Items 
+D0460401,=,,=,Kariabos Carapace,Event Items 
+5C4F0401,=,,=,Cids Old Hammer ,Event Items 
+E3610401,=,,=,Prince Fatigues,Event Items 
+E4610401,=,,=,Crownsguard Fatigues,Event Items 
+E5610401,=,,=,Kingly Raiment,Event Items 
+E6610401,=,,=,Kingsglaive Garb,Event Items 
+E7610401,=,,=,Casual Outfit,Event Items 
+E8610401,=,,=,Thermal Suit,Event Items 
+E9610401,=,,=,Royal Raiment,Event Items 
+5B760401,=,,=,Jet-Black Beak,Event Items 
+5C760401,=,,=,Malboro Tentacle,Event Items 
+5D760401,=,,=,Chef's Knife,Event Items 
+5E760401,=,,=,Resplendent Hollowhorn,Event Items 
+5F760401,=,,=,Squirming Bone,Event Items 
+A4770401,=,,=,Panel B Keycard,Event Items 
+A5770401,=,,=,Panel C Keycard,Event Items 
+BA790401,=,,=,Myrlwood Firefly,Event Items 
+BB790401,=,,=,Myrlwood Firefly,Event Items 
+BC790401,=,,=,Myrlwood Firefly,Event Items 
+497E0401,=,,=,Hellodor Stone,Event Items 
+4A7E0401,=,,=,Hellodor Stone,Event Items 
+4B7E0401,=,,=,Hellodor Stone,Event Items 
+82DA0401,=,,=,Trendy Outfit,Event Items 
+85E60401,=,,=,Lovers Notebook,Event Items 
+86E60401,=,,=,Lovers Notebook,Event Items 
+68F40401,=,,=,Iron Shelf Recipes Vol 2,Event Items 
+69F40401,=,,=,Iron Shelf Recipes Vol 7,Event Items 
+6AF40401,=,,=,Iron Shelf Recipes Vol 5,Event Items 
+6BF40401,=,,=,Iron Shelf Recipes Vol 4,Event Items 
+6CF40401,=,,=,Iron Shelf Recipes Vol 3,Event Items 
+6DF40401,=,,=,Iron Shelf Recipes Vol 1,Event Items 
+6EF40401,=,,=,Iron Shelf Recipes Vol 6,Event Items 
+4CFD0401,=,,=,Beast Whistle,Event Items 
+E0010501,=,,=,Portable MP3 Player,Event Items 
+640B0501,=,,=,Choco-Mog Medallion,Event Items 
+710B0501,=,,=,Lodging Voucher,Event Items 
+15150501,=,,=,Free Carnival Passport,Event Items 
+16150501,=,,=,Runaway Chocochick,Event Items 
+17150501,=,,=,Dream Egg,Event Items 
+18150501,=,,=,Seaside Scamper Trophy,Event Items 
+19150501,=,,=,Water Trotter Trophy,Event Items 
+07160501,=,,=,Choco-Mog Tee,Event Items 
+BA160501,=,,=,Carnival Passport,Event Items 
+BB160501,=,,=,Festive Ensemble,Event Items 
+3B1B0501,=,,=,Vip Pass,Event Items 
+F1250501,=,,=,Megitek ExoSuit,Event Items 
+8C430501,=,,=,,Event Items 
+8D430501,=,,=,,Event Items 
+DC590501,=,,=,,Event Items 
+595A0501,=,,=,,Event Items 
+5A5A0501,=,,=,,Event Items 
+5B5A0501,=,,=,,Event Items 
+ED610501,=,,=,,Event Items 
+3E660501,=,,=,QP - Dummy Item ,Event Items 
+FA800501,=,,=,,Event Items 
+85890501,=,,=,,Event Items 
+86890501,=,,=,,Event Items 
+87890501,=,,=,,Event Items 
+88890501,=,,=,,Event Items 
+89890501,=,,=,,Event Items 
+8A890501,=,,=,,Event Items 
+8B890501,=,,=,,Event Items 
+8C890501,=,,=,,Event Items 
+8D890501,=,,=,,Event Items 
+8E890501,=,,=,,Event Items 
+8F890501,=,,=,,Event Items 
+548E0501,=,,=,,Event Items 
+8B950501,=,,=,,Event Items 
+FA980501,=,,=,,Event Items 
+3A990501,=,,=,,Event Items 
+74A90501,=,,=,,Event Items 
+58AE0501,=,,=,,Event Items 
+59AE0501,=,,=,,Event Items 
+5AAE0501,=,,=,,Event Items 
+5BAE0501,=,,=,,Event Items 
+5CAE0501,=,,=,,Event Items 
+5DAE0501,=,,=,,Event Items 
+5EAE0501,=,,=,,Event Items 
+5FAE0501,=,,=,,Event Items 
+60AE0501,=,,=,,Event Items 
+61AE0501,=,,=,,Event Items 
+62AE0501,=,,=,,Event Items 
+63AE0501,=,,=,,Event Items 
+64AE0501,=,,=,,Event Items 
+65AE0501,=,,=,,Event Items 
+66AE0501,=,,=,,Event Items 
+67AE0501,=,,=,,Event Items 
+68AE0501,=,,=,,Event Items 
+69AE0501,=,,=,,Event Items 
+BBB10501,=,,=,,Event Items 
+4CB20501,=,,=,,Event Items 
+4DB20501,=,,=,,Event Items 
+4EB20501,=,,=,,Event Items 
+4FB20501,=,,=,,Event Items 
+50B20501,=,,=,,Event Items 
+51B20501,=,,=,,Event Items 
+52B20501,=,,=,,Event Items 
+53B20501,=,,=,,Event Items 
+54B20501,=,,=,,Event Items 
+B0B40501,=,,=,,Event Items 
+CAD20501,=,,=,,Event Items 
+CBD20501,=,,=,,Event Items 
+CCD20501,=,,=,,Event Items 
+B4D30501,=,,=,,Event Items 
+D8FF0101,=,,=,Gighee Ham,Ingredients
+DAFF0101,=,,=,Garlulessa Steak,Ingredients
+DBFF0101,=,,=,Aegir Root,Ingredients
+DCFF0101,=,,=,Alstroom ,Ingredients
+DEFF0101,=,,=,Trevally Fillet,Ingredients
+DFFF0101,=,,=,Trout Fillet,Ingredients
+E0FF0101,=,,=,Nebula Salmon Fillet,Ingredients
+E1FF0101,=,,=,Birdbeast Egg,Ingredients
+E3FF0101,=,,=,Leiden Pepper,Ingredients
+5F2B0301,=,,=,Tide Grouper Fillet,Ingredients
+602B0301,=,,=,Sea Bass Fillet,Ingredients
+622B0301,=,,=,Platinum Myritrout Fillet,Ingredients
+632B0301,=,,=,Barramudi fillet,Ingredients
+642B0301,=,,=,Vesper Gar Fillet,Ingredients
+652B0301,=,,=,Allural Sea Bass Fillet,Ingredients
+662B0301,=,,=,Zipper Barramundi Fillet,Ingredients
+672B0301,=,,=,Lucian Carp Fillet,Ingredients
+682B0301,=,,=,Devil Gar Fillet,Ingredients
+692B0301,=,,=,King Trout Fillet,Ingredients
+F1310301,=,,=,Anak Meat,Ingredients
+F3310301,=,,=,Dualhorn Strak,Ingredients
+F4310301,=,,=,Behomoth Tenderloin,Ingredients
+F5310301,=,,=,Chickatrice Leg,Ingredients
+F6310301,=,,=,Fine Gighee Ham,Ingredients
+F7310301,=,,=,Lucian Tomato,Ingredients
+F8310301,=,,=,Wild Onion,Ingredients
+F9310301,=,,=,Killer Tomato,Ingredients
+FA310301,=,,=,Leiden Potato,Ingredients
+FB310301,=,,=,Eos Green Peas,Ingredients
+FC310301,=,,=,Funguar,Ingredients
+FD310301,=,,=,Vesproom,Ingredients
+FE310301,=,,=,Malmashroom,Ingredients
+FF310301,=,,=,Cleigne Mollusk,Ingredients
+00320301,=,,=,Caem Pinkshrimp,Ingredients
+01320301,=,,=,Cleigne Darkshell,Ingredients
+02320301,=,,=,Cygillan Crab,Ingredients
+05320301,=,,=,Ulwaat berries,Ingredients
+06320301,=,,=,Sheep Milk,Ingredients
+07320301,=,,=,Schier Turmeric,Ingredients
+08320301,=,,=,Hulldagh Nutmeg,Ingredients
+09320301,=,,=,Leiden Sweet Potato,Ingredients
+0A320301,=,,=,Smoking Wood,Ingredients
+0B320301,=,,=,Tenebraen Oak,Ingredients
+0C320301,=,,=,Sahagin Liver,Ingredients
+0D320301,=,,=,Kujata Marrow,Ingredients
+0E320301,=,,=,Cleigne Wheat,Ingredients
+0F320301,=,,=,Fine Cleigne Wheat,Ingredients
+10320301,=,,=,Saxham Rice,Ingredients
+11320301,=,,=,Cup Noodles,Ingredients
+12320301,=,,=,Cup of Noodles,Ingredients
+C1820301,=,,=,Catoblepas Brisket,Ingredients
+199E0301,=,,=,Jabberwock sirline,Ingredients
+1A9E0301,=,,=,Leukorn Steak,Ingredients
+1C9E0301,=,,=,Grffon Battles,Ingredients
+1D9E0301,=,,=,Zue Tender,Ingredients
+1E9E0301,=,,=,Midgardsormr Shank,Ingredients
+1F9E0301,=,,=,Kettier Ginger,Ingredients
+209E0301,=,,=,Allural Shallot,Ingredients
+219E0301,=,,=,Arapaima Roe,Ingredients
+BFF80301,=,,=,Daggerquill Breast,Ingredients
+6FF40401,=,,=,Luncheon Meat,Ingredients
+70F40401,=,,=,Gigantoad Steak,Ingredients
+71F40401,=,,=,Basilisk Breast,Ingredients
+72F40401,=,,=,Garula Sirloin,Ingredients
+73F40401,=,,=,Bulette Shank,Ingredients
+74F40401,=,,=,Adamantoise Meat,Ingredients
+75F40401,=,,=,Karlabos Claw,Ingredients
+76F40401,=,,=,Shieldshears Claw,Ingredients
+77F40401,=,,=,Coraldevil Fin,Ingredients
+78F40401,=,,=,Chocobean,Ingredients
+79F40401,=,,=,Beetroot,Ingredients
+7AF40401,=,,=,Mighty Barramundi Fillet,Ingredients
+7BF40401,=,,=,Dank Barramundi Fillet,Ingredients
+7CF40401,=,,=,Wennath Samon Fillet,Ingredients
+7DF40401,=,,=,Duscaen Orange,Ingredients
+7EF40401,=,,=,Sweet Pepper,Ingredients
+7FF40401,=,,=,Garlic,Ingredients
+D0850501,=,,=,Raw Meat,Ingredients
+D1850501,=,,=,Thick Shank,Ingredients
+D2850501,=,,=,Primo Prime Rib,Ingredients
+D3850501,=,,=,Excellent Tenderloin,Ingredients
+D4850501,=,,=,Exquisite Marbled Meat,Ingredients
+D5850501,=,,=,Can-o'Fish,Ingredients
+D6850501,=,,=,Freshly Canned Fish,Ingredients
+D7850501,=,,=,Can of the Day,Ingredients
+D8850501,=,,=,Succulent Shellfish Tin,Ingredients
+D9850501,=,,=,Cygillan Seafood Tin,Ingredients
+DA850501,=,,=,Aegir Root,Ingredients
+DB850501,=,,=,Wild Onion,Ingredients
+DC850501,=,,=,Alstroom ,Ingredients
+DD850501,=,,=,Killer Tomato,Ingredients
+DE850501,=,,=,Allural Shallot,Ingredients
+DF850501,=,,=,Leiden Potato,Ingredients
+E0850501,=,,=,Cleigne Wheat,Ingredients
+E1850501,=,,=,Fine Cleigne Wheat,Ingredients
+E2850501,=,,=,Premium Cleigne Wheat,Ingredients
+E3850501,=,,=,Saxham Rice,Ingredients
+E4850501,=,,=,Fine Saxham Rice,Ingredients
+E5850501,=,,=,Premium Saxham Rice,Ingredients
+E6850501,=,,=,Zu Egg,Ingredients
+E7850501,=,,=,Leiden Pepper,Ingredients
+E8850501,=,,=,Schier Turmeric,Ingredients
+E9850501,=,,=,Kettier Ginger,Ingredients
+EA850501,=,,=,Sweet Pepper,Ingredients
+EB850501,=,,=,Garlic,Ingredients
+EC850501,=,,=,Hulldagh Nutmeg,Ingredients
+ED850501,=,,=,Cygillan Sea Salt,Ingredients
+EE850501,=,,=,Citrus Rind,Ingredients
+EBC10501,=,,=,,Ingredients
+ECC10501,=,,=,,Ingredients
+EDC10501,=,,=,,Ingredients
+EEC10501,=,,=,,Ingredients
+EFC10501,=,,=,,Ingredients
+F0C10501,=,,=,,Ingredients
+F1C10501,=,,=,,Ingredients
+F2C10501,=,,=,,Ingredients
+F3C10501,=,,=,,Ingredients
+F4C10501,=,,=,,Ingredients
+8E8C0301,=,,=,Metal Scrap,Treasures
+8F8C0301,=,,=,Rusted Bit,Treasures
+908C0301,=,,=,Iron Shavings,Treasures
+918C0301,=,,=,Shattered Timepiece,Treasures
+928C0301,=,,=,Chrome Bit,Treasures
+938C0301,=,,=,Fossil Shell,Treasures
+948C0301,=,,=,Fossil Wood,Treasures
+958C0301,=,,=,Ammonite Fossil,Treasures
+968C0301,=,,=,Ancient Dragon Tooth,Treasures
+978C0301,=,,=,Dragon Scales,Treasures
+988C0301,=,,=,Mythril Shaft,Treasures
+998C0301,=,,=,Sharp Bone,Treasures
+9A8C0301,=,,=,Strong Bone,Treasures
+9B8C0301,=,,=,Electrolytic Condenser,Treasures
+9C8C0301,=,,=,Laser Sensor,Treasures
+9D8C0301,=,,=,Dynamo,Treasures
+9E8C0301,=,,=,Magitek Core,Treasures
+9F8C0301,=,,=,Star Shell,Treasures
+A08C0301,=,,=,Tiny Feather,Treasures
+A18C0301,=,,=,Giant Feather,Treasures
+A28C0301,=,,=,Beetle Shell,Treasures
+A38C0301,=,,=,Building Stone,Treasures
+A48C0301,=,,=,Quality Building Stone,Treasures
+A58C0301,=,,=,Splendid Building Stone,Treasures
+A68C0301,=,,=,Old Book,Treasures
+A78C0301,=,,=,Broken Harmonica,Treasures
+A88C0301,=,,=,Platinum Ingot,Treasures
+A98C0301,=,,=,Rare Coin,Treasures
+AA8C0301,=,,=,Mythril Ingot,Treasures
+AB8C0301,=,,=,Glass Gemstone,Treasures
+AC8C0301,=,,=,Earth Gemstone,Treasures
+AD8C0301,=,,=,Sky Gemstone,Treasures
+AE8C0301,=,,=,Beautiful Bottle,Treasures
+AF8C0301,=,,=,Debased Coin,Treasures
+B08C0301,=,,=,Debased Silverpiece,Treasures
+B18C0301,=,,=,Debased Banknote,Treasures
+B28C0301,=,,=,Gralean Medal of Distinction,Treasures
+B38C0301,=,,=,Imperial Medal of Honor,Treasures
+B48C0301,=,,=,Magnetron,Treasures
+B58C0301,=,,=,Hydraulic Cylinder,Treasures
+B68C0301,=,,=,Wind-up Lord Vexxos,Treasures
+B78C0301,=,,=,Hunter's Medal,Treasures
+B88C0301,=,,=,Garula Tusk,Treasures
+B98C0301,=,,=,Garula Fur,Treasures
+BA8C0301,=,,=,Great Garula Tusk,Treasures
+BB8C0301,=,,=,Hairy Horn ,Treasures
+BC8C0301,=,,=,Hardened Hoof,Treasures
+BD8C0301,=,,=,Giant Hairy Horn,Treasures
+BE8C0301,=,,=,Thick Hide,Treasures
+BF8C0301,=,,=,Worn Incisor,Treasures
+C08C0301,=,,=,Coeurl Whiskers,Treasures
+C18C0301,=,,=,Sabertusk Claw,Treasures
+C28C0301,=,,=,Curved Fang,Treasures
+C38C0301,=,,=,Voretooth Bristles,Treasures
+C48C0301,=,,=,Havocfang Hide,Treasures
+C58C0301,=,,=,Scaled Skin,Treasures
+C68C0301,=,,=,Barbed Poison Needle,Treasures
+C78C0301,=,,=,Crimson Tongue,Treasures
+C88C0301,=,,=,Hard Whiskers,Treasures
+C98C0301,=,,=,Mesmenir Horn,Treasures
+CA8C0301,=,,=,Supple Tail,Treasures
+CB8C0301,=,,=,Crooked Helixhorn,Treasures
+CC8C0301,=,,=,Anak Fetlock,Treasures
+CD8C0301,=,,=,Anak Antlers,Treasures
+CE8C0301,=,,=,Giant Curlhorn ,Treasures
+CF8C0301,=,,=,Sahagin Scale,Treasures
+D08C0301,=,,=,Sharp Head Fin,Treasures
+D18C0301,=,,=,Slimy Oil,Treasures
+D28C0301,=,,=,Rough Scales,Treasures
+D38C0301,=,,=,Catoblepas Fang,Treasures
+D48C0301,=,,=,Curved Hollowhorn,Treasures
+D68C0301,=,,=,Cockatrice Tail Feathers,Treasures
+D78C0301,=,,=,Cockatrice Crest,Treasures
+D88C0301,=,,=,Basilisk Plumage,Treasures
+D98C0301,=,,=,Insect Stinger,Treasures
+DA8C0301,=,,=,Barbed Scythe,Treasures
+DB8C0301,=,,=,Behemoth Horn,Treasures
+DC8C0301,=,,=,Griffon Feather,Treasures
+DD8C0301,=,,=,Griffon Claw,Treasures
+DE8C0301,=,,=,Bulette Carapace,Treasures
+DF8C0301,=,,=,Shield Spike,Treasures
+E08C0301,=,,=,Malboro Eye,Treasures
+E18C0301,=,,=,Malboro Vine,Treasures
+E28C0301,=,,=,Monster Claw,Treasures
+E38C0301,=,,=,Monster Jaw,Treasures
+E48C0301,=,,=,Greatsnake Scale,Treasures
+E58C0301,=,,=,Greatsnake Crest,Treasures
+E68C0301,=,,=,Centipede Legs,Treasures
+E78C0301,=,,=,Centipede Jaw,Treasures
+EA8C0301,=,,=,Prawn Antennae,Treasures
+EB8C0301,=,,=,Scorpion Stinger,Treasures
+EC8C0301,=,,=,Treant Branch,Treasures
+ED8C0301,=,,=,Treant Trunk,Treasures
+EE8C0301,=,,=,Mandrake Flower,Treasures
+EF8C0301,=,,=,Wyvern Wing,Treasures
+F08C0301,=,,=,Sharp Tail Feathers,Treasures
+F18C0301,=,,=,Thunderoc Feather,Treasures
+F38C0301,=,,=,Zu Beak,Treasures
+F88C0301,=,,=,Repair Kit,Treasures
+1CF70301,=,,=,Dragon Horn ,Treasures
+1DF70301,=,,=,Scarlet Splinterbone,Treasures
+1EF70301,=,,=,Great Anak Antlers,Treasures
+1FF70301,=,,=,Arba Spur,Treasures
+20F70301,=,,=,Centipede Feet,Treasures
+21F70301,=,,=,Centipede Teeth,Treasures
+22F70301,=,,=,Rough Shell,Treasures
+23F70301,=,,=,Fine Slimy Oil,Treasures
+24F70301,=,,=,Sharp Bristles,Treasures
+25F70301,=,,=,Enormous Stinger,Treasures
+26F70301,=,,=,Deadly Stinger,Treasures
+27F70301,=,,=,Strong Whiskers,Treasures
+28F70301,=,,=,Giant Hoof,Treasures
+29F70301,=,,=,Fearsome Hoof,Treasures
+2AF70301,=,,=,Colorful Griffon Claw,Treasures
+2BF70301,=,,=,Translucent Skin,Treasures
+2CF70301,=,,=,Fine Tail Feathers,Treasures
+2DF70301,=,,=,Magnificent Tail Feathers,Treasures
+2EF70301,=,,=,Fine Crest,Treasures
+2FF70301,=,,=,Magnificent Crest,Treasures
+30F70301,=,,=,Beautiful Hide,Treasures
+31F70301,=,,=,Big Scorpion Stinger,Treasures
+32F70301,=,,=,Scorpion Barb,Treasures
+33F70301,=,,=,Hard Scale,Treasures
+34F70301,=,,=,Cactuar Needle,Treasures
+35F70301,=,,=,Heavy Scale,Treasures
+36F70301,=,,=,Spiked Armor,Treasures
+37F70301,=,,=,Hardened Hide,Treasures
+38F70301,=,,=,Jumbo Needle,Treasures
+39F70301,=,,=,Sharp Scythe,Treasures
+3AF70301,=,,=,Beautiful Plumage,Treasures
+3BF70301,=,,=,Gorgeous Plumage,Treasures
+3CF70301,=,,=,Tough Shell,Treasures
+3DF70301,=,,=,Giant Crab Pincers,Treasures
+3EF70301,=,,=,Strong Pincers,Treasures
+3FF70301,=,,=,Small Beak,Treasures
+40F70301,=,,=,Downy Feathers,Treasures
+41F70301,=,,=,Dragon Claw,Treasures
+43F70301,=,,=,Drooping Whiskers,Treasures
+44F70301,=,,=,Divine Whiskers,Treasures
+45F70301,=,,=,Crab Carapace,Treasures
+47F70301,=,,=,Sturdy Helixhorn,Treasures
+49F70301,=,,=,Rotten Splinterbone,Treasures
+4AF70301,=,,=,Large Hollowhorn,Treasures
+F6760401,=,,=,Adamantite,Treasures
+38B20401,=,,=,Glimmering Amber,Treasures
+52D30401,=,,=,Bluegill Scale,Treasures
+53D30401,=,,=,Bluegill Fin,Treasures
+54D30401,=,,=,Catfish Barbel,Treasures
+55D30401,=,,=,Catfish Heart,Treasures
+56D30401,=,,=,Jade Gar MirrorScale,Treasures
+57D30401,=,,=,Snakehead Teeth,Treasures
+58D30401,=,,=,Snakehead Scales,Treasures
+59D30401,=,,=,Alstor Bass Bones,Treasures
+5AD30401,=,,=,Phoenix Bass Bladder,Treasures
+5BD30401,=,,=,Arapaima Scales,Treasures
+5CD30401,=,,=,Barrelfish Scales,Treasures
+95D40401,=,,=,Murk Grouper Eye,Treasures
+47FC0401,=,,=,Salmon Fin,Treasures
+48FC0401,=,,=,Trout Scales,Treasures
+49FC0401,=,,=,Morion Trout Scales,Treasures
+4AFC0401,=,,=,Catfish Mucus,Treasures
+4BFC0401,=,,=,Poisonous Catfish Fin,Treasures
+4CFC0401,=,,=,Gar Fin,Treasures
+4DFC0401,=,,=,Barramundi Innards,Treasures
+4EFC0401,=,,=,Spiny Barramundi Fin,Treasures
+4FFC0401,=,,=,Snakehead Scales,Treasures
+50FC0401,=,,=,Bass Teeth,Treasures
+51FC0401,=,,=,Bass Eye,Treasures
+52FC0401,=,,=,Grouper Bones,Treasures
+53FC0401,=,,=,Grouper Skin,Treasures
+54FC0401,=,,=,Grouper Fin,Treasures
+55FC0401,=,,=,Large Arapaima Scales,Treasures
+56FC0401,=,,=,Trevally Scales,Treasures
+57FC0401,=,,=,Trevally Fin,Treasures
+58FC0401,=,,=,Barrelfish Mucus,Treasures
+59FC0401,=,,=,Lucian Carp Reverscales,Treasures
+5AFC0401,=,,=,Lucian Carp Rowscales,Treasures
+5BFC0401,=,,=,Dace Scales,Treasures
+90890501,=,,=,,Treasures
+91890501,=,,=,,Treasures
+00C10501,=,,=,,Treasures
+01C10501,=,,=,,Treasures
+02C10501,=,,=,,Treasures
+03C10501,=,,=,,Treasures
+04C10501,=,,=,,Treasures
+05C10501,=,,=,,Treasures
+06C10501,=,,=,,Treasures
+07C10501,=,,=,,Treasures
+08C10501,=,,=,,Treasures
+09C10501,=,,=,,Treasures
+0AC10501,=,,=,,Treasures
+0BC10501,=,,=,,Treasures
+0CC10501,=,,=,,Treasures
+0DC10501,=,,=,,Treasures
+0EC10501,=,,=,,Treasures
+0FC10501,=,,=,,Treasures
+10C10501,=,,=,,Treasures
+11C10501,=,,=,,Treasures
+12C10501,=,,=,,Treasures
+13C10501,=,,=,,Treasures
+14C10501,=,,=,,Treasures
+15C10501,=,,=,,Treasures
+16C10501,=,,=,,Treasures
+17C10501,=,,=,,Treasures
+18C10501,=,,=,,Treasures
+19C10501,=,,=,,Treasures
+1AC10501,=,,=,,Treasures
+1BC10501,=,,=,,Treasures
+1CC10501,=,,=,,Treasures
+1DC10501,=,,=,,Treasures
+1EC10501,=,,=,,Treasures
+1FC10501,=,,=,,Treasures
+20C10501,=,,=,,Treasures
+21C10501,=,,=,,Treasures
+22C10501,=,,=,,Treasures
+23C10501,=,,=,,Treasures
+24C10501,=,,=,,Treasures
+25C10501,=,,=,,Treasures
+26C10501,=,,=,,Treasures
+27C10501,=,,=,,Treasures
+28C10501,=,,=,,Treasures
+29C10501,=,,=,,Treasures
+2AC10501,=,,=,,Treasures
+2BC10501,=,,=,,Treasures
+2CC10501,=,,=,,Treasures
+2DC10501,=,,=,,Treasures
+2EC10501,=,,=,,Treasures
+2FC10501,=,,=,,Treasures
+30C10501,=,,=,,Treasures
+31C10501,=,,=,,Treasures
+32C10501,=,,=,,Treasures
+33C10501,=,,=,,Treasures
+34C10501,=,,=,,Treasures
+35C10501,=,,=,,Treasures
+36C10501,=,,=,,Treasures
+37C10501,=,,=,,Treasures
+38C10501,=,,=,,Treasures
+39C10501,=,,=,,Treasures
+3AC10501,=,,=,,Treasures
+3BC10501,=,,=,,Treasures
+3CC10501,=,,=,,Treasures
+3DC10501,=,,=,,Treasures
+3EC10501,=,,=,,Treasures
+3FC10501,=,,=,,Treasures
+40C10501,=,,=,,Treasures
+41C10501,=,,=,,Treasures
+42C10501,=,,=,,Treasures
+43C10501,=,,=,,Treasures
+44C10501,=,,=,,Treasures
+45C10501,=,,=,,Treasures
+46C10501,=,,=,,Treasures
+47C10501,=,,=,,Treasures
+48C10501,=,,=,,Treasures
+49C10501,=,,=,,Treasures
+4AC10501,=,,=,,Treasures
+4BC10501,=,,=,,Treasures
+EF6D0201,=,,=,Whitestone Shard,Car Parts
+F06D0201,=,,=,Blackstone Shard,Car Parts
+F16D0201,=,,=,Redstone Shard,Car Parts
+F26D0201,=,,=,Bluestone Shard,Car Parts
+F36D0201,=,,=,Greenstone Shard,Car Parts
+F46D0201,=,,=,Yellowstone Shard,Car Parts
+F56D0201,=,,=,Silver Dust,Car Parts
+F66D0201,=,,=,Gold Dust,Car Parts
+F76D0201,=,,=,Prismatic Dust,Car Parts
+F86D0201,=,,=,Whitestone Ore,Car Parts
+F96D0201,=,,=,Blackstone ore,Car Parts
+FA6D0201,=,,=,Restone Ore,Car Parts
+FB6D0201,=,,=,Bluestone Ore,Car Parts
+FC6D0201,=,,=,Greenstone Ore,Car Parts
+FD6D0201,=,,=,Yellowstone Ore,Car Parts
+FE6D0201,=,,=,Silver Shard,Car Parts
+FF6D0201,=,,=,Gold Shard,Car Parts
+006E0201,=,,=,Prismatic Shard,Car Parts
+016E0201,=,,=,WhiteStone Crystal ,Car Parts
+026E0201,=,,=,Blackstone Crystal,Car Parts
+036E0201,=,,=,Redstone Crystal ,Car Parts
+046E0201,=,,=,Bluestone Crystal ,Car Parts
+056E0201,=,,=,Greenstone Crystal,Car Parts
+066E0201,=,,=,Yellowstone Crystal,Car Parts
+076E0201,=,,=,Silver ore,Car Parts
+086E0201,=,,=,Gold Ore,Car Parts
+096E0201,=,,=,Prismatic Ore,Car Parts
+E7C00201,=,,=,Super Charger,Car Parts
+E8C00201,=,,=,Turbocharger,Car Parts
+E9C00201,=,,=,Aero Wax,Car Parts
+EAC00201,=,,=,Airflow Comensator,Car Parts
+3A7A0301,=,,=,Migitek Generator,Car Parts
+3B7A0301,=,,=,Auciliary Tank,Car Parts
+3C7A0301,=,,=,Fiberglass Coating,Car Parts
+3D7A0301,=,,=,Reinforced Fiberglass Coating,Car Parts
+3E7A0301,=,,=,Superhydrophobic Coating,Car Parts
+3F7A0301,=,,=,Enhacned Headlights,Car Parts
+29830301,=,,=,Hammerhead,Car Parts
+2A830301,=,,=,2-Tone,Car Parts
+2B830301,=,,=,Fan Service,Car Parts
+2C830301,=,,=,Pop Art,Car Parts
+2D830301,=,,=,Beaux Arts,Car Parts
+2E830301,=,,=,Abstractification ,Car Parts
+2F830301,=,,=,Crowns Guard,Car Parts
+30830301,=,,=,Armory on Wheels,Car Parts
+31830301,=,,=,The Beast,Car Parts
+32830301,=,,=,Guardians,Car Parts
+33830301,=,,=,Big Bang,Car Parts
+34830301,=,,=,Eos,Car Parts
+35830301,=,,=,,Car Parts
+36830301,=,,=,King's Knight Sticker Set,Car Parts
+37830301,=,,=,Carbuncle Sticker Set,Car Parts
+38830301,=,,=,CindyMobile,Car Parts
+39830301,=,,=,Gold Chocobo,Car Parts
+3A830301,=,,=,Platinum Leviathan,Car Parts
+3B830301,=,,=,16-Bit Buddies,Car Parts
+3C830301,=,,=,Racing Stripes 1,Car Parts
+3D830301,=,,=,Racing Stripes 2,Car Parts
+3E830301,=,,=,Racing Stripes 3,Car Parts
+3F830301,=,,=,Racing Stripes 4,Car Parts
+40830301,=,,=,Racing Stripes 5,Car Parts
+41830301,=,,=,Royal Stripes 1,Car Parts
+42830301,=,,=,Royal Stripes 2,Car Parts
+43830301,=,,=,Carbon Weave,Car Parts
+44830301,=,,=,Check Pattern,Car Parts
+45830301,=,,=,Flames 1 ,Car Parts
+46830301,=,,=,Flames 2,Car Parts
+47830301,=,,=,Flames 3,Car Parts
+48830301,=,,=,Regalia Crest,Car Parts
+49830301,=,,=,Lucians King's Crest,Car Parts
+4A830301,=,,=,Noctis Sticker,Car Parts
+4B830301,=,,=,Gladio Sticker,Car Parts
+4C830301,=,,=,Ptompto Sticker,Car Parts
+4D830301,=,,=,Ignis Sticker,Car Parts
+4E830301,=,,=,Luna Sticker,Car Parts
+4F830301,=,,=,Chocobo Sticker,Car Parts
+50830301,=,,=,Moogle Stiker,Car Parts
+51830301,=,,=,Cactuar Sticker,Car Parts
+52830301,=,,=,Caution: Wild Beast Sticker,Car Parts
+53830301,=,,=,Bullet Hole Sticker,Car Parts
+54830301,=,,=,Hammerhead Sticker,Car Parts
+55830301,=,,=,Cavaller Sticker,Car Parts
+56830301,=,,=,Conix oil Sticker,Car Parts
+57830301,=,,=,Ebony Sticker,Car Parts
+58830301,=,,=,Umbra Sticker,Car Parts
+59830301,=,,=,A little Fried ,Car Parts
+8EE70301,=,,=,Memories of FF1,Car Parts
+8FE70301,=,,=,Memories of FF2,Car Parts
+90E70301,=,,=,Memories of FF3,Car Parts
+91E70301,=,,=,Memories of FF4,Car Parts
+92E70301,=,,=,Memories of FF5,Car Parts
+93E70301,=,,=,Memories of FF6,Car Parts
+94E70301,=,,=,Memories of FF7,Car Parts
+95E70301,=,,=,Memories of FF8,Car Parts
+96E70301,=,,=,Memories of FF9 Disc 1,Car Parts
+97E70301,=,,=,Memories of FF9 Disc 2,Car Parts
+98E70301,=,,=,Memories of FF10,Car Parts
+99E70301,=,,=,Memories of FF11 Disc 1,Car Parts
+9AE70301,=,,=,Memories of FF11  Disc 2,Car Parts
+9BE70301,=,,=,Memories of FF11  Disc 3,Car Parts
+9CE70301,=,,=,Memories of FF11  Disc 4,Car Parts
+9DE70301,=,,=,Memories of FF11  Disc 5,Car Parts
+9EE70301,=,,=,Memories of FF12,Car Parts
+9FE70301,=,,=,Memories of FF13,Car Parts
+A0E70301,=,,=,Memories of FF14   Disc 1,Car Parts
+A1E70301,=,,=,Memories of FF14   Disc 2,Car Parts
+A2E70301,=,,=,Memories of Dissidia FF,Car Parts
+A3E70301,=,,=,Memories of FF Type-0,Car Parts
+A4E70301,=,,=,Memories The Dissidia 012,Car Parts
+A5E70301,=,,=,Lucian Cruisin' Collection,Car Parts
+A6E70301,=,,=,AfroJack,Car Parts
+A7E70301,=,,=,Memories of KingsGlazive,Car Parts
+A8E70301,=,,=,Memoryes Of Justice Monster Five,Car Parts
+A9E70301,=,,=,Memories of the BrotherHood,Car Parts
+61F90301,=,,=,Basic Color Samples,Car Parts
+62F90301,=,,=,Advanced Color Samples,Car Parts
+63F90301,=,,=,Expert Color Samples ,Car Parts
+64F90301,=,,=,Mythic Color Sampes,Car Parts
+78130401,=,,=,Memories of NieR: Gestalt & Replicant,Car Parts
+79130401,=,,=,Memories of Nier: Automata,Car Parts
+7A130401,=,,=,Memories of Episode Gladiolus,Car Parts
+7B130401,=,,=,Memories of Terra Battle,Car Parts
+7C130401,=,,=,Memories of Episode Prompto,Car Parts
+B2120501,=,,=,Choco-Mog,Car Parts
+AB650501,=,,=,Terra Battle,Car Parts
+92890501,=,,=,,Car Parts
+93890501,=,,=,,Car Parts
+16B60501,=,,=,,Car Parts
+17B60501,=,,=,,Car Parts
+18B60501,=,,=,,Car Parts
+19B60501,=,,=,,Car Parts
+1AB60501,=,,=,,Car Parts
+1BB60501,=,,=,,Car Parts
+1CB60501,=,,=,,Car Parts
+1DB60501,=,,=,,Car Parts
+1EB60501,=,,=,,Car Parts
+1FB60501,=,,=,,Car Parts
+20B60501,=,,=,,Car Parts
+21B60501,=,,=,,Car Parts
+22B60501,=,,=,,Car Parts
+23B60501,=,,=,,Car Parts
+24B60501,=,,=,,Car Parts
+25B60501,=,,=,,Car Parts
+26B60501,=,,=,,Car Parts
+27B60501,=,,=,,Car Parts
+28B60501,=,,=,,Car Parts
+29B60501,=,,=,,Car Parts
+2AB60501,=,,=,,Car Parts
+2BB60501,=,,=,,Car Parts
+2CB60501,=,,=,,Car Parts
+2DB60501,=,,=,,Car Parts
+2EB60501,=,,=,,Car Parts
+2FB60501,=,,=,,Car Parts
+30B60501,=,,=,,Car Parts
+31B60501,=,,=,,Car Parts
+32B60501,=,,=,,Car Parts
+33B60501,=,,=,,Car Parts
+34B60501,=,,=,,Car Parts
+35B60501,=,,=,,Car Parts
+36B60501,=,,=,,Car Parts
+37B60501,=,,=,,Car Parts
+38B60501,=,,=,,Car Parts
+39B60501,=,,=,,Car Parts
+3AB60501,=,,=,,Car Parts
+3BB60501,=,,=,,Car Parts
+3CB60501,=,,=,,Car Parts
+3DB60501,=,,=,,Car Parts
+3EB60501,=,,=,,Car Parts
+3FB60501,=,,=,,Car Parts
+40B60501,=,,=,,Car Parts
+41B60501,=,,=,,Car Parts
+25B80501,=,,=,,Car Parts
+26B80501,=,,=,,Car Parts
+27B80501,=,,=,,Car Parts
+28B80501,=,,=,,Car Parts
+29B80501,=,,=,,Car Parts
+2AB80501,=,,=,,Car Parts
+2BB80501,=,,=,,Car Parts
+37BA0501,=,,=,,Car Parts
+38BA0501,=,,=,,Car Parts
+3ABA0501,=,,=,,Car Parts
+3CBA0501,=,,=,,Car Parts
+3DBA0501,=,,=,,Car Parts
+3EBA0501,=,,=,,Car Parts
+40BA0501,=,,=,,Car Parts
+42BA0501,=,,=,,Car Parts
+43BA0501,=,,=,,Car Parts
+44BA0501,=,,=,,Car Parts
+46BA0501,=,,=,,Car Parts
+48BA0501,=,,=,,Car Parts
+4ABA0501,=,,=,,Car Parts
+4FBA0501,=,,=,,Car Parts
+54BA0501,=,,=,,Car Parts
+56BA0501,=,,=,,Car Parts
+57BA0501,=,,=,,Car Parts
+59BA0501,=,,=,,Car Parts
+5ABA0501,=,,=,,Car Parts
+5BBA0501,=,,=,,Car Parts
+5CBA0501,=,,=,,Car Parts
+5DBA0501,=,,=,,Car Parts
+5EBA0501,=,,=,,Car Parts
+5FBA0501,=,,=,,Car Parts
+60BA0501,=,,=,,Car Parts
+61BA0501,=,,=,,Car Parts
+62BA0501,=,,=,,Car Parts
+63BA0501,=,,=,,Car Parts
+64BA0501,=,,=,,Car Parts
+65BA0501,=,,=,,Car Parts
+66BA0501,=,,=,,Car Parts
+67BA0501,=,,=,,Car Parts
+68BA0501,=,,=,,Car Parts
+69BA0501,=,,=,,Car Parts
+6ABA0501,=,,=,,Car Parts
+6BBA0501,=,,=,,Car Parts
+6CBA0501,=,,=,,Car Parts
+6DBA0501,=,,=,,Car Parts
+6EBA0501,=,,=,,Car Parts
+6FBA0501,=,,=,,Car Parts
+70BA0501,=,,=,,Car Parts
+71BA0501,=,,=,,Car Parts
+0C2B0301,=,,=,Mind Breaker,Leisure Items
+102B0301,=,,=,Hell Blaster ,Leisure Items
+122B0301,=,,=,Air Stagger,Leisure Items
+152B0301,=,,=,Death Spin,Leisure Items
+162B0301,=,,=,Butterfly Edge ,Leisure Items
+172B0301,=,,=,Tranquility,Leisure Items
+182B0301,=,,=,Poppeck Chocobo,Leisure Items
+192B0301,=,,=,Poppeck White Chocobo,Leisure Items
+1A2B0301,=,,=,Poppeck Red Chocobo,Leisure Items
+1D2B0301,=,,=,Stinker Malboro,Leisure Items
+1E2B0301,=,,=,Stinker Malbodoom,Leisure Items
+1F2B0301,=,,=,Stinker Great Malboro,Leisure Items
+202B0301,=,,=,Burrower Mad Pink Sandworm,Leisure Items
+212B0301,=,,=,Burrower Green Sandworm,Leisure Items
+222B0301,=,,=,Burrower Abyss Worm,Leisure Items
+232B0301,=,,=,Sweet Jamming Custard,Leisure Items
+242B0301,=,,=,Sweet Jamming Flan,Leisure Items
+252B0301,=,,=,Sweet Jamming Mousse,Leisure Items
+282B0301,=,,=,Deadly Water Sahagin,Leisure Items
+292B0301,=,,=,Deadly Water Coraldevil,Leisure Items
+2A2B0301,=,,=,Deadly Water Seadevil,Leisure Items
+2B2B0301,=,,=,Tidal Might Leviathan ,Leisure Items
+2C2B0301,=,,=,Needle 1000 Cactuar,Leisure Items
+2D2B0301,=,,=,Needle 1000 Metal Cactuar,Leisure Items
+2E2B0301,=,,=,Needle 1000 Gold Cactuar,Leisure Items
+312B0301,=,,=,Giant Needle 10000 Gigantuar,Leisure Items
+322B0301,=,,=,Giant Needle 10000 Metal Gigantuar,Leisure Items
+332B0301,=,,=,Giant Needle 10000 Gold Gigantuar,Leisure Items
+352B0301,=,,=,Bomber Bomb,Leisure Items
+362B0301,=,,=,Bomber Ice Bomb,Leisure Items
+372B0301,=,,=,Bomber  Thunder Bomb,Leisure Items
+3A2B0301,=,,=,Jumbo Tusk Garula,Leisure Items
+3B2B0301,=,,=,Jumbo Tusk Green Garula,Leisure Items
+3C2B0301,=,,=,Jumbo Tusk Garulessa,Leisure Items
+3D2B0301,=,,=,Invincible Iron Giant,Leisure Items
+3F2B0301,=,,=,Ranker Tonberry,Leisure Items
+402B0301,=,,=,Whiskers: Pearly Moogle,Leisure Items
+412B0301,=,,=,Whiskers: Crystal,Leisure Items
+422B0301,=,,=,Whiskers: Chocolate,Leisure Items
+452B0301,=,,=,Hot Breather: Red Dragon,Leisure Items
+462B0301,=,,=,Hot Breather: Green Dragon,Leisure Items
+472B0301,=,,=,Hot Breather: Blue Dragon,Leisure Items
+482B0301,=,,=,Knife T Tonberry,Leisure Items
+492B0301,=,,=,Big Blaze Bahamut,Leisure Items
+4A2B0301,=,,=,Fatal Roulette: Ahriman,Leisure Items
+4B2B0301,=,,=,Fatal Roulette: Floating Eye,Leisure Items
+4C2B0301,=,,=,Fatal Roulette: Bloody Eye,Leisure Items
+4F2B0301,=,,=,Stormer Focalor,Leisure Items
+502B0301,=,,=,Stormer Purple Belly Focalor,Leisure Items
+512B0301,=,,=,Stormer Chert Focalor,Leisure Items
+522B0301,=,,=,Big Master Typhon,Leisure Items
+532B0301,=,,=,Gemlight Caster Carbuncle,Leisure Items
+552B0301,=,,=,Spider Silk,Leisure Items
+562B0301,=,,=,Super Bateen,Leisure Items
+572B0301,=,,=,Dragons Beard,Leisure Items
+25BC0301,=,,=,Horn of Resolve,Leisure Items
+26BC0301,=,,=,Horn of Tenacity,Leisure Items
+27BC0301,=,,=,Horn of Fortitude,Leisure Items
+28BC0301,=,,=,Horn of Cleansing,Leisure Items
+29BC0301,=,,=,Horn of Madness,Leisure Items
+FAF10301,=,,=,Xelphatol Apple Seeds,Leisure Items
+FBF10301,=,,=,Xelphatol Pear,Leisure Items
+FCF10301,=,,=,Doman Plum Pits,Leisure Items
+FDF10301,=,,=,Doman Pear,Leisure Items
+FEF10301,=,,=,Mamook Pear Seeds,Leisure Items
+FFF10301,=,,=,Mamook Pear,Leisure Items
+00F20301,=,,=,Valfruit Seeds,Leisure Items
+01F20301,=,,=,Val Pear,Leisure Items
+02F20301,=,,=,O Ghomoro Berry Seeds,Leisure Items
+03F20301,=,,=,O Ghomoro Pear,Leisure Items
+04F20301,=,,=,Cieldalaes Pinapple Seeds,Leisure Items
+05F20301,=,,=,Cieldalaes Pear,Leisure Items
+06F20301,=,,=,Han Lemon Seeds,Leisure Items
+07F20301,=,,=,Han Pear,Leisure Items
+14F20301,=,,=,Replica Medal,Leisure Items
+15F20301,=,,=,Short Course Medal,Leisure Items
+16F20301,=,,=,Long Course Medal,Leisure Items
+17F20301,=,,=,Rounsey Medal,Leisure Items
+18F20301,=,,=,Destrier Medal,Leisure Items
+19F20301,=,,=,Courser Medal,Leisure Items
+1AF20301,=,,=,Jennet Medal,Leisure Items
+1BF20301,=,,=,Fat Chocobo Medal,Leisure Items
+1CF20301,=,,=,Jockey Master Medal,Leisure Items
+262E0401,=,,=,Menkar,Leisure Items
+272E0401,=,,=,Acubens,Leisure Items
+282E0401,=,,=,Galatea,Leisure Items
+292E0401,=,,=,Nereid,Leisure Items
+2A2E0401,=,,=,Llmlaen,Leisure Items
+2B2E0401,=,,=,Fomalhaut,Leisure Items
+F8400401,=,,=,Gysahi Greens,Leisure Items
+F9400401,=,,=,Mimett Greens,Leisure Items
+FA400401,=,,=,Curiel Greens,Leisure Items
+FB400401,=,,=,Reagan Greens,Leisure Items
+FC400401,=,,=,Sylkis Greens ,Leisure Items
+117A0401,=,,=,Caem Carrot,Leisure Items
+017F0401,=,,=,Chocobo Whistle,Leisure Items
+D7F10401,=,,=,Fresh Green Beans,Leisure Items
+D8F10401,=,,=,Bulbous Onion,Leisure Items
+D9F10401,=,,=,Aromatic Root,Leisure Items
+09160501,=,,=,Howling GUst,Leisure Items
+0A160501,=,,=,Poppeck: Tinselred Chocobo,Leisure Items
+0B160501,=,,=,Mog Rank: Rubygold Moogle,Leisure Items
+0C160501,=,,=,Albireo,Leisure Items
+3D230501,=,,=,Avior,Leisure Items
+07260501,=,,=,Dragon Drain,Leisure Items
+42B60501,=,,=,,Leisure Items
+43B60501,=,,=,,Leisure Items
+44B60501,=,,=,,Leisure Items
+45B60501,=,,=,,Leisure Items
+46B60501,=,,=,,Leisure Items
+47B60501,=,,=,,Leisure Items
+48B60501,=,,=,,Leisure Items
+49B60501,=,,=,,Leisure Items
+4AB60501,=,,=,,Leisure Items
+4BB60501,=,,=,,Leisure Items
+4CB60501,=,,=,,Leisure Items
+4DB60501,=,,=,,Leisure Items
+4EB60501,=,,=,,Leisure Items
+4FB60501,=,,=,,Leisure Items
+50B60501,=,,=,,Leisure Items
+51B60501,=,,=,,Leisure Items
+52B60501,=,,=,,Leisure Items
+53B60501,=,,=,,Leisure Items
+54B60501,=,,=,,Leisure Items
+55B60501,=,,=,,Leisure Items
+56B60501,=,,=,,Leisure Items
+57B60501,=,,=,,Leisure Items
+58B60501,=,,=,,Leisure Items
+59B60501,=,,=,,Leisure Items
+5AB60501,=,,=,,Leisure Items
+5BB60501,=,,=,,Leisure Items
+5CB60501,=,,=,,Leisure Items
+5DB60501,=,,=,,Leisure Items
+5EB60501,=,,=,,Leisure Items
+5FB60501,=,,=,,Leisure Items
+60B60501,=,,=,,Leisure Items
+61B60501,=,,=,,Leisure Items
+62B60501,=,,=,,Leisure Items
+63B60501,=,,=,,Leisure Items
+64B60501,=,,=,,Leisure Items
+65B60501,=,,=,,Leisure Items
+66B60501,=,,=,,Leisure Items
+68B60501,=,,=,,Leisure Items
+69B60501,=,,=,,Leisure Items
+6AB60501,=,,=,,Leisure Items
+6BB60501,=,,=,,Leisure Items
+6CB60501,=,,=,,Leisure Items
+6DB60501,=,,=,,Leisure Items
+6EB60501,=,,=,,Leisure Items
+6FB60501,=,,=,,Leisure Items
+70B60501,=,,=,,Leisure Items
+71B60501,=,,=,,Leisure Items
+72B60501,=,,=,,Leisure Items
+73B60501,=,,=,,Leisure Items
+74B60501,=,,=,,Leisure Items
+75B60501,=,,=,,Leisure Items
+76B60501,=,,=,,Leisure Items
+77B60501,=,,=,,Leisure Items
+78B60501,=,,=,,Leisure Items
+90AB0301,=,,=,,??
+E66C0101,=,,=,,Magic Bottle 
+8F820201,=,,=,,Magic Bottle 
+91820201,=,,=,,Magic Bottle 
+1A840201,=,,=,,Magic Bottle 
+1B840201,=,,=,,Magic Bottle 
+1C840201,=,,=,,Magic Bottle 
+1D840201,=,,=,,Magic Bottle 
+1E840201,=,,=,,Magic Bottle 
+1F840201,=,,=,,Magic Bottle 
+20840201,=,,=,,Magic Bottle 
+2B840201,=,,=,,Magic Bottle 
+2C840201,=,,=,,Magic Bottle 
+2D840201,=,,=,,Magic Bottle 
+2E840201,=,,=,,Magic Bottle 
+7FB40201,=,,=,,Magic Bottle 
+80B40201,=,,=,,Magic Bottle 
+81B40201,=,,=,,Magic Bottle 
+82B40201,=,,=,,Magic Bottle 
+83B40201,=,,=,,Magic Bottle 
+84B40201,=,,=,,Magic Bottle 
+85B40201,=,,=,,Magic Bottle 
+09110301,=,,=,,Magic Bottle 
+0A110301,=,,=,,Magic Bottle 
+0B110301,=,,=,,Magic Bottle 
+A77F0301,=,,=,QuintCast 3,Magic Bottle 
+A87F0301,=,,=,,Magic Bottle 
+A97F0301,=,,=,,Magic Bottle 
+AA7F0301,=,,=,,Magic Bottle 
+AB7F0301,=,,=,,Magic Bottle 
+AC7F0301,=,,=,,Magic Bottle 
+AD7F0301,=,,=,,Magic Bottle 
+AE7F0301,=,,=,,Magic Bottle 
+AF7F0301,=,,=,,Magic Bottle 
+B07F0301,=,,=,,Magic Bottle 
+B17F0301,=,,=,,Magic Bottle 
+B27F0301,=,,=,,Magic Bottle 
+B37F0301,=,,=,,Magic Bottle 
+B47F0301,=,,=,,Magic Bottle 
+B57F0301,=,,=,,Magic Bottle 
+B97F0301,=,,=,,Magic Bottle 
+BA7F0301,=,,=,,Magic Bottle 
+BB7F0301,=,,=,,Magic Bottle 
+BC7F0301,=,,=,,Magic Bottle 
+BD7F0301,=,,=,,Magic Bottle 
+BE7F0301,=,,=,,Magic Bottle 
+BF7F0301,=,,=,,Magic Bottle 
+C07F0301,=,,=,,Magic Bottle 
+C17F0301,=,,=,,Magic Bottle 
+C27F0301,=,,=,,Magic Bottle 
+C37F0301,=,,=,,Magic Bottle 
+C47F0301,=,,=,,Magic Bottle 
+C57F0301,=,,=,,Magic Bottle 
+C67F0301,=,,=,,Magic Bottle 
+C77F0301,=,,=,,Magic Bottle 
+C87F0301,=,,=,,Magic Bottle 
+C97F0301,=,,=,,Magic Bottle 
+CA7F0301,=,,=,,Magic Bottle 
+CB7F0301,=,,=,,Magic Bottle 
+CC7F0301,=,,=,,Magic Bottle 
+CD7F0301,=,,=,,Magic Bottle 
+CE7F0301,=,,=,,Magic Bottle 
+CF7F0301,=,,=,,Magic Bottle 
+D07F0301,=,,=,,Magic Bottle 
+D17F0301,=,,=,,Magic Bottle 
+D27F0301,=,,=,,Magic Bottle 
+D37F0301,=,,=,,Magic Bottle 
+D47F0301,=,,=,,Magic Bottle 
+D57F0301,=,,=,,Magic Bottle 
+D67F0301,=,,=,,Magic Bottle 
+D77F0301,=,,=,,Magic Bottle 
+D87F0301,=,,=,,Magic Bottle 
+D97F0301,=,,=,,Magic Bottle 
+DA7F0301,=,,=,,Magic Bottle 
+DC7F0301,=,,=,,Magic Bottle 
+DD7F0301,=,,=,,Magic Bottle 
+DE7F0301,=,,=,,Magic Bottle 
+E07F0301,=,,=,,Magic Bottle 
+E17F0301,=,,=,,Magic Bottle 
+E37F0301,=,,=,,Magic Bottle 
+E47F0301,=,,=,,Magic Bottle 
+E67F0301,=,,=,,Magic Bottle 
+E77F0301,=,,=,,Magic Bottle 
+E97F0301,=,,=,,Magic Bottle 
+EA7F0301,=,,=,,Magic Bottle 
+EC7F0301,=,,=,,Magic Bottle 
+ED7F0301,=,,=,,Magic Bottle 
+EF7F0301,=,,=,,Magic Bottle 
+F07F0301,=,,=,,Magic Bottle 
+F27F0301,=,,=,,Magic Bottle 
+F37F0301,=,,=,,Magic Bottle 
+F57F0301,=,,=,,Magic Bottle 
+F67F0301,=,,=,,Magic Bottle 
+F77F0301,=,,=,,Magic Bottle 
+F87F0301,=,,=,,Magic Bottle 
+F97F0301,=,,=,,Magic Bottle 
+FA7F0301,=,,=,,Magic Bottle 
+FB7F0301,=,,=,,Magic Bottle 
+FC7F0301,=,,=,,Magic Bottle 
+FD7F0301,=,,=,,Magic Bottle 
+FE7F0301,=,,=,,Magic Bottle 
+FF7F0301,=,,=,,Magic Bottle 
+00800301,=,,=,,Magic Bottle 
+01800301,=,,=,,Magic Bottle 
+02800301,=,,=,,Magic Bottle 
+03800301,=,,=,,Magic Bottle 
+04800301,=,,=,,Magic Bottle 
+05800301,=,,=,,Magic Bottle 
+06800301,=,,=,,Magic Bottle 
+07800301,=,,=,,Magic Bottle 
+08800301,=,,=,,Magic Bottle 
+09800301,=,,=,,Magic Bottle 
+0A800301,=,,=,,Magic Bottle 
+0B800301,=,,=,,Magic Bottle 
+0C800301,=,,=,,Magic Bottle 
+0D800301,=,,=,,Magic Bottle 
+0E800301,=,,=,,Magic Bottle 
+0F800301,=,,=,,Magic Bottle 
+10800301,=,,=,,Magic Bottle 
+11800301,=,,=,,Magic Bottle 
+12800301,=,,=,,Magic Bottle 
+13800301,=,,=,,Magic Bottle 
+14800301,=,,=,,Magic Bottle 
+15800301,=,,=,,Magic Bottle 
+16800301,=,,=,,Magic Bottle 
+17800301,=,,=,,Magic Bottle 
+18800301,=,,=,,Magic Bottle 
+19800301,=,,=,,Magic Bottle 
+1A800301,=,,=,,Magic Bottle 
+1B800301,=,,=,,Magic Bottle 
+1C800301,=,,=,,Magic Bottle 
+1D800301,=,,=,,Magic Bottle 
+1E800301,=,,=,,Magic Bottle 
+1F800301,=,,=,,Magic Bottle 
+20800301,=,,=,,Magic Bottle 
+21800301,=,,=,,Magic Bottle 
+22800301,=,,=,,Magic Bottle 
+23800301,=,,=,,Magic Bottle 
+24800301,=,,=,,Magic Bottle 
+25800301,=,,=,,Magic Bottle 
+26800301,=,,=,,Magic Bottle 
+27800301,=,,=,,Magic Bottle 
+28800301,=,,=,,Magic Bottle 
+29800301,=,,=,,Magic Bottle 
+2A800301,=,,=,,Magic Bottle 
+2B800301,=,,=,,Magic Bottle 
+2C800301,=,,=,,Magic Bottle 
+2D800301,=,,=,,Magic Bottle 
+2E800301,=,,=,,Magic Bottle 
+2F800301,=,,=,,Magic Bottle 
+30800301,=,,=,,Magic Bottle 
+31800301,=,,=,,Magic Bottle 
+32800301,=,,=,,Magic Bottle 
+33800301,=,,=,,Magic Bottle 
+34800301,=,,=,,Magic Bottle 
+35800301,=,,=,,Magic Bottle 
+36800301,=,,=,,Magic Bottle 
+37800301,=,,=,,Magic Bottle 
+38800301,=,,=,,Magic Bottle 
+39800301,=,,=,,Magic Bottle 
+3A800301,=,,=,,Magic Bottle 
+3B800301,=,,=,,Magic Bottle 
+3C800301,=,,=,,Magic Bottle 
+3D800301,=,,=,,Magic Bottle 
+3E800301,=,,=,,Magic Bottle 
+3F800301,=,,=,,Magic Bottle 
+40800301,=,,=,,Magic Bottle 
+41800301,=,,=,,Magic Bottle 
+42800301,=,,=,,Magic Bottle 
+43800301,=,,=,,Magic Bottle 
+44800301,=,,=,,Magic Bottle 
+45800301,=,,=,,Magic Bottle 
+46800301,=,,=,,Magic Bottle 
+47800301,=,,=,,Magic Bottle 
+48800301,=,,=,,Magic Bottle 
+49800301,=,,=,,Magic Bottle 
+4A800301,=,,=,,Magic Bottle 
+4B800301,=,,=,Venomcast: Firaga,Magic Bottle 
+4C800301,=,,=,,Magic Bottle 
+4D800301,=,,=,,Magic Bottle 
+51800301,=,,=,,Magic Bottle 
+52800301,=,,=,,Magic Bottle 
+53800301,=,,=,,Magic Bottle 
+54800301,=,,=,,Magic Bottle 
+55800301,=,,=,,Magic Bottle 
+56800301,=,,=,,Magic Bottle 
+57800301,=,,=,,Magic Bottle 
+58800301,=,,=,,Magic Bottle 
+59800301,=,,=,,Magic Bottle 
+5A800301,=,,=,,Magic Bottle 
+5B800301,=,,=,,Magic Bottle 
+5C800301,=,,=,,Magic Bottle 
+5D800301,=,,=,,Magic Bottle 
+5E800301,=,,=,,Magic Bottle 
+5F800301,=,,=,,Magic Bottle 
+60800301,=,,=,,Magic Bottle 
+61800301,=,,=,,Magic Bottle 
+62800301,=,,=,,Magic Bottle 
+63800301,=,,=,Stepcast: Firaga,Magic Bottle 
+64800301,=,,=,,Magic Bottle 
+65800301,=,,=,,Magic Bottle 
+66800301,=,,=,Killcast: Firaga,Magic Bottle 
+67800301,=,,=,,Magic Bottle 
+68800301,=,,=,,Magic Bottle 
+69800301,=,,=,,Magic Bottle 
+6A800301,=,,=,,Magic Bottle 
+6B800301,=,,=,,Magic Bottle 
+6C800301,=,,=,,Magic Bottle 
+6D800301,=,,=,,Magic Bottle 
+6E800301,=,,=,,Magic Bottle 
+6F800301,=,,=,,Magic Bottle 
+70800301,=,,=,,Magic Bottle 
+71800301,=,,=,,Magic Bottle 
+72800301,=,,=,,Magic Bottle 
+73800301,=,,=,Flare,Magic Bottle 
+74800301,=,,=,Venomcast: Blizzaga,Magic Bottle 
+75800301,=,,=,,Magic Bottle 
+76800301,=,,=,,Magic Bottle 
+7A800301,=,,=,,Magic Bottle 
+7B800301,=,,=,,Magic Bottle 
+7C800301,=,,=,,Magic Bottle 
+7D800301,=,,=,,Magic Bottle 
+7E800301,=,,=,,Magic Bottle 
+7F800301,=,,=,,Magic Bottle 
+80800301,=,,=,,Magic Bottle 
+81800301,=,,=,,Magic Bottle 
+82800301,=,,=,,Magic Bottle 
+83800301,=,,=,,Magic Bottle 
+84800301,=,,=,,Magic Bottle 
+85800301,=,,=,,Magic Bottle 
+86800301,=,,=,,Magic Bottle 
+87800301,=,,=,,Magic Bottle 
+88800301,=,,=,,Magic Bottle 
+89800301,=,,=,,Magic Bottle 
+8A800301,=,,=,,Magic Bottle 
+8B800301,=,,=,,Magic Bottle 
+8C800301,=,,=,Stopcast: Blizzaga,Magic Bottle 
+8D800301,=,,=,,Magic Bottle 
+8E800301,=,,=,,Magic Bottle 
+8F800301,=,,=,Killcast: Blizzaga,Magic Bottle 
+90800301,=,,=,,Magic Bottle 
+91800301,=,,=,,Magic Bottle 
+92800301,=,,=,,Magic Bottle 
+93800301,=,,=,,Magic Bottle 
+94800301,=,,=,,Magic Bottle 
+95800301,=,,=,,Magic Bottle 
+96800301,=,,=,,Magic Bottle 
+97800301,=,,=,,Magic Bottle 
+98800301,=,,=,,Magic Bottle 
+99800301,=,,=,,Magic Bottle 
+9A800301,=,,=,,Magic Bottle 
+9B800301,=,,=,,Magic Bottle 
+9C800301,=,,=,Freeze,Magic Bottle 
+9D800301,=,,=,Venomcast: Thunder,Magic Bottle 
+9E800301,=,,=,,Magic Bottle 
+9F800301,=,,=,,Magic Bottle 
+A3800301,=,,=,,Magic Bottle 
+A4800301,=,,=,,Magic Bottle 
+A5800301,=,,=,,Magic Bottle 
+A6800301,=,,=,,Magic Bottle 
+A7800301,=,,=,,Magic Bottle 
+A8800301,=,,=,,Magic Bottle 
+A9800301,=,,=,,Magic Bottle 
+AA800301,=,,=,,Magic Bottle 
+AB800301,=,,=,,Magic Bottle 
+AC800301,=,,=,,Magic Bottle 
+AD800301,=,,=,,Magic Bottle 
+AE800301,=,,=,,Magic Bottle 
+AF800301,=,,=,,Magic Bottle 
+B0800301,=,,=,,Magic Bottle 
+B1800301,=,,=,,Magic Bottle 
+B2800301,=,,=,,Magic Bottle 
+B3800301,=,,=,,Magic Bottle 
+B4800301,=,,=,,Magic Bottle 
+B5800301,=,,=,Stepcast: Thundaga,Magic Bottle 
+B6800301,=,,=,,Magic Bottle 
+B7800301,=,,=,,Magic Bottle 
+B8800301,=,,=,Killcast: Thundaga,Magic Bottle 
+B9800301,=,,=,,Magic Bottle 
+BA800301,=,,=,,Magic Bottle 
+BB800301,=,,=,,Magic Bottle 
+BC800301,=,,=,,Magic Bottle 
+BD800301,=,,=,,Magic Bottle 
+BE800301,=,,=,,Magic Bottle 
+BF800301,=,,=,,Magic Bottle 
+C0800301,=,,=,,Magic Bottle 
+C1800301,=,,=,,Magic Bottle 
+C2800301,=,,=,,Magic Bottle 
+C3800301,=,,=,,Magic Bottle 
+C4800301,=,,=,,Magic Bottle 
+C5800301,=,,=,Electon,Magic Bottle 
+16820301,=,,=,,Magic Bottle 
+17820301,=,,=,,Magic Bottle 
+18820301,=,,=,,Magic Bottle 
+19820301,=,,=,,Magic Bottle 
+1A820301,=,,=,,Magic Bottle 
+1B820301,=,,=,,Magic Bottle 
+1C820301,=,,=,,Magic Bottle 
+1D820301,=,,=,,Magic Bottle 
+1F820301,=,,=,,Magic Bottle 
+5DA50501,=,,=,,Magic Bottle 
+C1850101,=,,=,,??
+5DDB0301,=,,=,,??
+14AA0101,=,,=,,Weapon IDS
+15AA0101,=,,=,,Weapon IDS
+16AA0101,=,,=,,Weapon IDS
+17AA0101,=,,=,,Weapon IDS
+18AA0101,=,,=,,Weapon IDS
+19AA0101,=,,=,,Weapon IDS
+1AAA0101,=,,=,,Weapon IDS
+1BAA0101,=,,=,,Weapon IDS
+1CAA0101,=,,=,,Weapon IDS
+1DAA0101,=,,=,,Weapon IDS
+1EAA0101,=,,=,,Weapon IDS
+1FAA0101,=,,=,,Weapon IDS
+20AA0101,=,,=,,Weapon IDS
+21AA0101,=,,=,,Weapon IDS
+22AA0101,=,,=,,Weapon IDS
+23AA0101,=,,=,,Weapon IDS
+24AA0101,=,,=,,Weapon IDS
+25AA0101,=,,=,,Weapon IDS
+26AA0101,=,,=,,Weapon IDS
+4AAA0101,=,,=,,Weapon IDS
+D4FB0101,=,,=,,Weapon IDS
+D5FB0101,=,,=,,Weapon IDS
+154B0201,=,,=,,Weapon IDS
+F75F0201,=,,=,,Weapon IDS
+E6640201,=,,=,,Weapon IDS
+966F0201,=,,=,,Weapon IDS
+DBCE0201,=,,=,,Weapon IDS
+61080301,=,,=,,Weapon IDS
+62080301,=,,=,,Weapon IDS
+F50B0301,=,,=,,Weapon IDS
+0D0C0301,=,,=,,Weapon IDS
+17110301,=,,=,,Weapon IDS
+8F240301,=,,=,,Weapon IDS
+77560301,=,,=,,Weapon IDS
+78560301,=,,=,,Weapon IDS
+79560301,=,,=,,Weapon IDS
+7A560301,=,,=,,Weapon IDS
+7B560301,=,,=,,Weapon IDS
+7C560301,=,,=,,Weapon IDS
+7D560301,=,,=,,Weapon IDS
+7E560301,=,,=,,Weapon IDS
+7F560301,=,,=,,Weapon IDS
+80560301,=,,=,,Weapon IDS
+81560301,=,,=,,Weapon IDS
+82560301,=,,=,,Weapon IDS
+83560301,=,,=,,Weapon IDS
+A75D0301,=,,=,,Weapon IDS
+A85D0301,=,,=,,Weapon IDS
+A95D0301,=,,=,,Weapon IDS
+AA5D0301,=,,=,,Weapon IDS
+F4650301,=,,=,,Weapon IDS
+F5650301,=,,=,,Weapon IDS
+F6650301,=,,=,,Weapon IDS
+F7650301,=,,=,,Weapon IDS
+F8650301,=,,=,,Weapon IDS
+FA650301,=,,=,,Weapon IDS
+FB650301,=,,=,,Weapon IDS
+FC650301,=,,=,,Weapon IDS
+FD650301,=,,=,,Weapon IDS
+FE650301,=,,=,,Weapon IDS
+FF650301,=,,=,,Weapon IDS
+00660301,=,,=,,Weapon IDS
+01660301,=,,=,,Weapon IDS
+02660301,=,,=,,Weapon IDS
+03660301,=,,=,,Weapon IDS
+04660301,=,,=,,Weapon IDS
+05660301,=,,=,,Weapon IDS
+06660301,=,,=,,Weapon IDS
+07660301,=,,=,,Weapon IDS
+08660301,=,,=,,Weapon IDS
+09660301,=,,=,,Weapon IDS
+0A660301,=,,=,,Weapon IDS
+0C660301,=,,=,,Weapon IDS
+0D660301,=,,=,,Weapon IDS
+0E660301,=,,=,,Weapon IDS
+0F660301,=,,=,,Weapon IDS
+10660301,=,,=,,Weapon IDS
+11660301,=,,=,,Weapon IDS
+12660301,=,,=,,Weapon IDS
+13660301,=,,=,,Weapon IDS
+14660301,=,,=,,Weapon IDS
+15660301,=,,=,,Weapon IDS
+16660301,=,,=,,Weapon IDS
+17660301,=,,=,,Weapon IDS
+19660301,=,,=,,Weapon IDS
+1A660301,=,,=,,Weapon IDS
+1B660301,=,,=,,Weapon IDS
+1C660301,=,,=,,Weapon IDS
+1D660301,=,,=,,Weapon IDS
+1E660301,=,,=,,Weapon IDS
+1F660301,=,,=,,Weapon IDS
+20660301,=,,=,,Weapon IDS
+21660301,=,,=,,Weapon IDS
+22660301,=,,=,,Weapon IDS
+23660301,=,,=,,Weapon IDS
+24660301,=,,=,,Weapon IDS
+26660301,=,,=,,Weapon IDS
+27660301,=,,=,,Weapon IDS
+28660301,=,,=,,Weapon IDS
+29660301,=,,=,,Weapon IDS
+2A660301,=,,=,,Weapon IDS
+2B660301,=,,=,,Weapon IDS
+2C660301,=,,=,,Weapon IDS
+2E660301,=,,=,,Weapon IDS
+2F660301,=,,=,,Weapon IDS
+30660301,=,,=,,Weapon IDS
+31660301,=,,=,,Weapon IDS
+32660301,=,,=,,Weapon IDS
+33660301,=,,=,,Weapon IDS
+34660301,=,,=,,Weapon IDS
+35660301,=,,=,,Weapon IDS
+36660301,=,,=,,Weapon IDS
+37660301,=,,=,,Weapon IDS
+38660301,=,,=,,Weapon IDS
+39660301,=,,=,,Weapon IDS
+3A660301,=,,=,,Weapon IDS
+3C660301,=,,=,,Weapon IDS
+3D660301,=,,=,,Weapon IDS
+3E660301,=,,=,,Weapon IDS
+3F660301,=,,=,,Weapon IDS
+40660301,=,,=,,Weapon IDS
+E57A0301,=,,=,,Weapon IDS
+FF7A0301,=,,=,,Weapon IDS
+0C7B0301,=,,=,,Weapon IDS
+429E0301,=,,=,,Weapon IDS
+439E0301,=,,=,,Weapon IDS
+449E0301,=,,=,,Weapon IDS
+459E0301,=,,=,,Weapon IDS
+469E0301,=,,=,,Weapon IDS
+479E0301,=,,=,,Weapon IDS
+489E0301,=,,=,,Weapon IDS
+499E0301,=,,=,,Weapon IDS
+4A9E0301,=,,=,,Weapon IDS
+4B9E0301,=,,=,,Weapon IDS
+4C9E0301,=,,=,,Weapon IDS
+4D9E0301,=,,=,,Weapon IDS
+4E9E0301,=,,=,,Weapon IDS
+840F0401,=,,=,,Weapon IDS
+850F0401,=,,=,,Weapon IDS
+860F0401,=,,=,,Weapon IDS
+870F0401,=,,=,,Weapon IDS
+880F0401,=,,=,,Weapon IDS
+57100401,=,,=,,Weapon IDS
+49580401,=,,=,,Weapon IDS
+EBA70401,=,,=,,Weapon IDS
+14B40401,=,,=,,Weapon IDS
+C2B40401,=,,=,,Weapon IDS
+D3CF0401,=,,=,,Weapon IDS
+D4CF0401,=,,=,,Weapon IDS
+D5CF0401,=,,=,,Weapon IDS
+D7CF0401,=,,=,,Weapon IDS
+D8CF0401,=,,=,,Weapon IDS
+D9CF0401,=,,=,,Weapon IDS
+DACF0401,=,,=,,Weapon IDS
+DBCF0401,=,,=,,Weapon IDS
+DCCF0401,=,,=,,Weapon IDS
+DDCF0401,=,,=,,Weapon IDS
+DECF0401,=,,=,,Weapon IDS
+DFCF0401,=,,=,,Weapon IDS
+E0CF0401,=,,=,,Weapon IDS
+E1CF0401,=,,=,,Weapon IDS
+E2CF0401,=,,=,,Weapon IDS
+E3CF0401,=,,=,,Weapon IDS
+E4CF0401,=,,=,,Weapon IDS
+E5CF0401,=,,=,,Weapon IDS
+E6CF0401,=,,=,,Weapon IDS
+E7CF0401,=,,=,,Weapon IDS
+E8CF0401,=,,=,,Weapon IDS
+E9CF0401,=,,=,,Weapon IDS
+EACF0401,=,,=,,Weapon IDS
+EBCF0401,=,,=,,Weapon IDS
+ECCF0401,=,,=,,Weapon IDS
+EDCF0401,=,,=,,Weapon IDS
+EECF0401,=,,=,,Weapon IDS
+EFCF0401,=,,=,,Weapon IDS
+F0CF0401,=,,=,,Weapon IDS
+F1CF0401,=,,=,,Weapon IDS
+F2CF0401,=,,=,,Weapon IDS
+52EB0401,=,,=,,Weapon IDS
+53EB0401,=,,=,,Weapon IDS
+C50F0501,=,,=,,Weapon IDS
+A0180501,=,,=,,Weapon IDS
+2C280501,=,,=,,Weapon IDS
+88440501,=,,=,,Weapon IDS
+B7440501,=,,=,,Weapon IDS
+B8440501,=,,=,,Weapon IDS
+0A5F0501,=,,=,,Weapon IDS
+0B5F0501,=,,=,,Weapon IDS
+0C5F0501,=,,=,,Weapon IDS
+0D5F0501,=,,=,,Weapon IDS
+0E5F0501,=,,=,,Weapon IDS
+6E660501,=,,=,,Weapon IDS
+B26D0501,=,,=,,Weapon IDS
+B36D0501,=,,=,,Weapon IDS
+83710501,=,,=,,Weapon IDS
+3B9F0501,=,,=,,Weapon IDS
+AA9F0501,=,,=,,Weapon IDS
+4CF60101,=,,=,,????
+4DF60101,=,,=,,????
+4EF60101,=,,=,,????
+4FF60101,=,,=,,????
+50F60101,=,,=,,????
+51F60101,=,,=,,????
+52F60101,=,,=,,????
+53F60101,=,,=,,????
+54F60101,=,,=,,????
+55F60101,=,,=,,????
+56F60101,=,,=,,????
+57F60101,=,,=,,????
+58F60101,=,,=,,????
+09780301,=,,=,Bronze Bangle,Accessorys
+0A780301,=,,=,Iron Bangle,Accessorys
+0B780301,=,,=,Carbon Bangle,Accessorys
+0C780301,=,,=,Titanium Bangle,Accessorys
+0D780301,=,,=,Silver Bangle,Accessorys
+0E780301,=,,=,Gold Bangle,Accessorys
+0F780301,=,,=,Platinum Bangle,Accessorys
+10780301,=,,=,Centurion Bangle,Accessorys
+11780301,=,,=,Legatus Bangle,Accessorys
+12780301,=,,=,Gigas Bangle,Accessorys
+13780301,=,,=,Onion Bangle,Accessorys
+14780301,=,,=,Adamantite Bangle,Accessorys
+15780301,=,,=,White choker,Accessorys
+16780301,=,,=,Green Choker ,Accessorys
+17780301,=,,=,Blue Choker,Accessorys
+18780301,=,,=,Red Choker,Accessorys
+19780301,=,,=,Black Choker,Accessorys
+1A780301,=,,=,Garnet Bracelet,Accessorys
+1B780301,=,,=,Amethyst Bracelet,Accessorys
+1C780301,=,,=,Hellodor Bracelet,Accessorys
+1D780301,=,,=,Sapphire Bracelet,Accessorys
+1E780301,=,,=,Ruby Bracelet,Accessorys
+1F780301,=,,=,Emerald Bracelet,Accessorys
+20780301,=,,=,Diamond Bracelet,Accessorys
+21780301,=,,=,Blue Diamond Bracelet,Accessorys
+22780301,=,,=,Dark Matter Bracelet,Accessorys
+23780301,=,,=,Soldiers Anklet,Accessorys
+24780301,=,,=,Warriors Anklet,Accessorys
+25780301,=,,=,Fencers Anklet,Accessorys
+26780301,=,,=,Knights Anklet,Accessorys
+27780301,=,,=,Crusader's Anklet,Accessorys
+28780301,=,,=,Champions Anklet,Accessorys
+29780301,=,,=,Emperors Anklet,Accessorys
+2A780301,=,,=,Anklet of the Gods,Accessorys
+2B780301,=,,=,Amulet,Accessorys
+2C780301,=,,=,Angel Earring,Accessorys
+2D780301,=,,=,Talisman,Accessorys
+2E780301,=,,=,Rune Earrings,Accessorys
+2F780301,=,,=,Circlet,Accessorys
+30780301,=,,=,Oracle Erring,Accessorys
+31780301,=,,=,Mystic Circlet,Accessorys
+32780301,=,,=,Hypno Crown,Accessorys
+33780301,=,,=,Potpourri,Accessorys
+34780301,=,,=,White Sage ,Accessorys
+35780301,=,,=,Power Stone,Accessorys
+36780301,=,,=,Oracle Card,Accessorys
+37780301,=,,=,Pendulum,Accessorys
+38780301,=,,=,Lavender Oil,Accessorys
+39780301,=,,=,Purified Salt,Accessorys
+3A780301,=,,=,Tarot Card,Accessorys
+3B780301,=,,=,Assist Suit,Accessorys
+3C780301,=,,=,Magitek Suit,Accessorys
+3D780301,=,,=,Magitek Suit v2,Accessorys
+3E780301,=,,=,Star Pendant,Accessorys
+3F780301,=,,=,Rainbow Pendant,Accessorys
+40780301,=,,=,Moon Pendant ,Accessorys
+41780301,=,,=,Earth Pendant,Accessorys
+42780301,=,,=,Golden Hourglass,Accessorys
+43780301,=,,=,Safety Bit,Accessorys
+48780301,=,,=,Ribbion,Accessorys
+49780301,=,,=,BulletProof Vest,Accessorys
+4A780301,=,,=,BulletProof Suit,Accessorys
+4B780301,=,,=,Chobham Armor,Accessorys
+4C780301,=,,=,Fireproof Inners,Accessorys
+4D780301,=,,=,Fire Crest,Accessorys
+50780301,=,,=,Warm Inners,Accessorys
+51780301,=,,=,Ice Crest,Accessorys
+54780301,=,,=,Insulated Inners,Accessorys
+55780301,=,,=,Lightning Crest,Accessorys
+58780301,=,,=,Anti-Darkness Inners,Accessorys
+59780301,=,,=,Dark Crest,Accessorys
+5C780301,=,,=,Celestriad,Accessorys
+5D780301,=,,=,Mightry Guard,Accessorys
+5E780301,=,,=,Stone Wall ,Accessorys
+5F780301,=,,=,Genji Gloves,Accessorys
+60780301,=,,=,Tempered Shield,Accessorys
+61780301,=,,=,Magitek Shild,Accessorys
+62780301,=,,=,Towel,Accessorys
+63780301,=,,=,Handkerchief,Accessorys
+64780301,=,,=,White Sneakers,Accessorys
+65780301,=,,=,Field Medicine,Accessorys
+66780301,=,,=,Thieves' Way,Accessorys
+67780301,=,,=,Thieves' Way 2,Accessorys
+6E780301,=,,=,Friendship Band,Accessorys
+72780301,=,,=,Auto-Changer,Accessorys
+73780301,=,,=,Soul of Thamasa,Accessorys
+74780301,=,,=,Robe of Lord,Accessorys
+75780301,=,,=,Applied Sorcery,Accessorys
+77780301,=,,=,Black Hood,Accessorys
+79780301,=,,=,Megaphone,Accessorys
+7B780301,=,,=,Black Belt,Accessorys
+7E780301,,,,,Accessorys
+7F780301,,,,,Accessorys
+80780301,,,,,Accessorys
+82780301,,,,,Accessorys
+84780301,,,,,Accessorys
+0FE20301,,,,,Accessorys
+10E20301,,,,,Accessorys
+B3CF0401,,,,,Accessorys
+B4CF0401,,,,,Accessorys
+B5CF0401,,,,,Accessorys
+B6CF0401,,,,,Accessorys
+B7CF0401,,,,,Accessorys
+B8CF0401,,,,,Accessorys
+B9CF0401,,,,,Accessorys
+BACF0401,,,,,Accessorys
+BBCF0401,,,,,Accessorys
+BCCF0401,,,,,Accessorys
+BDCF0401,,,,,Accessorys
+BECF0401,,,,,Accessorys
+BFCF0401,,,,,Accessorys
+C0CF0401,,,,,Accessorys
+C1CF0401,,,,,Accessorys
+C2CF0401,,,,,Accessorys
+C3CF0401,,,,,Accessorys
+C4CF0401,,,,,Accessorys
+C5CF0401,,,,,Accessorys
+C6CF0401,,,,,Accessorys
+C7CF0401,,,,,Accessorys
+C8CF0401,,,,,Accessorys
+C9CF0401,,,,,Accessorys
+CACF0401,,,,,Accessorys
+CBCF0401,,,,,Accessorys
+CCCF0401,,,,,Accessorys
+CDCF0401,,,,,Accessorys
+CECF0401,,,,,Accessorys
+CFCF0401,,,,,Accessorys
+D0CF0401,,,,,Accessorys
+D1CF0401,,,,,Accessorys
+D2CF0401,,,,,Accessorys
+993C0201,,,,,????
+8E620201,,,,,????
+8F620201,,,,,????
+90620201,,,,,????
+91620201,,,,,????
+92620201,,,,,????
+93620201,,,,,????
+94620201,,,,,????
+95620201,,,,,????
+96620201,,,,,????
+97620201,,,,,????
+98620201,,,,,????
+99620201,,,,,????
+9A620201,,,,,????
+9B620201,,,,,????
+84EF0301,,,,,????
+85EF0301,,,,,????
+86EF0301,,,,,????
+87EF0301,,,,,????
+88EF0301,,,,,????
+89EF0301,,,,,????
+8AEF0301,,,,,????
+8BEF0301,,,,,????
+8CEF0301,,,,,????
+8DEF0301,,,,,????
+8EEF0301,,,,,????
+8FEF0301,,,,,????
+26600401,,,,,????
+27600401,,,,,????
+D8650401,,,,,????
+D9650401,,,,,????
+79DA0401,,,,,????
+7ADA0401,,,,,????
+000A0501,,,,,????
+010A0501,,,,,????
+020A0501,,,,,????
+030A0501,,,,,????
+040A0501,,,,,????
+050A0501,,,,,????
+060A0501,,,,,????
+070A0501,,,,,????
+66110501,,,,,????
+67110501,,,,,????
+E72A0501,,,,,????
+96410501,,,,,????
+3C510501,,,,,????
+39900501,,,,,????
+F9980501,,,,,????
+029A0501,,,,,????
+039A0501,,,,,????
+049A0501,,,,,????
+059A0501,,,,,????
+069A0501,,,,,????
+089A0501,,,,,????
+0A9A0501,,,,,????
+77AD0501,,,,,????
+78AD0501,,,,,????
+79AD0501,,,,,????
+08B80501,,,,,????
+087E0201,,,,,????2
+48A30201,,,,,????2
+49A30201,,,,,????2
+4AA30201,,,,,????2
+4BA30201,,,,,????2
+4CA30201,,,,,????2
+4DA30201,,,,,????2
+4EA30201,,,,,????2
+4FA30201,,,,,????2
+50A30201,,,,,????2
+51A30201,,,,,????2
+53A30201,,,,,????2
+54A30201,,,,,????2
+55A30201,,,,,????2
+56A30201,,,,,????2
+57A30201,,,,,????2
+58A30201,,,,,????2
+59A30201,,,,,????2
+5AA30201,,,,,????2
+A4B50201,,,,,????2
+8DCD0201,,,,,????2
+F7EB0201,,,,,????2
+77FC0401,,,,,????2
+78FC0401,,,,,????2
+79FC0401,,,,,????2
+7AFC0401,,,,,????2
+7BFC0401,,,,,????2
+7CFC0401,,,,,????2
+7DFC0401,,,,,????2
+7EFC0401,,,,,????2
+7FFC0401,,,,,????2
+80FC0401,,,,,????2
+81FC0401,,,,,????2
+82FC0401,,,,,????2
+83FC0401,,,,,????2
+84FC0401,,,,,????2
+85FC0401,,,,,????2
+86FC0401,,,,,????2
+87FC0401,,,,,????2
+31090501,,,,,????2
+9C660501,,,,,????2
+13AE0501,,,,,????2
+14AE0501,,,,,????2
+15AE0501,,,,,????2
+B6AF0501,,,,,????2
+00000000,,,,,????2
+00000000,,,,,????2
+00000000,,,,,????2
+00000000,,,,,????2
+00000000,,,,,????2
+4BE90001,,,,,????2
+76480201,,,,,????2
+77480201,,,,,????2
+78480201,,,,,????2
+79480201,,,,,????2
+7B480201,,,,,????2
+7C480201,,,,,????2
+7D480201,,,,,????2
+7E480201,,,,,????2
+7F480201,,,,,????2
+80480201,,,,,????2
+81480201,,,,,????2
+82480201,,,,,????2
+83480201,,,,,????2
+84480201,,,,,????2
+85480201,,,,,????2
+86480201,,,,,????2
+87480201,,,,,????2
+88480201,,,,,????2
+89480201,,,,,????2
+8A480201,,,,,????2
+8B480201,,,,,????2
+8C480201,,,,,????2
+8D480201,,,,,????2
+8E480201,,,,,????2
+8F480201,,,,,????2
+90480201,,,,,????2
+91480201,,,,,????2
+92480201,,,,,????2
+93480201,,,,,????2
+94480201,,,,,????2
+95480201,,,,,????2
+96480201,,,,,????2
+97480201,,,,,????2
+98480201,,,,,????2
+99480201,,,,,????2
+9A480201,,,,,????2
+9B480201,,,,,????2
+9C480201,,,,,????2
+9D480201,,,,,????2
+9E480201,,,,,????2
+9F480201,,,,,????2
+A0480201,,,,,????2
+ED6B0201,,,,,????2
+1E8F0201,,,,,????2
+1F8F0201,,,,,????2
+208F0201,,,,,????2
+218F0201,,,,,????2
+228F0201,,,,,????2
+238F0201,,,,,????2
+248F0201,,,,,????2
+258F0201,,,,,????2
+268F0201,,,,,????2
+278F0201,,,,,????2
+288F0201,,,,,????2
+298F0201,,,,,????2
+2A8F0201,,,,,????2
+2B8F0201,,,,,????2
+2C8F0201,,,,,????2
+2D8F0201,,,,,????2
+2E8F0201,,,,,????2
+2F8F0201,,,,,????2
+308F0201,,,,,????2
+318F0201,,,,,????2
+328F0201,,,,,????2
+338F0201,,,,,????2
+348F0201,,,,,????2
+358F0201,,,,,????2
+368F0201,,,,,????2
+378F0201,,,,,????2
+388F0201,,,,,????2
+398F0201,,,,,????2
+3A8F0201,,,,,????2
+3B8F0201,,,,,????2
+3D8F0201,,,,,????2
+458F0201,,,,,????2
+468F0201,,,,,????2
+478F0201,,,,,????2
+D3210301,,,,,????2
+B8290301,,,,,????2
+D8520301,,,,,????2
+D9520301,,,,,????2
+DA520301,,,,,????2
+D5EC0301,,,,,????2
+8B620401,,,,,????2
+1B710401,,,,,????2
+0DF40401,,,,,????2
+0EF40401,,,,,????2
+0FF40401,,,,,????2
+10F40401,,,,,????2
+11F40401,,,,,????2
+12F40401,,,,,????2
+13F40401,,,,,????2
+14F40401,,,,,????2
+15F40401,,,,,????2
+16F40401,,,,,????2
+17F40401,,,,,????2
+18F40401,,,,,????2
+19F40401,,,,,????2
+1AF40401,,,,,????2
+1BF40401,,,,,????2
+1CF40401,,,,,????2
+1DF40401,,,,,????2
+1EF40401,,,,,????2
+1FF40401,,,,,????2
+20F40401,,,,,????2
+21F40401,,,,,????2
+22F40401,,,,,????2
+23F40401,,,,,????2
+24F40401,,,,,????2
+25F40401,,,,,????2
+26F40401,,,,,????2
+27F40401,,,,,????2
+28F40401,,,,,????2
+29F40401,,,,,????2
+2AF40401,,,,,????2
+2BF40401,,,,,????2
+2CF40401,,,,,????2
+2DF40401,,,,,????2
+2EF40401,,,,,????2
+2FF40401,,,,,????2
+30F40401,,,,,????2
+31F40401,,,,,????2
+32F40401,,,,,????2
+33F40401,,,,,????2
+34F40401,,,,,????2
+35F40401,,,,,????2
+36F40401,,,,,????2
+37F40401,,,,,????2
+38F40401,,,,,????2
+39F40401,,,,,????2
+3AF40401,,,,,????2
+3BF40401,,,,,????2
+3CF40401,,,,,????2
+3DF40401,,,,,????2
+3EF40401,,,,,????2
+3FF40401,,,,,????2
+40F40401,,,,,????2
+41F40401,,,,,????2
+42F40401,,,,,????2
+43F40401,,,,,????2
+44F40401,,,,,????2
+45F40401,,,,,????2
+D2090501,,,,,????2
+D3090501,,,,,????2
+B8110501,,,,,????2
+B9110501,,,,,????2
+A9720501,,,,,????2
