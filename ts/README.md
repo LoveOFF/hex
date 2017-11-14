@@ -1,3 +1,14 @@
+```
+git clone https://github.com/facebookincubator/create-react-app.git
+cd create-react-app/packages/react-dev-utils
+yarn
+yarn link
+
+cd my_app
+yarn link "react-dev-utils"
+yarn start
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
