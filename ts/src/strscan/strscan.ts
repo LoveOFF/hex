@@ -98,42 +98,87 @@
 // 
 // There are aliases to several of the methods.
 class StringScanner {
-   string: string;
+    /* the string to scan */
+   str: string; 
+   
+   /* scan pointers */
+   prev: number; /* legal only when MATCHED_P(s) */
+   curr: number; /* always legal */
+
+   /* regexp used for last scan */
+   regex: RegExp;
+
+   MATCHED_P: boolean;
+   MATCHED: boolean;
+
+   regs: Array<String>; // regex captures?
 
    // StringScanner.new(string, dup = false)
    // 
    // Creates a new StringScanner object to scan over the given +string+.
    // +dup+ argument is obsolete and not used now.
-   constructor(string: string) {
-       this.string = string
+   constructor(string?: string) {
+       if (string) {
+         this.str = string
+      }
    }
    // dup
    // clone
    // 
    // Duplicates a StringScanner object.
+   // strscan_init_copy
    initialize_copy(p1:StringScanner): StringScanner {
+    let copy = new StringScanner()
+    
+    copy.MATCHED_P = p1.MATCHED_P
+    copy.MATCHED = p1.MATCHED
+    copy.str = p1.str
+    copy.prev = p1.prev
+    copy.curr = p1.curr
+    copy.regs = p1.regs
+
+    return copy
    }
    
+   CLEAR_MATCH_STATUS() {
+    this.MATCHED = false
+    this.MATCHED_P = false
+   } 
+
    // Reset the scan pointer (index 0) and clear matching data.
-   reset() {
+   // strscan_reset
+   reset(): StringScanner {
+       this.curr = 0
+       this.CLEAR_MATCH_STATUS()
+       return this
    }
    // terminate
    // clear
    // 
    // Set the scan pointer to the end of the string and clear matching data.
-   terminate() {
+   // strscan_terminate
+   terminate(): StringScanner {
+       this.curr = this.str.length
+       this.CLEAR_MATCH_STATUS()
+       return this
    }
    
    // Returns the string being scanned.
+   // strscan_get_string
    string(): string {
-       return this.string;
+       return this.str;
    }
    // string=(str)
    // 
    // Changes the string being scanned to +str+ and resets the scanner.
    // Returns +str+.
    //def string=(str)
-   setString(str: string) {
+   // strscan_set_string
+   setString(str: string): string {
+       this.str = str;
+       this.curr = 0;
+       this.CLEAR_MATCH_STATUS()
+       return str
    }
    // concat(str)
    // 
@@ -145,22 +190,12 @@ class StringScanner {
    //   s << " +1000 GMT"
    //   s.string            // -> "Fri Dec 12 1975 14:39 +1000 GMT"
    //   s.scan(/Dec/)       // -> "Dec"
-   concat(str) {
+   // strscan_concat
+   concat(str: String): StringScanner {
+        this.str += str
+        return this
    }
-   // <<(str)
-   // 
-   // Appends +str+ to the string being scanned.
-   // This method does not affect scan pointer.
-   // 
-   //   s = StringScanner.new("Fri Dec 12 1975 14:39")
-   //   s.scan(/Fri /)
-   //   s << " +1000 GMT"
-   //   s.string            // -> "Fri Dec 12 1975 14:39 +1000 GMT"
-   //   s.scan(/Dec/)       // -> "Dec"
-   // def <<(p1)
-   append(p1) {
-
-   }
+   
    // Returns the byte position of the scan pointer.  In the 'reset' position, this
    // value is zero.  In the 'terminated' position (i.e. the string is exhausted),
    // this value is the bytesize of the string.
@@ -173,8 +208,8 @@ class StringScanner {
    //   s.pos               // -> 8
    //   s.terminate         // -> //<StringScanner fin>
    //   s.pos               // -> 11
-   pos() {
-
+   pos(): number {
+     return this.curr
    }
    // pos=(n)
    // 
@@ -184,8 +219,12 @@ class StringScanner {
    //   s.pos = 7            // -> 7
    //   s.rest               // -> "ring"
    // def pos=(n)
-   setPos(n) {
-
+   // strscan_set_pos
+   setPos(n: number): number {
+    if (n < 0) throw new Error("index out of range");
+    if (n > this.str.length) throw new Error("index out of range");
+    this.curr = n;
+    return n;
    }
    // Returns the character position of the scan pointer.  In the 'reset' position, this
    // value is zero.  In the 'terminated' position (i.e. the string is exhausted),
@@ -587,4 +626,6 @@ scanner.scan(item_pattern
 scanner.peek(8))
 scanner.pos += divider length
 
+https://github.com/michaelficarra/MooTools-StringScanner/blob/master/Source/StringScanner.js
+https://github.com/sstephenson/strscan-js
 */
