@@ -2369,7 +2369,7 @@ F9980501	Cloth [13]		48
 78AD0501	Cloth [13]		57					
 79AD0501	Cloth [13]		58					
 08B80501	Cloth [13]		59					
-087E0201	Job Commands [14]		0
+087E0201	Job Commands [14]		0					
 48A30201	Job Commands [14]		1					
 49A30201	Job Commands [14]		2					
 4AA30201	Job Commands [14]		3					

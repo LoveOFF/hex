@@ -36,6 +36,7 @@ class CodeDump
     item_index = 0
 
     known_codes_csv = AllItems.csv
+    section_counts = Hash.new 0
 
     while scanner.scan_until(item_id_pattern)
       # scan_until advances *past* the match. must backtrack to recover the matched segment
@@ -62,6 +63,7 @@ class CodeDump
 
       current_code = nil
       current_section = section_name(section_index)
+      section_counts[current_section] += 1
       # csv format:
       # [0]   [1]   [2]   [3]    [4]  [5]   [6]     [7]     [8]
       # Code  Type  Name  Index  Valid  Blank  No Icon  No Desc  Notes
@@ -81,6 +83,10 @@ class CodeDump
       codes << current_code
       item_index += 1
     end
+
+    puts "Total item counts per section"
+    puts "Section\tTotal"
+    section_counts.each { |k,v | puts "#{k}\t#{v}"}
 
     codes
   end
