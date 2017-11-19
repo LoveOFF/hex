@@ -49,6 +49,8 @@ class InventoryParse
     scanner.scan_until(inventory_start_pattern)
 
     raise "Invalid output #{output_format}" unless [:tsv, :csv, :string].include?(output_format)
+    # measure full section length to figure out max amount of items we can add per section.
+    section_length = Hash.new 0
 
     separator = case output_format
                   when :tsv
@@ -70,6 +72,7 @@ class InventoryParse
     item_count = 0
     while (raw_item_hex = scanner.scan(item_pattern))
       current_section = section_name(section_index)
+      section_length[current_section] += 1
       # D8 A2 61 2D 78 20 C8 3E 00 00 00 00 00 00 00 00
       #                         ^^ ^^ ^^ ^^ **
 
@@ -213,6 +216,9 @@ class InventoryParse
       raise "Missing codes!\n#{missing_codes.join("\n")}"
     end
 
+    puts "Section length (max total amount of ids per category)"
+    section_length.each { |k, v| puts "#{k}\t#{v}" }
+
     result
   end
 
@@ -330,6 +336,14 @@ class InventoryParse
 
     end
 
+    # exceeding the section limit will crash the game.
+    # section limits are calculated by measuring the total size of each section from a real save.
+    raise 'Exceeded Battle items limit' unless items_added[BATTLE_ITEMS] <= 64
+    raise 'Exceeded Key items limit' unless items_added[KEY_ITEMS] <= 256
+    raise 'Exceeded Ingredients limit' unless items_added[INGREDIENTS] <= 256
+    raise 'Exceeded Treasures limit' unless items_added[TREASURES] <= 256
+    raise 'Exceeded Car parts limit' unless items_added[CAR_PARTS] <= 256
+    raise 'Exceeded Leisure items limit' unless items_added[LEISURE] <= 256
     items_added.each { |k, v| puts "Added #{k} x#{v}" }
 
     raise 'save corrupted' unless hex_str_length == hex_str.length
