@@ -10,7 +10,7 @@ class InventoryParse
   # Marks start of *entire* inventory, not just treasures.
   def inventory_start_pattern
     # only 1 match in entire save file
-    /B2 69 26 91 67 BC E2 44 40 00 00 00/x
+    /B2 69 26 91 0C 12 87 31 40 00 00 00/x
   end
 
   # 1,616 items & 1 false positive at the end of file.

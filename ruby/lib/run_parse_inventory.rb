@@ -25,10 +25,18 @@ class RunParser
     # puts save_wizard_parser.print(output_format: :string)
     # puts save_wizard_parser.print_slots
   end
+
+  def print_slot slot
+    output =  InventoryParse.new(slot).print(output_format: :string)
+    puts output
+    puts 'unknowns found !!' if output.include? 'Unknown'
+  end
 end
 
-RunParser.new.save_wizard SaveWizard::SLOT_2, all_items: false
-RunParser.new.save_wizard SaveWizard::SLOT_3, all_items: true
+# RunParser.new.save_wizard SaveWizard::SLOT_2, all_items: false
+# RunParser.new.save_wizard SaveWizard::SLOT_2, all_items: true
+
+RunParser.new.print_slot(SaveWizard::SLOT_2)
 
 =begin
 Section boundary logic is incredibly broken
