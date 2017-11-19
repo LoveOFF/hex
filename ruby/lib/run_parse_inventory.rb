@@ -39,7 +39,9 @@ end
 # RunParser.new.print_slot(SaveWizard::SLOT_2)
 
 
-RunParser.new.save_wizard SaveWizard::SLOT_2, all_items: true
+RunParser.new.print_slot('../workspace/v1.18.save')
+
+# RunParser.new.save_wizard SaveWizard::SLOT_2, all_items: true
 
 
 =begin
