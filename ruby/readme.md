@@ -3,8 +3,10 @@
 ---
 
 run_parse_weapons -> add weapons
-run_parse_inventory -> add items
+run_parse_inventory -> add items / check for unknown items
 run_parse_accessories -> add accessories
+
+`run_code_dump.rb` - dumps codes from a save file.
 
 slot 2 - valid
 slot 3 - all
