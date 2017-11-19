@@ -5,7 +5,7 @@ C9500001	Battle Items [0]	Ether	3	x				equipping a new weapon to avoid glitching
 CB500001	Battle Items [0]	Elixir	4	x				
 CC500001	Battle Items [0]	Megalixir	5	x				FYI: Some codes may delete your save. Always backup!
 34610001	Battle Items [0]	Remedy	6	x				
-146A0001	Battle Items [0]	Hi-Potion	7	x				
+146A0001	Battle Items [0]	Hi-Potion	7	x				285 new ids. v1.18 = 2575  v1.16 = 2290
 BEFE0001	Battle Items [0]	Antidote	8	x				
 B8120101	Battle Items [0]	Phoenix Down	9	x				
 91FF0101	Battle Items [0]	Superior Restorative	10	x				
@@ -62,17 +62,17 @@ ACD70501	Battle Items [0]	Gold Needle	60	x
 ADD70501	Battle Items [0]	Smelling Salts	61	x				
 AED70501	Battle Items [0]	Maiden's Kiss	62	x				
 B5D70501	Battle Items [0]	Flesh Fortifier	63	x				
-B6D70501	Battle Items [0]		64
-B7D70501	Battle Items [0]		65
-48150601	Battle Items [0]		66
-49150601	Battle Items [0]		67
-4A150601	Battle Items [0]		68
-4B150601	Battle Items [0]		69
-4C150601	Battle Items [0]		70
-4D150601	Battle Items [0]		71
-4E150601	Battle Items [0]		72
-4F150601	Battle Items [0]		73
-FC3A0601	Battle Items [0]		74
+B6D70501	Battle Items [0]		64					
+B7D70501	Battle Items [0]		65					
+48150601	Battle Items [0]		66					
+49150601	Battle Items [0]		67					
+4A150601	Battle Items [0]		68					
+4B150601	Battle Items [0]		69					
+4C150601	Battle Items [0]		70					
+4D150601	Battle Items [0]		71					
+4E150601	Battle Items [0]		72					
+4F150601	Battle Items [0]		73					
+FC3A0601	Battle Items [0]		74					
 66E30001	Key Items [1]	Gil	0					Dummy item
 622F0101	Key Items [1]	EXP	1					Dummy item
 12EA0101	Key Items [1]		2		x			
@@ -277,7 +277,7 @@ BBB10501	Key Items [1]	Meteorshard	193			x
 53B20501	Key Items [1]	Research Log: 756-IV-8th	201	x				
 54B20501	Key Items [1]	Research Log: 756-VII-9th	202	x				
 B0B40501	Key Items [1]	False Orders	203	x				Assassin's event
-32C50501	Key Items [1]		204
+32C50501	Key Items [1]		204					
 16C70501	Key Items [1]	Power Plant Keycard	205	x				Assassin's event
 CAD20501	Key Items [1]	Tundra Attire (Mask/Googles On)	206	x				
 CBD20501	Key Items [1]	Tundra Attire (Goggles On)	207	x				
@@ -316,21 +316,21 @@ EF1A0601	Key Items [1]		238
 7E1B0601	Key Items [1]		240					
 9B230601	Key Items [1]		241					
 9C230601	Key Items [1]		242					
-862E0601	Key Items [1]		243
-872E0601	Key Items [1]		244
-882E0601	Key Items [1]		245
-892E0601	Key Items [1]		246
-8A2E0601	Key Items [1]		247
-8F2E0601	Key Items [1]		248
-E1390601	Key Items [1]		249
-E2390601	Key Items [1]		250
-153A0601	Key Items [1]		251
-6E470601	Key Items [1]		252
-70470601	Key Items [1]		253
-8D490601	Key Items [1]		254
-8E490601	Key Items [1]		255
-98490601	Key Items [1]		256
-99490601	Key Items [1]		257
+862E0601	Key Items [1]		243					
+872E0601	Key Items [1]		244					
+882E0601	Key Items [1]		245					
+892E0601	Key Items [1]		246					
+8A2E0601	Key Items [1]		247					
+8F2E0601	Key Items [1]		248					
+E1390601	Key Items [1]		249					
+E2390601	Key Items [1]		250					
+153A0601	Key Items [1]		251					
+6E470601	Key Items [1]		252					
+70470601	Key Items [1]		253					
+8D490601	Key Items [1]		254					
+8E490601	Key Items [1]		255					
+98490601	Key Items [1]		256					
+99490601	Key Items [1]		257					
 D8FF0101	Ingredients [2]	Gighee Ham	0	x				
 DAFF0101	Ingredients [2]	Garula Sirloin	1	x				
 DBFF0101	Ingredients [2]	Aegir Root	2	x				
@@ -725,221 +725,221 @@ F6760401	Treasures [3]	Adamantite	143	x
 49C10501	Treasures [3]		253			x	x	
 4AC10501	Treasures [3]		254			x	x	
 4BC10501	Treasures [3]		255			x	x	
-70C40501	Treasures [3]		256
-71C40501	Treasures [3]		257
-72C40501	Treasures [3]		258
-73C40501	Treasures [3]		259
-74C40501	Treasures [3]		260
-75C40501	Treasures [3]		261
-76C40501	Treasures [3]		262
-77C40501	Treasures [3]		263
-78C40501	Treasures [3]		264
-79C40501	Treasures [3]		265
-7AC40501	Treasures [3]		266
-7BC40501	Treasures [3]		267
-7CC40501	Treasures [3]		268
-7DC40501	Treasures [3]		269
-7EC40501	Treasures [3]		270
-7FC40501	Treasures [3]		271
-80C40501	Treasures [3]		272
-81C40501	Treasures [3]		273
-82C40501	Treasures [3]		274
-84C40501	Treasures [3]		275
-85C40501	Treasures [3]		276
-86C40501	Treasures [3]		277
-87C40501	Treasures [3]		278
-88C40501	Treasures [3]		279
-89C40501	Treasures [3]		280
-8AC40501	Treasures [3]		281
-8BC40501	Treasures [3]		282
-8CC40501	Treasures [3]		283
-8DC40501	Treasures [3]		284
-8EC40501	Treasures [3]		285
-8FC40501	Treasures [3]		286
-90C40501	Treasures [3]		287
-91C40501	Treasures [3]		288
-92C40501	Treasures [3]		289
-93C40501	Treasures [3]		290
-94C40501	Treasures [3]		291
-95C40501	Treasures [3]		292
-96C40501	Treasures [3]		293
-97C40501	Treasures [3]		294
-98C40501	Treasures [3]		295
-99C40501	Treasures [3]		296
-9AC40501	Treasures [3]		297
-9BC40501	Treasures [3]		298
-9CC40501	Treasures [3]		299
-9DC40501	Treasures [3]		300
-9EC40501	Treasures [3]		301
-9FC40501	Treasures [3]		302
-A0C40501	Treasures [3]		303
-A1C40501	Treasures [3]		304
-A2C40501	Treasures [3]		305
-A3C40501	Treasures [3]		306
-A4C40501	Treasures [3]		307
-A5C40501	Treasures [3]		308
-A6C40501	Treasures [3]		309
-A7C40501	Treasures [3]		310
-A8C40501	Treasures [3]		311
-A9C40501	Treasures [3]		312
-AAC40501	Treasures [3]		313
-ABC40501	Treasures [3]		314
-ACC40501	Treasures [3]		315
-ADC40501	Treasures [3]		316
-AEC40501	Treasures [3]		317
-AFC40501	Treasures [3]		318
-B0C40501	Treasures [3]		319
-B1C40501	Treasures [3]		320
-B2C40501	Treasures [3]		321
-B3C40501	Treasures [3]		322
-B4C40501	Treasures [3]		323
-B5C40501	Treasures [3]		324
-B6C40501	Treasures [3]		325
-B7C40501	Treasures [3]		326
-B8C40501	Treasures [3]		327
-B9C40501	Treasures [3]		328
-BAC40501	Treasures [3]		329
-BBC40501	Treasures [3]		330
-BCC40501	Treasures [3]		331
-BDC40501	Treasures [3]		332
-BEC40501	Treasures [3]		333
-BFC40501	Treasures [3]		334
-C0C40501	Treasures [3]		335
-C1C40501	Treasures [3]		336
-C2C40501	Treasures [3]		337
-C3C40501	Treasures [3]		338
-C4C40501	Treasures [3]		339
-C5C40501	Treasures [3]		340
-C6C40501	Treasures [3]		341
-C7C40501	Treasures [3]		342
-C8C40501	Treasures [3]		343
-C9C40501	Treasures [3]		344
-CAC40501	Treasures [3]		345
-CBC40501	Treasures [3]		346
-CCC40501	Treasures [3]		347
-CDC40501	Treasures [3]		348
-CEC40501	Treasures [3]		349
-CFC40501	Treasures [3]		350
-D0C40501	Treasures [3]		351
-D1C40501	Treasures [3]		352
-D2C40501	Treasures [3]		353
-D3C40501	Treasures [3]		354
-D4C40501	Treasures [3]		355
-D5C40501	Treasures [3]		356
-D6C40501	Treasures [3]		357
-D7C40501	Treasures [3]		358
-D8C40501	Treasures [3]		359
-D9C40501	Treasures [3]		360
-DAC40501	Treasures [3]		361
-DBC40501	Treasures [3]		362
-DCC40501	Treasures [3]		363
-DDC40501	Treasures [3]		364
-DEC40501	Treasures [3]		365
-DFC40501	Treasures [3]		366
-E0C40501	Treasures [3]		367
-E1C40501	Treasures [3]		368
-E2C40501	Treasures [3]		369
-E3C40501	Treasures [3]		370
-E4C40501	Treasures [3]		371
-E5C40501	Treasures [3]		372
-E6C40501	Treasures [3]		373
-E7C40501	Treasures [3]		374
-E8C40501	Treasures [3]		375
-E9C40501	Treasures [3]		376
-EAC40501	Treasures [3]		377
-EBC40501	Treasures [3]		378
-ECC40501	Treasures [3]		379
-EDC40501	Treasures [3]		380
-EEC40501	Treasures [3]		381
-EFC40501	Treasures [3]		382
-F0C40501	Treasures [3]		383
-F1C40501	Treasures [3]		384
-F2C40501	Treasures [3]		385
-F3C40501	Treasures [3]		386
-F4C40501	Treasures [3]		387
-0AC50501	Treasures [3]		388
-0BC50501	Treasures [3]		389
-0CC50501	Treasures [3]		390
-0DC50501	Treasures [3]		391
-0FC50501	Treasures [3]		392
-10C50501	Treasures [3]		393
-11C50501	Treasures [3]		394
-12C50501	Treasures [3]		395
-13C50501	Treasures [3]		396
-14C50501	Treasures [3]		397
-15C50501	Treasures [3]		398
-16C50501	Treasures [3]		399
-17C50501	Treasures [3]		400
-18C50501	Treasures [3]		401
-19C50501	Treasures [3]		402
-1AC50501	Treasures [3]		403
-1BC50501	Treasures [3]		404
-1CC50501	Treasures [3]		405
-1DC50501	Treasures [3]		406
-1EC50501	Treasures [3]		407
-1FC50501	Treasures [3]		408
-20C50501	Treasures [3]		409
-21C50501	Treasures [3]		410
-22C50501	Treasures [3]		411
-25C50501	Treasures [3]		412
-26C50501	Treasures [3]		413
-27C50501	Treasures [3]		414
-28C50501	Treasures [3]		415
-29C50501	Treasures [3]		416
-2AC50501	Treasures [3]		417
-2BC50501	Treasures [3]		418
-2CC50501	Treasures [3]		419
-2DC50501	Treasures [3]		420
-2EC50501	Treasures [3]		421
-2FC50501	Treasures [3]		422
-30C50501	Treasures [3]		423
-31C50501	Treasures [3]		424
-AFED0501	Treasures [3]		425
-B0ED0501	Treasures [3]		426
-B1ED0501	Treasures [3]		427
-B2ED0501	Treasures [3]		428
-B3ED0501	Treasures [3]		429
-B4ED0501	Treasures [3]		430
-B5ED0501	Treasures [3]		431
-B6ED0501	Treasures [3]		432
-B7ED0501	Treasures [3]		433
-B8ED0501	Treasures [3]		434
-B9ED0501	Treasures [3]		435
-BAED0501	Treasures [3]		436
-BBED0501	Treasures [3]		437
-BCED0501	Treasures [3]		438
-BDED0501	Treasures [3]		439
-BEED0501	Treasures [3]		440
-BFED0501	Treasures [3]		441
-C0ED0501	Treasures [3]		442
-C1ED0501	Treasures [3]		443
-C2ED0501	Treasures [3]		444
-C3ED0501	Treasures [3]		445
-C4ED0501	Treasures [3]		446
-C5ED0501	Treasures [3]		447
-C6ED0501	Treasures [3]		448
-C7ED0501	Treasures [3]		449
-C8ED0501	Treasures [3]		450
-431B0601	Treasures [3]		451
-F01F0601	Treasures [3]		452
-F11F0601	Treasures [3]		453
-F21F0601	Treasures [3]		454
-F31F0601	Treasures [3]		455
-90230601	Treasures [3]		456
-91230601	Treasures [3]		457
-92230601	Treasures [3]		458
-93230601	Treasures [3]		459
-94230601	Treasures [3]		460
-95230601	Treasures [3]		461
-96230601	Treasures [3]		462
-97230601	Treasures [3]		463
-98230601	Treasures [3]		464
-99230601	Treasures [3]		465
-6A330601	Treasures [3]		466
-6B330601	Treasures [3]		467
-6C330601	Treasures [3]		468
-60340601	Treasures [3]		469
-61340601	Treasures [3]		470
+70C40501	Treasures [3]		256					
+71C40501	Treasures [3]		257					
+72C40501	Treasures [3]		258					
+73C40501	Treasures [3]		259					
+74C40501	Treasures [3]		260					
+75C40501	Treasures [3]		261					
+76C40501	Treasures [3]		262					
+77C40501	Treasures [3]		263					
+78C40501	Treasures [3]		264					
+79C40501	Treasures [3]		265					
+7AC40501	Treasures [3]		266					
+7BC40501	Treasures [3]		267					
+7CC40501	Treasures [3]		268					
+7DC40501	Treasures [3]		269					
+7EC40501	Treasures [3]		270					
+7FC40501	Treasures [3]		271					
+80C40501	Treasures [3]		272					
+81C40501	Treasures [3]		273					
+82C40501	Treasures [3]		274					
+84C40501	Treasures [3]		275					
+85C40501	Treasures [3]		276					
+86C40501	Treasures [3]		277					
+87C40501	Treasures [3]		278					
+88C40501	Treasures [3]		279					
+89C40501	Treasures [3]		280					
+8AC40501	Treasures [3]		281					
+8BC40501	Treasures [3]		282					
+8CC40501	Treasures [3]		283					
+8DC40501	Treasures [3]		284					
+8EC40501	Treasures [3]		285					
+8FC40501	Treasures [3]		286					
+90C40501	Treasures [3]		287					
+91C40501	Treasures [3]		288					
+92C40501	Treasures [3]		289					
+93C40501	Treasures [3]		290					
+94C40501	Treasures [3]		291					
+95C40501	Treasures [3]		292					
+96C40501	Treasures [3]		293					
+97C40501	Treasures [3]		294					
+98C40501	Treasures [3]		295					
+99C40501	Treasures [3]		296					
+9AC40501	Treasures [3]		297					
+9BC40501	Treasures [3]		298					
+9CC40501	Treasures [3]		299					
+9DC40501	Treasures [3]		300					
+9EC40501	Treasures [3]		301					
+9FC40501	Treasures [3]		302					
+A0C40501	Treasures [3]		303					
+A1C40501	Treasures [3]		304					
+A2C40501	Treasures [3]		305					
+A3C40501	Treasures [3]		306					
+A4C40501	Treasures [3]		307					
+A5C40501	Treasures [3]		308					
+A6C40501	Treasures [3]		309					
+A7C40501	Treasures [3]		310					
+A8C40501	Treasures [3]		311					
+A9C40501	Treasures [3]		312					
+AAC40501	Treasures [3]		313					
+ABC40501	Treasures [3]		314					
+ACC40501	Treasures [3]		315					
+ADC40501	Treasures [3]		316					
+AEC40501	Treasures [3]		317					
+AFC40501	Treasures [3]		318					
+B0C40501	Treasures [3]		319					
+B1C40501	Treasures [3]		320					
+B2C40501	Treasures [3]		321					
+B3C40501	Treasures [3]		322					
+B4C40501	Treasures [3]		323					
+B5C40501	Treasures [3]		324					
+B6C40501	Treasures [3]		325					
+B7C40501	Treasures [3]		326					
+B8C40501	Treasures [3]		327					
+B9C40501	Treasures [3]		328					
+BAC40501	Treasures [3]		329					
+BBC40501	Treasures [3]		330					
+BCC40501	Treasures [3]		331					
+BDC40501	Treasures [3]		332					
+BEC40501	Treasures [3]		333					
+BFC40501	Treasures [3]		334					
+C0C40501	Treasures [3]		335					
+C1C40501	Treasures [3]		336					
+C2C40501	Treasures [3]		337					
+C3C40501	Treasures [3]		338					
+C4C40501	Treasures [3]		339					
+C5C40501	Treasures [3]		340					
+C6C40501	Treasures [3]		341					
+C7C40501	Treasures [3]		342					
+C8C40501	Treasures [3]		343					
+C9C40501	Treasures [3]		344					
+CAC40501	Treasures [3]		345					
+CBC40501	Treasures [3]		346					
+CCC40501	Treasures [3]		347					
+CDC40501	Treasures [3]		348					
+CEC40501	Treasures [3]		349					
+CFC40501	Treasures [3]		350					
+D0C40501	Treasures [3]		351					
+D1C40501	Treasures [3]		352					
+D2C40501	Treasures [3]		353					
+D3C40501	Treasures [3]		354					
+D4C40501	Treasures [3]		355					
+D5C40501	Treasures [3]		356					
+D6C40501	Treasures [3]		357					
+D7C40501	Treasures [3]		358					
+D8C40501	Treasures [3]		359					
+D9C40501	Treasures [3]		360					
+DAC40501	Treasures [3]		361					
+DBC40501	Treasures [3]		362					
+DCC40501	Treasures [3]		363					
+DDC40501	Treasures [3]		364					
+DEC40501	Treasures [3]		365					
+DFC40501	Treasures [3]		366					
+E0C40501	Treasures [3]		367					
+E1C40501	Treasures [3]		368					
+E2C40501	Treasures [3]		369					
+E3C40501	Treasures [3]		370					
+E4C40501	Treasures [3]		371					
+E5C40501	Treasures [3]		372					
+E6C40501	Treasures [3]		373					
+E7C40501	Treasures [3]		374					
+E8C40501	Treasures [3]		375					
+E9C40501	Treasures [3]		376					
+EAC40501	Treasures [3]		377					
+EBC40501	Treasures [3]		378					
+ECC40501	Treasures [3]		379					
+EDC40501	Treasures [3]		380					
+EEC40501	Treasures [3]		381					
+EFC40501	Treasures [3]		382					
+F0C40501	Treasures [3]		383					
+F1C40501	Treasures [3]		384					
+F2C40501	Treasures [3]		385					
+F3C40501	Treasures [3]		386					
+F4C40501	Treasures [3]		387					
+0AC50501	Treasures [3]		388					
+0BC50501	Treasures [3]		389					
+0CC50501	Treasures [3]		390					
+0DC50501	Treasures [3]		391					
+0FC50501	Treasures [3]		392					
+10C50501	Treasures [3]		393					
+11C50501	Treasures [3]		394					
+12C50501	Treasures [3]		395					
+13C50501	Treasures [3]		396					
+14C50501	Treasures [3]		397					
+15C50501	Treasures [3]		398					
+16C50501	Treasures [3]		399					
+17C50501	Treasures [3]		400					
+18C50501	Treasures [3]		401					
+19C50501	Treasures [3]		402					
+1AC50501	Treasures [3]		403					
+1BC50501	Treasures [3]		404					
+1CC50501	Treasures [3]		405					
+1DC50501	Treasures [3]		406					
+1EC50501	Treasures [3]		407					
+1FC50501	Treasures [3]		408					
+20C50501	Treasures [3]		409					
+21C50501	Treasures [3]		410					
+22C50501	Treasures [3]		411					
+25C50501	Treasures [3]		412					
+26C50501	Treasures [3]		413					
+27C50501	Treasures [3]		414					
+28C50501	Treasures [3]		415					
+29C50501	Treasures [3]		416					
+2AC50501	Treasures [3]		417					
+2BC50501	Treasures [3]		418					
+2CC50501	Treasures [3]		419					
+2DC50501	Treasures [3]		420					
+2EC50501	Treasures [3]		421					
+2FC50501	Treasures [3]		422					
+30C50501	Treasures [3]		423					
+31C50501	Treasures [3]		424					
+AFED0501	Treasures [3]		425					
+B0ED0501	Treasures [3]		426					
+B1ED0501	Treasures [3]		427					
+B2ED0501	Treasures [3]		428					
+B3ED0501	Treasures [3]		429					
+B4ED0501	Treasures [3]		430					
+B5ED0501	Treasures [3]		431					
+B6ED0501	Treasures [3]		432					
+B7ED0501	Treasures [3]		433					
+B8ED0501	Treasures [3]		434					
+B9ED0501	Treasures [3]		435					
+BAED0501	Treasures [3]		436					
+BBED0501	Treasures [3]		437					
+BCED0501	Treasures [3]		438					
+BDED0501	Treasures [3]		439					
+BEED0501	Treasures [3]		440					
+BFED0501	Treasures [3]		441					
+C0ED0501	Treasures [3]		442					
+C1ED0501	Treasures [3]		443					
+C2ED0501	Treasures [3]		444					
+C3ED0501	Treasures [3]		445					
+C4ED0501	Treasures [3]		446					
+C5ED0501	Treasures [3]		447					
+C6ED0501	Treasures [3]		448					
+C7ED0501	Treasures [3]		449					
+C8ED0501	Treasures [3]		450					
+431B0601	Treasures [3]		451					
+F01F0601	Treasures [3]		452					
+F11F0601	Treasures [3]		453					
+F21F0601	Treasures [3]		454					
+F31F0601	Treasures [3]		455					
+90230601	Treasures [3]		456					
+91230601	Treasures [3]		457					
+92230601	Treasures [3]		458					
+93230601	Treasures [3]		459					
+94230601	Treasures [3]		460					
+95230601	Treasures [3]		461					
+96230601	Treasures [3]		462					
+97230601	Treasures [3]		463					
+98230601	Treasures [3]		464					
+99230601	Treasures [3]		465					
+6A330601	Treasures [3]		466					
+6B330601	Treasures [3]		467					
+6C330601	Treasures [3]		468					
+60340601	Treasures [3]		469					
+61340601	Treasures [3]		470					
 EF6D0201	Car Parts [4]	Whitestone Shard	0	x				
 F06D0201	Car Parts [4]	Blackstone Shard	1	x				
 F16D0201	Car Parts [4]	Redstone Shard	2	x				
@@ -1091,7 +1091,7 @@ AB650501	Car Parts [4]	Terra Battle	128	x
 27B60501	Car Parts [4]	Body Art Anthology, Vol. 7	148			x		
 28B60501	Car Parts [4]	Body Art Anthology, Vol. 8	149			x		
 29B60501	Car Parts [4]	Body Art Anthology, Vol. 9	150			x		
-2AB60501	Car Parts [4]	 Body Art Anthology, Vol. 10	151			x		
+2AB60501	Car Parts [4]	Body Art Anthology, Vol. 10	151			x		
 2BB60501	Car Parts [4]	Body Art Anthology, Vol. 11	152			x		
 2CB60501	Car Parts [4]	Tats Done Right, Vol. 1	153			x		
 2DB60501	Car Parts [4]	Tats Done Right, Vol. 2	154			x		
@@ -2064,7 +2064,7 @@ FFFC0501	Weapons [10]		417
 10FD0501	Weapons [10]		434					
 11FD0501	Weapons [10]		435					
 12FD0501	Weapons [10]		436					
-13FD0501	Weapons [10]		437
+13FD0501	Weapons [10]		437					
 14FD0501	Weapons [10]		438					
 15FD0501	Weapons [10]		439					
 16FD0501	Weapons [10]		440					
@@ -2075,64 +2075,64 @@ FFFC0501	Weapons [10]		417
 31180601	Weapons [10]		445					
 32180601	Weapons [10]		446					
 33180601	Weapons [10]		447					
-D8360601	Weapons [10]		448
-D9360601	Weapons [10]		449
-DA360601	Weapons [10]		450
-DB360601	Weapons [10]		451
-DC360601	Weapons [10]		452
-DD360601	Weapons [10]		453
-DE360601	Weapons [10]		454
-283A0601	Weapons [10]		455
-293A0601	Weapons [10]		456
-2A3A0601	Weapons [10]		457
-2B3A0601	Weapons [10]		458
-2C3A0601	Weapons [10]		459
-2D3A0601	Weapons [10]		460
-2E3A0601	Weapons [10]		461
-C93B0601	Weapons [10]		462
-48430601	Weapons [10]		463
-49430601	Weapons [10]		464
-9A480601	Weapons [10]		465
-9B480601	Weapons [10]		466
-9C480601	Weapons [10]		467
-9D480601	Weapons [10]		468
-9E480601	Weapons [10]		469
-9F480601	Weapons [10]		470
-A0480601	Weapons [10]		471
-524A0601	Weapons [10]		472
-534A0601	Weapons [10]		473
-544A0601	Weapons [10]		474
-554A0601	Weapons [10]		475
-564A0601	Weapons [10]		476
-574A0601	Weapons [10]		477
-584A0601	Weapons [10]		478
-594A0601	Weapons [10]		479
-5A4A0601	Weapons [10]		480
-5B4A0601	Weapons [10]		481
-5C4A0601	Weapons [10]		482
-5D4A0601	Weapons [10]		483
-EE520601	Weapons [10]		484
-EF520601	Weapons [10]		485
-F0520601	Weapons [10]		486
-F1520601	Weapons [10]		487
-F2520601	Weapons [10]		488
-F3520601	Weapons [10]		489
-F4520601	Weapons [10]		490
-F5520601	Weapons [10]		491
-F6520601	Weapons [10]		492
-F7520601	Weapons [10]		493
-F8520601	Weapons [10]		494
-F9520601	Weapons [10]		495
-FA520601	Weapons [10]		496
-FB520601	Weapons [10]		497
-FC520601	Weapons [10]		498
-FD520601	Weapons [10]		499
-FE520601	Weapons [10]		500
-FF520601	Weapons [10]		501
-00530601	Weapons [10]		502
-01530601	Weapons [10]		503
-02530601	Weapons [10]		504
-A2540601	Weapons [10]		505
+D8360601	Weapons [10]		448					
+D9360601	Weapons [10]		449					
+DA360601	Weapons [10]		450					
+DB360601	Weapons [10]		451					
+DC360601	Weapons [10]		452					
+DD360601	Weapons [10]		453					
+DE360601	Weapons [10]		454					
+283A0601	Weapons [10]		455					
+293A0601	Weapons [10]		456					
+2A3A0601	Weapons [10]		457					
+2B3A0601	Weapons [10]		458					
+2C3A0601	Weapons [10]		459					
+2D3A0601	Weapons [10]		460					
+2E3A0601	Weapons [10]		461					
+C93B0601	Weapons [10]		462					
+48430601	Weapons [10]		463					
+49430601	Weapons [10]		464					
+9A480601	Weapons [10]		465					
+9B480601	Weapons [10]		466					
+9C480601	Weapons [10]		467					
+9D480601	Weapons [10]		468					
+9E480601	Weapons [10]		469					
+9F480601	Weapons [10]		470					
+A0480601	Weapons [10]		471					
+524A0601	Weapons [10]		472					
+534A0601	Weapons [10]		473					
+544A0601	Weapons [10]		474					
+554A0601	Weapons [10]		475					
+564A0601	Weapons [10]		476					
+574A0601	Weapons [10]		477					
+584A0601	Weapons [10]		478					
+594A0601	Weapons [10]		479					
+5A4A0601	Weapons [10]		480					
+5B4A0601	Weapons [10]		481					
+5C4A0601	Weapons [10]		482					
+5D4A0601	Weapons [10]		483					
+EE520601	Weapons [10]		484					
+EF520601	Weapons [10]		485					
+F0520601	Weapons [10]		486					
+F1520601	Weapons [10]		487					
+F2520601	Weapons [10]		488					
+F3520601	Weapons [10]		489					
+F4520601	Weapons [10]		490					
+F5520601	Weapons [10]		491					
+F6520601	Weapons [10]		492					
+F7520601	Weapons [10]		493					
+F8520601	Weapons [10]		494					
+F9520601	Weapons [10]		495					
+FA520601	Weapons [10]		496					
+FB520601	Weapons [10]		497					
+FC520601	Weapons [10]		498					
+FD520601	Weapons [10]		499					
+FE520601	Weapons [10]		500					
+FF520601	Weapons [10]		501					
+00530601	Weapons [10]		502					
+01530601	Weapons [10]		503					
+02530601	Weapons [10]		504					
+A2540601	Weapons [10]		505					
 4CF60101	Phantom Swords [11]		0					
 4DF60101	Phantom Swords [11]		1					
 4EF60101	Phantom Swords [11]		2					
@@ -2306,9 +2306,9 @@ D2CF0401	Accessories [12]		129		x
 26E30501	Accessories [12]		154					
 28ED0501	Accessories [12]		155					
 16170601	Accessories [12]		156					
-602D0601	Accessories [12]		157
-2F310601	Accessories [12]		158
-A33E0601	Accessories [12]		159
+602D0601	Accessories [12]		157					
+2F310601	Accessories [12]		158					
+A33E0601	Accessories [12]		159					
 993C0201	Cloth [13]		0					
 8E620201	Cloth [13]		1					
 8F620201	Cloth [13]		2					
@@ -2369,7 +2369,7 @@ F9980501	Cloth [13]		48
 78AD0501	Cloth [13]		57					
 79AD0501	Cloth [13]		58					
 08B80501	Cloth [13]		59					
-087E0201	Job Commands [14]		0					
+087E0201	Job Commands [14]		0
 48A30201	Job Commands [14]		1					
 49A30201	Job Commands [14]		2					
 4AA30201	Job Commands [14]		3					
@@ -2414,7 +2414,7 @@ F7EB0201	Job Commands [14]		21
 14AE0501	Job Commands [14]		42					
 15AE0501	Job Commands [14]		43					
 B6AF0501	Job Commands [14]		44					
-E2130601	Job Commands [14]		45
+E2130601	Job Commands [14]		45					
 4BE90001	Recipe [15]		0					
 76480201	Recipe [15]		1					
 77480201	Recipe [15]		2					
@@ -2565,10 +2565,10 @@ B9110501	Recipe [15]		146
 A9720501	Recipe [15]		147					
 26830501	Recipe [15]		148					
 43900501	Recipe [15]		149					
-9E110601	Recipe [15]		150
-9F110601	Recipe [15]		151
-A0110601	Recipe [15]		152
-A1110601	Recipe [15]		153
-A2110601	Recipe [15]		154
-A3110601	Recipe [15]		155
-A4110601	Recipe [15]		156
+9E110601	Recipe [15]		150					
+9F110601	Recipe [15]		151					
+A0110601	Recipe [15]		152					
+A1110601	Recipe [15]		153					
+A2110601	Recipe [15]		154					
+A3110601	Recipe [15]		155					
+A4110601	Recipe [15]		156					

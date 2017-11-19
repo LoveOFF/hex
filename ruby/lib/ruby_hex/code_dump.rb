@@ -35,7 +35,6 @@ class CodeDump
     first_match = true
     item_index = 0
 
-
     known_codes_csv = AllItems.csv
 
     while scanner.scan_until(item_id_pattern)
@@ -58,6 +57,8 @@ class CodeDump
 
       next if item_code == '0' * 8
       next if item_code == 'F' * 8
+
+      raise "Invalid hex code: #{item_code}" unless item_code.match(/^\h{8}$/)
 
       current_code = nil
       current_section = section_name(section_index)
