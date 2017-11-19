@@ -34,9 +34,13 @@ class RunParser
 end
 
 # RunParser.new.save_wizard SaveWizard::SLOT_2, all_items: false
+# RunParser.new.save_wizard SaveWizard::SLOT_3, all_items: true
+#
+# RunParser.new.print_slot(SaveWizard::SLOT_2)
+
+
 RunParser.new.save_wizard SaveWizard::SLOT_2, all_items: true
 
-# RunParser.new.print_slot(SaveWizard::SLOT_2)
 
 =begin
 Section boundary logic is incredibly broken
