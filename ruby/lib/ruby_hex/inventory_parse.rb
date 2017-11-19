@@ -330,13 +330,7 @@ class InventoryParse
 
     end
 
-    puts "Items added: #{items_added}"
-    raise 'Exceeded Battle items limit' unless items_added[BATTLE_ITEMS] <= 64
-    raise 'Exceeded Key items limit' unless items_added[KEY_ITEMS] <= 256
-    raise 'Exceeded Ingredients limit' unless items_added[INGREDIENTS] <= 256
-    raise 'Exceeded Treasures limit' unless items_added[TREASURES] <= 256
-    raise 'Exceeded Car parts limit' unless items_added[CAR_PARTS] <= 256
-    raise 'Exceeded Leisure items limit' unless items_added[LEISURE] <= 256
+    items_added.each { |k, v| puts "Added #{k} x#{v}" }
 
     raise 'save corrupted' unless hex_str_length == hex_str.length
 
