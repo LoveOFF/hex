@@ -21,4 +21,22 @@ describe 'StringScanner' do
     expect(s.scan(/\s+/)).to eq(nil)
     expect(s.scan(/\w+/)).to eq(nil)
   end
+
+  it '#concat' do
+    s = StringScanner.new('Fri Dec 12 1975 14:39')
+    s.scan(/Fri /)
+    s.concat(' +1000 GMT')
+
+    expect(s.string).to eq('Fri Dec 12 1975 14:39 +1000 GMT')
+    expect(s.scan(/Dec/)).to eq('Dec')
+  end
+
+  it '#pos' do
+    s = StringScanner.new('test string')
+    expect(s.pos).to eq(0)
+    expect(s.scan_until(/str/)).to eq('test str')
+    expect(s.pos).to eq(8)
+    s.terminate # sets pos to end of str
+    expect(s.pos).to eq(11)
+  end
 end

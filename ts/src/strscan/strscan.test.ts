@@ -39,3 +39,39 @@ it('parses an example string', () => {
     expect(s.scan(/\s+/)).toBe(null)
     expect(s.scan(/\w+/)).toBe(null)
 });
+
+// it '#concat' do
+//     s = StringScanner.new('Fri Dec 12 1975 14:39')
+//     s.scan(/Fri /)
+//     s.concat(' +1000 GMT')
+    
+//     expect(s.string).to eq('Fri Dec 12 1975 14:39 +1000 GMT')
+//     expect(s.scan(/Dec/)).to eq('Dec')
+// end
+
+it("#concat", () => {
+    let s = new StringScanner('Fri Dec 12 1975 14:39')
+    s.scan(/Fri /)
+    s.concat(' +1000 GMT')
+      
+    expect(s.string()).toBe('Fri Dec 12 1975 14:39 +1000 GMT')
+    expect(s.scan(/Dec/)).toBe('Dec')
+});
+
+// it '#pos' do
+//     s = StringScanner.new('test string')
+//     expect(s.pos).to eq(0)
+//     expect(s.scan_until(/str/)).to eq('test str')
+//     expect(s.pos).to eq(8)
+//     s.terminate # sets pos to end of str
+//     expect(s.pos).to eq(11)
+// end
+
+it("#pos", () => {
+    let s = new StringScanner('test string')
+    expect(s.pos()).toBe(0)
+    expect(s.scan_until(/str/)).toBe('test str')
+    expect(s.pos()).toBe(8)
+    s.terminate() // sets pos to end of str
+    expect(s.pos()).toBe(11)
+});
