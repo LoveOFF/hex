@@ -1,16 +1,16 @@
 # ruby_hex
 
----
+## Scripts
 
-run_parse_weapons -> add weapons
-run_parse_inventory -> add items / check for unknown items
-run_parse_accessories -> add accessories
+- `lib/run_parse_weapons.rb` Add weapons. See setup below.
+- `lib/run_parse_inventory.rb` Add items or check for unknown items. No setup required.
+- `lib/run_parse_accessories.rb` Add accessories. See setup below
+- `lib/run_code_dump.rb` - Dumps codes from a save file. No setup required.
 
-`run_code_dump.rb` - dumps codes from a save file.
+## Defaults
 
-slot 2 - valid
-slot 3 - all
-
+- `slot 2` - add only valid items
+- `slot 3` - add all items (including debug)
 
 ## Accessories Setup (99 * 2 = 160)
 Buy from Regalia shop.
