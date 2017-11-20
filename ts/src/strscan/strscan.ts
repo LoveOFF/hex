@@ -97,7 +97,7 @@
 // - //unscan
 // 
 // There are aliases to several of the methods.
-class StringScanner {
+export class StringScanner {
     /* the string to scan */
    str: string; 
    
@@ -111,7 +111,7 @@ class StringScanner {
    MATCHED_P: boolean;
    MATCHED: boolean;
 
-//    regs: Array<String>; // regex captures?
+//    regs: Array<String>; // regex matches?
 
    regsBeg0: number; // regex capture begin
    regsEnd0: number; // regex capture end
@@ -124,6 +124,13 @@ class StringScanner {
        if (string) {
          this.str = string
       }
+
+      this.prev = 0;
+      this.curr = 0;
+      this.MATCHED_P = false;
+      this.MATCHED = false;
+      this.regsBeg0 = 0;
+      this.regsEnd0 = 0;
    }
    // dup
    // clone
@@ -292,7 +299,7 @@ class StringScanner {
                     // result from regex
                     let result;
 
-                    if (headonly) {
+                    if (headonly === 1) {
                       result = this.str.substr(this.curr).match(regex);
                     } else {
                       result = this.str.match(regex);
@@ -306,6 +313,7 @@ class StringScanner {
 
                     // "abbc".match(/bb/)
                     // ["bb", index: 1, input: "abbc"]
+                    // console.log("scan result:", result);
 
                     let resultIndex = result.index;
                     if (resultIndex === undefined) { 
@@ -316,11 +324,11 @@ class StringScanner {
                     this.regsBeg0 = resultIndex;
                     this.regsEnd0 = resultIndex + result[0].length;
 
-                    if (succptr) {
+                    if (succptr === 1) {
                         this.curr += this.regsEnd0;
                     }
 
-                    if (getstr) {
+                    if (getstr === 1) {
                         return this.str.substr(this.prev, this.regsEnd0)
                     } else {
                         return this.regsEnd0
@@ -572,7 +580,7 @@ class StringScanner {
    //   s.terminate
    //   p s.eos?          // => true
    // strscan_eos_p
-   eos() {
+   eos(): boolean {
        return this.curr >= this.str.length
    }
 
