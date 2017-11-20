@@ -96,6 +96,26 @@
 // - //string=
 // - //unscan
 // 
+
+
+class Regs {
+    num_regs: number;
+    beg: Array<number>;
+    end: Array<number>;
+
+    constructor(regs?: Regs) {
+        if (regs == null) {
+            this.num_regs = 0;
+            this.beg = [];
+            this.end = [];
+        } else {
+            this.num_regs = regs.num_regs;
+            this.beg = regs.beg;
+            this.end = regs.end;
+        }
+    }
+}
+
 // There are aliases to several of the methods.
 export class StringScanner {
     /* the string to scan */
@@ -111,10 +131,7 @@ export class StringScanner {
    MATCHED_P: boolean;
    MATCHED: boolean;
 
-//    regs: Array<String>; // regex matches?
-
-   regsBeg0: number; // regex capture begin
-   regsEnd0: number; // regex capture end
+   regs: Regs;
 
    // StringScanner.new(string, dup = false)
    // 
@@ -129,8 +146,7 @@ export class StringScanner {
       this.curr = 0;
       this.MATCHED_P = false;
       this.MATCHED = false;
-      this.regsBeg0 = 0;
-      this.regsEnd0 = 0;
+      this.regs = new Regs()
    }
    // dup
    // clone
@@ -145,8 +161,7 @@ export class StringScanner {
     copy.str = p1.str
     copy.prev = p1.prev
     copy.curr = p1.curr
-    copy.regsBeg0 = p1.regsBeg0
-    copy.regsEnd0 = p1.regsEnd0
+    copy.regs = new Regs(p1.regs)
 
     return copy
    }
@@ -319,18 +334,22 @@ export class StringScanner {
                         throw new Error("Index undefined")
                     }
 
-                    // todo: check this math
-                    this.regsBeg0 = resultIndex;
-                    this.regsEnd0 = resultIndex + result[0].length;
+                    this.regs.num_regs = result.length;
+                    result.forEach((res, index) => {
+                        if (resultIndex !== undefined) {
+                          this.regs.beg[index] = resultIndex;
+                          this.regs.end[index] = resultIndex + res.length;
+                        }
+                    });
 
                     if (succptr === 1) {
-                        this.curr += this.regsEnd0;
+                        this.curr += this.regs.end[0];
                     }
 
                     if (getstr === 1) {
-                        return this.str.substr(this.prev, this.regsEnd0)
+                        return this.str.substr(this.prev, this.regs.end[0])
                     } else {
-                        return this.regsEnd0
+                        return this.regs.end[0]
                     }
     }
 
@@ -616,8 +635,8 @@ export class StringScanner {
      }
 
      return this.extract_range(
-         this.prev + this.regsBeg0,
-         this.prev + this.regsEnd0);
+         this.prev + this.regs.beg[0],
+         this.prev + this.regs.end[0]);
    }
    // Returns the size of the most recent match (see //matched), or +nil+ if there
    // was no recent match.
@@ -632,7 +651,7 @@ export class StringScanner {
         return null
     }
 
-    return this.regsEnd0 - this.regsBeg0;
+    return this.regs.end[0] - this.regs.beg[0];
    }
    // [](n)
    // 
@@ -683,7 +702,7 @@ export class StringScanner {
         return null
     }
 
-    return this.extract_range(0, this.prev + this.regsBeg0);
+    return this.extract_range(0, this.prev + this.regs.beg[0]);
    }
 
    // Return the <i><b>post</b>-match</i> (in the regular expression sense) of the last scan.
@@ -699,7 +718,7 @@ export class StringScanner {
         return null
     }
 
-    return this.extract_range(this.prev + this.regsEnd0, this.str.length);
+    return this.extract_range(this.prev + this.regs.end[0], this.str.length);
    }
 
    // Returns the "rest" of the string (i.e. everything after the scan pointer).
