@@ -363,10 +363,10 @@ it('#bol', () => {
     expect(s.bol()).toBe(true)
     s.scan(/te/)
     expect(s.bol()).toBe(false)
-    s.scan(/st\n/)
+    expect(s.scan(/st\n/)).toBe("st\n")
     expect(s.bol()).toBe(true)
-    // s.terminate()
-    // expect(s.bol()).toBe(true)
+    s.terminate()
+    expect(s.bol()).toBe(true)
 });
 
 // it '#beginning_of_line' do
@@ -380,13 +380,13 @@ it('#bol', () => {
 //     expect(s.beginning_of_line?).to eq(true)
 // end
 
-// it('#beginning_of_line', () => {
-//     let s = new StringScanner("test\ntest\n")
-//     expect(s.beginning_of_line()).toBe(true)
-//     s.scan(/te/)
-//     expect(s.beginning_of_line()).toBe(false)
-//     s.scan(/st\n/)
-//     expect(s.beginning_of_line()).toBe(true)
-//     s.terminate()
-//     expect(s.beginning_of_line()).toBe(true)
-// });
+it('#beginning_of_line', () => {
+    let s = new StringScanner("test\ntest\n")
+    expect(s.beginning_of_line()).toBe(true)
+    s.scan(/te/)
+    expect(s.beginning_of_line()).toBe(false)
+    s.scan(/st\n/)
+    expect(s.beginning_of_line()).toBe(true)
+    s.terminate()
+    expect(s.beginning_of_line()).toBe(true)
+});

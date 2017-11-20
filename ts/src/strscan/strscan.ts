@@ -572,7 +572,8 @@ export class StringScanner {
    //   s.bol?           // => true
    // strscan_bol_p
    beginning_of_line(): boolean {
-     return this.curr == 0;
+     if (this.curr == 0) return true;
+     return this.str.substr(this.curr-1, 1) == "\n";
    }
 
    bol(): boolean {
