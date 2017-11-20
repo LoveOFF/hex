@@ -172,4 +172,13 @@ describe 'StringScanner' do
     expect(s.peek(7)).to eq("test st")
     expect(s.peek(7)).to eq("test st")
   end
+
+  it '#unscan' do
+    s = StringScanner.new('test string')
+    expect(s.scan(/\w+/)).to eq('test')
+    s.unscan
+    expect(s.scan(/../)).to eq('te')
+    expect(s.scan(/\d/)).to eq(nil)
+    expect{ s.unscan }.to raise_error(StringScanner::Error) # ScanError: unscan failed: previous match record not exist
+  end
 end

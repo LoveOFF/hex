@@ -325,3 +325,24 @@ it('#peek', () => {
     expect(s.peek(7)).toBe("test st")
 });
 
+// it '#unscan' do
+//     s = StringScanner.new('test string')
+//     expect(s.scan(/\w+/)).to eq('test')
+//     s.unscan
+//     expect(s.scan(/../)).to eq('te')
+//     expect(s.scan(/\d/)).to eq(nil)
+//     expect{ s.unscan }.to raise_error(StringScanner::Error) # ScanError: unscan failed: previous match record not exist
+// end
+
+it('#unscan', () => {
+    let s = new StringScanner('test string')
+    expect(s.scan(/\w+/)).toBe('test')
+    s.unscan()
+    expect(s.scan(/../)).toBe('te')
+    expect(s.scan(/\d/)).toBe(null)
+
+    let scanError = 'ScanError: unscan failed: previous match record not exist'
+    expect(() => {
+        s.unscan()
+      }).toThrowError(scanError);
+});
