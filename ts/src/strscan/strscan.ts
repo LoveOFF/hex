@@ -251,7 +251,7 @@ export class StringScanner {
    //   s.charpos           // -> 4
    // strscan_get_charpos
    charpos(): number {
-     return this.str.substr(0, this.curr).length
+     return this.curr
    }
    // Returns the byte position of the scan pointer.  In the 'reset' position, this
    // value is zero.  In the 'terminated' position (i.e. the string is exhausted),

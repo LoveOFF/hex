@@ -90,3 +90,19 @@ it("#setPos", () => {
     expect(s.rest()).toBe('ring')
 });
 
+// it '#charPos' do
+//     s = StringScanner.new("abcädeföghi")
+//     expect(s.charpos).to eq(0)
+//     expect(s.scan_until(/ä/)).to eq('abcä')
+//     expect(s.pos).to eq(5)
+//     expect(s.charpos).to eq(4)
+// end
+
+it("#charPos", () => {
+    let s = new StringScanner("abcädeföghi")
+    expect(s.charpos()).toBe(0)
+    expect(s.scan_until(/ä/)).toBe('abcä')
+    // NOTE: In ruby s.pos() is 5 for the  multibyte character. In JS, the position is 4.
+    expect(s.pos()).toBe(4)
+    expect(s.charpos()).toBe(4)
+});

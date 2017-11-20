@@ -46,4 +46,20 @@ describe 'StringScanner' do
     expect(s.pos).to eq(7)
     expect(s.rest).to eq('ring')
   end
+
+  it '#charPos' do
+    s = StringScanner.new("abcädeföghi")
+    expect(s.charpos).to eq(0)
+    expect(s.scan_until(/ä/)).to eq('abcä')
+    expect(s.pos).to eq(5)
+    expect(s.charpos).to eq(4)
+  end
+
+  it '#charPos - debug' do
+    s = StringScanner.new("ebcadefoghi")
+    expect(s.charpos).to eq(0)
+    expect(s.scan_until(/a/)).to eq('ebca')
+    expect(s.pos).to eq(4)
+    expect(s.charpos).to eq(4)
+  end
 end
