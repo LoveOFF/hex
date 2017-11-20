@@ -78,4 +78,22 @@ describe 'StringScanner' do
     expect(s.pos).to eq(7)
     expect(s.rest).to eq('ring')
   end
+
+  it '#scan' do
+    s = StringScanner.new('test string')
+    expect(s.scan(/\w+/)).to eq('test')
+    expect(s.scan(/\w+/)).to eq(nil)
+    expect(s.scan(/\s+/)).to eq(' ')
+    expect(s.scan(/\w+/)).to eq('string')
+    expect(s.scan(/./)).to eq(nil)
+  end
+
+  it '#skip' do
+    s = StringScanner.new('test string')
+    expect(s.skip(/\w+/)).to eq(4)
+    expect(s.skip(/\w+/)).to eq(nil)
+    expect(s.skip(/\s+/)).to eq(1)
+    expect(s.skip(/\w+/)).to eq(6)
+    expect(s.skip(/./)).to eq(nil)
+  end
 end

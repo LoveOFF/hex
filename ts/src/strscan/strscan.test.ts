@@ -138,3 +138,39 @@ it('#setPointer', () => {
     expect(s.pos()).toBe(7)
     expect(s.rest()).toBe('ring')
 });
+
+// it '#scan' do
+//     s = StringScanner.new('test string')
+//     expect(s.scan(/\w+/)).to eq('test')
+//     expect(s.scan(/\w+/)).to eq(nil)
+//     expect(s.scan(/\s+/)).to eq(' ')
+//     expect(s.scan(/\w+/)).to eq('string')
+//     expect(s.scan(/./)).to eq(nil)
+// end
+
+it('#scan', () => {
+    let s = new StringScanner('test string')
+    expect(s.scan(/\w+/)).toBe('test')
+    expect(s.scan(/\w+/)).toBe(null)
+    expect(s.scan(/\s+/)).toBe(' ')
+    expect(s.scan(/\w+/)).toBe('string')
+    expect(s.scan(/./)).toBe(null)
+});
+
+// it '#skip' do
+//     s = StringScanner.new('test string')
+//     expect(s.skip(/\w+/)).to eq(4)
+//     expect(s.skip(/\w+/)).to eq(nil)
+//     expect(s.skip(/\s+/)).to eq(1)
+//     expect(s.skip(/\w+/)).to eq(6)
+//     expect(s.skip(/./)).to eq(nil)
+// end
+
+it('#skip', () => {
+    let s = new StringScanner('test string')
+    expect(s.skip(/\w+/)).toBe(4)
+    expect(s.skip(/\w+/)).toBe(null)
+    expect(s.skip(/\s+/)).toBe(1)
+    expect(s.skip(/\w+/)).toBe(6)
+    expect(s.skip(/./)).toBe(null)
+});
