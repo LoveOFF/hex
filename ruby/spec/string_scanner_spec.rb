@@ -268,6 +268,8 @@ describe 'StringScanner' do
     # 0 1 2 3 4 5 6
     # F r i   D e c
     str = s.string
+    expect(str[0..2]).to eq('Fri') # [0,3) in JavaScript
+    expect(str[4..6]).to eq('Dec') # [3,7) in JavaScript
   end
 
   it '#pre_match' do
