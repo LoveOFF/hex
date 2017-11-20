@@ -112,4 +112,24 @@ describe 'StringScanner' do
     expect(s.check(/12/)).to eq(nil)
     expect(s.matched).to eq(nil)
   end
+
+  it '#scan_until' do
+    s = StringScanner.new("Fri Dec 12 1975 14:39")
+    expect(s.scan_until(/1/)).to eq('Fri Dec 1')
+    expect(s.pre_match).to eq('Fri Dec ')
+    expect(s.scan_until(/XYZ/)).to eq(nil)
+  end
+
+  it '#skip_until' do
+    s = StringScanner.new("Fri Dec 12 1975 14:39")
+    expect(s.skip_until /12/).to eq(10)
+  end
+
+  it '#exist' do
+    s = StringScanner.new('test string')
+    expect(s.exist?(/s/)).to eq(3)
+    expect(s.scan(/test/)).to eq('test')
+    expect(s.exist?(/s/)).to eq(2)
+    expect(s.exist?(/e/)).to eq(nil)
+  end
 end

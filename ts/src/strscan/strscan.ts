@@ -287,6 +287,7 @@ export class StringScanner {
 
    // strscan_do_scan
    // scan_until = strscan_do_scan(re, 1, 1, 0);
+   // exist = this.strscan_do_scan(re, 0, 0, 0);
    strscan_do_scan(regex: RegExp,
                  succptr: number,
                   getstr: number,
