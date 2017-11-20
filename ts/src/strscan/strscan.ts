@@ -341,13 +341,18 @@ export class StringScanner {
                     this.regs.num_regs = result.length;
                     this.regs.beg = [];
                     this.regs.end = [];
-                    let offset = 0;
                     result.forEach((res, index) => {
                         if (resultIndex !== undefined) {
-                          this.regs.beg[index] = resultIndex + offset;
-                          this.regs.end[index] = resultIndex + res.length + offset;
+                          let startIndex = resultIndex;
 
-                          if (index !== 0) { offset += res.length + 1; }
+                          // Calculate index of each result from the capture groups
+                          if (index > 0 && result !== null) {
+                            startIndex = result[0].indexOf(res);
+                          }
+
+                          let endIndex = startIndex + res.length;
+                          this.regs.beg[index] = startIndex;
+                          this.regs.end[index] = endIndex;
                         }
                     });
 

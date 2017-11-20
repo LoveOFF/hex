@@ -545,3 +545,12 @@ it('#inspect', () => {
     expect(s.scan_until(/12/)).toBe('Fri Dec 12');
     expect(s.inspect()).toBe('#<StringScanner 10/21 "...ec 12" @ " 1975...">');
 });
+
+it('#nthSubgroup advanced', () => {
+    let s = new StringScanner('d8a2612d7820c83e74500001fff00000d8a2612d7820c83e75');
+    s.scan('D8 A2 61 2D 78 20 C8 3E (.. .. .. ..) (.. ..) 00 00');
+
+    expect(s.nthSubgroup(0)).toBe('d8a2612d7820c83e74500001fff00000');
+    expect(s.nthSubgroup(1)).toBe('74500001');
+    expect(s.nthSubgroup(2)).toBe('fff0');
+});
