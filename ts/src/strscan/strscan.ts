@@ -111,7 +111,10 @@ class StringScanner {
    MATCHED_P: boolean;
    MATCHED: boolean;
 
-   regs: Array<String>; // regex captures?
+//    regs: Array<String>; // regex captures?
+
+   regsBeg0: number; // regex capture begin
+   regsEnd0: number; // regex capture end
 
    // StringScanner.new(string, dup = false)
    // 
@@ -237,8 +240,9 @@ class StringScanner {
    //   s.scan_until(/ä/)   // -> "abcä"
    //   s.pos               // -> 5
    //   s.charpos           // -> 4
-   charpos() {
-
+   // strscan_get_charpos
+   charpos(): number {
+     return this.str.substr(0, this.curr).length
    }
    // Returns the byte position of the scan pointer.  In the 'reset' position, this
    // value is zero.  In the 'terminated' position (i.e. the string is exhausted),
@@ -252,7 +256,9 @@ class StringScanner {
    //   s.pos               // -> 8
    //   s.terminate         // -> //<StringScanner fin>
    //   s.pos               // -> 11
+   // strscan_get_pos
    pointer() {
+       return this.pos;
    }
    // pos=(n)
    // 
@@ -262,9 +268,59 @@ class StringScanner {
    //   s.pos = 7            // -> 7
    //   s.rest               // -> "ring"
    // def pointer=(p1)
-   setPointer() {
-
+   // strscan_set_pos
+   setPointer(i: number) {
+     if (i < 0) throw new Error("index out of range")
+     if (i > this.str.length) throw new Error("index out of range")
+     this.curr = i;
+     return i
    }
+
+   strscan_do_scan(regex: RegExp,
+                 succptr: number,
+                  getstr: number,
+                headonly: number) : number | string | null {
+                    this.CLEAR_MATCH_STATUS() 
+
+                    if (this.str.length < 0) {
+                        return "";
+                    }
+
+                    // result from regex
+                    let result;
+
+                    if (headonly) {
+                      result = this.str.substr(this.curr).match(regex);
+                    } else {
+                      result = this.str.match(regex);
+                    }
+                    
+                    // no match
+                    if (result === null) { return null }
+
+                    this.MATCHED = true
+                    this.prev = this.curr;
+
+                    // "abbc".match(/bb/)
+                    // ["bb", index: 1, input: "abbc"]
+
+                    let resultIndex = result.index;
+                    if (resultIndex === undefined) { throw new Error("Index undefined")}
+
+                    this.regsBeg0 = resultIndex
+                    this.regsEnd0 = resultIndex + result[0].length                    
+
+                    if (succptr) {
+                        this.curr += this.regsEnd0;
+                    }
+
+                    if (getstr) {
+                        return this.str.substr(this.prev, this.regsEnd0)
+                    } else {
+                        return this.regsEnd0
+                    }
+    }
+
    // scan(pattern) => String
    // 
    // Tries to match with +pattern+ at the current position. If there's a match,
@@ -277,8 +333,9 @@ class StringScanner {
    //   p s.scan(/\s+/)   // -> " "
    //   p s.scan(/\w+/)   // -> "string"
    //   p s.scan(/./)     // -> nil
-   scan(pattern) {
-
+   // strscan_scan
+   scan(re: RegExp) {
+    return this.strscan_do_scan(re, 1, 1, 1);
    }
    // skip(pattern)
    // 
@@ -294,8 +351,9 @@ class StringScanner {
    //   p s.skip(/\s+/)   // -> 1
    //   p s.skip(/\w+/)   // -> 6
    //   p s.skip(/./)     // -> nil
-   skip(pattern) {
-
+   // strscan_skip
+   skip(re: RegExp) {
+    return this.strscan_do_scan(re, 1, 0, 1);
    }
    // match?(pattern)
    // 
@@ -306,8 +364,9 @@ class StringScanner {
    //   p s.match?(/\w+/)   // -> 4
    //   p s.match?(/\w+/)   // -> 4
    //   p s.match?(/\s+/)   // -> nil
-   match?(pattern) {
-
+   // strscan_match_p
+   match?(re: RegExp) {
+    return this.strscan_do_scan(re, 0, 0, 1);
    }
    // check(pattern)
    // 
@@ -322,8 +381,9 @@ class StringScanner {
    //   s.matched                   // -> nil
    // 
    // Mnemonic: it "checks" to see whether a //scan will return a value.
-   check(pattern) {
-
+   // strscan_check
+   check(re: RegExp) {
+    return this.strscan_do_scan(re, 0, 1, 1);
    }
    // scan_full(pattern, advance_pointer_p, return_string_p)
    // 
@@ -333,8 +393,9 @@ class StringScanner {
    // The match register is affected.
    // 
    // "full" means "//scan with full parameters".
-   scan_full(pattern, advance_pointer_p, return_string_p) {
-
+   // strscan_scan_full
+   scan_full(re: RegExp, advance_pointer_p: number, return_string_p: number) {
+    return this.strscan_do_scan(re, advance_pointer_p, return_string_p, 1);
    }
    // scan_until(pattern)
    // 
@@ -346,8 +407,9 @@ class StringScanner {
    //   s.scan_until(/1/)        // -> "Fri Dec 1"
    //   s.pre_match              // -> "Fri Dec "
    //   s.scan_until(/XYZ/)      // -> nil
-   scan_until(pattern) {
-
+   // strscan_scan_until
+   scan_until(re: RegExp) {
+    return this.strscan_do_scan(re, 1, 1, 0);
    }
    // skip_until(pattern)
    // 
@@ -363,8 +425,9 @@ class StringScanner {
    //   s = StringScanner.new("Fri Dec 12 1975 14:39")
    //   s.skip_until /12/           // -> 10
    //   s                           //
-   skip_until(pattern) {
-
+   // strscan_skip_until
+   skip_until(re: RegExp) {
+    return this.strscan_do_scan(re, 1, 0, 0);
    }
    // exist?(pattern)
    // 
@@ -377,8 +440,9 @@ class StringScanner {
    //   s.scan /test/           // -> "test"
    //   s.exist? /s/            // -> 2
    //   s.exist? /e/            // -> nil
-   exist?(pattern) {
-
+   // strscan_exist_p
+   exist?(re: RegExp) {
+    return this.strscan_do_scan(re, 0, 0, 0);
    }
    // check_until(pattern)
    // 
@@ -391,8 +455,8 @@ class StringScanner {
    //   s.matched                   // -> 12
    // 
    // Mnemonic: it "checks" to see whether a //scan_until will return a value.
-   check_until(pattern) {
-
+   check_until(re: RegExp) {
+    return this.strscan_do_scan(re, 0, 1, 0);
    }
    // search_full(pattern, advance_pointer_p, return_string_p)
    // 
@@ -401,8 +465,9 @@ class StringScanner {
    // Returns the matched string if +return_string_p+ is true, otherwise
    // returns the number of bytes advanced.
    // This method does affect the match register.
-   search_full(pattern, advance_pointer_p, return_string_p) {
-
+   // strscan_search_full
+   search_full(re: RegExp, advance_pointer_p: number, return_string_p: number) {
+    return this.strscan_do_scan(re, advance_pointer_p, return_string_p, 0);
    }
    // Scans one character and returns it.
    // This method is multibyte character sensitive.
@@ -416,7 +481,14 @@ class StringScanner {
    //   s = StringScanner.new("\244\242")
    //   s.getch           // => "\244\242"   // Japanese hira-kana "A" in EUC-JP
    //   s.getch           // => nil
-   getch() {
+   // strscan_getch
+   getch(): string {
+       this.CLEAR_MATCH_STATUS()
+
+       this.prev = this.curr;
+       this.curr += 1
+       this.MATCHED = true;
+       return this.str.substr(this.curr, 1);
 
    }
    // Scans one byte and returns it.
@@ -433,14 +505,11 @@ class StringScanner {
    //   s.get_byte         // => "\244"
    //   s.get_byte         // => "\242"
    //   s.get_byte         // => nil
+   // strscan_get_byte
    get_byte() {
-
+       return this.getch();
    }
-   // Equivalent to //get_byte.
-   // This method is obsolete; use //get_byte instead.
-   getbyte() {
-
-   }
+   
    // peek(len)
    // 
    // Extracts a string corresponding to <tt>string[pos,len]</tt>, without
@@ -449,14 +518,11 @@ class StringScanner {
    //   s = StringScanner.new('test string')
    //   s.peek(7)          // => "test st"
    //   s.peek(7)          // => "test st"
-   peek(len) {
+   peek(len: number) {
+       return this.str.substr(this.curr, len)
 
    }
-   // Equivalent to //peek.
-   // This method is obsolete; use //peek instead.
-   peep(p1) {
-
-   }
+  
    // Set the scan pointer to the previous position.  Only one previous position is
    // remembered, and it changes with each scanning operation.
    // 
@@ -467,7 +533,12 @@ class StringScanner {
    //   s.scan(/\d/)         // => nil
    //   s.unscan             // ScanError: unscan failed: previous match record not exist
    unscan() {
-
+       if (!this.MATCHED_P) {
+           throw new Error("ScanError: unscan failed: previous match record not exist")
+       }
+       this.curr = this.prev;
+       this.CLEAR_MATCH_STATUS()
+       return this;
    }
    // Returns +true+ iff the scan pointer is at the beginning of the line.
    // 
@@ -480,7 +551,7 @@ class StringScanner {
    //   s.terminate
    //   s.bol?           // => true
    beginning_of_line?() {
-
+     return this.curr == 0;
    }
    // Returns +true+ if the scan pointer is at the end of the string.
    // 
@@ -490,23 +561,12 @@ class StringScanner {
    //   p s.eos?          // => false
    //   s.terminate
    //   p s.eos?          // => true
+   // strscan_eos_p
    eos?() {
+       return this.curr >= this.str.length
 
    }
-   // Equivalent to //eos?.
-   // This method is obsolete, use //eos? instead.
-   empty?() {
 
-   }
-   // Returns true iff there is more data in the string.  See //eos?.
-   // This method is obsolete; use //eos? instead.
-   // 
-   //   s = StringScanner.new('test string')
-   //   s.eos?              // These two
-   //   s.rest?             // are opposites.
-   rest?() {
-
-   }
    // Returns +true+ iff the last match was successful.
    // 
    //   s = StringScanner.new('test string')
@@ -514,16 +574,24 @@ class StringScanner {
    //   s.matched?          // => true
    //   s.match?(/\d+/)     // => nil
    //   s.matched?          // => false
-   matched?() {
-
+   // strscan_matched_p
+   matchedP() {
+     return this.MATCHED_P;
    }
    // Returns the last matched string.
    // 
    //   s = StringScanner.new('test string')
    //   s.match?(/\w+/)     // -> 4
    //   s.matched           // -> "test"
-   matched() {
+   matched(): string | null {
+     if (! this.MATCHED_P) {
+         return null
+     }
 
+     return this.str.substr(
+         this.prev + this.regsBeg0,
+         this.prev + this.regsEnd0
+    )
    }
    // Returns the size of the most recent match (see //matched), or +nil+ if there
    // was no recent match.
@@ -533,8 +601,12 @@ class StringScanner {
    //   s.matched_size          // -> 4
    //   s.check /\d+/           // -> nil
    //   s.matched_size          // -> nil
-   matched_size() {
+   matched_size(): number | null  {
+    if (! this.MATCHED_P) {
+        return null
+    }
 
+    return this.regsEnd0 - this.regsBeg0;
    }
    // [](n)
    // 
@@ -561,9 +633,18 @@ class StringScanner {
    //   s.post_match                       // -> "1975 14:39"
    //   s.pre_match                        // -> ""
    // def [](p1)
-   nthSubgroup(p1) {
+   nthSubgroup(p1: any) {
+       throw new Error("not yet implemented");
 
    }
+
+   extract_range(beg_i: number, end_i: number): string | null {
+       let strLen = this.str.length;
+       if (beg_i > strLen) return null
+       end_i = Math.min(end_i, strLen)
+       return this.str.substr(beg_i, end_i - beg_i);
+   }
+
    // Return the <i><b>pre</b>-match</i> (in the regular expression sense) of the last scan.
    // 
    //   s = StringScanner.new('test string')
@@ -571,8 +652,13 @@ class StringScanner {
    //   s.scan(/\s+/)           // -> " "
    //   s.pre_match             // -> "test"
    //   s.post_match            // -> "string"
+   // strscan_pre_match
    pre_match() {
+    if (! this.MATCHED_P) {
+        return null
+    }
 
+    return this.extract_range(0, this.prev + this.regsBeg0);
    }
 
    // Return the <i><b>post</b>-match</i> (in the regular expression sense) of the last scan.
@@ -583,21 +669,24 @@ class StringScanner {
    //   s.pre_match             // -> "test"
    //   s.post_match            // -> "string"
    post_match() {
+    if (! this.MATCHED_P) {
+        return null
+    }
+
+    return this.extract_range(this.prev + this.regsEnd0, this.str.length);
 
    }
 
    // Returns the "rest" of the string (i.e. everything after the scan pointer).
    // If there is no more data (eos? = true), it returns <tt>""</tt>.
+   // strscan_rest
    rest() {
+    return this.extract_range(this.curr, this.str.length);
 
    }
    // <tt>s.rest_size</tt> is equivalent to <tt>s.rest.size</tt>.
    rest_size() {
-
-   }
-   // <tt>s.restsize</tt> is equivalent to <tt>s.rest_size</tt>.
-   // This method is obsolete; use //rest_size instead.
-   restsize(){
+       return this.str.length - this.curr;
 
    }
       
@@ -611,7 +700,7 @@ class StringScanner {
    //   s.scan_until /12/    // -> "Fri Dec 12"
    //   s.inspect            // -> '//<StringScanner 10/21 "...ec 12" @ " 1975...">'
    inspect() {
-
+    throw new Error("not yet implemented");
    }
 }
 
