@@ -6,7 +6,7 @@ import { hex } from './hex/main';
 const logo = require('./logo.svg');
 
 interface State {
-  data: string;
+  items: Array<string>;
 }
 
 interface Props {
@@ -18,7 +18,7 @@ class App extends Component<Props, State> {
     super(props);
 
     this.state = {
-      data: ''
+      items: []
     };
   }
 
@@ -26,17 +26,21 @@ class App extends Component<Props, State> {
     // XHR in jsdom = crash
     if (!navigator.userAgent.includes('Node.js')) {
       let output = await hex.loadDefaultSaveAsHex();
-      output = hex.parseItems(output);
-      this.setState({ data: output});
+      let items = hex.parseItems(output);
+      this.setState({ items: items });
     }
   }
 
   render() {
-    let data = '';
+    let items: Array<string> = [];
 
-    if (this.state && this.state.data) {
-      data = this.state.data;
+    if (this.state && this.state.items) {
+      items = this.state.items;
     }
+
+    // todo: render the items better
+    // https://reactjs.org/docs/lists-and-keys.html#keys
+    // https://stackoverflow.com/questions/35351706/how-to-render-a-multi-line-text-string-in-react
 
     return (
       <div className="App">
@@ -47,9 +51,13 @@ class App extends Component<Props, State> {
         <p className="App-intro">
           To get started, edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <p className="output">
-        {data}
-        </p>
+        <div className="output">
+        {
+          items.map((item, index) => {
+            return <div key={index}>{item}</div>;
+          })
+        }
+        </div>
       </div>
     );
   }

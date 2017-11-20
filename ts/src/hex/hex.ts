@@ -22,7 +22,7 @@ export namespace hex {
       // Promisify XMLHttpRequest
       // https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
       var xhr = new XMLHttpRequest();
-      xhr.open('GET', 'fake_item_file.bin', true);
+      xhr.open('GET', 'v1.18.save', true);
       xhr.responseType = 'blob';
       xhr.addEventListener('load', async e => {
         let target = <XMLHttpRequest> e.target;
@@ -54,26 +54,19 @@ export namespace hex {
       xhr.send();
     });
   }
-
-  export function parseItems(hexString: string): string {
-    // TODO: parse items from 'fake_item_file.bin' using StringScanner
-
-    let result = '';
+  
+  export function parseItems(hexString: string): Array<string> {
     let s = new StringScanner(hexString);
+    let inventoryStartPattern = 'B2 69 26 91 0C 12 87 31 40 00 00 00';
+    let itemPattern = 'D8 A2 61 2D 78 20 C8 3E .. .. .. .. .. .. 00 00';
+    s.scan_until(inventoryStartPattern);
 
-    // b269269167bce24440000d8a2612d7820c83effffffffaaaa00d8a2612d7820c83effffffffaaaa00
-    // 'B2 69 26 91 67 BC E2 44 40 00 00 00'
-    // b269269167bce24440000000
-    s.scan_until('B2 69 26 91 67 BC E2 44 40 00 00 00');
-
-    let foundItem = null;
-    while ((foundItem = s.scan('D8 A2 61 2D 78 20 C8 3E FF FF FF FF AA AA 00 00')) !== null) {
-      console.log('found item: ', foundItem);
-      result += foundItem + '\n';
+    let item;
+    let items = [];
+    while ((item = s.scan(itemPattern)) !== null) {
+      if (typeof item === 'string') { items.push(item); }
     }
 
-    console.log('result: ', result);
-
-    return result;
+    return items;
   }
 }
