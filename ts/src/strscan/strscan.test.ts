@@ -106,3 +106,21 @@ it("#charPos", () => {
     expect(s.pos()).toBe(4)
     expect(s.charpos()).toBe(4)
 });
+
+// it '#pointer' do
+//     s = StringScanner.new('test string')
+//     expect(s.pos).to eq(0)
+//     expect(s.scan_until(/str/)).to eq('test str')
+//     expect(s.pos).to eq(8)
+//     s.terminate # pos is now end of string
+//     expect(s.pos).to eq(11)
+// end
+
+it('#pointer', () => {
+    let s = new StringScanner('test string')
+    expect(s.pos()).toBe(0)
+    expect(s.scan_until(/str/)).toBe('test str')
+    expect(s.pos()).toBe(8)
+    s.terminate() // pos is now end of string
+    expect(s.pos()).toBe(11)
+});

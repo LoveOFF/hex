@@ -62,4 +62,13 @@ describe 'StringScanner' do
     expect(s.pos).to eq(4)
     expect(s.charpos).to eq(4)
   end
+
+  it '#pointer' do
+    s = StringScanner.new('test string')
+    expect(s.pos).to eq(0)
+    expect(s.scan_until(/str/)).to eq('test str')
+    expect(s.pos).to eq(8)
+    s.terminate # pos is now end of string
+    expect(s.pos).to eq(11)
+  end
 end
