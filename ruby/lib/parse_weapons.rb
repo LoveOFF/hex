@@ -140,6 +140,24 @@ def broad_sword
   S
 end
 
+def handgun
+  Regexp.new s_to_h(<<-S)
+    B1 96 B1 D3 ED AE 5F 92  28 66 03 01 .. FF FF FF
+    FF .. .. .. .. 57 19 01  0B 04 00 00 00 08 00 00
+    00 20 00 00 00 00 00 00  00 01 00 00 00 00 00 00
+    00 02 00 00 00 02 00 00  00 99 32 C5 C4 CC 57 6D
+    43 91 6B 03 01 FF FF FF  FF 99 32 C5 C4 CC 57 6D
+    43 27 9E 00 01 FF FF FF  FF 01 00 00 00 99 32 C5
+    C4 CC 57 6D 43 27 9E 00  01 FF FF FF FF 13 00 00
+    00 00 00 00 00 00 00 00  00 00 00 00 00 04 00 00
+    00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+    00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+    00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+    00 00 00 00 00 00 00 00  00 00 00 00 00 01 00 00
+    00
+  S
+end
+
 # 05 == equipt? 03 -- not equpt?
 # 27 66 03 01 03 - Mage Mashers (Daggers)
 def mage_mashers
@@ -651,6 +669,10 @@ class ParseWeapons
     avengers_count = save_hex.scan(avengers).length
     puts "Avengers x#{avengers_count}"
     raise 'avengers_count must be > 90' unless avengers_count
+
+    handgun_count = save_hex.scan(handgun).length
+    puts "Handgun x#{handgun_count}"
+    raise 'handgun_count must be > 90' unless handgun_count
     puts
 
     weapon_codes_length = weapons_array.length
@@ -658,7 +680,7 @@ class ParseWeapons
     weapon_index = -1
 
     # gsub direct without matching on next item prefix. works because we know the full content of the item.
-    dummy_weapons = [broad_sword, two_handed_sword, war_sword, daggers, avengers]
+    dummy_weapons = [broad_sword, two_handed_sword, war_sword, daggers, avengers, handgun]
 
     weapon_count = 0
     dummy_weapons.each do |dummy_weapon|

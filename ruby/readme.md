@@ -12,6 +12,22 @@ slot 2 - valid
 slot 3 - all
 
 
+## Accessories Setup (99 * 2 = 160)
+Buy from Regalia shop.
+- 99x Titanium Bangle (+200 HP)
+- 99x Heliodor Bracelet (+40 STR)
+
+## Weapons Setup (99 * 6 = 594)
+Buy from Culless Munitions - Hammerhead
+- 99x Broad sword
+- 99x Two handed sword
+- 99x War sword
+- 99x Daggers
+- 99x Avengers
+- 99x Handgun
+
+```
+
 --
 
 Useful tools:
