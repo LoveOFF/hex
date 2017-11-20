@@ -14,7 +14,8 @@ it('reads a save file', async () => {
   let filePath = './public/fake_item_file.bin';
   let data = await readFileAsync(filePath, { encoding: 'hex' });
   
-  console.log('read data', data);
+  let expected = 'b269269167bce24440000000d8a2612d7820c83effffffffaaaa0000d8a2612d7820c83effffffffaaaa0000';
+  expect(expected).toBe(data);
 });
 
 /*

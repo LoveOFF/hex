@@ -36,7 +36,10 @@ export namespace hex {
 
         let hexResult = '';
         uint8Array.forEach(param => {
-          hexResult += param.toString(16);
+          // encode 0 as 00
+          let byte = param.toString(16);
+          if (byte.length === 1) { byte = '0' + byte; }
+          hexResult += byte;
         });
 
         resolve(hexResult);
@@ -57,16 +60,19 @@ export namespace hex {
 
     let result = '';
     let s = new StringScanner(hexString);
-    console.log('pos: ' + s.pos());
 
+    // b269269167bce24440000d8a2612d7820c83effffffffaaaa00d8a2612d7820c83effffffffaaaa00
+    // 'B2 69 26 91 67 BC E2 44 40 00 00 00'
+    // b269269167bce24440000000
     s.scan_until('B2 69 26 91 67 BC E2 44 40 00 00 00');
-    console.log('pos: ' + s.pos());
-    let itemRgx = new RegExp('D8A2612D7820C83EFFFFFFFFAAAA0000');
 
     let foundItem = null;
-    while (foundItem = s.scan(itemRgx) !== null) {
+    while ((foundItem = s.scan('D8 A2 61 2D 78 20 C8 3E FF FF FF FF AA AA 00 00')) !== null) {
+      console.log('found item: ', foundItem);
       result += foundItem + '\n';
     }
+
+    console.log('result: ', result);
 
     return result;
   }

@@ -375,7 +375,8 @@ export class StringScanner {
    //   p s.scan(/\w+/)   // -> "string"
    //   p s.scan(/./)     // -> nil
    // strscan_scan
-   scan(re: RegExp) {
+   scan(re: RegExp | string) {
+    re = this.stringToRegExp(re);
     return this.strscan_do_scan(re, 1, 1, 1);
    }
    // skip(pattern)
@@ -450,13 +451,18 @@ export class StringScanner {
    //   s.scan_until(/XYZ/)      // -> nil
    // strscan_scan_until
    scan_until(re: RegExp | string) {
-    if (typeof re === 'string') {
-        // AA BB => /AABB/
-        re = new RegExp(re.replace(/ /g, ''));
-    }
-
+    re = this.stringToRegExp(re);
     return this.strscan_do_scan(re, 1, 1, 0);
    }
+
+   // Allows matching on human friendly formatted hex patterns
+   stringToRegExp(str: string | RegExp): RegExp {
+    if (typeof str !== 'string') { return str; }
+
+    // AA BB => /aabb/
+    return new RegExp(str.replace(/ /g, '').toLowerCase());
+   }
+
    // skip_until(pattern)
    // 
    // Advances the scan pointer until +pattern+ is matched and consumed.  Returns
