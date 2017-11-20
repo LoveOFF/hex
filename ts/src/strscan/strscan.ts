@@ -293,20 +293,22 @@ export class StringScanner {
                     this.CLEAR_MATCH_STATUS() 
 
                     if (this.str.length < 0) {
-                        return "";
+                        return null;
                     }
 
                     // result from regex
                     let result;
 
                     if (headonly === 1) {
-                      result = this.str.substr(this.curr).match(regex);
+                      let tmpStr = this.str.substr(this.curr);
+                      result = tmpStr.match(regex);
                     } else {
                       result = this.str.match(regex);
                     }
                     
                     // no match
-                    if (result === null) { return null }
+                    // match *must* be starting at index 0 of the substring.
+                    if (result === null || result.index !== 0) { return null }
 
                     this.MATCHED = true
                     this.prev = this.curr;

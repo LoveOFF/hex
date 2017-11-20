@@ -1,13 +1,41 @@
 import  { StringScanner } from './strscan'
 
-it('constructs a StringScanner object', () => {
-    let s = new StringScanner('This is an example string')
-    expect(s.eos()).toBe(false);
+// it 'parses the example string' do
+//     s = StringScanner.new('This is an example string')
+//     expect(s.eos?).to eq(false)
+//     expect(s.scan(/\w+/)).to eq('This')
+//     expect(s.scan(/\w+/)).to eq(nil)
+//     expect(s.scan(/\s+/)).to eq(' ')
+//     expect(s.scan(/\s+/)).to eq(nil)
+//     expect(s.scan(/\w+/)).to eq('is')
+//     expect(s.eos?).to eq(false)
+//     expect(s.scan(/\s+/)).to eq(' ')
+//     expect(s.scan(/\w+/)).to eq('an')
+//     expect(s.scan(/\s+/)).to eq(' ')
+//     expect(s.scan(/\w+/)).to eq('example')
+//     expect(s.scan(/\s+/)).to eq(' ')
+//     expect(s.scan(/\w+/)).to eq('string')
+//     expect(s.eos?).to eq(true)
+//     expect(s.scan(/\s+/)).to eq(nil)
+//     expect(s.scan(/\w+/)).to eq(nil)
+// end
 
-    expect(s.scan(/\w+/)).toBe("This");
-    expect(s.scan(/\w+/)).toBe(" is");
-    expect(s.scan(/\w+/)).toBe(" an");
-    expect(s.scan(/\w+/)).toBe(" example");
-    expect(s.scan(/\w+/)).toBe(" string");
-    expect(s.scan(/\w+/)).toBe(null);
+it('parses an example string', () => {
+    let s = new StringScanner('This is an example string')
+    expect(s.eos()).toBe(false)
+    expect(s.scan(/\w+/)).toBe('This')
+    expect(s.scan(/\w+/)).toBe(null)
+    expect(s.scan(/\s+/)).toBe(' ')
+    expect(s.scan(/\s+/)).toBe(null)
+    expect(s.scan(/\w+/)).toBe('is')
+    expect(s.eos()).toBe(false)
+    expect(s.scan(/\s+/)).toBe(' ')
+    expect(s.scan(/\w+/)).toBe('an')
+    expect(s.scan(/\s+/)).toBe(' ')
+    expect(s.scan(/\w+/)).toBe('example')
+    expect(s.scan(/\s+/)).toBe(' ')
+    expect(s.scan(/\w+/)).toBe('string')
+    expect(s.eos()).toBe(true)
+    expect(s.scan(/\s+/)).toBe(null)
+    expect(s.scan(/\w+/)).toBe(null)
 });
