@@ -267,6 +267,10 @@ describe 'StringScanner' do
   end
 
   it '#post_match' do
-
+    s = StringScanner.new('test string')
+    expect(s.scan(/\w+/)).to eq('test')
+    expect(s.scan(/\s+/)).to eq(' ')
+    expect(s.pre_match).to eq('test')
+    expect(s.post_match).to eq('string')
   end
 end

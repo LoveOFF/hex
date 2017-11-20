@@ -501,3 +501,19 @@ it('#pre_match', () => {
     expect(s.pre_match()).toBe('test')
     expect(s.post_match()).toBe('string')
 });
+
+// it '#post_match' do
+//     s = StringScanner.new('test string')
+//     expect(s.scan(/\w+/)).to eq('test')
+//     expect(s.scan(/\s+/)).to eq(' ')
+//     expect(s.pre_match).to eq('test')
+//     expect(s.post_match).to eq('string')
+// end
+
+it('#post_match', () => {
+    let s = new StringScanner('test string')
+    expect(s.scan(/\w+/)).toBe('test')
+    expect(s.scan(/\s+/)).toBe(' ')
+    expect(s.pre_match()).toBe('test')
+    expect(s.post_match()).toBe('string')
+});
