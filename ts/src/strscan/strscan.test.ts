@@ -124,3 +124,17 @@ it('#pointer', () => {
     s.terminate() // pos is now end of string
     expect(s.pos()).toBe(11)
 });
+
+// it '#setPointer' do
+//     s = StringScanner.new('test string')
+//     s.pos = 7
+//     expect(s.pos).to eq(7)
+//     expect(s.rest).to eq('ring')
+// end
+
+it('#setPointer', () => {
+    let s = new StringScanner('test string')
+    s.setPointer(7);
+    expect(s.pos()).toBe(7)
+    expect(s.rest()).toBe('ring')
+});

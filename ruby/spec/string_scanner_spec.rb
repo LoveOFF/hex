@@ -71,4 +71,11 @@ describe 'StringScanner' do
     s.terminate # pos is now end of string
     expect(s.pos).to eq(11)
   end
+
+  it '#setPointer' do
+    s = StringScanner.new('test string')
+    s.pos = 7
+    expect(s.pos).to eq(7)
+    expect(s.rest).to eq('ring')
+  end
 end
