@@ -20,7 +20,7 @@ class AllItems
     @csv = CSV.readlines(codes, headers: true)
   end
 
-  def self.get
+  def self.get(lower_case = false)
     return @codes if @codes
     # 'all_codes' tab
     # https://docs.google.com/spreadsheets/d/1abSI4OUYEv6bCMll4PDNQikxPikoS9lLUt8TP8JUpX0/edit#gid=649850122
@@ -34,6 +34,7 @@ class AllItems
       unknown_name = 'Unknown'
 
       hex_code = row[0].strip.upcase
+      hex_code = row[0].downcase if lower_case
       raise "Invalid hex code: #{hex_code}" unless hex_code.match(/^\h{8}$/)
 
       item_type = (row[1] || unknown_name).strip

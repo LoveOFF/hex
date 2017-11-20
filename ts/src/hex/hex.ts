@@ -1,4 +1,5 @@
 import { StringScanner } from '../strscan/strscan';
+import { codes } from './codes'
 
 export namespace hex {
   export function add(one: number, two: number): number {
@@ -58,13 +59,28 @@ export namespace hex {
   export function parseItems(hexString: string): Array<string> {
     let s = new StringScanner(hexString);
     let inventoryStartPattern = 'B2 69 26 91 0C 12 87 31 40 00 00 00';
-    let itemPattern = 'D8 A2 61 2D 78 20 C8 3E .. .. .. .. .. .. 00 00';
+    // item code: FF FF FF FF, quantity: FF FF
+    let itemPattern = 'D8 A2 61 2D 78 20 C8 3E (.. .. .. ..) (.. ..) 00 00';
     s.scan_until(inventoryStartPattern);
 
-    let item;
+    let foundItem;
     let items = [];
-    while ((item = s.scan(itemPattern)) !== null) {
-      if (typeof item === 'string') { items.push(item); }
+    let empty = '00000000';
+    while ((foundItem = s.scan(itemPattern)) !== null) {
+      if (typeof foundItem === 'string') { 
+
+        let itemCode = s.nthSubgroup(1);
+        if (itemCode == null || itemCode == empty) continue;
+
+        // 0xFFF0 => 65520
+        let itemQuantity = parseInt(s.nthSubgroup(2) || '0', 16);
+        let itemName = 'Unknown [' + itemCode + ']';
+        let itemObject = codes[itemCode];
+        // itemObject: item_name, item_category, item_valid
+        if (itemObject !== undefined) itemName = itemObject[0];
+
+        items.push(itemName + " x" + itemQuantity);
+       }
     }
 
     return items;
