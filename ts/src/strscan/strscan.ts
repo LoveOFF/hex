@@ -684,6 +684,7 @@ export class StringScanner {
        }
        if (i < 0) return null;
        if (i >= this.regs.num_regs) return null;
+       if (this.regs.beg[i] == -1) return null;
 
        return this.extract_range(this.prev + this.regs.beg[i],
         this.prev + this.regs.end[i]);
