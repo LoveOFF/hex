@@ -390,3 +390,21 @@ it('#beginning_of_line', () => {
     s.terminate()
     expect(s.beginning_of_line()).toBe(true)
 });
+
+// it '#eos' do
+//     s = StringScanner.new('test string')
+//     expect(s.eos?).to eq(false)
+//     s.scan(/test/)
+//     expect(s.eos?).to eq(false)
+//     s.terminate
+//     expect(s.eos?).to eq(true)
+// end
+
+it('#eos', () => {
+    let s = new StringScanner('test string')
+    expect(s.eos()).toBe(false)
+    s.scan(/test/)
+    expect(s.eos()).toBe(false)
+    s.terminate()
+    expect(s.eos()).toBe(true)
+});

@@ -179,20 +179,19 @@ describe 'StringScanner' do
     s.unscan
     expect(s.scan(/../)).to eq('te')
     expect(s.scan(/\d/)).to eq(nil)
-    expect{ s.unscan }.to raise_error(StringScanner::Error) # ScanError: unscan failed: previous match record not exist
+    expect {s.unscan}.to raise_error(StringScanner::Error) # ScanError: unscan failed: previous match record not exist
   end
 
   it '#bol' do
-      s = StringScanner.new("test\ntest\n")
-      expect(s.bol?).to eq(true)
-      s.scan(/te/)
-      expect(s.bol?).to eq(false)
-      s.scan(/st\n/)
-      expect(s.bol?).to eq(true)
-      s.terminate
-      expect(s.bol?).to eq(true)
+    s = StringScanner.new("test\ntest\n")
+    expect(s.bol?).to eq(true)
+    s.scan(/te/)
+    expect(s.bol?).to eq(false)
+    s.scan(/st\n/)
+    expect(s.bol?).to eq(true)
+    s.terminate
+    expect(s.bol?).to eq(true)
   end
-
 
   it '#beginning_of_line' do
     s = StringScanner.new("test\ntest\n")
@@ -203,5 +202,14 @@ describe 'StringScanner' do
     expect(s.beginning_of_line?).to eq(true)
     s.terminate
     expect(s.beginning_of_line?).to eq(true)
+  end
+
+  it '#eos' do
+    s = StringScanner.new('test string')
+    expect(s.eos?).to eq(false)
+    s.scan(/test/)
+    expect(s.eos?).to eq(false)
+    s.terminate
+    expect(s.eos?).to eq(true)
   end
 end
