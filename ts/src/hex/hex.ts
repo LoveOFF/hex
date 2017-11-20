@@ -1,5 +1,5 @@
 import { StringScanner } from '../strscan/strscan';
-import { codes } from './codes'
+import { codes } from './codes';
 
 export namespace hex {
   export function add(one: number, two: number): number {
@@ -70,16 +70,16 @@ export namespace hex {
       if (typeof foundItem === 'string') { 
 
         let itemCode = s.nthSubgroup(1);
-        if (itemCode == null || itemCode == empty) continue;
+        if (itemCode === null || itemCode === empty) { continue; }
 
         // 0xFFF0 => 65520
         let itemQuantity = parseInt(s.nthSubgroup(2) || '0', 16);
         let itemName = 'Unknown [' + itemCode + ']';
         let itemObject = codes[itemCode];
         // itemObject: item_name, item_category, item_valid
-        if (itemObject !== undefined) itemName = itemObject[0];
+        if (itemObject !== undefined) { itemName = itemObject[0]; }
 
-        items.push(itemName + " x" + itemQuantity);
+        items.push(itemName + ' x' + itemQuantity);
        }
     }
 
