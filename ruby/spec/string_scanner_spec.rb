@@ -226,4 +226,12 @@ describe 'StringScanner' do
     expect(s.match?(/\w+/)).to eq(4)
     expect(s.matched).to eq('test')
   end
+  
+  it '#matched_size' do
+    s = StringScanner.new('test string')
+    expect(s.check(/\w+/)).to eq('test')
+    expect(s.matched_size).to eq(4)
+    expect(s.check(/\d+/)).to eq(nil)
+    expect(s.matched_size).to eq(nil)
+  end
 end
