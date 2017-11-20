@@ -213,10 +213,17 @@ describe 'StringScanner' do
     expect(s.eos?).to eq(true)
   end
 
+  it '#matchedBoolean' do
     s = StringScanner.new('test string')
     expect(s.match?(/\w+/)).to eq(4)
     expect(s.matched?).to eq(true)
     expect(s.match?(/\d+/)).to eq(nil)
     expect(s.matched?).to eq(false)
+  end
+
+  it '#matched' do
+    s = StringScanner.new('test string')
+    expect(s.match?(/\w+/)).to eq(4)
+    expect(s.matched).to eq('test')
   end
 end

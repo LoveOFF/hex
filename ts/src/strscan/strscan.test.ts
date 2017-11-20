@@ -426,3 +426,15 @@ it('#matchedBoolean', () => {
     expect(s.match(/\d+/)).toBe(null)
     expect(s.matchedBoolean()).toBe(false)
 });
+
+// it '#matched' do
+//     s = StringScanner.new('test string')
+//     expect(s.match?(/\w+/)).to eq(4)
+//     expect(s.matched).to eq('test')
+// end
+
+it('#matched', () => {
+    let s = new StringScanner('test string')
+    expect(s.match(/\w+/)).toBe(4)
+    expect(s.matched()).toBe('test')
+});
