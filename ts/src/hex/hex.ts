@@ -49,4 +49,9 @@ export namespace hex {
       xhr.send();
     });
   }
+
+  export function parseItems(hexString: string): string {
+    // TODO: parse items from 'fake_item_file.bin' using StringScanner
+    return 'ok';
+  }
 }

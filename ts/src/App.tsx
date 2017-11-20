@@ -24,8 +24,9 @@ class App extends Component<Props, State> {
 
   async componentDidMount() {
     // XHR in jsdom = crash
-    if (!navigator.userAgent.includes("Node.js")) {
+    if (!navigator.userAgent.includes('Node.js')) {
       let output = await hex.loadDefaultSaveAsHex();
+      output = hex.parseItems(output);
       this.setState({ data: output});
     }
   }
