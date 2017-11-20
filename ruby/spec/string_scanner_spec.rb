@@ -132,4 +132,11 @@ describe 'StringScanner' do
     expect(s.exist?(/s/)).to eq(2)
     expect(s.exist?(/e/)).to eq(nil)
   end
+
+  it '#check_until' do
+    s = StringScanner.new("Fri Dec 12 1975 14:39")
+    expect(s.check_until(/12/)).to eq('Fri Dec 12')
+    expect(s.pos).to eq(0)
+    expect(s.matched).to eq('12') # bug in strscan.c -- 12 is a number when it should be a string.
+  end
 end

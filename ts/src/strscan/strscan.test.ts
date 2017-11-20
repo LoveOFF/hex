@@ -246,3 +246,17 @@ it('#exist', () => {
     expect(s.exist(/s/)).toBe(2) // error
     expect(s.exist(/e/)).toBe(null)
 });
+
+// it '#check_until' do
+//     s = StringScanner.new("Fri Dec 12 1975 14:39")
+//     expect(s.check_until(/12/)).to eq('Fri Dec 12')
+//     expect(s.pos).to eq(0)
+//     expect(s.matched).to eq(12)
+// end
+
+it('#check_until', () => {
+    let s = new StringScanner("Fri Dec 12 1975 14:39")
+    expect(s.check_until(/12/)).toBe('Fri Dec 12')
+    expect(s.pos()).toBe(0)
+    expect(s.matched()).toBe('12')
+});
