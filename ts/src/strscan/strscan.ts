@@ -97,9 +97,8 @@
 // - //unscan
 // 
 
-
 class Regs {
-    num_regs: number;
+    num_regs: number;  // tslint:disable-line: variable-name
     beg: Array<number>;
     end: Array<number>;
 
@@ -116,9 +115,9 @@ class Regs {
     }
 
     public toString(): string {
-        return "[num_regs: " + this.num_regs + 
-                ", beg: [" + this.beg +
-                "], end: [" + this.end +"]]";
+        return '[num_regs: ' + this.num_regs + 
+                ', beg: [' + this.beg +
+                '], end: [' + this.end + ']]';
     }
 }
 
@@ -142,47 +141,46 @@ export class StringScanner {
    // StringScanner.new(string, dup = false)
    // 
    // Creates a new StringScanner object to scan over the given +string+.
-   // +dup+ argument is obsolete and not used now.
-   constructor(string?: string) {
+   constructor(string?: string) { // tslint:disable-line: variable-name
        if (string) {
-         this.str = string
+         this.str = string;
       }
 
-      this.prev = 0;
-      this.curr = 0;
-      this.MATCHED_P = false;
-      this.MATCHED = false;
-      this.regs = new Regs()
+       this.prev = 0;
+       this.curr = 0;
+       this.MATCHED_P = false;
+       this.MATCHED = false;
+       this.regs = new Regs();
    }
    // dup
    // clone
    // 
    // Duplicates a StringScanner object.
    // strscan_init_copy
-   initialize_copy(p1:StringScanner): StringScanner {
-    let copy = new StringScanner()
+   initialize_copy(p1: StringScanner): StringScanner {
+    let copy = new StringScanner();
     
-    copy.MATCHED_P = p1.MATCHED_P
-    copy.MATCHED = p1.MATCHED
-    copy.str = p1.str
-    copy.prev = p1.prev
-    copy.curr = p1.curr
-    copy.regs = new Regs(p1.regs)
+    copy.MATCHED_P = p1.MATCHED_P;
+    copy.MATCHED = p1.MATCHED;
+    copy.str = p1.str;
+    copy.prev = p1.prev;
+    copy.curr = p1.curr;
+    copy.regs = new Regs(p1.regs);
 
-    return copy
+    return copy;
    }
    
    CLEAR_MATCH_STATUS() {
-    this.MATCHED = false
-    this.MATCHED_P = false
+    this.MATCHED = false;
+    this.MATCHED_P = false;
    } 
 
    // Reset the scan pointer (index 0) and clear matching data.
    // strscan_reset
    reset(): StringScanner {
-       this.curr = 0
-       this.CLEAR_MATCH_STATUS()
-       return this
+       this.curr = 0;
+       this.CLEAR_MATCH_STATUS();
+       return this;
    }
    // terminate
    // clear
@@ -190,9 +188,9 @@ export class StringScanner {
    // Set the scan pointer to the end of the string and clear matching data.
    // strscan_terminate
    terminate(): StringScanner {
-       this.curr = this.str.length
-       this.CLEAR_MATCH_STATUS()
-       return this
+       this.curr = this.str.length;
+       this.CLEAR_MATCH_STATUS();
+       return this;
    }
    
    // Returns the string being scanned.
@@ -204,13 +202,13 @@ export class StringScanner {
    // 
    // Changes the string being scanned to +str+ and resets the scanner.
    // Returns +str+.
-   //def string=(str)
+   // def string=(str)
    // strscan_set_string
    setString(str: string): string {
        this.str = str;
        this.curr = 0;
-       this.CLEAR_MATCH_STATUS()
-       return str
+       this.CLEAR_MATCH_STATUS();
+       return str;
    }
    // concat(str)
    // 
@@ -224,8 +222,8 @@ export class StringScanner {
    //   s.scan(/Dec/)       // -> "Dec"
    // strscan_concat
    concat(str: String): StringScanner {
-        this.str += str
-        return this
+        this.str += str;
+        return this;
    }
    
    // Returns the byte position of the scan pointer.  In the 'reset' position, this
@@ -242,7 +240,7 @@ export class StringScanner {
    //   s.pos               // -> 11
    // strscan_get_pos
    pos(): number {
-     return this.curr
+     return this.curr;
    }
    // pos=(n)
    // 
@@ -254,8 +252,8 @@ export class StringScanner {
    // def pos=(n)
    // strscan_set_pos
    setPos(n: number): number {
-    if (n < 0) throw new Error("index out of range");
-    if (n > this.str.length) throw new Error("index out of range");
+    if (n < 0) { throw new Error('index out of range'); }
+    if (n > this.str.length) { throw new Error('index out of range'); }
     this.curr = n;
     return n;
    }
@@ -272,7 +270,7 @@ export class StringScanner {
    //   s.charpos           // -> 4
    // strscan_get_charpos
    charpos(): number {
-     return this.curr
+     return this.curr;
    }
    // Returns the byte position of the scan pointer.  In the 'reset' position, this
    // value is zero.  In the 'terminated' position (i.e. the string is exhausted),
@@ -300,20 +298,20 @@ export class StringScanner {
    // def pointer=(p1)
    // strscan_set_pos
    setPointer(i: number) {
-     if (i < 0) throw new Error("index out of range")
-     if (i > this.str.length) throw new Error("index out of range")
+     if (i < 0) { throw new Error('index out of range'); }
+     if (i > this.str.length) { throw new Error('index out of range'); }
      this.curr = i;
-     return i
+     return i;
    }
 
    // strscan_do_scan
    // scan_until = strscan_do_scan(re, 1, 1, 0);
    // exist = this.strscan_do_scan(re, 0, 0, 0);
    strscan_do_scan(regex: RegExp,
-                 succptr: number,
-                  getstr: number,
-                headonly: number) : number | string | null {
-                    this.CLEAR_MATCH_STATUS() 
+                   succptr: number,
+                   getstr: number,
+                   headonly: number): number | string | null {
+                    this.CLEAR_MATCH_STATUS(); 
 
                     if (this.str.length < 0) {
                         return null;
@@ -321,14 +319,14 @@ export class StringScanner {
 
                     let currentStr = this.str.substr(this.curr);
                     let result = currentStr.match(regex);
-                    if (result === null) { return null }
+                    if (result === null) { return null; }
                     if (headonly === 1) {
                         // match *must* be starting at index 0 of the substring.
-                        if (result.index !== 0) { return null }
+                        if (result.index !== 0) { return null; }
                     } 
 
-                    this.MATCHED = true
-                    this.MATCHED_P = true
+                    this.MATCHED = true;
+                    this.MATCHED_P = true;
                     this.prev = this.curr;
 
                     // "abbc".match(/bb/)
@@ -337,7 +335,7 @@ export class StringScanner {
 
                     let resultIndex = result.index;
                     if (resultIndex === undefined) { 
-                        throw new Error("Index undefined")
+                        throw new Error('Index undefined');
                     }
 
                     this.regs.num_regs = result.length;
@@ -349,7 +347,7 @@ export class StringScanner {
                           this.regs.beg[index] = resultIndex + offset;
                           this.regs.end[index] = resultIndex + res.length + offset;
 
-                          if (index != 0) offset += res.length + 1;
+                          if (index !== 0) { offset += res.length + 1; }
                         }
                     });
 
@@ -358,9 +356,9 @@ export class StringScanner {
                     }
 
                     if (getstr === 1) {
-                        return this.str.substr(this.prev, this.regs.end[0])
+                        return this.str.substr(this.prev, this.regs.end[0]);
                     } else {
-                        return this.regs.end[0]
+                        return this.regs.end[0];
                     }
     }
 
@@ -437,7 +435,7 @@ export class StringScanner {
    // 
    // "full" means "//scan with full parameters".
    // strscan_scan_full
-   scan_full(re: RegExp, advance_pointer_p: number, return_string_p: number) {
+   scan_full(re: RegExp, advance_pointer_p: number, return_string_p: number) {  // tslint:disable-line: variable-name
     return this.strscan_do_scan(re, advance_pointer_p, return_string_p, 1);
    }
    // scan_until(pattern)
@@ -451,7 +449,12 @@ export class StringScanner {
    //   s.pre_match              // -> "Fri Dec "
    //   s.scan_until(/XYZ/)      // -> nil
    // strscan_scan_until
-   scan_until(re: RegExp) {
+   scan_until(re: RegExp | string) {
+    if (typeof re === 'string') {
+        // AA BB => /AABB/
+        re = new RegExp(re.replace(/ /g, ''));
+    }
+
     return this.strscan_do_scan(re, 1, 1, 0);
    }
    // skip_until(pattern)
@@ -510,7 +513,7 @@ export class StringScanner {
    // returns the number of bytes advanced.
    // This method does affect the match register.
    // strscan_search_full
-   search_full(re: RegExp, advance_pointer_p: number, return_string_p: number) {
+   search_full(re: RegExp, advance_pointer_p: number, return_string_p: number) {  // tslint:disable-line: variable-name
     return this.strscan_do_scan(re, advance_pointer_p, return_string_p, 0);
    }
    // Scans one character and returns it.
@@ -527,7 +530,7 @@ export class StringScanner {
    //   s.getch           // => nil
    // strscan_getch
    getch(): string | null {
-       this.CLEAR_MATCH_STATUS()
+       this.CLEAR_MATCH_STATUS();
        this.MATCHED = true;
        this.prev = this.curr;
 
@@ -535,9 +538,9 @@ export class StringScanner {
 
        this.curr += 1;
        
-       if (result === '') return null;
+       if (result === '') { return null; }
        
-       return result
+       return result;
    }
    // Scans one byte and returns it.
    // This method is not multibyte character sensitive.
@@ -568,7 +571,7 @@ export class StringScanner {
    //   s.peek(7)          // => "test st"
    // strscan_peek
    peek(len: number) {
-       return this.str.substr(this.curr, len)
+       return this.str.substr(this.curr, len);
 
    }
   
@@ -584,10 +587,10 @@ export class StringScanner {
    // strscan_unscan
    unscan() {
        if (!this.MATCHED_P) {
-           throw new Error("ScanError: unscan failed: previous match record not exist")
+           throw new Error('ScanError: unscan failed: previous match record not exist');
        }
        this.curr = this.prev;
-       this.CLEAR_MATCH_STATUS()
+       this.CLEAR_MATCH_STATUS();
        return this;
    }
    // Returns +true+ iff the scan pointer is at the beginning of the line.
@@ -602,8 +605,8 @@ export class StringScanner {
    //   s.bol?           // => true
    // strscan_bol_p
    beginning_of_line(): boolean {
-     if (this.curr == 0) return true;
-     return this.str.substr(this.curr-1, 1) == "\n";
+     if (this.curr === 0) { return true; }
+     return this.str.substr(this.curr - 1, 1) === '\n';
    }
 
    bol(): boolean {
@@ -620,7 +623,7 @@ export class StringScanner {
    //   p s.eos?          // => true
    // strscan_eos_p
    eos(): boolean {
-       return this.curr >= this.str.length
+       return this.curr >= this.str.length;
    }
 
    // Returns +true+ iff the last match was successful.
@@ -642,7 +645,7 @@ export class StringScanner {
    // strscan_matched
    matched(): string | null {
      if (! this.MATCHED_P) {
-         return null
+         return null;
      }
 
      return this.extract_range(
@@ -659,7 +662,7 @@ export class StringScanner {
    //   s.matched_size          // -> nil
    matched_size(): number | null  {
     if (! this.MATCHED_P) {
-        return null
+        return null;
     }
 
     return this.regs.end[0] - this.regs.beg[0];
@@ -689,22 +692,22 @@ export class StringScanner {
    //   s.post_match                       // -> "1975 14:39"
    //   s.pre_match                        // -> ""
    // def [](p1)
-   nthSubgroup(i: any): string | null {
+   nthSubgroup(i: number): string | null {
        if (i < 0) {
            i += this.regs.num_regs;
        }
-       if (i < 0) return null;
-       if (i >= this.regs.num_regs) return null;
-       if (this.regs.beg[i] == -1) return null;
+       if (i < 0) { return null; }
+       if (i >= this.regs.num_regs) { return null; }
+       if (this.regs.beg[i] === -1) { return null; }
 
        return this.extract_range(this.prev + this.regs.beg[i],
-        this.prev + this.regs.end[i]);
+                                 this.prev + this.regs.end[i]);
    }
 
-   extract_range(beg_i: number, end_i: number): string | null {
+   extract_range(beg_i: number, end_i: number): string | null {  // tslint:disable-line: variable-name
        let strLen = this.str.length;
-       if (beg_i > strLen) return null
-       end_i = Math.min(end_i, strLen)
+       if (beg_i > strLen) { return null; }
+       end_i = Math.min(end_i, strLen);
        return this.str.substr(beg_i, end_i - beg_i);
    }
 
@@ -718,7 +721,7 @@ export class StringScanner {
    // strscan_pre_match
    pre_match() {
     if (! this.MATCHED_P) {
-        return null
+        return null;
     }
 
     return this.extract_range(0, this.prev + this.regs.beg[0]);
@@ -734,7 +737,7 @@ export class StringScanner {
    // strscan_post_match
    post_match() {
     if (! this.MATCHED_P) {
-        return null
+        return null;
     }
 
     return this.extract_range(this.prev + this.regs.end[0], this.str.length);
@@ -766,13 +769,13 @@ export class StringScanner {
        // '#<StringScanner 0/21 @ "Fri D...">'
        // '#<StringScanner 10/21 "...ec 12" @ " 1975...">'
    
-       let progress = this.curr + '/' + this.str.length
-       let partb = '"' + this.str.substr(this.curr, 5) + '..."'
+       let progress = this.curr + '/' + this.str.length;
+       let partb = '"' + this.str.substr(this.curr, 5) + '..."';
 
        let result = '#<StringScanner ' + progress;
 
-       if (this.curr != 0) {
-           let parta = ' "...' + this.str.substr(this.curr-5, 5) + '"'
+       if (this.curr !== 0) {
+           let parta = ' "...' + this.str.substr(this.curr - 5, 5) + '"';
            result += parta + ' @ ' + partb;
        } else {
            result += ' @ ' + partb;

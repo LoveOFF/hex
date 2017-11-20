@@ -1,3 +1,5 @@
+import { StringScanner } from '../strscan/strscan';
+
 export namespace hex {
   export function add(one: number, two: number): number {
     return one + two;
@@ -52,6 +54,20 @@ export namespace hex {
 
   export function parseItems(hexString: string): string {
     // TODO: parse items from 'fake_item_file.bin' using StringScanner
-    return 'ok';
+
+    let result = '';
+    let s = new StringScanner(hexString);
+    console.log('pos: ' + s.pos());
+
+    s.scan_until('B2 69 26 91 67 BC E2 44 40 00 00 00');
+    console.log('pos: ' + s.pos());
+    let itemRgx = new RegExp('D8A2612D7820C83EFFFFFFFFAAAA0000');
+
+    let foundItem = null;
+    while (foundItem = s.scan(itemRgx) !== null) {
+      result += foundItem + '\n';
+    }
+
+    return result;
   }
 }

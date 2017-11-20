@@ -1,4 +1,4 @@
-import  { StringScanner } from './strscan'
+import  { StringScanner } from './strscan';
 
 // it 'parses the example string' do
 //     s = StringScanner.new('This is an example string')
@@ -21,23 +21,23 @@ import  { StringScanner } from './strscan'
 // end
 
 it('parses an example string', () => {
-    let s = new StringScanner('This is an example string')
-    expect(s.eos()).toBe(false)
-    expect(s.scan(/\w+/)).toBe('This')
-    expect(s.scan(/\w+/)).toBe(null)
-    expect(s.scan(/\s+/)).toBe(' ')
-    expect(s.scan(/\s+/)).toBe(null)
-    expect(s.scan(/\w+/)).toBe('is')
-    expect(s.eos()).toBe(false)
-    expect(s.scan(/\s+/)).toBe(' ')
-    expect(s.scan(/\w+/)).toBe('an')
-    expect(s.scan(/\s+/)).toBe(' ')
-    expect(s.scan(/\w+/)).toBe('example')
-    expect(s.scan(/\s+/)).toBe(' ')
-    expect(s.scan(/\w+/)).toBe('string')
-    expect(s.eos()).toBe(true)
-    expect(s.scan(/\s+/)).toBe(null)
-    expect(s.scan(/\w+/)).toBe(null)
+    let s = new StringScanner('This is an example string');
+    expect(s.eos()).toBe(false);
+    expect(s.scan(/\w+/)).toBe('This');
+    expect(s.scan(/\w+/)).toBe(null);
+    expect(s.scan(/\s+/)).toBe(' ');
+    expect(s.scan(/\s+/)).toBe(null);
+    expect(s.scan(/\w+/)).toBe('is');
+    expect(s.eos()).toBe(false);
+    expect(s.scan(/\s+/)).toBe(' ');
+    expect(s.scan(/\w+/)).toBe('an');
+    expect(s.scan(/\s+/)).toBe(' ');
+    expect(s.scan(/\w+/)).toBe('example');
+    expect(s.scan(/\s+/)).toBe(' ');
+    expect(s.scan(/\w+/)).toBe('string');
+    expect(s.eos()).toBe(true);
+    expect(s.scan(/\s+/)).toBe(null);
+    expect(s.scan(/\w+/)).toBe(null);
 });
 
 // it '#concat' do
@@ -49,13 +49,13 @@ it('parses an example string', () => {
 //     expect(s.scan(/Dec/)).to eq('Dec')
 // end
 
-it("#concat", () => {
-    let s = new StringScanner('Fri Dec 12 1975 14:39')
-    s.scan(/Fri /)
-    s.concat(' +1000 GMT')
+it('#concat', () => {
+    let s = new StringScanner('Fri Dec 12 1975 14:39');
+    s.scan(/Fri /);
+    s.concat(' +1000 GMT');
       
-    expect(s.string()).toBe('Fri Dec 12 1975 14:39 +1000 GMT')
-    expect(s.scan(/Dec/)).toBe('Dec')
+    expect(s.string()).toBe('Fri Dec 12 1975 14:39 +1000 GMT');
+    expect(s.scan(/Dec/)).toBe('Dec');
 });
 
 // it '#pos' do
@@ -67,13 +67,13 @@ it("#concat", () => {
 //     expect(s.pos).to eq(11)
 // end
 
-it("#pos", () => {
-    let s = new StringScanner('test string')
-    expect(s.pos()).toBe(0)
-    expect(s.scan_until(/str/)).toBe('test str')
-    expect(s.pos()).toBe(8)
-    s.terminate() // sets pos to end of str
-    expect(s.pos()).toBe(11)
+it('#pos', () => {
+    let s = new StringScanner('test string');
+    expect(s.pos()).toBe(0);
+    expect(s.scan_until(/str/)).toBe('test str');
+    expect(s.pos()).toBe(8);
+    s.terminate(); // sets pos to end of str
+    expect(s.pos()).toBe(11);
 });
 
 // it '#setPos' do
@@ -83,11 +83,11 @@ it("#pos", () => {
 //     expect(s.rest).to eq('ring')
 // end
 
-it("#setPos", () => {
-    let s = new StringScanner('test string')
-    s.setPos(7)
-    expect(s.pos()).toBe(7)
-    expect(s.rest()).toBe('ring')
+it('#setPos', () => {
+    let s = new StringScanner('test string');
+    s.setPos(7);
+    expect(s.pos()).toBe(7);
+    expect(s.rest()).toBe('ring');
 });
 
 // it '#charPos' do
@@ -98,13 +98,13 @@ it("#setPos", () => {
 //     expect(s.charpos).to eq(4)
 // end
 
-it("#charPos", () => {
-    let s = new StringScanner("abcädeföghi")
-    expect(s.charpos()).toBe(0)
-    expect(s.scan_until(/ä/)).toBe('abcä')
+it('#charpos', () => {
+    let s = new StringScanner('abcädeföghi');
+    expect(s.charpos()).toBe(0);
+    expect(s.scan_until(/ä/)).toBe('abcä');
     // NOTE: In ruby s.pos() is 5 for the  multibyte character. In JS, the position is 4.
-    expect(s.pos()).toBe(4)
-    expect(s.charpos()).toBe(4)
+    expect(s.pos()).toBe(4);
+    expect(s.charpos()).toBe(4);
 });
 
 // it '#pointer' do
@@ -117,12 +117,12 @@ it("#charPos", () => {
 // end
 
 it('#pointer', () => {
-    let s = new StringScanner('test string')
-    expect(s.pos()).toBe(0)
-    expect(s.scan_until(/str/)).toBe('test str')
-    expect(s.pos()).toBe(8)
-    s.terminate() // pos is now end of string
-    expect(s.pos()).toBe(11)
+    let s = new StringScanner('test string');
+    expect(s.pos()).toBe(0);
+    expect(s.scan_until(/str/)).toBe('test str');
+    expect(s.pos()).toBe(8);
+    s.terminate(); // pos is now end of string
+    expect(s.pos()).toBe(11);
 });
 
 // it '#setPointer' do
@@ -133,10 +133,10 @@ it('#pointer', () => {
 // end
 
 it('#setPointer', () => {
-    let s = new StringScanner('test string')
+    let s = new StringScanner('test string');
     s.setPointer(7);
-    expect(s.pos()).toBe(7)
-    expect(s.rest()).toBe('ring')
+    expect(s.pos()).toBe(7);
+    expect(s.rest()).toBe('ring');
 });
 
 // it '#scan' do
@@ -149,12 +149,12 @@ it('#setPointer', () => {
 // end
 
 it('#scan', () => {
-    let s = new StringScanner('test string')
-    expect(s.scan(/\w+/)).toBe('test')
-    expect(s.scan(/\w+/)).toBe(null)
-    expect(s.scan(/\s+/)).toBe(' ')
-    expect(s.scan(/\w+/)).toBe('string')
-    expect(s.scan(/./)).toBe(null)
+    let s = new StringScanner('test string');
+    expect(s.scan(/\w+/)).toBe('test');
+    expect(s.scan(/\w+/)).toBe(null);
+    expect(s.scan(/\s+/)).toBe(' ');
+    expect(s.scan(/\w+/)).toBe('string');
+    expect(s.scan(/./)).toBe(null);
 });
 
 // it '#skip' do
@@ -167,12 +167,12 @@ it('#scan', () => {
 // end
 
 it('#skip', () => {
-    let s = new StringScanner('test string')
-    expect(s.skip(/\w+/)).toBe(4)
-    expect(s.skip(/\w+/)).toBe(null)
-    expect(s.skip(/\s+/)).toBe(1)
-    expect(s.skip(/\w+/)).toBe(6)
-    expect(s.skip(/./)).toBe(null)
+    let s = new StringScanner('test string');
+    expect(s.skip(/\w+/)).toBe(4);
+    expect(s.skip(/\w+/)).toBe(null);
+    expect(s.skip(/\s+/)).toBe(1);
+    expect(s.skip(/\w+/)).toBe(6);
+    expect(s.skip(/./)).toBe(null);
 });
 
 // it '#match' do
@@ -183,10 +183,10 @@ it('#skip', () => {
 // end
 
 it('#match', () => {
-    let s = new StringScanner('test string')
-    expect(s.match(/\w+/)).toBe(4)
-    expect(s.match(/\w+/)).toBe(4)
-    expect(s.match(/\s+/)).toBe(null)
+    let s = new StringScanner('test string');
+    expect(s.match(/\w+/)).toBe(4);
+    expect(s.match(/\w+/)).toBe(4);
+    expect(s.match(/\s+/)).toBe(null);
 });
 
 // it '#check' do
@@ -199,12 +199,12 @@ it('#match', () => {
 // end
 
 it('#check', () => {
-    let s = new StringScanner("Fri Dec 12 1975 14:39")
-    expect(s.check(/Fri/)).toBe('Fri')
-    expect(s.pos()).toBe(0)
-    expect(s.matched()).toBe('Fri')
-    expect(s.check(/12/)).toBe(null)
-    expect(s.matched()).toBe(null)
+    let s = new StringScanner('Fri Dec 12 1975 14:39');
+    expect(s.check(/Fri/)).toBe('Fri');
+    expect(s.pos()).toBe(0);
+    expect(s.matched()).toBe('Fri');
+    expect(s.check(/12/)).toBe(null);
+    expect(s.matched()).toBe(null);
 });
 
 // it '#scan_until' do
@@ -215,10 +215,10 @@ it('#check', () => {
 // end
 
 it('#scan_until', () => {
-    let s = new StringScanner("Fri Dec 12 1975 14:39")
-    expect(s.scan_until(/1/)).toBe('Fri Dec 1')
-    expect(s.pre_match()).toBe('Fri Dec ')
-    expect(s.scan_until(/XYZ/)).toBe(null)
+    let s = new StringScanner('Fri Dec 12 1975 14:39');
+    expect(s.scan_until(/1/)).toBe('Fri Dec 1');
+    expect(s.pre_match()).toBe('Fri Dec ');
+    expect(s.scan_until(/XYZ/)).toBe(null);
 });
 
 // it '#skip_until' do
@@ -227,7 +227,7 @@ it('#scan_until', () => {
 // end
 
 it('#skip_until', () => {
-    let s = new StringScanner("Fri Dec 12 1975 14:39")
+    let s = new StringScanner('Fri Dec 12 1975 14:39');
     expect(s.skip_until(/12/)).toBe(10);
 });
 
@@ -240,11 +240,11 @@ it('#skip_until', () => {
 // end
 
 it('#exist', () => {
-    let s = new StringScanner('test string')
-    expect(s.exist(/s/)).toBe(3)
-    expect(s.scan(/test/)).toBe('test')
-    expect(s.exist(/s/)).toBe(2) // error
-    expect(s.exist(/e/)).toBe(null)
+    let s = new StringScanner('test string');
+    expect(s.exist(/s/)).toBe(3);
+    expect(s.scan(/test/)).toBe('test');
+    expect(s.exist(/s/)).toBe(2); // error
+    expect(s.exist(/e/)).toBe(null);
 });
 
 // it '#check_until' do
@@ -255,10 +255,10 @@ it('#exist', () => {
 // end
 
 it('#check_until', () => {
-    let s = new StringScanner("Fri Dec 12 1975 14:39")
-    expect(s.check_until(/12/)).toBe('Fri Dec 12')
-    expect(s.pos()).toBe(0)
-    expect(s.matched()).toBe('12')
+    let s = new StringScanner('Fri Dec 12 1975 14:39');
+    expect(s.check_until(/12/)).toBe('Fri Dec 12');
+    expect(s.pos()).toBe(0);
+    expect(s.matched()).toBe('12');
 });
 
 // it '#getch' do
@@ -277,15 +277,15 @@ it('#check_until', () => {
 // end
 
 it('#getch', () => {
-    let s = new StringScanner("ab")
-    expect(s.getch()).toBe('a')
-    expect(s.getch()).toBe('b')
-    expect(s.getch()).toBe(null)
+    let s = new StringScanner('ab');
+    expect(s.getch()).toBe('a');
+    expect(s.getch()).toBe('b');
+    expect(s.getch()).toBe(null);
 
-    s = new StringScanner("\u00A4\u00A2")
-    expect(s.getch()).toBe("\xA4")
-    expect(s.getch()).toBe("\xA2")
-    expect(s.getch()).toBe(null)
+    s = new StringScanner('\u00A4\u00A2');
+    expect(s.getch()).toBe('\xA4');
+    expect(s.getch()).toBe('\xA2');
+    expect(s.getch()).toBe(null);
 });
 
 // it '#get_byte' do
@@ -302,15 +302,15 @@ it('#getch', () => {
 
 // same as getch
 it('#get_byte', () => {
-    let s = new StringScanner("ab")
-    expect(s.get_byte()).toBe('a')
-    expect(s.get_byte()).toBe('b')
-    expect(s.get_byte()).toBe(null)
+    let s = new StringScanner('ab');
+    expect(s.get_byte()).toBe('a');
+    expect(s.get_byte()).toBe('b');
+    expect(s.get_byte()).toBe(null);
 
-    s = new StringScanner("\u00A4\u00A2")
-    expect(s.get_byte()).toBe("\xA4")
-    expect(s.get_byte()).toBe("\xA2")
-    expect(s.get_byte()).toBe(null)
+    s = new StringScanner('\u00A4\u00A2');
+    expect(s.get_byte()).toBe('\xA4');
+    expect(s.get_byte()).toBe('\xA2');
+    expect(s.get_byte()).toBe(null);
 });
 
 // it '#peek' do
@@ -321,8 +321,8 @@ it('#get_byte', () => {
 
 it('#peek', () => {
     let s = new StringScanner('test string');
-    expect(s.peek(7)).toBe("test st")
-    expect(s.peek(7)).toBe("test st")
+    expect(s.peek(7)).toBe('test st');
+    expect(s.peek(7)).toBe('test st');
 });
 
 // it '#unscan' do
@@ -331,19 +331,20 @@ it('#peek', () => {
 //     s.unscan
 //     expect(s.scan(/../)).to eq('te')
 //     expect(s.scan(/\d/)).to eq(nil)
-//     expect{ s.unscan }.to raise_error(StringScanner::Error) # ScanError: unscan failed: previous match record not exist
+//     # ScanError: unscan failed: previous match record not exist
+//     expect{ s.unscan }.to raise_error(StringScanner::Error)
 // end
 
 it('#unscan', () => {
-    let s = new StringScanner('test string')
-    expect(s.scan(/\w+/)).toBe('test')
-    s.unscan()
-    expect(s.scan(/../)).toBe('te')
-    expect(s.scan(/\d/)).toBe(null)
+    let s = new StringScanner('test string');
+    expect(s.scan(/\w+/)).toBe('test');
+    s.unscan();
+    expect(s.scan(/../)).toBe('te');
+    expect(s.scan(/\d/)).toBe(null);
 
-    let scanError = 'ScanError: unscan failed: previous match record not exist'
+    let scanError = 'ScanError: unscan failed: previous match record not exist';
     expect(() => {
-        s.unscan()
+        s.unscan();
       }).toThrowError(scanError);
 });
 
@@ -359,14 +360,14 @@ it('#unscan', () => {
 // end
 
 it('#bol', () => {
-    let s = new StringScanner("test\ntest\n")
-    expect(s.bol()).toBe(true)
-    s.scan(/te/)
-    expect(s.bol()).toBe(false)
-    expect(s.scan(/st\n/)).toBe("st\n")
-    expect(s.bol()).toBe(true)
-    s.terminate()
-    expect(s.bol()).toBe(true)
+    let s = new StringScanner('test\ntest\n');
+    expect(s.bol()).toBe(true);
+    s.scan(/te/);
+    expect(s.bol()).toBe(false);
+    expect(s.scan(/st\n/)).toBe('st\n');
+    expect(s.bol()).toBe(true);
+    s.terminate();
+    expect(s.bol()).toBe(true);
 });
 
 // it '#beginning_of_line' do
@@ -381,14 +382,14 @@ it('#bol', () => {
 // end
 
 it('#beginning_of_line', () => {
-    let s = new StringScanner("test\ntest\n")
-    expect(s.beginning_of_line()).toBe(true)
-    s.scan(/te/)
-    expect(s.beginning_of_line()).toBe(false)
-    s.scan(/st\n/)
-    expect(s.beginning_of_line()).toBe(true)
-    s.terminate()
-    expect(s.beginning_of_line()).toBe(true)
+    let s = new StringScanner('test\ntest\n');
+    expect(s.beginning_of_line()).toBe(true);
+    s.scan(/te/);
+    expect(s.beginning_of_line()).toBe(false);
+    s.scan(/st\n/);
+    expect(s.beginning_of_line()).toBe(true);
+    s.terminate();
+    expect(s.beginning_of_line()).toBe(true);
 });
 
 // it '#eos' do
@@ -401,12 +402,12 @@ it('#beginning_of_line', () => {
 // end
 
 it('#eos', () => {
-    let s = new StringScanner('test string')
-    expect(s.eos()).toBe(false)
-    s.scan(/test/)
-    expect(s.eos()).toBe(false)
-    s.terminate()
-    expect(s.eos()).toBe(true)
+    let s = new StringScanner('test string');
+    expect(s.eos()).toBe(false);
+    s.scan(/test/);
+    expect(s.eos()).toBe(false);
+    s.terminate();
+    expect(s.eos()).toBe(true);
 });
 
 // it '#matchedBoolean' do
@@ -420,11 +421,11 @@ it('#eos', () => {
 // JS can't have ? in a function name
 // s.matched? => s.matchedBoolean()
 it('#matchedBoolean', () => {
-    let s = new StringScanner('test string')
-    expect(s.match(/\w+/)).toBe(4)
-    expect(s.matchedBoolean()).toBe(true)
-    expect(s.match(/\d+/)).toBe(null)
-    expect(s.matchedBoolean()).toBe(false)
+    let s = new StringScanner('test string');
+    expect(s.match(/\w+/)).toBe(4);
+    expect(s.matchedBoolean()).toBe(true);
+    expect(s.match(/\d+/)).toBe(null);
+    expect(s.matchedBoolean()).toBe(false);
 });
 
 // it '#matched' do
@@ -434,9 +435,9 @@ it('#matchedBoolean', () => {
 // end
 
 it('#matched', () => {
-    let s = new StringScanner('test string')
-    expect(s.match(/\w+/)).toBe(4)
-    expect(s.matched()).toBe('test')
+    let s = new StringScanner('test string');
+    expect(s.match(/\w+/)).toBe(4);
+    expect(s.matched()).toBe('test');
 });
 
 // it '#matched_size' do
@@ -448,11 +449,11 @@ it('#matched', () => {
 // end
 
 it('#matched_size', () => {
-    let s = new StringScanner('test string')
-    expect(s.check(/\w+/)).toBe('test')
-    expect(s.matched_size()).toBe(4)
-    expect(s.check(/\d+/)).toBe(null)
-    expect(s.matched_size()).toBe(null)
+    let s = new StringScanner('test string');
+    expect(s.check(/\w+/)).toBe('test');
+    expect(s.matched_size()).toBe(4);
+    expect(s.check(/\d+/)).toBe(null);
+    expect(s.matched_size()).toBe(null);
 });
 
 // it '#nthSubgroup' do
@@ -479,24 +480,24 @@ it('#matched_size', () => {
 // end
 
 it('#nthSubgroup', () => {
-    let s = new StringScanner("Fri Dec 12 1975 14:39")
-    expect(s.scan(/(\w+) (\w+) (\d+) /)).toBe('Fri Dec 12 ')
-    expect(s.nthSubgroup(0)).toBe("Fri Dec 12 ")
-    expect(s.nthSubgroup(1)).toBe("Fri")
-    expect(s.nthSubgroup(2)).toBe("Dec")
-    expect(s.nthSubgroup(3)).toBe("12")
-    expect(s.post_match()).toBe("1975 14:39")
-    expect(s.pre_match()).toBe('')
+    let s = new StringScanner('Fri Dec 12 1975 14:39');
+    expect(s.scan(/(\w+) (\w+) (\d+) /)).toBe('Fri Dec 12 ');
+    expect(s.nthSubgroup(0)).toBe('Fri Dec 12 ');
+    expect(s.nthSubgroup(1)).toBe('Fri');
+    expect(s.nthSubgroup(2)).toBe('Dec');
+    expect(s.nthSubgroup(3)).toBe('12');
+    expect(s.post_match()).toBe('1975 14:39');
+    expect(s.pre_match()).toBe('');
 
     // note JavaScript doesn't support <wday> notation or symbols.
-    s.reset()
-    expect(s.scan(/(\w+) (\w+) (\d+) /)).toBe('Fri Dec 12 ')
-    expect(s.nthSubgroup(0)).toBe("Fri Dec 12 ")
-    expect(s.nthSubgroup(1)).toBe("Fri")
-    expect(s.nthSubgroup(2)).toBe("Dec")
-    expect(s.nthSubgroup(3)).toBe("12")
-    expect(s.post_match()).toBe("1975 14:39")
-    expect(s.pre_match()).toBe('')
+    s.reset();
+    expect(s.scan(/(\w+) (\w+) (\d+) /)).toBe('Fri Dec 12 ');
+    expect(s.nthSubgroup(0)).toBe('Fri Dec 12 ');
+    expect(s.nthSubgroup(1)).toBe('Fri');
+    expect(s.nthSubgroup(2)).toBe('Dec');
+    expect(s.nthSubgroup(3)).toBe('12');
+    expect(s.post_match()).toBe('1975 14:39');
+    expect(s.pre_match()).toBe('');
 });
 
 // it '#pre_match' do
@@ -508,11 +509,11 @@ it('#nthSubgroup', () => {
 // end
 
 it('#pre_match', () => {
-    let s = new StringScanner('test string')
-    expect(s.scan(/\w+/)).toBe('test')
-    expect(s.scan(/\s+/)).toBe(' ')
-    expect(s.pre_match()).toBe('test')
-    expect(s.post_match()).toBe('string')
+    let s = new StringScanner('test string');
+    expect(s.scan(/\w+/)).toBe('test');
+    expect(s.scan(/\s+/)).toBe(' ');
+    expect(s.pre_match()).toBe('test');
+    expect(s.post_match()).toBe('string');
 });
 
 // it '#post_match' do
@@ -524,11 +525,11 @@ it('#pre_match', () => {
 // end
 
 it('#post_match', () => {
-    let s = new StringScanner('test string')
-    expect(s.scan(/\w+/)).toBe('test')
-    expect(s.scan(/\s+/)).toBe(' ')
-    expect(s.pre_match()).toBe('test')
-    expect(s.post_match()).toBe('string')
+    let s = new StringScanner('test string');
+    expect(s.scan(/\w+/)).toBe('test');
+    expect(s.scan(/\s+/)).toBe(' ');
+    expect(s.pre_match()).toBe('test');
+    expect(s.post_match()).toBe('string');
 });
 
 // it '#inspect' do
@@ -539,8 +540,8 @@ it('#post_match', () => {
 // end
 
 it('#inspect', () => {
-    let s = new StringScanner('Fri Dec 12 1975 14:39')
-    expect(s.inspect()).toBe('#<StringScanner 0/21 @ "Fri D...">')
-    expect(s.scan_until(/12/)).toBe('Fri Dec 12')
-    expect(s.inspect()).toBe('#<StringScanner 10/21 "...ec 12" @ " 1975...">')
+    let s = new StringScanner('Fri Dec 12 1975 14:39');
+    expect(s.inspect()).toBe('#<StringScanner 0/21 @ "Fri D...">');
+    expect(s.scan_until(/12/)).toBe('Fri Dec 12');
+    expect(s.inspect()).toBe('#<StringScanner 10/21 "...ec 12" @ " 1975...">');
 });
