@@ -39,4 +39,11 @@ describe 'StringScanner' do
     s.terminate # sets pos to end of str
     expect(s.pos).to eq(11)
   end
+
+  it '#setPos' do
+    s = StringScanner.new('test string')
+    s.pos = 7
+    expect(s.pos).to eq(7)
+    expect(s.rest).to eq('ring')
+  end
 end

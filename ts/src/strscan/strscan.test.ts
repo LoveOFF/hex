@@ -75,3 +75,18 @@ it("#pos", () => {
     s.terminate() // sets pos to end of str
     expect(s.pos()).toBe(11)
 });
+
+// it '#setPos' do
+//     s = StringScanner.new('test string')
+//     s.pos = 7
+//     expect(s.pos).to eq(7)
+//     expect(s.rest).to eq('ring')
+// end
+
+it("#setPos", () => {
+    let s = new StringScanner('test string')
+    s.setPos(7)
+    expect(s.pos()).toBe(7)
+    expect(s.rest()).toBe('ring')
+});
+
