@@ -480,10 +480,14 @@ it('#matched_size', () => {
 
 it('#nthSubgroup', () => {
     let s = new StringScanner("Fri Dec 12 1975 14:39")
+    expect(s.scan(/(\w+) (\w+) (\d+) /)).toBe('Fri Dec 12 ')
 
-    expect(() => {
-        s.nthSubgroup('')
-      }).toThrowError('not yet implemented');
+    expect(s.nthSubgroup(0)).toBe("Fri Dec 12 ")
+    expect(s.nthSubgroup(1)).toBe("Fri")
+    expect(s.nthSubgroup(2)).toBe("Dec")
+    // expect(s.nthSubgroup(3)).toBe("12")
+    // expect(s.post_match()).toBe("1975 14:39")
+    // expect(s.pre_match()).toBe('')
 });
 
 // it '#pre_match' do

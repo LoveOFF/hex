@@ -678,8 +678,15 @@ export class StringScanner {
    //   s.post_match                       // -> "1975 14:39"
    //   s.pre_match                        // -> ""
    // def [](p1)
-   nthSubgroup(p1: any) {
-       throw new Error("not yet implemented");
+   nthSubgroup(i: any): string | null {
+       if (i < 0) {
+           i += this.regs.num_regs;
+       }
+       if (i < 0) return null;
+       if (i >= this.regs.num_regs) return null;
+
+       return this.extract_range(this.prev + this.regs.beg[i],
+        this.prev + this.regs.end[i]);
    }
 
    extract_range(beg_i: number, end_i: number): string | null {
