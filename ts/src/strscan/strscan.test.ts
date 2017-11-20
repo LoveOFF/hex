@@ -454,3 +454,50 @@ it('#matched_size', () => {
     expect(s.check(/\d+/)).toBe(null)
     expect(s.matched_size()).toBe(null)
 });
+
+// it '#nthSubgroup' do
+//     s = StringScanner.new("Fri Dec 12 1975 14:39")
+//     expect(s.scan(/(\w+) (\w+) (\d+) /)).to eq('Fri Dec 12 ')
+//     expect(s[0]).to eq("Fri Dec 12 ")
+//     expect(s[1]).to eq("Fri")
+//     expect(s[2]).to eq("Dec")
+//     expect(s[3]).to eq("12")
+//     expect(s.post_match).to eq("1975 14:39")
+//     expect(s.pre_match).to eq('')
+
+//     s.reset
+//     expect(s.scan(/(?<wday>\w+) (?<month>\w+) (?<day>\d+) /)).to eq('Fri Dec 12 ')
+//     expect(s[0]).to eq('Fri Dec 12 ')
+//     expect(s[1]).to eq('Fri')
+//     expect(s[2]).to eq('Dec')
+//     expect(s[3]).to eq('12')
+//     expect(s[:wday]).to eq('Fri')
+//     expect(s[:month]).to eq('Dec')
+//     expect(s[:day]).to eq('12')
+//     expect(s.post_match).to eq('1975 14:39')
+//     expect(s.pre_match ).to eq('')
+// end
+
+it('#nthSubgroup', () => {
+    let s = new StringScanner("Fri Dec 12 1975 14:39")
+
+    expect(() => {
+        s.nthSubgroup('')
+      }).toThrowError('not yet implemented');
+});
+
+// it '#pre_match' do
+//     s = StringScanner.new('test string')
+//     expect(s.scan(/\w+/)).to eq('test')
+//     expect(s.scan(/\s+/)).to eq(' ')
+//     expect(s.pre_match).to eq('test')
+//     expect(s.post_match).to eq('string')
+// end
+
+it('#pre_match', () => {
+    let s = new StringScanner('test string')
+    expect(s.scan(/\w+/)).toBe('test')
+    expect(s.scan(/\s+/)).toBe(' ')
+    expect(s.pre_match()).toBe('test')
+    expect(s.post_match()).toBe('string')
+});

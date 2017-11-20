@@ -661,7 +661,6 @@ export class StringScanner {
    // def [](p1)
    nthSubgroup(p1: any) {
        throw new Error("not yet implemented");
-
    }
 
    extract_range(beg_i: number, end_i: number): string | null {
