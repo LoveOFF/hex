@@ -11,7 +11,7 @@ it('adds two numbers', () => {
 
 it('reads a save file', async () => {
   // https://nodejs.org/api/buffer.html
-  let filePath = "C:\\Users\\surface\\code\\hex_ts\\src\\hex\\fake_item_file.bin"
+  let filePath = "./public/fake_item_file.bin"
   let data = await readFileAsync(filePath, { encoding: "hex" })
   
   console.log("read data", data)
