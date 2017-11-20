@@ -408,3 +408,21 @@ it('#eos', () => {
     s.terminate()
     expect(s.eos()).toBe(true)
 });
+
+// it '#matchedBoolean' do
+//     s = StringScanner.new('test string')
+//     expect(s.match?(/\w+/)).to eq(4)
+//     expect(s.matched?).to eq(true)
+//     expect(s.match?(/\d+/)).to eq(nil)
+//     expect(s.matched?).to eq(false)
+// end
+
+// JS can't have ? in a function name
+// s.matched? => s.matchedBoolean()
+it('#matchedBoolean', () => {
+    let s = new StringScanner('test string')
+    expect(s.match(/\w+/)).toBe(4)
+    expect(s.matchedBoolean()).toBe(true)
+    expect(s.match(/\d+/)).toBe(null)
+    expect(s.matchedBoolean()).toBe(false)
+});

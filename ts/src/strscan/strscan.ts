@@ -601,7 +601,7 @@ export class StringScanner {
    //   s.match?(/\d+/)     // => nil
    //   s.matched?          // => false
    // strscan_matched_p
-   matchedP() {
+   matchedBoolean() {
      return this.MATCHED_P;
    }
    // Returns the last matched string.

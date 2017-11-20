@@ -212,4 +212,11 @@ describe 'StringScanner' do
     s.terminate
     expect(s.eos?).to eq(true)
   end
+
+    s = StringScanner.new('test string')
+    expect(s.match?(/\w+/)).to eq(4)
+    expect(s.matched?).to eq(true)
+    expect(s.match?(/\d+/)).to eq(nil)
+    expect(s.matched?).to eq(false)
+  end
 end
