@@ -287,3 +287,41 @@ it('#getch', () => {
     expect(s.getch()).toBe("\xA2")
     expect(s.getch()).toBe(null)
 });
+
+// it '#get_byte' do
+//     s = StringScanner.new("ab")
+//     expect(s.get_byte).to eq('a')
+//     expect(s.get_byte).to eq('b')
+//     expect(s.get_byte).to eq(nil)
+
+//     s = StringScanner.new("\244\242")
+//     expect(s.get_byte).to eq("\xA4")
+//     expect(s.get_byte).to eq("\xA2")
+//     expect(s.get_byte).to eq(nil)
+// end
+
+// same as getch
+it('#get_byte', () => {
+    let s = new StringScanner("ab")
+    expect(s.get_byte()).toBe('a')
+    expect(s.get_byte()).toBe('b')
+    expect(s.get_byte()).toBe(null)
+
+    s = new StringScanner("\u00A4\u00A2")
+    expect(s.get_byte()).toBe("\xA4")
+    expect(s.get_byte()).toBe("\xA2")
+    expect(s.get_byte()).toBe(null)
+});
+
+// it '#peek' do
+//     s = StringScanner.new('test string')
+//     expect(s.peek(7)).to eq("test st")
+//     expect(s.peek(7)).to eq("test st")
+// end
+
+it('#peek', () => {
+    let s = new StringScanner('test string');
+    expect(s.peek(7)).toBe("test st")
+    expect(s.peek(7)).toBe("test st")
+});
+

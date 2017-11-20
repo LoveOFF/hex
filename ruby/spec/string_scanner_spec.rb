@@ -147,11 +147,29 @@ describe 'StringScanner' do
     expect(s.getch).to eq(nil)
 
     s = StringScanner.new("\244\242")
-    # strscan.c s.getch // => "\244\242" doesn't work on Ruby 2.3
+    # strscan.c s.getch # => "\244\242" doesn't work on Ruby 2.3
     # instead the characters are returned one at a time.
     # probably another bug in the example.
     expect(s.getch).to eq("\xA4")
     expect(s.getch).to eq("\xA2")
     expect(s.getch).to eq(nil)
+  end
+
+  it '#get_byte' do
+    s = StringScanner.new("ab")
+    expect(s.get_byte).to eq('a')
+    expect(s.get_byte).to eq('b')
+    expect(s.get_byte).to eq(nil)
+
+    s = StringScanner.new("\244\242")
+    expect(s.get_byte).to eq("\xA4")
+    expect(s.get_byte).to eq("\xA2")
+    expect(s.get_byte).to eq(nil)
+  end
+
+  it '#peek' do
+    s = StringScanner.new('test string')
+    expect(s.peek(7)).to eq("test st")
+    expect(s.peek(7)).to eq("test st")
   end
 end
