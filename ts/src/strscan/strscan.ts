@@ -496,14 +496,18 @@ export class StringScanner {
    //   s.getch           // => "\244\242"   // Japanese hira-kana "A" in EUC-JP
    //   s.getch           // => nil
    // strscan_getch
-   getch(): string {
+   getch(): string | null {
        this.CLEAR_MATCH_STATUS()
-
-       this.prev = this.curr;
-       this.curr += 1
        this.MATCHED = true;
-       return this.str.substr(this.curr, 1);
+       this.prev = this.curr;
 
+       let result = this.str.substr(this.curr, 1);
+
+       this.curr += 1;
+       
+       if (result === '') return null;
+       
+       return result
    }
    // Scans one byte and returns it.
    // This method is not multibyte character sensitive.

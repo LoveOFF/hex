@@ -251,7 +251,7 @@ it('#exist', () => {
 //     s = StringScanner.new("Fri Dec 12 1975 14:39")
 //     expect(s.check_until(/12/)).to eq('Fri Dec 12')
 //     expect(s.pos).to eq(0)
-//     expect(s.matched).to eq(12)
+//     expect(s.matched).to eq('12')
 // end
 
 it('#check_until', () => {
@@ -259,4 +259,31 @@ it('#check_until', () => {
     expect(s.check_until(/12/)).toBe('Fri Dec 12')
     expect(s.pos()).toBe(0)
     expect(s.matched()).toBe('12')
+});
+
+// it '#getch' do
+//     s = StringScanner.new("ab")
+//     expect(s.getch).to eq('a')
+//     expect(s.getch).to eq('b')
+//     expect(s.getch).to eq(nil)
+
+//     s = StringScanner.new("\244\242")
+//     # strscan.c s.getch // => "\244\242" doesn't work on Ruby 2.3
+//     # instead the characters are returned one at a time.
+//     # probably another bug in the example.
+//     expect(s.getch).to eq("\xA4")
+//     expect(s.getch).to eq("\xA2")
+//     expect(s.getch).to eq(nil)
+// end
+
+it('#getch', () => {
+    let s = new StringScanner("ab")
+    expect(s.getch()).toBe('a')
+    expect(s.getch()).toBe('b')
+    expect(s.getch()).toBe(null)
+
+    s = new StringScanner("\u00A4\u00A2")
+    expect(s.getch()).toBe("\xA4")
+    expect(s.getch()).toBe("\xA2")
+    expect(s.getch()).toBe(null)
 });

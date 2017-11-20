@@ -139,4 +139,19 @@ describe 'StringScanner' do
     expect(s.pos).to eq(0)
     expect(s.matched).to eq('12') # bug in strscan.c -- 12 is a number when it should be a string.
   end
+
+  it '#getch' do
+    s = StringScanner.new("ab")
+    expect(s.getch).to eq('a')
+    expect(s.getch).to eq('b')
+    expect(s.getch).to eq(nil)
+
+    s = StringScanner.new("\244\242")
+    # strscan.c s.getch // => "\244\242" doesn't work on Ruby 2.3
+    # instead the characters are returned one at a time.
+    # probably another bug in the example.
+    expect(s.getch).to eq("\xA4")
+    expect(s.getch).to eq("\xA2")
+    expect(s.getch).to eq(nil)
+  end
 end
