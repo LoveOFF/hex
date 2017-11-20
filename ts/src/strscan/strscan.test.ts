@@ -239,7 +239,6 @@ it('#skip_until', () => {
 //     expect(s.exist?(/e/)).to eq(nil)
 // end
 
-// TODO: Exist is broken
 it('#exist', () => {
     let s = new StringScanner('test string')
     expect(s.exist(/s/)).toBe(3)

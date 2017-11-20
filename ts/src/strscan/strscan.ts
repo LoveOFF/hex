@@ -298,19 +298,13 @@ export class StringScanner {
                         return null;
                     }
 
-                    // result from regex
-                    let result;
-
+                    let currentStr = this.str.substr(this.curr);
+                    let result = currentStr.match(regex);
+                    if (result === null) { return null }
                     if (headonly === 1) {
-                      let tmpStr = this.str.substr(this.curr);
-                      result = tmpStr.match(regex);
-                      
-                      // match *must* be starting at index 0 of the substring.
-                      if (result === null || result.index !== 0) { return null }
-                    } else {
-                      result = this.str.match(regex);
-                      if (result === null) { return null }
-                    }
+                        // match *must* be starting at index 0 of the substring.
+                        if (result.index !== 0) { return null }
+                    } 
 
                     this.MATCHED = true
                     this.MATCHED_P = true
