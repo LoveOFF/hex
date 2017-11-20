@@ -174,3 +174,35 @@ it('#skip', () => {
     expect(s.skip(/\w+/)).toBe(6)
     expect(s.skip(/./)).toBe(null)
 });
+
+// it '#match' do
+//     s = StringScanner.new('test string')
+//     expect(s.match?(/\w+/)).to eq(4)
+//     expect(s.match?(/\w+/)).to eq(4)
+//     expect(s.match?(/\s+/)).to eq(nil)
+// end
+
+it('#match', () => {
+    let s = new StringScanner('test string')
+    expect(s.match(/\w+/)).toBe(4)
+    expect(s.match(/\w+/)).toBe(4)
+    expect(s.match(/\s+/)).toBe(null)
+});
+
+// it '#check' do
+//     s = StringScanner.new("Fri Dec 12 1975 14:39")
+//     expect(s.check(/Fri/)).to eq('Fri')
+//     expect(s.pos).to eq(0)
+//     expect(s.matched).to eq('Fri')
+//     expect(s.check(/12/)).to eq(nil)
+//     expect(s.matched).to eq(nil)
+// end
+
+it('#check', () => {
+    let s = new StringScanner("Fri Dec 12 1975 14:39")
+    expect(s.check(/Fri/)).toBe('Fri')
+    expect(s.pos()).toBe(0)
+    expect(s.matched()).toBe('Fri')
+    expect(s.check(/12/)).toBe(null)
+    expect(s.matched()).toBe(null)
+});

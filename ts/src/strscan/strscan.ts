@@ -312,6 +312,7 @@ export class StringScanner {
                     }
 
                     this.MATCHED = true
+                    this.MATCHED_P = true
                     this.prev = this.curr;
 
                     // "abbc".match(/bb/)

@@ -96,4 +96,20 @@ describe 'StringScanner' do
     expect(s.skip(/\w+/)).to eq(6)
     expect(s.skip(/./)).to eq(nil)
   end
+
+  it '#match' do
+    s = StringScanner.new('test string')
+    expect(s.match?(/\w+/)).to eq(4)
+    expect(s.match?(/\w+/)).to eq(4)
+    expect(s.match?(/\s+/)).to eq(nil)
+  end
+
+  it '#check' do
+    s = StringScanner.new("Fri Dec 12 1975 14:39")
+    expect(s.check(/Fri/)).to eq('Fri')
+    expect(s.pos).to eq(0)
+    expect(s.matched).to eq('Fri')
+    expect(s.check(/12/)).to eq(nil)
+    expect(s.matched).to eq(nil)
+  end
 end
