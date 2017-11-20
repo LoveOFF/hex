@@ -181,4 +181,27 @@ describe 'StringScanner' do
     expect(s.scan(/\d/)).to eq(nil)
     expect{ s.unscan }.to raise_error(StringScanner::Error) # ScanError: unscan failed: previous match record not exist
   end
+
+  it '#bol' do
+      s = StringScanner.new("test\ntest\n")
+      expect(s.bol?).to eq(true)
+      s.scan(/te/)
+      expect(s.bol?).to eq(false)
+      s.scan(/st\n/)
+      expect(s.bol?).to eq(true)
+      s.terminate
+      expect(s.bol?).to eq(true)
+  end
+
+
+  it '#beginning_of_line' do
+    s = StringScanner.new("test\ntest\n")
+    expect(s.beginning_of_line?).to eq(true)
+    s.scan(/te/)
+    expect(s.beginning_of_line?).to eq(false)
+    s.scan(/st\n/)
+    expect(s.beginning_of_line?).to eq(true)
+    s.terminate
+    expect(s.beginning_of_line?).to eq(true)
+  end
 end

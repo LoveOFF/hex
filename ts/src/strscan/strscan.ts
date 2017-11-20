@@ -571,9 +571,14 @@ export class StringScanner {
    //   s.terminate
    //   s.bol?           // => true
    // strscan_bol_p
-   beginning_of_line() {
+   beginning_of_line(): boolean {
      return this.curr == 0;
    }
+
+   bol(): boolean {
+       return this.beginning_of_line();
+   }
+
    // Returns +true+ if the scan pointer is at the end of the string.
    // 
    //   s = StringScanner.new('test string')
