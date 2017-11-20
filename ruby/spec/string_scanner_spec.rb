@@ -258,6 +258,18 @@ describe 'StringScanner' do
     expect(s.pre_match).to eq('')
   end
 
+  it '#nthSubgroup -- debug' do
+    s = StringScanner.new('Fri Dec 12 1975 14:39')
+    expect(s.scan(/(\w+) (\w+) (\d+) /)).to eq('Fri Dec 12 ')
+    expect(s[0]).to eq('Fri Dec 12 ')
+    expect(s[1]).to eq('Fri')
+    expect(s[2]).to eq('Dec')
+
+    # 0 1 2 3 4 5 6
+    # F r i   D e c
+    str = s.string
+  end
+
   it '#pre_match' do
     s = StringScanner.new('test string')
     expect(s.scan(/\w+/)).to eq('test')

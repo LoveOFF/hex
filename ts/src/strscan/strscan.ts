@@ -114,6 +114,12 @@ class Regs {
             this.end = regs.end;
         }
     }
+
+    public toString(): string {
+        return "[num_regs: " + this.num_regs + 
+                ", beg: [" + this.beg +
+                "], end: [" + this.end +"]]";
+    }
 }
 
 // There are aliases to several of the methods.
@@ -335,10 +341,15 @@ export class StringScanner {
                     }
 
                     this.regs.num_regs = result.length;
+                    this.regs.beg = [];
+                    this.regs.end = [];
+                    let offset = 0;
                     result.forEach((res, index) => {
                         if (resultIndex !== undefined) {
-                          this.regs.beg[index] = resultIndex;
-                          this.regs.end[index] = resultIndex + res.length;
+                          this.regs.beg[index] = resultIndex + offset;
+                          this.regs.end[index] = resultIndex + res.length + offset;
+
+                          if (index != 0) offset += res.length + 1;
                         }
                     });
 
