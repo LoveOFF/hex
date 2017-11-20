@@ -517,3 +517,17 @@ it('#post_match', () => {
     expect(s.pre_match()).toBe('test')
     expect(s.post_match()).toBe('string')
 });
+
+// it '#inspect' do
+//     s = StringScanner.new('Fri Dec 12 1975 14:39')
+//     expect(s.inspect).to eq('#<StringScanner 0/21 @ "Fri D...">')
+//     expect(s.scan_until(/12/)).to eq('Fri Dec 12')
+//     expect(s.inspect).to eq('#<StringScanner 10/21 "...ec 12" @ " 1975...">')
+// end
+
+it('#inspect', () => {
+    let s = new StringScanner('Fri Dec 12 1975 14:39')
+    expect(s.inspect()).toBe('#<StringScanner 0/21 @ "Fri D...">')
+    expect(s.scan_until(/12/)).toBe('Fri Dec 12')
+    expect(s.inspect()).toBe('#<StringScanner 10/21 "...ec 12" @ " 1975...">')
+});

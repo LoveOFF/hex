@@ -724,8 +724,23 @@ export class StringScanner {
    //   s.inspect            // -> '//<StringScanner 0/21 @ "Fri D...">'
    //   s.scan_until /12/    // -> "Fri Dec 12"
    //   s.inspect            // -> '//<StringScanner 10/21 "...ec 12" @ " 1975...">'
-   inspect() {
-    throw new Error("not yet implemented");
+   inspect(): string {
+       // '#<StringScanner 0/21 @ "Fri D...">'
+       // '#<StringScanner 10/21 "...ec 12" @ " 1975...">'
+   
+       let progress = this.curr + '/' + this.str.length
+       let partb = '"' + this.str.substr(this.curr, 5) + '..."'
+
+       let result = '#<StringScanner ' + progress;
+
+       if (this.curr != 0) {
+           let parta = ' "...' + this.str.substr(this.curr-5, 5) + '"'
+           result += parta + ' @ ' + partb;
+       } else {
+           result += ' @ ' + partb;
+       }
+
+       return result + '>';
    }
 }
 

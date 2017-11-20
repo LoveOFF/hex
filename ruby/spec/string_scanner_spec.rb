@@ -273,4 +273,11 @@ describe 'StringScanner' do
     expect(s.pre_match).to eq('test')
     expect(s.post_match).to eq('string')
   end
+
+  it '#inspect' do
+    s = StringScanner.new('Fri Dec 12 1975 14:39')
+    expect(s.inspect).to eq('#<StringScanner 0/21 @ "Fri D...">')
+    expect(s.scan_until(/12/)).to eq('Fri Dec 12')
+    expect(s.inspect).to eq('#<StringScanner 10/21 "...ec 12" @ " 1975...">')
+  end
 end
