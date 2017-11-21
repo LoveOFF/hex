@@ -18,6 +18,28 @@ export namespace hex {
     });
   }
 
+  export async function blobToHexStr(blob: Blob): Promise<string> {
+    let arrayBuffer = await hex.readAsArrayBuffer(blob);
+
+    return new Promise<string>((resolve, reject) => {
+      try {
+        var uint8Array = new Uint8Array(arrayBuffer);
+
+        let hexResult = '';
+        uint8Array.forEach(param => {
+          // encode 0 as 00
+          let byte = param.toString(16);
+          if (byte.length === 1) { byte = '0' + byte; }
+          hexResult += byte;
+        });
+
+        resolve(hexResult);
+      } catch (e) {
+        reject(e);
+      }
+    });
+  }
+
   export async function loadDefaultSaveAsHex(): Promise<string> {
     return new Promise<string>((resolve, reject) => {
       // Promisify XMLHttpRequest
@@ -31,17 +53,8 @@ export namespace hex {
           return reject({ status: target.status, statusText: target.statusText });
         }
 
-        var blob = target.response;
-        let arrayBuffer = await hex.readAsArrayBuffer(blob);
-        var uint8Array = new Uint8Array(arrayBuffer);
-
-        let hexResult = '';
-        uint8Array.forEach(param => {
-          // encode 0 as 00
-          let byte = param.toString(16);
-          if (byte.length === 1) { byte = '0' + byte; }
-          hexResult += byte;
-        });
+        let blob = target.response;
+        let hexResult = await blobToHexStr(blob);
 
         resolve(hexResult);
       });

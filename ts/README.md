@@ -4,7 +4,7 @@
 
 **To Do**
 
-- [ ] Drag & drop save file
+- [x] Drag & drop save file
 - [ ] Download modified save file
 - [ ] `lib/run_parse_weapons.rb` Add weapons. See setup below.
 - [ ] `lib/run_parse_inventory.rb` Add items
