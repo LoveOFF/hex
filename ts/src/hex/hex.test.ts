@@ -3,7 +3,7 @@ import { hex } from './main';
 // node.js apis are available in Jest... not in the browser
 import * as fs from 'fs';
 import { promisify } from 'util'; // promisify readFile for async/await
-import { v118_items } from './v118_items'
+import { v118Items } from './v118_items';
 const readFileAsync = promisify(fs.readFile);
 
 it('adds two numbers', () => {
@@ -24,7 +24,7 @@ it('reads a save file', async () => {
 
 it('parses items', async () => {
   let data = await binToHex('./public/v1.18.save');
-  let expected = v118_items; // generated with run_parse_inventory.rb#print_slot_json
+  let expected = v118Items; // generated with run_parse_inventory.rb#print_slot_json
   let actual = hex.parseItems(data);
 
   expect(actual.length).toBe(expected.length);

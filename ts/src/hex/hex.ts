@@ -61,7 +61,7 @@ export namespace hex {
   }
   
   function sectionName(sectionIndex: number): string {
-    switch(sectionIndex) {
+    switch (sectionIndex) {
       case 0:
         return 'Battle Items [0]'; // information_battle_item
       case 1:
@@ -93,14 +93,14 @@ export namespace hex {
       case 15:
         return 'Recipe [15]'; // information_recipe
       default:
-        return 'Unknown' + " [" + sectionIndex +"]";
+        return 'Unknown' + ' [' + sectionIndex + ']';
     }
   }
 
   // convert little edian to big endian
-  function reverseHex(hex: string): string {
-    if (hex.length < 2) throw new Error("hex length < 2 " + hex);
-    return hex.match(/.{2}/g)!!.reverse().join(''); 
+  function reverseHex(hexString: string): string {
+    if (hexString.length < 2) { throw new Error('hex length < 2 ' + hexString); }
+    return hexString.match(/.{2}/g)!!.reverse().join(''); 
   }
 
   export function parseItems(hexString: string): Array<string> {
@@ -130,7 +130,7 @@ export namespace hex {
           let itemType = sectionName(sectionIndex);
 
           //  "#{item_name} x#{item_amount} (#{item_type}) [#{item_code}]"
-          items.push(itemName + ' x' + itemQuantity + " (" + itemType + ") [" + itemCode.toUpperCase() + "]");
+          items.push(itemName + ' x' + itemQuantity + ' (' + itemType + ') [' + itemCode.toUpperCase() + ']');
         }
 
         if (s.peek(8) !== itemPattern8Bytes) {
