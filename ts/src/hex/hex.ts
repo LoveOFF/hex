@@ -55,31 +55,88 @@ export namespace hex {
       xhr.send();
     });
   }
+
+  function trimHex(str: string): string {
+    return str.replace(/ /g, '').toLowerCase();
+  }
   
+  function sectionName(sectionIndex: number): string {
+    switch(sectionIndex) {
+      case 0:
+        return 'Battle Items [0]'; // information_battle_item
+      case 1:
+        return 'Key Items [1]'; // information_event_item
+      case 2:
+        return 'Ingredients [2]'; // information_food_item
+      case 3:
+        return 'Treasures [3]'; // information_treasure_item
+      case 4:
+        return 'Car Parts [4]'; // information_car_item
+      case 5:
+        return 'Leisure Items [5]'; // information_leisure_item
+      case 7: // 6 doesn't exist.
+        return 'Reinforcement Items [7]'; // information_reinforcement_item
+      case 8:
+        return 'Magic Bottle [8]'; // information_magic_bottle
+      case 9:
+        return 'Ring [9]'; // information_ring_amount
+      case 10:
+        return 'Weapons [10]'; // information_weapon
+      case 11:
+        return 'Phantom Swords [11]'; // information_phantom_sword
+      case 12:
+        return 'Accessories [12]'; // information_accessory
+      case 13:
+        return 'Cloth [13]'; // information_accessory
+      case 14:
+        return 'Job Commands [14]'; // information_job_command
+      case 15:
+        return 'Recipe [15]'; // information_recipe
+      default:
+        return 'Unknown' + " [" + sectionIndex +"]";
+    }
+  }
+
+  // convert little edian to big endian
+  function reverseHex(hex: string): string {
+    if (hex.length < 2) throw new Error("hex length < 2 " + hex);
+    return hex.match(/.{2}/g)!!.reverse().join(''); 
+  }
+
   export function parseItems(hexString: string): Array<string> {
     let s = new StringScanner(hexString);
     let inventoryStartPattern = 'B2 69 26 91 0C 12 87 31 40 00 00 00';
     // item code: FF FF FF FF, quantity: FF FF
     let itemPattern = 'D8 A2 61 2D 78 20 C8 3E (.. .. .. ..) (.. ..) 00 00';
     s.scan_until(inventoryStartPattern);
+    let itemPattern8Bytes = trimHex('D8 A2 61 2D');
 
     let foundItem;
     let items = [];
     let empty = '00000000';
+    let sectionIndex = 0;
     while ((foundItem = s.scan(itemPattern)) !== null) {
       if (typeof foundItem === 'string') { 
-
         let itemCode = s.nthSubgroup(1);
-        if (itemCode === null || itemCode === empty) { continue; }
 
-        // 0xFFF0 => 65520
-        let itemQuantity = parseInt(s.nthSubgroup(2) || '0', 16);
-        let itemName = 'Unknown [' + itemCode + ']';
-        let itemObject = codes[itemCode];
-        // itemObject: item_name, item_category, item_valid
-        if (itemObject !== undefined) { itemName = itemObject[0]; }
+        if (itemCode !== null && itemCode !== empty) {
+          // 0x6300 => 0x0063 => x99
+          let itemQuantityHex = reverseHex(s.nthSubgroup(2) || '00');
+          let itemQuantity = parseInt(itemQuantityHex, 16); // hex -> int
+          let itemName = 'Unknown [' + itemCode + ']';
+          let itemObject = codes[itemCode];
+          // itemObject: item_name, item_category, item_valid
+          if (itemObject !== undefined) { itemName = itemObject[0]; }
+          let itemType = sectionName(sectionIndex);
 
-        items.push(itemName + ' x' + itemQuantity);
+          //  "#{item_name} x#{item_amount} (#{item_type}) [#{item_code}]"
+          items.push(itemName + ' x' + itemQuantity + " (" + itemType + ") [" + itemCode.toUpperCase() + "]");
+        }
+
+        if (s.peek(8) !== itemPattern8Bytes) {
+          sectionIndex += 1;
+          s.setPos(s.pos() + 8); // jump past '00 01 00 00' (section divider)
+        }
        }
     }
 

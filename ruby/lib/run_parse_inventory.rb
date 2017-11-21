@@ -1,4 +1,5 @@
 require_relative 'ruby_hex'
+require 'json'
 
 class RunParser
   include Hex
@@ -29,6 +30,12 @@ class RunParser
   def print_slot slot
     output =  InventoryParse.new(slot).print(output_format: :string)
     puts output
+    puts 'unknowns found !!' if output.include? 'Unknown'
+  end
+
+  def print_slot_json slot
+    output =  InventoryParse.new(slot).print(output_format: :string)
+    puts JSON.pretty_generate(output.split("\n"))
     puts 'unknowns found !!' if output.include? 'Unknown'
   end
 end
