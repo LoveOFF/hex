@@ -1,11 +1,39 @@
+# hex/ts
+
+## Features
+
+*To Do*
+
+- [ ] Drag & drop save file
+- [ ] `lib/run_parse_weapons.rb` Add weapons. See setup below.
+- [ ] `lib/run_parse_inventory.rb` Add items
+- [x] `lib/run_parse_inventory.rb` List items
+- [ ] `lib/run_parse_accessories.rb` Add accessories. See setup below
+
+## Accessories Setup (99 * 2 = 160)
+Buy from Regalia shop.
+- 99x Titanium Bangle (+200 HP)
+- 99x Heliodor Bracelet (+40 STR)
+
+## Weapons Setup (99 * 6 = 594)
+Buy from Culless Munitions - Hammerhead
+- 99x Broad sword
+- 99x Two handed sword
+- 99x War sword
+- 99x Daggers
+- 99x Avengers
+- 99x Handgun
+
+## Building
+
 ```
 git clone https://github.com/facebookincubator/create-react-app.git
 cd create-react-app/packages/react-dev-utils
 yarn
 yarn link
 
-cd my_app
-yarn link "react-dev-utils"
+cd hex/ts
+yarn link react-dev-utils
 yarn start
 ```
 
